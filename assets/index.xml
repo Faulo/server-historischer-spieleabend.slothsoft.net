@@ -1046,17 +1046,19 @@
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
 		</event>
+		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
+			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
+			<game name="Gizmos & Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
+			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
+			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
+			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
+		</event>
 		
 	</future>
 	<unfinished>
 		<event xml:id="BIZ403" date="" theme="The Weird Ones" type="special" moderator="Kadda">
 			<game name="Kuri Kuri Mix" from="FromSoftware" by="2001" on="PS2" country="JP" />
 			<game name="Sonic Chronicles: The Dark Brotherhood" from="BioWare" by="2008" on="NDS" country="CA" />
-		</event>
-		<event xml:id="ADV303" date="" theme="Bau- und Bastelspiele" type="genre" moderator="Gregor">
-			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
-			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
-			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
 		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!" gfx="">
 			<game name="Persona 4" from="2009" by="Atlus" on="PS2" country="JP" />
