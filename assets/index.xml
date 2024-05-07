@@ -1059,6 +1059,41 @@
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
 		</event>
+		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
+			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
+			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
+		</event>
+        <event xml:id="MIS505" date="" theme="Player's Choice V" type="special" gfx="">
+            <game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
+            <game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
+        </event>
+        <event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
+            <game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
+            <game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
+            <game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
+            <game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
+        </event>
+		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
+			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
+			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
+			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
+			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
+			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
+		</event>
+        <event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+            <game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
+            <game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
+            <game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
+            <game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
+        </event>
+        <event xml:id="BIZ105" date="" theme="Monolith" type="author" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+            <game name="Blood" from="1997" by="Monolith Productions" on="MS-DOS" country="US" />
+            <game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="MS-DOS" country="US" />
+            <game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
+            <game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
+        </event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
@@ -1070,11 +1105,6 @@
 			<game name="Kuri Kuri Mix" from="FromSoftware" by="2001" on="PS2" country="JP" />
 			<game name="Sonic Chronicles: The Dark Brotherhood" from="BioWare" by="2008" on="NDS" country="CA" />
 			<game name="Space Station Silicon Valley" from="" by="" on="" country="" />
-		</event>
-		<event xml:id="ADV303" date="" theme="Bau- und Bastelspiele" type="genre" moderator="Gregor">
-			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
-			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
-			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
 		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!" gfx="">
 			<game name="Persona 4" from="2009" by="Atlus" on="PS2" country="JP" />
@@ -1091,8 +1121,6 @@
 		<event xml:id="RPG109" date="" theme="History of Roguelikes" type="genre" gfx="" moderator="Sascha">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
 		</event>
-		<event xml:id="BIZ401" date="" theme="One-Man-Gamedev" type="author" gfx="" moderator="Ruben">
-		</event>
 		<event xml:id="MIS702" date="" theme="Casual Games" type="genre" gfx="" moderator="Kadda">
 			<game name="Candy Crush Saga" from="2012" by="King" on="Android" country="MT" />
 			<game name="Diner Dash" from="2003" by="Gamelab" on="Windows" country="US" />
@@ -1107,8 +1135,11 @@
 		</event>
 		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" gfx="" moderator="Ruben">
 		</event>
-		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Sascha">
-			<game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
+		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
+            <game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
+            <game name="Crimson Skies" from="2000" by="Zipper Interactive" on="Windows" country="US" wanted="" />
+            <game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
+            <game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
 		</event>
 		<event xml:id="MIS205" date="" theme="Transgender Games" type="genre" moderator="Ruben">
 			<game name="Dys4ia" from="2012" by="Anna Anthropy" on="Windows" country="US" />
@@ -1134,17 +1165,9 @@
 			<game name="Among Us" from="2018" by="Innersloth" on="Android" country="DE" />
 			<game name="Trouble in Terrorist Town" from="2009" by="Bad King Urgrain" on="Half-Life2" country="GB" />
 		</event>
-		<event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="">
-			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
-		</event>
 		<event xml:id="MIS402" date="" theme="Pornöse Spiele" type="genre" moderator="">
 			<game name="RapeLay" from="2006" by="Illusion Soft" on="Windows" country="JP" />
 			<game name="House Party" from="2017" by="Eek! Games" on="Windows" country="US" />
-		</event>
-		<event xml:id="MIS404" date="" theme="Japan Why??" type="genre" moderator="">
-			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
-			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
-			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
 		</event>
 		<event xml:id="JNR302" date="" theme="The GameCube Link Cable Category" type="genre" moderator="">
 			<game name="Final Fantasy Crystal Chronicles" from="2003" by="The Game Designers Studio" on="GCN" country="JP" />
@@ -1227,7 +1250,6 @@
 			<game name="Breath of Fire III" from="1998" by="Capcom" on="PS1" country="JP" />
 			<game name="Lufia II: Rise of the Sinistrals" from="1995" by="Neverland" on="SNES" country="JP" />
 			<game name="Grandia" from="1997" by="Game Arts" on="PS1" country="JP" />
-			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Ni no Kuni" from="2011" by="Level-5" on="PS3" country="JP" />
 			<game name="The Last Remnant" from="2008" by="Square Enix" on="Windows" country="JP" />
 			<game name="Threads of Fate" from="1999" by="Square Product Development Division 3" on="PS1" country="JP" />
