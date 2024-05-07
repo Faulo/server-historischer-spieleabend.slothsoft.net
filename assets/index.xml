@@ -1101,6 +1101,7 @@
 		</event>
 		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
             <game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
+            <game name="Crimson Skies" from="2000" by="Zipper Interactive" on="Windows" country="US" wanted="" />
             <game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
             <game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
 		</event>
