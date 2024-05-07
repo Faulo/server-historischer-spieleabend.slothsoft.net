@@ -1111,6 +1111,11 @@
             <game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
             <game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
         </event>
+        <event xml:id="ACT112" date="" theme="Cyberpunk" type="genre" gfx="" moderator="Kadda">
+            <game name="Snatcher" from="1988" by="Konami" country="JP" on="Sega CD" />
+            <game name="Observer" from="2017" by="Bloober Team" country="PL" on="Windows" />
+            <game name="Cyberpunk 2077: Sinnerman" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
+        </event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
@@ -1260,7 +1265,6 @@
 			<game name="Doodle Jump" from="2009" by="Lima Sky" on="Android" country="US" />
 			<game name="Grand Theft Auto II" from="1999" by="DMA Design" on="Windows" country="GB" />
 			<game name="King's Quest VI: Heir Today, Gone Tomorrow" from="1992" by="Sierra On-Line" on="MS-DOS" country="US" />
-			<game name="Cyberpunk 2077: Sinnerman" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
 			<game name="Baten Kaitos: Eternal Wings and the Lost Ocean" from="2003" by="Monolith Soft" on="GCN" country="JP" />
