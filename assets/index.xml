@@ -1046,6 +1046,15 @@
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
 		</event>
+        <event xml:id="MIS505" date="" theme="Player's Choice V" type="special" gfx="">
+            <game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
+        </event>
+        <event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
+            <game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
+            <game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
+            <game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
+            <game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
+        </event>
 		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
 			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
 			<game name="Gizmos & Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
@@ -1090,6 +1099,7 @@
 		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" gfx="" moderator="Ruben">
 		</event>
 		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
+            <game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
             <game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
             <game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
 		</event>
@@ -1117,17 +1127,9 @@
 			<game name="Among Us" from="2018" by="Innersloth" on="Android" country="DE" />
 			<game name="Trouble in Terrorist Town" from="2009" by="Bad King Urgrain" on="Half-Life2" country="GB" />
 		</event>
-		<event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="">
-			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
-		</event>
 		<event xml:id="MIS402" date="" theme="Pornöse Spiele" type="genre" moderator="">
 			<game name="RapeLay" from="2006" by="Illusion Soft" on="Windows" country="JP" />
 			<game name="House Party" from="2017" by="Eek! Games" on="Windows" country="US" />
-		</event>
-		<event xml:id="MIS404" date="" theme="Japan Why??" type="genre" moderator="">
-			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
-			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
-			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
 		</event>
 		<event xml:id="JNR302" date="" theme="The GameCube Link Cable Category" type="genre" moderator="">
 			<game name="Final Fantasy Crystal Chronicles" from="2003" by="The Game Designers Studio" on="GCN" country="JP" />
