@@ -1066,8 +1066,6 @@
 		<event xml:id="RPG109" date="" theme="History of Roguelikes" type="genre" gfx="" moderator="Sascha">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
 		</event>
-		<event xml:id="BIZ401" date="" theme="One-Man-Gamedev" type="author" gfx="" moderator="Ruben">
-		</event>
 		<event xml:id="MIS702" date="" theme="Casual Games" type="genre" gfx="" moderator="Kadda">
 			<game name="Candy Crush Saga" from="2012" by="King" on="Android" country="MT" />
 			<game name="Diner Dash" from="2003" by="Gamelab" on="Windows" country="US" />
@@ -1082,8 +1080,9 @@
 		</event>
 		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" gfx="" moderator="Ruben">
 		</event>
-		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Sascha">
-			<game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
+		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
+            <game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
+            <game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
 		</event>
 		<event xml:id="MIS205" date="" theme="Transgender Games" type="genre" moderator="Ruben">
 			<game name="Dys4ia" from="2012" by="Anna Anthropy" on="Windows" country="US" />
