@@ -1117,12 +1117,12 @@
             <game name="Cyberpunk 2077: Sinnerman" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
         </event>
         <event xml:id="STR403" date="" theme="Themepark-Spiele" type="genre" gfx="" moderator="Tom">
-            <game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="UK" />
+            <game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
             <game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
-            <game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="UK" />
-            <game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="UK" />
+            <game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
+            <game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="GB" />
             <game name="NoLimits 2" from="2011" by="Ole Lange" on="Windows" country="DE" />
-            <game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="UK" />
+            <game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="GB" />
             <game name="Parkitect" from="2018" by="Texel Raptor" on="Windows" country="DE" />
             <game name="Park Bayond" from="2023" by="Limbic Entertainment" on="Windows" country="DE" />
         </event>
