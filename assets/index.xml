@@ -1065,7 +1065,7 @@
 			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" />
 		</event>
 		<event xml:id="ACT111" date="" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="">
-			<game name="Marble Madness" from="1984" by="Atari Games" on="" country="JP" wanted=""/>
+			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" wanted=""/>
 			<game name="Super Mokey Ball" from="2001" by="Amusement Vision" on="GCN" country="JP" />
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
