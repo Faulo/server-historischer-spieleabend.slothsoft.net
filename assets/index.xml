@@ -1063,6 +1063,18 @@
 			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
 			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
+        <event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+            <game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
+            <game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
+            <game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
+            <game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
+        </event>
+        <event xml:id="BIZ105" date="" theme="Monolith" type="author" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+            <game name="Blood" from="1997" by="Monolith Productions" on="MS-DOS" country="US" />
+            <game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="MS-DOS" country="US" />
+            <game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
+            <game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
+        </event>
 		
 	</future>
 	<unfinished>
