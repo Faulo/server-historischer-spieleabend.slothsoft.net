@@ -1029,6 +1029,17 @@
 			<game name="Magic: The Gathering – Battlegrounds" from="2003" by="Secret Level" on="Windows" country="US" />
 			<game name="Magic: The Gathering Arena" from="2019" by="Wizards Digital Games Studio" on="Windows" country="US" />
 		</event>
+		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="" gfx="">
+			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
+			<game name="Yu-Gi-Oh! Forbidden Memories" from="1999" by="Konami" on="PS1" country="JP" />
+			<game name="Yu-Gi-Oh! The Eternal Duelist Soul" from="2001" by="Konami" on="GBA" country="JP" />
+			<game name="Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel" from="2003" by="Konami" on="Windows" country="JP" />
+			<game name="Yu-Gi-Oh! Power of Chaos: Joey the Passion" from="2004" by="Konami" on="Windows" country="US" />
+			<game name="Yu-Gi-Oh! World Championship 2007" from="2007" by="Konami" on="NDA" country="JP" />
+			<game name="Yu-Gi-Oh! 5D's Tag Force 4" from="2009" by="Konami" on="PS2" country="JP" />
+			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
+			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
+		</event>
 		<event xml:id="ACT305" date="" theme="Deadly Premonition" type="longplay" moderator="Ruben" gfx="">
 			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
 			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
