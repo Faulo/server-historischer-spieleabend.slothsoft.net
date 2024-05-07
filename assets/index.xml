@@ -1040,6 +1040,13 @@
 			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
+		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
+			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
+			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
+		</event>
+		
 	</future>
 	<unfinished>
 		<event xml:id="BIZ403" date="" theme="The Weird Ones" type="special" moderator="Kadda">
@@ -1202,7 +1209,6 @@
 			<game name="Breath of Fire III" from="1998" by="Capcom" on="PS1" country="JP" />
 			<game name="Lufia II: Rise of the Sinistrals" from="1995" by="Neverland" on="SNES" country="JP" />
 			<game name="Grandia" from="1997" by="Game Arts" on="PS1" country="JP" />
-			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Ni no Kuni" from="2011" by="Level-5" on="PS3" country="JP" />
 			<game name="The Last Remnant" from="2008" by="Square Enix" on="Windows" country="JP" />
 			<game name="Threads of Fate" from="1999" by="Square Product Development Division 3" on="PS1" country="JP" />
