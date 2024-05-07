@@ -1040,6 +1040,25 @@
 			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
+		<event xml:id="ACT110" date="" theme="Archäogames" type="genre" moderator="Kadda" gfx="">
+			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
+			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
+			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
+			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
+		</event>
+		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
+			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
+			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" />
+			<game name="Time Crisis" from="1995" by="Namco" on="PS1" country="JP" wanted=""/>
+			<game name="Panzer Dragoon" from="1995" by="Sega" on="" country="JP" />
+			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" />
+		</event>
+		<event xml:id="ACT111" date="" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="">
+			<game name="Marble Madness" from="1984" by="Atari Games" on="" country="" wanted=""/>
+			<game name="Super Mokey Ball" from="2001" by="Amusement Vision" on="GCN" country="JP" />
+			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
+			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
+		</event>
 		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
 			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
@@ -1081,12 +1100,17 @@
             <game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
             <game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
         </event>
-		
 	</future>
 	<unfinished>
+		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
+			<game name="Time Splitters" from="2000" by="Free Radical Design" on="PS2" country="GB" />
+			<game name="Life is Strange" from="2015" by="Dontnod" on="Windows" country="FR" />
+			<game name="Sands of Time" from="2003" by="Ubisoft Montreal" on="PS2" country="CA" />
+		</event>
 		<event xml:id="BIZ403" date="" theme="The Weird Ones" type="special" moderator="Kadda">
 			<game name="Kuri Kuri Mix" from="FromSoftware" by="2001" on="PS2" country="JP" />
 			<game name="Sonic Chronicles: The Dark Brotherhood" from="BioWare" by="2008" on="NDS" country="CA" />
+			<game name="Space Station Silicon Valley" from="" by="" on="" country="" />
 		</event>
 		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!" gfx="">
 			<game name="Persona 4" from="2009" by="Atlus" on="PS2" country="JP" />
