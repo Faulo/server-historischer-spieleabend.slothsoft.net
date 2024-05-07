@@ -1094,6 +1094,12 @@
             <game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
             <game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
         </event>
+        <event xml:id="RPG212" date="" theme="Gotta Catch 'em All" type="genre" gfx="" moderator="Daniel">
+            <game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
+            <game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
+            <game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
+            <game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
+        </event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
