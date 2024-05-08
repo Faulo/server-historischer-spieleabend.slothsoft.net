@@ -1066,6 +1066,8 @@
 		</event>
 		<event xml:id="ACT111" date="" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="">
 			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" wanted=""/>
+			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" wanted=""/>
+			<game name="Spindizzy Worlds" from="1992" by="ASCII Entertainment" on="SNES" country="JP"/>
 			<game name="Super Mokey Ball" from="2001" by="Amusement Vision" on="GCN" country="JP" />
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
