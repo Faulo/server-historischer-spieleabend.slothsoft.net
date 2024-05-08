@@ -1111,10 +1111,13 @@
             <game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
             <game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
         </event>
-        <event xml:id="ACT112" date="" theme="Cyberpunk" type="genre" gfx="" moderator="Kadda">
-            <game name="Snatcher" from="1988" by="Konami" country="JP" on="Sega CD" />
-            <game name="Observer" from="2017" by="Bloober Team" country="PL" on="Windows" />
-            <game name="Cyberpunk 2077: Sinnerman" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
+        <event xml:id="ACT112" date="" theme="Cyberpunk through the Ages" type="genre" gfx="" moderator="Kadda">
+            <game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
+            <game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
+            <game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
+            <game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
+            <game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
+            <game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
         </event>
         <event xml:id="STR403" date="" theme="Themepark-Spiele" type="genre" gfx="" moderator="Tom">
             <game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
