@@ -69,7 +69,7 @@
 
 	<present>
 		<event xml:id="JNR203" date="Do, 16.05.2024 19:00" theme="3D Platformers III: Homages" type="genre" moderator="Daniel" gfx="hatkid.jpg">
-			<game name="Jumping Flash!" from="1994" by="Exact" on="Windows" country="JP" />
+			<game name="Banjo-Kazooie" from="1998" by="Rare" on="N64" country="GB" />
 			<game name="Yooka-Laylee" from="2017" by="Playtonic Games" on="Windows" country="GB" />
 			<game name="A Hat in Time" from="2017" by="Gears for Breakfast" on="Windows" country="DK" />
 			<game name="Super Mario Odyssey 64" from="2020" by="Kaze Emanuar" on="N64" country="DE" />
@@ -99,9 +99,9 @@
 			<game name="Weird West" from="2023" by="WolfEye Studios" on="Windows" country="US" wanted="" />
 		</event>
 		<event xml:id="ACT206" date="Do, 29.02.2024 19:00" theme="2D Stealth Games" rerun="ACT201" type="genre" moderator="Kadda &amp; Daniel" gfx="Snake.gif">
-			<game name="005" from="1981" by="Sega" on="Arcade" country="JP" href="https://www.playretrogames.com/5825-005"/>
-			<game name="Saboteur!" from="1985" by="Clive Townsend" on="C64" country="US" href="https://c64online.com/c64-games/saboteur-2/"/>
-			<game name="Bonanza Bros." from="1990" by="Sega" on="MegaDrive" country="JP" />			
+			<game name="005" from="1981" by="Sega" on="Arcade" country="JP" href="https://www.playretrogames.com/5825-005" />
+			<game name="Saboteur!" from="1985" by="Clive Townsend" on="C64" country="US" href="https://c64online.com/c64-games/saboteur-2/" />
+			<game name="Bonanza Bros." from="1990" by="Sega" on="MegaDrive" country="JP" />
 			<game name="Metal Gear 2: Solid Snake" from="1990" by="Konami" on="PS3" country="JP" />
 			<game name="Mark of the Ninja" from="2012" by="Klei Entertainment" on="Windows" country="CA" />
 		</event>
@@ -121,18 +121,18 @@
 			<game name="Black &amp; White " from="2001" by="Lionhead Studios" on="Windows" country="GB" manual="BlackAndWhite" />
 			<game name="Fable" from="2004" by="Lionhead Studios" on="Windows" country="GB" />
 			<game name="Godus" from="2013" by="22Cans" on="Windows" country="GB" />
-			<read href="https://www.youtube.com/watch?v=M11OK8UoRr4" title="Curiosity - What's inside the cube - Universal - HD Gameplay Trailer" year="2012" author="TouchGameplay"/>
+			<read href="https://www.youtube.com/watch?v=M11OK8UoRr4" title="Curiosity - What's inside the cube - Universal - HD Gameplay Trailer" year="2012" author="TouchGameplay" />
 		</event>
 		<event xml:id="ADV302" date="Do, 18.01.2024 19:00" theme="Submachine" type="longplay" moderator="Kadda" gfx="submachine.webp">
-			<game name="Submachine: Legacy" from="2023" by="Mateusz Skutnik" on="Windows" country="PL" href="https://www.mateuszskutnik.com/submachine/sub_buy.php?id=1"/>
+			<game name="Submachine: Legacy" from="2023" by="Mateusz Skutnik" on="Windows" country="PL" href="https://www.mateuszskutnik.com/submachine/sub_buy.php?id=1" />
 		</event>
 		<event xml:id="MIS707" date="Do, 21.12.2023 19:00" theme="The Christmas Special" type="genre" gfx="santa.gif" moderator="Kadda &amp; Daniel">
 			<game name="Xmas Lemmings" from="1991" by="DMA Design" on="Amiga" country="GB" />
 			<game name="Home Alone" from="1991" by="Bethesda Softworks" on="NES" country="US" />
 			<game name="Christmas NiGHTS into Dreams" from="1996" by="Sonic Team" on="Sega Saturn" country="JP" />
-			<game name="Viscera Cleanup Detail: Santa's Rampage" from="2013" by="RuneStorm" on="Windows" country="US" wanted="Kadda"/>
+			<game name="Viscera Cleanup Detail: Santa's Rampage" from="2013" by="RuneStorm" on="Windows" country="US" wanted="Kadda" />
 			<game name="Hitman: Holiday Hoarders" from="2016" by="Io-Interactive" on="Windows" country="DK" />
-			<game name="Carrion: Greatest Time of the Year" from="2020" by="Phobia Game Studio" on="Windows" country="PL" wanted="Kadda"/>
+			<game name="Carrion: Greatest Time of the Year" from="2020" by="Phobia Game Studio" on="Windows" country="PL" wanted="Kadda" />
 		</event>
 		<event xml:id="ACT207" date="Do, 23.11.2023 19:00" theme="Rhythm (Action) Games" type="genre" moderator="Kadda" gfx="parappa.gif">
 			<game name="PaRappa the Rapper" from="1996" by="NanaOn-Sha" on="PS1" country="JP" />
@@ -1060,14 +1060,14 @@
 		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
 			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
 			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" />
-			<game name="Time Crisis" from="1995" by="Namco" on="PS1" country="JP" wanted=""/>
+			<game name="Time Crisis" from="1995" by="Namco" on="PS1" country="JP" wanted="" />
 			<game name="Panzer Dragoon" from="1995" by="Sega" on="Windows" country="JP" />
 			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" />
 		</event>
 		<event xml:id="ACT111" date="" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="">
-			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" wanted=""/>
-			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" wanted=""/>
-			<game name="Spindizzy Worlds" from="1992" by="ASCII Entertainment" on="SNES" country="JP"/>
+			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" wanted="" />
+			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" wanted="" />
+			<game name="Spindizzy Worlds" from="1992" by="ASCII Entertainment" on="SNES" country="JP" />
 			<game name="Super Mokey Ball" from="2001" by="Amusement Vision" on="GCN" country="JP" />
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
@@ -1078,16 +1078,16 @@
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
 		</event>
-        <event xml:id="MIS505" date="" theme="Player's Choice V" type="special" gfx="">
-            <game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
-            <game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
-        </event>
-        <event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
-            <game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
-            <game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
-            <game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
-            <game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
-        </event>
+		<event xml:id="MIS505" date="" theme="Player's Choice V" type="special" gfx="">
+			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
+			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
+		</event>
+		<event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
+			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
+			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
+			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
+			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
+		</event>
 		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
 			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
 			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
@@ -1095,42 +1095,42 @@
 			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
 			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
-        <event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
-            <game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
-            <game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
-            <game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
-            <game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
-        </event>
-        <event xml:id="BIZ105" date="" theme="Monolith" type="author" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
-            <game name="Blood" from="1997" by="Monolith Productions" on="MS-DOS" country="US" />
-            <game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="MS-DOS" country="US" />
-            <game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
-            <game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
-        </event>
-        <event xml:id="RPG212" date="" theme="Gotta Catch 'em All" type="genre" gfx="" moderator="Daniel">
-            <game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
-            <game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
-            <game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
-            <game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
-        </event>
-        <event xml:id="ACT112" date="" theme="Cyberpunk through the Ages" type="genre" gfx="" moderator="Kadda">
-            <game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
-            <game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
-            <game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
-            <game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
-            <game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
-            <game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
-        </event>
-        <event xml:id="STR403" date="" theme="Themepark-Spiele" type="genre" gfx="" moderator="Tom">
-            <game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
-            <game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
-            <game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
-            <game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="GB" />
-            <game name="NoLimits 2" from="2011" by="Ole Lange" on="Windows" country="DE" />
-            <game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="GB" />
-            <game name="Parkitect" from="2018" by="Texel Raptor" on="Windows" country="DE" />
-            <game name="Park Bayond" from="2023" by="Limbic Entertainment" on="Windows" country="DE" />
-        </event>
+		<event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
+			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
+			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
+			<game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
+		</event>
+		<event xml:id="BIZ105" date="" theme="Monolith" type="author" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+			<game name="Blood" from="1997" by="Monolith Productions" on="MS-DOS" country="US" />
+			<game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="MS-DOS" country="US" />
+			<game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
+			<game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
+		</event>
+		<event xml:id="RPG212" date="" theme="Gotta Catch 'em All" type="genre" gfx="" moderator="Daniel">
+			<game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
+			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
+			<game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
+			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
+		</event>
+		<event xml:id="ACT112" date="" theme="Cyberpunk through the Ages" type="genre" gfx="" moderator="Kadda">
+			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
+			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
+			<game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
+			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
+			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
+			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
+		</event>
+		<event xml:id="STR403" date="" theme="Themepark-Spiele" type="genre" gfx="" moderator="Tom">
+			<game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
+			<game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
+			<game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
+			<game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="GB" />
+			<game name="NoLimits 2" from="2011" by="Ole Lange" on="Windows" country="DE" />
+			<game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="GB" />
+			<game name="Parkitect" from="2018" by="Texel Raptor" on="Windows" country="DE" />
+			<game name="Park Bayond" from="2023" by="Limbic Entertainment" on="Windows" country="DE" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
@@ -1173,10 +1173,10 @@
 		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" gfx="" moderator="Ruben">
 		</event>
 		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
-            <game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
-            <game name="Crimson Skies" from="2000" by="Zipper Interactive" on="Windows" country="US" wanted="" />
-            <game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
-            <game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
+			<game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
+			<game name="Crimson Skies" from="2000" by="Zipper Interactive" on="Windows" country="US" wanted="" />
+			<game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
+			<game name="Chorus" from="2021" by="Deep Silver Fishlabs" on="Windows" country="DE" wanted="" />
 		</event>
 		<event xml:id="MIS205" date="" theme="Transgender Games" type="genre" moderator="Ruben">
 			<game name="Dys4ia" from="2012" by="Anna Anthropy" on="Windows" country="US" />
@@ -1227,6 +1227,7 @@
 			<game name="Raji: An Ancient Epic" from="2020" by="Nodding Heads Games" on="Windows" country="IN" />
 		</event>
 		<event xml:id="JNR204" date="" theme="3D Platformers IV: The C List" type="genre" moderator="Daniel" gfx="rayman.gif">
+			<game name="Jumping Flash!" from="1994" by="Exact" on="Windows" country="JP" />
 			<game name="Bubsy 3D" from="1996" by="Eidetic" on="PS1" country="US" />
 			<game name="Croc: Legend of the Gobbos" from="1997" by="Argonaut Games" on="Saturn" country="GB" />
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
