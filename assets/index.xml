@@ -68,14 +68,21 @@
 	</tracks>
 
 	<present>
+		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
+			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
+			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
+			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
+			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
+			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
+		</event>
+	</present>
+
+	<past>
         <event xml:id="STR106" date="Do, 30.05.2024 19:00" theme="Magic: The Gathering" type="series" moderator="Daniel" gfx="tasigur.jpg">
             <game name="Magic: The Gathering" from="1997" by="MicroProse" on="Windows" country="US" />
             <game name="Magic: The Gathering – Battlegrounds" from="2003" by="Secret Level" on="Windows" country="US" />
             <game name="Magic: The Gathering Arena" from="2019" by="Wizards Digital Games Studio" on="Windows" country="US" />
         </event>
-	</present>
-
-	<past>
         <event xml:id="JNR203" date="Do, 16.05.2024 19:00" theme="3D Platformers III: Homages" type="genre" moderator="Daniel" gfx="hatkid.jpg">
             <game name="Banjo-Kazooie" from="1998" by="Rare" on="N64" country="GB" />
             <game name="Yooka-Laylee" from="2017" by="Playtonic Games" on="Windows" country="GB" />
@@ -1087,13 +1094,6 @@
 			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
 			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
 			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
-		</event>
-		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
-			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
-			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
-			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
-			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
-			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
 		<event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
 			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
