@@ -68,7 +68,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor">
+		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
 			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
 			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
 			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
