@@ -68,6 +68,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="STR404" date="Do, 13.06.2019 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
+			<game name="Mad TV" from="1991" by="Rainbow Arts" on="Amiga" country="DE" />
+			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Amiga" country="DE" />
+			<game name="Klomanager" from="1995" by="Anvil-Soft" on="Windows" country="DE" />
+			<game name="Landwirtschafts-Simulator 2013" from="2013" by="Giants Software" on="Windows" country="CH" wanted="Koubek" />
+			<game name="Job Simulator" from="2016" by="Owlchemy Labs" on="Windows" country="US" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
 			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
 			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
@@ -75,9 +85,6 @@
 			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
 			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
-	</present>
-
-	<past>
         <event xml:id="STR106" date="Do, 30.05.2024 19:00" theme="Magic: The Gathering" type="series" moderator="Daniel" gfx="tasigur.jpg">
             <game name="Magic: The Gathering" from="1997" by="MicroProse" on="Windows" country="US" />
             <game name="Magic: The Gathering – Battlegrounds" from="2003" by="Secret Level" on="Windows" country="US" />
