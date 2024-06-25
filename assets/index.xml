@@ -68,7 +68,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="STR404" date="Do, 13.06.2019 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
+		<event xml:id="STR404" date="Do, 27.06.2014 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
 			<game name="Mad TV" from="1991" by="Rainbow Arts" on="Amiga" country="DE" />
 			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Amiga" country="DE" />
 			<game name="Klomanager" from="1995" by="Anvil-Soft" on="Windows" country="DE" />
