@@ -74,7 +74,7 @@
 			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
 			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
 		</event>
-		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="">
+		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="ryu.gif">
 			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
 			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
 		</event>
