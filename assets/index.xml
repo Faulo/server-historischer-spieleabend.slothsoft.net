@@ -68,17 +68,27 @@
 	</tracks>
 
 	<present>
-		<event xml:id="STR404" date="Do, 27.06.2014 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
+		<event xml:id="ACT110" date="Do, 25.07.2024 19:00" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
+			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
+			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
+			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
+			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
+		</event>
+		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="">
+			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
+			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
+		</event>
+	</present>
+
+	<past>
+		<event xml:id="STR404" date="Do, 11.07.2024 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
 			<game name="Mad TV" from="1991" by="Rainbow Arts" on="Amiga" country="DE" />
 			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Amiga" country="DE" />
 			<game name="Klomanager" from="1995" by="Anvil-Soft" on="Windows" country="DE" />
 			<game name="Landwirtschafts-Simulator 2019" from="2020" by="Giants Software" on="Windows" country="CH" />
 			<game name="Job Simulator" from="2016" by="Owlchemy Labs" on="Windows" country="US" />
 		</event>
-	</present>
-
-	<past>
-		<event xml:id="ADV303" date="" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
+		<event xml:id="ADV303" date="Do, 13.06.2024 19:00" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
 			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
 			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
 			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
@@ -1065,12 +1075,6 @@
 			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
-		<event xml:id="ACT110" date="" theme="Archäogames" type="genre" moderator="Kadda" gfx="">
-			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
-			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
-			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
-			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
-		</event>
 		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
 			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
 			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" />
@@ -1091,10 +1095,6 @@
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
-		</event>
-		<event xml:id="MIS505" date="" theme="Player's Choice V" type="special" gfx="">
-			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
-			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
 		</event>
 		<event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
 			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
