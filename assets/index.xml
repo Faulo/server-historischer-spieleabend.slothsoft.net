@@ -68,12 +68,6 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ACT110" date="Do, 25.07.2024 19:00" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
-			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
-			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
-			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
-			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
-		</event>
 		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="ryu.gif">
 			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
 			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
@@ -1053,6 +1047,12 @@
 	</past>
 
 	<future>
+		<event xml:id="ACT110" date="" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
+			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
+			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
+			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
+			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
+		</event>
 		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="" gfx="">
 			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
 			<game name="Yu-Gi-Oh! Forbidden Memories" from="1999" by="Konami" on="PS1" country="JP" />
