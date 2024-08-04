@@ -70,6 +70,8 @@
 	<present>
 		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="ryu.gif">
 			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
+			<game name="Pokémon Gold" from="1999" by="Game Freak" on="GBC" country="JP" wanted="Daniel" />
+			<game name="Tomb Raider: The Angel of Darkness" from="2003" by="Core Design" on="Windows" country="GB" wanted="Stephi" />
 			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
 		</event>
 	</present>
