@@ -68,6 +68,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="ACT204" date="Do, 22.08.2024 18:00" theme="Metal Gear Solid" type="loredump" gfx="Snake.gif" moderator="MICHAEL!">
+			<game name="Metal Gear Solid" from="1998" by="Konami" on="PS1" country="JP" />
+			<game name="Metal Gear Solid 2: Sons of Liberty" from="2001" by="Konami" on="PS2" country="JP" />
+			<game name="Metal Gear Solid 3: Snake Eater" from="2004" by="Konami" on="PS2" country="JP" />
+			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
+			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="sloking.webp">
 			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
 			<game name="Pokémon Gold" from="1999" by="Game Freak" on="GBC" country="JP" wanted="Daniel" />
@@ -75,9 +85,6 @@
 			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
 			<game name="Citizen Sleeper" from="2022" by="Jump Over the Age" on="Windows" country="GB" wanted="Kadda" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="STR404" date="Do, 11.07.2024 19:00" theme="Berufssimulationen" rerun="STR401" moderator="Kadda" type="genre" gfx="MadTV.png">
 			<game name="Mad TV" from="1991" by="Rainbow Arts" on="Amiga" country="DE" />
 			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Amiga" country="DE" />
@@ -1070,13 +1077,6 @@
 		<event xml:id="ACT305" date="" theme="Deadly Premonition" type="longplay" moderator="Ruben" gfx="">
 			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
 			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
-		</event>
-		<event xml:id="ACT204" date="" theme="Metal Gear Solid" type="loredump" gfx="Snake.gif" moderator="MICHAEL!">
-			<game name="Metal Gear Solid" from="1998" by="Konami" on="PS1" country="JP" />
-			<game name="Metal Gear Solid 2: Sons of Liberty" from="2001" by="Konami" on="PS2" country="JP" />
-			<game name="Metal Gear Solid 3: Snake Eater" from="2004" by="Konami" on="PS2" country="JP" />
-			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
-			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
 		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
 			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
