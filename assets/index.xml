@@ -73,7 +73,6 @@
 			<game name="Metal Gear Solid 2: Sons of Liberty" from="2001" by="Konami" on="PS2" country="JP" />
 			<game name="Metal Gear Solid 3: Snake Eater" from="2004" by="Konami" on="PS2" country="JP" />
 			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
-			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
 	</present>
 
@@ -1291,6 +1290,7 @@
 			<game name="Doodle Jump" from="2009" by="Lima Sky" on="Android" country="US" />
 			<game name="Grand Theft Auto II" from="1999" by="DMA Design" on="Windows" country="GB" />
 			<game name="King's Quest VI: Heir Today, Gone Tomorrow" from="1992" by="Sierra On-Line" on="MS-DOS" country="US" />
+			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
 			<game name="Baten Kaitos: Eternal Wings and the Lost Ocean" from="2003" by="Monolith Soft" on="GCN" country="JP" />
