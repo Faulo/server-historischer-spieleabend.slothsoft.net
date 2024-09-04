@@ -68,15 +68,22 @@
 	</tracks>
 
 	<present>
+		<event xml:id="BIZ105" date="Do, 05.09.2024 19:00" theme="Monolith Productions" type="author" gfx="blood.gif" moderator="Leo">
+			<game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="Windows" country="US" />
+			<game name="Blood 2: The Chosen" from="1998" by="Monolith Productions" on="Windows" country="US" />
+			<game name="The Operative: No One Lives Forever" from="2000" by="Monolith Productions" on="Windows" country="US" />
+			<game name="F.E.A.R. 2: Project Origin" from="2009" by="Monolith Productions" on="Windows" country="US" />
+			<game name="Middle-earth: Shadow of Mordor" from="2014" by="Monolith Productions" on="Windows" country="US" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="ACT204" date="Do, 22.08.2024 18:00" theme="Metal Gear Solid" type="loredump" gfx="Snake.gif" moderator="MICHAEL!">
 			<game name="Metal Gear Solid" from="1998" by="Konami" on="PS1" country="JP" />
 			<game name="Metal Gear Solid 2: Sons of Liberty" from="2001" by="Konami" on="PS2" country="JP" />
 			<game name="Metal Gear Solid 3: Snake Eater" from="2004" by="Konami" on="PS2" country="JP" />
 			<game name="Metal Gear Solid 4: Guns of the Patriots" from="2008" by="Kojima Productions" on="PS3" country="JP" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS505" date="Do, 08.08.2024 19:00" theme="Player's Choice V" type="special" gfx="sloking.webp">
 			<game name="Lego Rock Raiders" from="1999" by="Data Design Interactive" on="Windows" country="GB" wanted="Leo" />
 			<game name="Pokémon Gold" from="1999" by="Game Freak" on="GBC" country="JP" wanted="Daniel" />
@@ -1109,12 +1116,6 @@
 			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
 			<game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
-		</event>
-		<event xml:id="BIZ105" date="" theme="Monolith" type="author" gfx="matrix.png" moderator="Leo">
-			<game name="Blood" from="1997" by="Monolith Productions" on="MS-DOS" country="US" />
-			<game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="MS-DOS" country="US" />
-			<game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
-			<game name="The Matrix Online" from="2005" by="Monolith Productions" on="Windows" country="US" wanted="" />
 		</event>
 		<event xml:id="RPG212" date="" theme="Gotta Catch 'em All" type="genre" gfx="" moderator="Daniel">
 			<game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
