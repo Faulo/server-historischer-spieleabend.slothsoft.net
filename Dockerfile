@@ -36,7 +36,7 @@ RUN mkdir -m 0777 data
 RUN mkdir -m 0777 log
 COPY assets assets
 COPY scripts scripts
-COPY src src
+# COPY src src
 COPY public html
 COPY php.ini /usr/local/etc/php/conf.d/custom.ini
 COPY composer.json composer.json
