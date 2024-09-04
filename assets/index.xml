@@ -75,7 +75,7 @@
 			<game name="F.E.A.R. 2: Project Origin" from="2009" by="Monolith Productions" on="Windows" country="US" />
 			<game name="Middle-earth: Shadow of Mordor" from="2014" by="Monolith Productions" on="Windows" country="US" />
 		</event>
-		<event xml:id="BIZ215" date="Do, 26.09.2024 19:00" theme="Daniel Schulz &amp; Katharina Broswik" type="author" gfx="car-drive.gif" moderator="Daniel">
+		<event xml:id="BIZ217" date="Do, 26.09.2024 19:00" theme="Daniel Schulz &amp; Katharina Broswik" type="author" gfx="car-drive.gif" moderator="Daniel">
 			<game name="Trial of Two" from="2020" by="Oilcatz" on="Windows" country="DE" />
 		</event>
 	</present>
