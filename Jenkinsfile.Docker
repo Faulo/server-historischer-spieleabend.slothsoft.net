@@ -1,0 +1,30 @@
+pipeline {
+	agent {
+	    label 'jenkins && docker'
+	}
+    stages {
+        stage('Run Tests') {
+        	agent {
+        	    dockerfile {
+        		    reuseNode true
+        	    }
+        	}
+            steps {
+                sh 'composer install --dev'
+                sh 'composer exec phpunit -- --log-junit report.xml'
+            }
+            post {
+                always {
+                    junit 'report.xml'
+                }
+            }
+        }
+        stage('Publish vhost') {
+            steps {
+                script {
+                    docker.build("historischer-spieleabend.slothsoft.net:latest")
+                }
+            }
+        }
+    }
+}
