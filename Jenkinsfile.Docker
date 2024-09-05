@@ -2,28 +2,25 @@ pipeline {
 	agent {
 	    label 'jenkins && docker'
 	}
+	environment {
+	    VHOST = "historischer-spieleabend.slothsoft.net"
+	    SERVICE = "vhosts_historischer-spieleabend"
+	}
     stages {
-        stage('Run Tests') {
-        	agent {
-        	    dockerfile {
-        		    reuseNode true
-        	    }
-        	}
+        stage('Build image and run tests') {
             steps {
-                sh 'composer install --dev'
-                sh 'composer exec phpunit -- --log-junit report.xml'
-            }
-            post {
-                always {
-                    junit 'report.xml'
+                script {
+                    docker.build("$VHOST:latest").inside {
+                        sh 'composer install'
+                        sh 'composer exec phpunit -- --log-junit report.xml'
+                        junit 'report.xml'
+                    }
                 }
             }
         }
-        stage('Publish vhost') {
+        stage('Deploy vhost') {
             steps {
-                script {
-                    docker.build("historischer-spieleabend.slothsoft.net:latest")
-                }
+                sh "docker service update $SERVICE"
             }
         }
     }
