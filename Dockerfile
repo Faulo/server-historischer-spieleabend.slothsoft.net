@@ -40,13 +40,13 @@ COPY scripts scripts
 COPY public html
 COPY php.ini /usr/local/etc/php/conf.d/custom.ini
 COPY composer.json composer.json
-COPY composer.lock composer.lock
 COPY config.php config.php
 
 # Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-RUN composer install --no-dev
+ARG COMPOSER_ALLOW_SUPERUSER=1
+RUN composer update --no-dev
 
 # Apache
-RUN echo "ServerName historischer-spieleabend.slothsoft.net" >> /etc/apache2/apache2.conf
+RUN echo "ServerName $VHOST" >> /etc/apache2/apache2.conf
 EXPOSE 80

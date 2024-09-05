@@ -11,6 +11,8 @@ pipeline {
             steps {
                 script {
                     docker.build("$VHOST:latest").inside {
+                        sh 'cp -r tests /var/www/tests'
+                        sh 'cd /var/www'
                         sh 'composer install'
                         sh 'composer exec phpunit -- --log-junit report.xml'
                         junit 'report.xml'
@@ -20,7 +22,7 @@ pipeline {
         }
         stage('Deploy vhost') {
             steps {
-                sh "docker service update $SERVICE"
+                sh "docker service update --force --image $VHOST:latest $SERVICE"
             }
         }
     }
