@@ -48,5 +48,6 @@ ARG COMPOSER_ALLOW_SUPERUSER=1
 RUN composer update --no-dev
 
 # Apache
+ARG VHOST
 RUN echo "ServerName $VHOST" >> /etc/apache2/apache2.conf
 EXPOSE 80

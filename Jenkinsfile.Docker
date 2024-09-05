@@ -10,7 +10,7 @@ pipeline {
         stage('Build image and run tests') {
             steps {
                 script {
-                    docker.build("$VHOST:latest").inside {
+                    docker.build("$VHOST:latest", "--build-arg VHOST=$VHOST").inside {
                         sh 'cp -r tests /var/www/tests'
                         sh 'cd /var/www'
                         sh 'composer install'
