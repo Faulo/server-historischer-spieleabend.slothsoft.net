@@ -9,7 +9,7 @@ RUN apt install -y libcurl4-openssl-dev && \
 RUN apt install -y libxslt1-dev && \
     docker-php-ext-install xsl && \
 	docker-php-ext-enable xsl
-RUN apt install -y libzip-dev p7zip && \
+RUN apt install -y libzip-dev unzip && \
 	docker-php-ext-install zip && \
 	docker-php-ext-enable zip
 RUN apt install -y libonig-dev && \
