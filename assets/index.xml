@@ -68,6 +68,15 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS401" date="" theme="Ecchi" type="genre" moderator="Daniel">
+			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
+			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
+			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
+			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ105" date="Do, 05.09.2024 19:00" theme="Monolith Productions" type="author" gfx="blood.gif" moderator="Leo">
 			<game name="Shogo: Mobile Armor Division" from="1998" by="Monolith Productions" on="Windows" country="US" />
 			<game name="Blood 2: The Chosen" from="1998" by="Monolith Productions" on="Windows" country="US" />
@@ -75,12 +84,6 @@
 			<game name="F.E.A.R. 2: Project Origin" from="2009" by="Monolith Productions" on="Windows" country="US" />
 			<game name="Middle-earth: Shadow of Mordor" from="2014" by="Monolith Productions" on="Windows" country="US" />
 		</event>
-		<event xml:id="BIZ217" date="Do, 26.09.2024 19:00" theme="Daniel Schulz &amp; Katharina Broswik" type="author" gfx="car-drive.gif" moderator="Daniel">
-			<game name="Trial of Two" from="2020" by="Oilcatz" on="Windows" country="DE" />
-		</event>
-	</present>
-
-	<past>
 		<event xml:id="ACT204" date="Do, 22.08.2024 18:00" theme="Metal Gear Solid" type="loredump" gfx="Snake.gif" moderator="MICHAEL!">
 			<game name="Metal Gear Solid" from="1998" by="Konami" on="PS1" country="JP" />
 			<game name="Metal Gear Solid 2: Sons of Liberty" from="2001" by="Konami" on="PS2" country="JP" />
@@ -1107,12 +1110,6 @@
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
-		</event>
-		<event xml:id="MIS401" date="" theme="Sexy Spiele" type="genre" moderator="Daniel">
-			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
-			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
-			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
-			<game name="Genital Jousting" from="2018" by="Free Lives" on="Windows" country="ZA" />
 		</event>
 		<event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
 			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
