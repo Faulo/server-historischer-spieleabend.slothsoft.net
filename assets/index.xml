@@ -68,7 +68,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="MIS401" date="" theme="Ecchi" type="genre" moderator="Daniel" gfx="rance.gif">
+		<event xml:id="MIS401" date="Do, 26.09.2024 19:00" theme="Ecchi" type="genre" moderator="Daniel" gfx="rance.gif">
 			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
 			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
 			<game name="Senran Kagura: Estival Versus" from="2015" by="Tamsoft" on="Windows" country="JP" />
