@@ -1,5 +1,5 @@
 services:
-    $STACK:
+    historischer-spieleabend:
         image: faulo/farah:$PHP_VERSION
         volumes:
             - ./assets:/var/www/assets
