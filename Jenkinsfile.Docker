@@ -6,24 +6,27 @@ pipeline {
         stage('Build image and run tests') {
             steps {
                 script {
-                    withEnv(readFile('.env').split('\n') as List) {
-                        docker.build("$VHOST:latest", "--build-arg VHOST=$VHOST .").inside {
-                            sh 'cp -r tests /var/www/tests'
-                            sh 'cd /var/www'
-                            sh 'composer install'
-                            sh 'composer exec phpunit -- --log-junit report.xml'
-                            junit 'report.xml'
-                        }
-                    }
+					withEnv(readFile('.env').split('\n') as List) {
+						docker.image("faulo/farah:$PHP_VERSION").inside {
+							sh 'composer install --no-interaction'
+							sh 'composer exec phpunit -- --log-junit report.xml'
+							junit 'report.xml'
+						}
+					}
                 }
             }
         }
-        stage('Deploy vhost') {
+        stage('Deploy') {
             steps {
-                withEnv(readFile('.env').split('\n') as List) {
-                    sh "docker service update --force --image $VHOST:latest $SERVICE"
+                script {
+					withEnv(readFile('.env').split('\n') as List) {
+						dir("/var/vhosts/$STACK_NAME") {
+							checkout scm
+							sh "docker stack deploy $STACK_NAME --detach=true --prune --resolve-image=changed -c=docker-compose.yml"
+						}
+					}
                 }
             }
         }
-    }
+	}
 }
