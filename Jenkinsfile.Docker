@@ -3,7 +3,7 @@ pipeline {
 	    label 'jenkins && docker'
 	}
     stages {
-        stage('Build image and run tests') {
+        stage('Run tests') {
             steps {
                 script {
 					withEnv(readFile('.env').split('\n') as List) {
@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
+        stage('Deploy stack') {
             steps {
                 script {
 					withEnv(readFile('.env').split('\n') as List) {
@@ -27,7 +27,7 @@ pipeline {
 							unstash 'lock'
 							sh "docker stack deploy $STACK_NAME --detach=true --prune --resolve-image=never -c=docker-compose.yml"
 							sh "docker service update --force " + service
-							//sh 'docker exec $(docker ps -q -f name=' + env.STACK_NAME + '_' + env.STACK_NAME + ') composer install --no-interaction --no-dev'
+							//sh 'docker exec $(docker ps -q -f name=' + service + ') composer install --no-interaction --no-dev'
 						}
 					}
                 }
