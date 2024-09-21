@@ -4,6 +4,7 @@
 	"description": "historischer-spieleabend.slothsoft.net",
 	"license": "MIT",
 	"keywords": [
+		"slothsoft",
 		"farah-module",
 		"farah-server"
 	],
@@ -18,7 +19,7 @@
 		}
 	},
 	"require": {
-		"php": "^7.4",
+		"php": "~7.4",
 		"slothsoft/core": "^1.11",
 		"slothsoft/farah": "^1.11"
 	},
