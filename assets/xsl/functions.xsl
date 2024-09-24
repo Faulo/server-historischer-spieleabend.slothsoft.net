@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func">
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
+	xmlns:func="http://exslt.org/functions" extension-element-prefixes="func">
 
 	<xsl:variable name="LETTERS_LOWERCASE" select="'abcdefghijklmnopqrstuvwxyz'" />
 	<xsl:variable name="LETTERS_UPPERCASE" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
@@ -110,13 +110,6 @@
 		</func:result>
 	</func:function>
 
-	<xsl:template name="wiki">
-		<xsl:param name="term" select="." />
-		<a href="{lio:wiki($term)}" target="_blank" rel="external">
-			<xsl:value-of select="$term" />
-		</a>
-	</xsl:template>
-
 	<func:function name="lio:wiki">
 		<xsl:param name="term" select="." />
 		<func:result>
@@ -130,4 +123,11 @@
 		<xsl:param name="val" />
 		<func:result select="concat(php:functionString('urlencode', normalize-space($key)), '=', php:functionString('urlencode', normalize-space($val)))" />
 	</func:function>
+
+	<xsl:template name="wiki">
+		<xsl:param name="term" select="." />
+		<a href="{lio:wiki($term)}" target="_blank" rel="external">
+			<xsl:value-of select="$term" />
+		</a>
+	</xsl:template>
 </xsl:stylesheet>
