@@ -1,8 +1,6 @@
 <?php
 declare(strict_types = 1);
 
-namespace Slothsoft;
-
 use Slothsoft\Core\ServerEnvironment;
 use Slothsoft\Farah\Dictionary;
 use Slothsoft\Farah\Kernel;
