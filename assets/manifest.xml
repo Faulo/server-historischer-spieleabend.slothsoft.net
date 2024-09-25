@@ -14,6 +14,7 @@
 	</directory>
 
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />
+	<resource-directory name="downloads" path="downloads" type="*/*"/>
 	<resource-directory name="gfx" path="gfx" type="image/*" />
 	<resource-directory name="logos" path="logos" type="image/*" />
 
@@ -32,6 +33,11 @@
             <use-template ref="/xsl/_backend" />
             <import ref="/api/default" />
             <use-document ref="/index" />
+        </fragment>
+        <fragment name="downloads">
+            <use-template ref="/xsl/_downloads" />
+            <import ref="/api/default" />
+            <use-document ref="/downloads" />
         </fragment>
 	</fragment>
 

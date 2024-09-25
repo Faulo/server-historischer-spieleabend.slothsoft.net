@@ -8,7 +8,6 @@ services:
             - ./composer.lock:/var/www/composer.lock
             - ./html/google0e2ae129a89d6e6f.html:/var/www/html/google0e2ae129a89d6e6f.html
             - ./html/robots.txt:/var/www/html/robots.txt
-            - ./html/downloads:/var/www/html/downloads
         deploy:
             mode: global
             restart_policy:

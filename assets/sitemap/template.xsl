@@ -32,6 +32,7 @@
 
 			<page name="logo-small.svg" ref="/logos/logo-small.svg" status-active="" />
 			<page name="logo-gil.png" ref="/logos/GIL.png" status-active="" />
+			<page name="downloads" ref="/pages/downloads" status-active=""/>
 		</domain>
 	</xsl:template>
 </xsl:stylesheet>
