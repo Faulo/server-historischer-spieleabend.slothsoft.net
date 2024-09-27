@@ -237,7 +237,7 @@
 			<game name="Shadow of the Colossus" from="2005" by="Team Ico" on="PS3" country="JP" wanted="Gil" />
 			<game name="The Last Guardian" from="2016" by="GenDESIGN" on="PS4" country="JP" wanted="Kadda" />
 		</event>
-		<event xml:id="MIS303" date="Do, 27.07.2023 19:00" theme="Games that Killed a Studio" type="special" gfx="gollum.png" moderator="Ruben">
+		<event xml:id="MIS302" date="Do, 27.07.2023 19:00" theme="Games that Killed a Studio" type="special" gfx="gollum.png" moderator="Ruben">
 			<game name="The Last Express" from="1997" by="Smoking Car Productions" on="Windows" country="US" wanted="Daniel" />
 			<game name="Lair" from="2007" by="Factor 5" on="PS3" country="DE" wanted="Gil" />
 			<game name="Too Human" from="2008" by="Silicon Knights" on="XBox360" country="CA" wanted="Gil" />
@@ -1069,6 +1069,35 @@
 	</past>
 
 	<future>
+		<event xml:id="MIS303" date="" theme="Der Index" type="genre" moderator="Daniel" gfx="index.png">
+			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
+			<game name="Wolfenstein 3D" from="1992" by="id Software" on="Windows" country="US" />
+			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
+			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
+			<game name="Carmageddon II - Carpocalypse Now" from="1999" by="Stainless Games" on="Windows" country="GB" />
+		</event>
+
+		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
+			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
+			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
+			<game name="Quake 4" from="2005" by="id Software" on="Windows" country="US" />
+			<game name="50 Cent: Bulletproof" from="2005" by="Genuine Games" on="PS2" country="US" />
+		</event>
+
+		<event xml:id="MIS305" date="" theme="Liste B" type="genre" moderator="Daniel" gfx="Postal.png">
+			<game name="Postal" from="1997" by="Running with Scissors" on="Windows" country="US" />
+			<game name="The Punisher" from="2005" by="Volition" on="PS2" country="US" />
+			<game name="Dead Rising 2" from="2010" by="Blue Castle Games" on="Windows" country="US" />
+			<game name="Dead Island" from="2011" by="Techland" on="Windows" country="PL" />
+		</event>
+
+		<event xml:id="MIS306" date="" theme="Beschlagnahmt nach §131 StGB" type="genre" moderator="Daniel" gfx="StGB.jpg">
+			<game name="Condemned: Criminal Origins" from="2005" by="Monolith Productions" on="Windows" country="US" />
+			<game name="Scarface - The World Is Yours" from="2006" by="Radical Entertainment" on="PS2" country="CA" />
+			<game name="Silent Hill - Homecoming" from="2008" by="Double Helix Games" on="Windows" country="US" />
+			<game name="Wolfenstein" from="2009" by="Raven Software" on="Windows" country="US" />
+		</event>
+
 		<event xml:id="ACT110" date="" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
 			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
 			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
