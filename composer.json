@@ -11,7 +11,10 @@
 	"autoload" : {
 		"files" : [
 			"src/bootstrap.php"
-		]
+		],
+		"psr-4" : {
+			"Slothsoft\\Server\\HistorischerSpieleabend\\" : "src"
+		}
 	},
 	"require" : {
 		"slothsoft/core" : "^1.11",
@@ -22,7 +25,7 @@
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Slothsoft\\Server\\HistorischerSpieleabend\\" : "tests"
+			"Slothsoft\\Server\\HistorischerSpieleabend\\Tests\\" : "tests"
 		}
 	},
 	"scripts" : {
