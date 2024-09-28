@@ -22,8 +22,8 @@ pipeline {
 							checkout scm
 							unstash 'lock'
 							
-							sh "mkdir -p assets scripts src html data log"
-							sh "chmod 777 . assets scripts src html data log"							
+							sh "mkdir -p assets src html data log"
+							sh "chmod 777 . assets src html data log"							
 							
 							def service = "historischer-spieleabend_historischer-spieleabend"
 							sh "docker stack deploy historischer-spieleabend --detach=true --prune --resolve-image=never -c=docker-compose.yml"

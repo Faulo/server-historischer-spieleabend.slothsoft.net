@@ -10,12 +10,12 @@
 	],
 	"autoload" : {
 		"files" : [
-			"scripts/bootstrap.php"
+			"src/bootstrap.php"
 		]
 	},
 	"require" : {
 		"slothsoft/core" : "^1.11",
-		"slothsoft/farah" : "^1.11"
+		"slothsoft/farah" : "^1.12"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "8.5.*"
