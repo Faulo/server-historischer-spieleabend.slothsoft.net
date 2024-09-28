@@ -76,7 +76,7 @@
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
 		</event>
-		<event xml:id="ACT604" date="Do, 25.10.2024 19:00" theme="Ersti-Abend 2024" type="special" moderator="?" gfx="">
+		<event xml:id="ACT604" date="Do, 25.10.2024 19:00" theme="Ersti-Abend 2024" type="special" moderator="?" gfx="link.gif">
 		</event>
 	</present>
 
