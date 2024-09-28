@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend;
+namespace Slothsoft\Server\HistorischerSpieleabend\Tests;
 
 use Slothsoft\Farah\Configuration\AssetConfigurationField;
 use Slothsoft\Farah\ModuleTests\AbstractSitemapTest;

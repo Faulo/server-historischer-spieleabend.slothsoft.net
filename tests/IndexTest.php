@@ -1,10 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend;
+namespace Slothsoft\Server\HistorischerSpieleabend\Tests;
 
 use Slothsoft\Farah\Http\MessageFactory;
 use Slothsoft\Farah\ModuleTests\AbstractTestCase;
 use Slothsoft\Farah\RequestStrategy\LookupPageStrategy;
+use DOMDocument;
 
 class IndexTest extends AbstractTestCase {
 
@@ -19,7 +20,7 @@ class IndexTest extends AbstractTestCase {
 
         $data = stream_get_contents($response->getBody()->detach());
 
-        $doc = new \DOMDocument();
+        $doc = new DOMDocument();
         $this->assertTrue($doc->loadXML($data));
     }
 }
