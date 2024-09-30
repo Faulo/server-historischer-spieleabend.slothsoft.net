@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<assets xmlns="http://schema.slothsoft.net/farah/module">
+<assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
 	<resource name="manifest" type="application/xml" />
 	<resource name="index" type="application/xml" />
 
@@ -14,7 +14,7 @@
 	</directory>
 
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />
-	<resource-directory name="downloads" path="downloads" type="*/*"/>
+	<resource-directory name="downloads" path="downloads" type="*/*" />
 	<resource-directory name="gfx" path="gfx" type="image/*" />
 	<resource-directory name="logos" path="logos" type="image/*" />
 
@@ -24,21 +24,21 @@
 			<import ref="/api/default" />
 			<use-document ref="/index" />
 		</fragment>
-        <fragment name="event">
-            <use-template ref="/xsl/_event" />
-            <import ref="/api/default" />
-            <use-document ref="/index" />
-        </fragment>
-        <fragment name="backend">
-            <use-template ref="/xsl/_backend" />
-            <import ref="/api/default" />
-            <use-document ref="/index" />
-        </fragment>
-        <fragment name="downloads">
-            <use-template ref="/xsl/_downloads" />
-            <import ref="/api/default" />
-            <use-document ref="/downloads" />
-        </fragment>
+		<fragment name="event">
+			<use-template ref="/xsl/_event" />
+			<import ref="/api/default" />
+			<use-document ref="/index" />
+		</fragment>
+		<fragment name="backend">
+			<use-template ref="/xsl/_backend" />
+			<import ref="/api/default" />
+			<use-document ref="/index" />
+		</fragment>
+		<fragment name="downloads">
+			<use-template ref="/xsl/_downloads" />
+			<import ref="/api/default" />
+			<use-document ref="/downloads" />
+		</fragment>
 	</fragment>
 
 	<fragment name="api">
