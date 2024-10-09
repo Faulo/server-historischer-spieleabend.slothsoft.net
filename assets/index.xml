@@ -68,9 +68,9 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ACT111" date="Do, 11.10.2024 19:00" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="monkey.gif">
-			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" wanted="" />
-			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" wanted="" />
+		<event xml:id="ACT111" date="Do, 10.10.2024 19:00" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="monkey.gif">
+			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" />
+			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" />
 			<game name="Spindizzy Worlds" from="1992" by="ASCII Entertainment" on="SNES" country="JP" />
 			<game name="Super Monkey Ball" from="2001" by="Amusement Vision" on="GCN" country="JP" />
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
