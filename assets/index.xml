@@ -68,6 +68,15 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS604" date="Do, 24.10.2024 18:00" theme="Ersti-Abend 2024" type="special" moderator="Leo" gfx="link.gif">
+			<game name="Colossal Cave Adventure" from="1976" by="William Crowther" on="PDP-10" country="US" />
+			<game name="Zelda II: The Adventure of Link" from="1987" by="Nintendo R&amp;D4" on="NES" country="JP" />
+			<game name="Super Mario Bros. 3" from="1988" by="Nintendo R&amp;D4" on="NES" country="JP" />
+			<game name="Wolfenstein 3D" from="1992" by="id Software" on="MS-DOS" country="US" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="ACT111" date="Do, 10.10.2024 18:00" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="monkey.gif">
 			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" />
 			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" />
@@ -76,11 +85,6 @@
 			<game name="Katamari Damacy" from="2004" by="Namco" on="PS2" country="JP" />
 			<game name="Rock of Ages" from="2011" by="ACE Team" on="Windows" country="CL" />
 		</event>
-		<event xml:id="MIS604" date="Do, 24.10.2024 18:00" theme="Ersti-Abend 2024" type="special" moderator="Leo" gfx="link.gif">
-		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS401" date="Do, 26.09.2024 19:00" theme="Sexy Games" type="genre" moderator="Daniel" gfx="rance.gif">
 			<game name="Princess Maker 2" from="1993" by="Gainax" on="Windows" country="JP" />
 			<game name="Sengoku Rance" from="2006" by="Alice Soft" on="Windows" country="JP" />
@@ -1340,7 +1344,6 @@
 			<game name="Shin Megami Tensei: Persona 4" from="2008" by="Atlus" on="PS2" country="JP" />
 			<game name="Fire Emblem: The Blazing Blade" from="2003" by="Intelligent Systems" on="GBA" country="JP" />
 			<game name="Fire Emblem: Path of Radiance" from="2005" by="Intelligent Systems" on="GCN" country="JP" />
-			<game name="Zelda II: The Adventure of Link" from="1987" by="Nintendo R&amp;D4" on="NES" country="JP" />
 		</event>
 		<event theme="Historische LAN-Party" type="special">
 			<game name="Ultima Online" from="1997" by="Origin Systems" on="Windows" country="US" />
