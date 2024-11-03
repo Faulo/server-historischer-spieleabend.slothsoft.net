@@ -68,15 +68,21 @@
 	</tracks>
 
 	<present>
-		<event xml:id="MIS604" date="Do, 24.10.2024 18:00" theme="Ersti-Abend 2024" type="special" moderator="Leo" gfx="link.gif">
-			<game name="Colossal Cave Adventure" from="1976" by="William Crowther" on="PDP-10" country="US" />
-			<game name="Zelda II: The Adventure of Link" from="1987" by="Nintendo R&amp;D4" on="NES" country="JP" />
-			<game name="Super Mario Bros. 3" from="1988" by="Nintendo R&amp;D4" on="NES" country="JP" />
-			<game name="Wolfenstein 3D" from="1992" by="id Software" on="MS-DOS" country="US" />
-		</event>
+        <event xml:id="MIS305" date="Do, 07.11.2024 18:00" theme="Liste B" type="genre" moderator="Daniel" gfx="Postal.png">
+            <game name="Postal" from="1997" by="Running with Scissors" on="Windows" country="US" />
+            <game name="The Punisher" from="2005" by="Volition" on="PS2" country="US" />
+            <game name="Dead Rising 2" from="2010" by="Blue Castle Games" on="Windows" country="US" />
+            <game name="Dead Island" from="2011" by="Techland" on="Windows" country="PL" />
+        </event>
 	</present>
 
 	<past>
+        <event xml:id="MIS604" date="Do, 24.10.2024 18:00" theme="Ersti-Abend 2024" type="special" moderator="Leo" gfx="link.gif">
+            <game name="Colossal Cave Adventure" from="1976" by="William Crowther" on="PDP-10" country="US" />
+            <game name="Zelda II: The Adventure of Link" from="1987" by="Nintendo R&amp;D4" on="NES" country="JP" />
+            <game name="Super Mario Bros. 3" from="1988" by="Nintendo R&amp;D4" on="NES" country="JP" />
+            <game name="Wolfenstein 3D" from="1992" by="id Software" on="MS-DOS" country="US" />
+        </event>
 		<event xml:id="ACT111" date="Do, 10.10.2024 18:00" theme="Roll-Playing Games" type="genre" moderator="Kadda" gfx="monkey.gif">
 			<game name="Marble Madness" from="1984" by="Atari Games" on="Arcade" country="JP" />
 			<game name="Cameltry" from="1989" by="Taito" on="Arcade" country="JP" />
@@ -1096,13 +1102,6 @@
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
 			<game name="Quake 4" from="2005" by="id Software" on="Windows" country="US" />
 			<game name="50 Cent: Bulletproof" from="2005" by="Genuine Games" on="PS2" country="US" />
-		</event>
-
-		<event xml:id="MIS305" date="" theme="Liste B" type="genre" moderator="Daniel" gfx="Postal.png">
-			<game name="Postal" from="1997" by="Running with Scissors" on="Windows" country="US" />
-			<game name="The Punisher" from="2005" by="Volition" on="PS2" country="US" />
-			<game name="Dead Rising 2" from="2010" by="Blue Castle Games" on="Windows" country="US" />
-			<game name="Dead Island" from="2011" by="Techland" on="Windows" country="PL" />
 		</event>
 
 		<event xml:id="MIS306" date="" theme="Beschlagnahmt nach §131 StGB" type="genre" moderator="Daniel" gfx="StGB.jpg">
