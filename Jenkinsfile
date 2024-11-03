@@ -7,10 +7,10 @@ pipeline {
 			steps {
 				script {
 					stage ('Pull image') {
-						sh "docker image pull faulo/farah:8.0"
+						sh "docker image pull faulo/farah:8.3"
 					}
 					stage ('Run tests') {
-						docker.image("faulo/farah:8.0").inside {
+						docker.image("faulo/farah:8.3").inside {
 							sh 'composer update --no-interaction'
 
 							try {

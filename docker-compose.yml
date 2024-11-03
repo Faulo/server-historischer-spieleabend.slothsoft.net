@@ -1,6 +1,6 @@
 services:
     historischer-spieleabend:
-        image: faulo/farah:8.0
+        image: faulo/farah:8.3
         volumes:
             - ./composer.json:/var/www/composer.json
             - ./composer.lock:/var/www/composer.lock
