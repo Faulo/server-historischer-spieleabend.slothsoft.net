@@ -68,15 +68,26 @@
 	</tracks>
 
 	<present>
+		<event xml:id="STR403" date="Do, 21.11.2024 18:00" theme="Themepark-Spiele" type="genre" moderator="Tom" gfx="rct2.webp">
+			<game name="Theme Park" from="1994" by="Bullfrog Productions" on="Windows" country="US" />
+			<game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
+			<game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
+			<game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
+			<game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="GB" />
+			<game name="NoLimits 2" from="2011" by="Ole Lange" on="Windows" country="DE" />
+			<game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="GB" />
+			<game name="Parkitect" from="2018" by="Texel Raptor" on="Windows" country="DE" />
+			<game name="Park Bayond" from="2023" by="Limbic Entertainment" on="Windows" country="DE" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS305" date="Do, 07.11.2024 18:00" theme="Liste B" type="genre" moderator="Daniel" gfx="Postal.png">
 			<game name="Postal" from="1997" by="Running with Scissors" on="Windows" country="US" />
 			<game name="The Punisher" from="2005" by="Volition" on="PS2" country="US" />
 			<game name="Dead Rising 2" from="2010" by="Blue Castle Games" on="Windows" country="US" />
 			<game name="Dead Island" from="2011" by="Techland" on="Windows" country="PL" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS604" date="Do, 24.10.2024 18:00" theme="Ersti-Abend 2024" type="special" moderator="Leo" gfx="link.gif">
 			<game name="Colossal Cave Adventure" from="1976" by="William Crowther" on="PDP-10" country="US" />
 			<game name="Zelda II: The Adventure of Link" from="1987" by="Nintendo R&amp;D4" on="NES" country="JP" />
@@ -1173,16 +1184,6 @@
 			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
-		</event>
-		<event xml:id="STR403" date="" theme="Themepark-Spiele" type="genre" gfx="" moderator="Tom">
-			<game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
-			<game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
-			<game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
-			<game name="Thrillville" from="2006" by="Frontier Developments" on="PS2" country="GB" />
-			<game name="NoLimits 2" from="2011" by="Ole Lange" on="Windows" country="DE" />
-			<game name="Planet Coaster" from="2016" by="Frontier Developments" on="Windows" country="GB" />
-			<game name="Parkitect" from="2018" by="Texel Raptor" on="Windows" country="DE" />
-			<game name="Park Bayond" from="2023" by="Limbic Entertainment" on="Windows" country="DE" />
 		</event>
 	</future>
 	<unfinished>
