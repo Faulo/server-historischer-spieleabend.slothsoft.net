@@ -68,7 +68,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="SPO404" date="" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
+		<event xml:id="SPO404" date="Do, 05.12.2024 18:00" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
 			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
 			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" />
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
