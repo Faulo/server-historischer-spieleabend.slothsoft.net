@@ -1230,6 +1230,13 @@
 			<game name="Sonic Lost World" from="2013" by="Sonic Team" on="WiiU" country="JP" />
 			<game name="Sonic Boom: Rise of Lyric" from="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
 		</event>
+		<event xml:id="BIZ505" date="" theme="Sonic Reminiscence" type="series" gfx="" moderator="Tom">
+			<game name="Sonic Mania" from="2017" by="Christian Whitehead" on="PS4/XboxOne/Switch/PC/iOS/Android" country="AU" />
+			<game name="Sonic Forces" from="2017" by="Sonic Team" on="PS4/XboxOne/Switch/PC" country="JP" />
+			<game name="Sonic Frontiers" from="2022" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
+			<game name="Sonic Superstars" from="2023" by="Arzest" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
+			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
