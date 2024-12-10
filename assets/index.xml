@@ -64,6 +64,7 @@
 			<subtrack name="VIPs" />
 			<subtrack name="Countries" />
 			<subtrack name="Miscellaneous" />
+			<subtrack name="IPs" />
 		</track>
 	</tracks>
 
@@ -1200,6 +1201,13 @@
 			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
+		</event>
+		<event xml:id="BIZ501" date="" theme="Sonic Revelation" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
+			<game name="Sonic the Hedgehog 2" from="1992" by="Sega" on="Sega Mega Drive" country="US" />
+			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
 		</event>
 	</future>
 	<unfinished>
