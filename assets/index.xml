@@ -1223,6 +1223,13 @@
 			<game name="Sonic Unleashed" from="2008" by="Sonic Team" on="PS3/Xbox360" country="JP" />
 			<game name="Sonic and the Black Knight" from="2009" by="Sonic Team" on="Wii" country="JP" />
 		</event>
+		<event xml:id="BIZ504" date="" theme="Sonic Renaissance" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog 4: Episode I" from="2010" by="Dimps" on="PS3/Xbox360/Wii/PC/iOS/Android" country="JP" />
+			<game name="Sonic Colors" from="2010" by="Sonic Team" on="Wii" country="JP" />
+			<game name="Sonic Generations" from="2011" by="Sonic Team" on="PS3/Xbox360/PC" country="JP" />
+			<game name="Sonic Lost World" from="2013" by="Sonic Team" on="WiiU" country="JP" />
+			<game name="Sonic Boom: Rise of Lyric" from="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
