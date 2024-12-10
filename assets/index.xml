@@ -1216,6 +1216,13 @@
 			<game name="Sonic Rush" from="2005" by="Dimps" on="NDS" country="JP" />
 			<game name="Shadow the Hedgehog" from="2005" by="Sega Studio USA" on="PS2/Xbox/GCN" country="US" />
 		</event>
+		<event xml:id="BIZ503" date="" theme="Sonic Resurrection" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog" from="2006" by="Sonic Team" on="PS3/Xbox360" country="JP" />
+			<game name="Sonic Rivals" from="2006" by="Backbone Entertainment" on="PSP" country="US" />
+			<game name="Sonic and the Secret Rings" from="2007" by="Sonic Team" on="Wii" country="JP" />
+			<game name="Sonic Unleashed" from="2008" by="Sonic Team" on="PS3/Xbox360" country="JP" />
+			<game name="Sonic and the Black Knight" from="2009" by="Sonic Team" on="Wii" country="JP" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
