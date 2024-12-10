@@ -1209,6 +1209,13 @@
 			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
 		</event>
+		<event xml:id="BIZ502" date="" theme="Sonic Rejuvenation" type="series" gfx="" moderator="Tom">
+			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
+			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
+			<game name="Sonic Heroes" from="2003" by="Sonic Team USA" on="PS2/Xbox/GCN/PC" country="US" />
+			<game name="Sonic Rush" from="2005" by="Dimps" on="NDS" country="JP" />
+			<game name="Shadow the Hedgehog" from="2005" by="Sega Studio USA" on="PS2/Xbox/GCN" country="US" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
