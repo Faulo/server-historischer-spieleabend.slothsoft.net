@@ -6,35 +6,29 @@ pipeline {
 		stage('Load environment') {
 			steps {
 				script {
-					stage ('Pull image') {
-						sh "docker image pull faulo/farah:8.3"
+					stage ('Pull base image') {
+						callShell "docker image pull faulo/farah:8.3"
+					}
+					stage('Build custom image') {
+						callShell "docker-compose build"
 					}
 					stage ('Run tests') {
-						docker.image("faulo/farah:8.3").inside {
-							sh 'composer update --no-interaction'
+						docker.image("faulo/historischer-spieleabend:latest").inside {
+							callShell 'composer install --no-interaction'
 
 							try {
-								sh 'composer exec phpunit -- --log-junit report.xml'
+								callShell 'composer exec phpunit -- --log-junit report.xml'
 							} catch(e) {
 								currentBuild.result = "UNSTABLE"
 							}
 
 							junit 'report.xml'
-							stash name:'lock', includes:'composer.lock'
+							// stash name:'lock', includes:'composer.lock'
 						}
 					}
-					stage ('Deploy stack') {
-						dir("/var/vhosts/historischer-spieleabend") {
-							checkout scm
-							unstash 'lock'
-
-							sh "mkdir -p assets src html data log"
-							sh "chmod 777 . assets src html data log"
-
-							def service = "historischer-spieleabend_historischer-spieleabend"
-							sh "docker stack deploy historischer-spieleabend --detach=true --prune --resolve-image=never -c=docker-compose.yml"
-							sh "docker service update --force " + service
-						}
+					stage ('Deploy container') {
+						// unstash 'lock'
+                        callShell "docker-compose up --detach --no-build"
 					}
 				}
 			}

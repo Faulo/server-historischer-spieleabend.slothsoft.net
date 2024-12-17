@@ -1,7 +1,6 @@
-FROM faulo/farah:test
+ARG PHP_VERSION=8.0
+FROM faulo/farah:${PHP_VERSION}
 
-RUN Remove-Item -Recurse -Force C:/www/*
+COPY . ${WORKDIR}
 
-COPY . C:/www
-
-RUN composer -d C:/www install --no-interaction --no-dev --optimize-autoloader --classmap-authoritative
+RUN composer update --no-interaction --no-dev --optimize-autoloader --classmap-authoritative
