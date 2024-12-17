@@ -68,15 +68,23 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS709" date="Do, 19.12.2024 18:00" theme="Winter Games" type="genre" gfx="ssx.png" moderator="Kadda, Daniel, Gregor">
+			<game name="Ice Climber" from="1985" by="Nintendo R&amp;D1" on="NES" country="JP" wanted="Gregor" />
+			<game name="Winter Games" from="1985" by="Epyx" on="C64" country="US" wanted="Kadda" />
+			<game name="Fire and Ice: The Daring Adventures of Cool Coyote" from="1992" by="Graftgold" on="Amiga" country="US" wanted="Daniel" />
+			<game name="SSX Tricky" from="2001" by="EA Canada" on="GCN" country="CA" wanted="Daniel" />
+			<game name="The Long Dark" from="2017" by="Hinterland Studio" on="Windows" country="US" wanted="Gregor" />
+			<game name="Hitman: Holiday Hoarders" from="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="SPO404" date="Do, 05.12.2024 18:00" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
 			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" wanted="Daniel" />
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
 			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
 			<game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="STR403" date="Do, 21.11.2024 18:00" theme="Themepark-Spiele" type="genre" moderator="Tom" gfx="rct2.webp">
 			<game name="Theme Park" from="1994" by="Bullfrog Productions" on="Windows" country="US" />
 			<game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
