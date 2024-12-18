@@ -4,4 +4,4 @@ services:
             context: .
             args:
                 PHP_VERSION: ${PHP_VERSION}
-        image: slothsoft/historischer-spieleabend:latest
+        image: tmp/historischer-spieleabend:latest

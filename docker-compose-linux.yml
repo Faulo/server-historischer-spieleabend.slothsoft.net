@@ -1,6 +1,6 @@
 services:
     farah:
-        image: slothsoft/historischer-spieleabend:latest
+        image: tmp/historischer-spieleabend:latest
         volumes:
             - data:/var/www/data
         networks:
