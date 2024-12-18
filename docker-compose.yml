@@ -1,7 +1,9 @@
 services:
     historischer-spieleabend:
-        build: 
+        build:
             context: .
+            args:
+                PHP_VERSION: ${PHP_VERSION}
         image: slothsoft/historischer-spieleabend:latest
         volumes:
             - data:./data
