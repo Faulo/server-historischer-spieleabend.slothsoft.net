@@ -13,7 +13,7 @@ pipeline {
 						callShell "docker compose build"
 					}
 					stage ('Run tests') {
-						docker.image("faulo/historischer-spieleabend:latest").inside {
+						docker.image("slothsoft/historischer-spieleabend:latest").inside {
 							callShell 'composer install --no-interaction'
 
 							try {

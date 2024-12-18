@@ -2,7 +2,7 @@ services:
     historischer-spieleabend:
         build: 
             context: .
-        image: historischer-spieleabend:latest
+        image: slothsoft/historischer-spieleabend:latest
         volumes:
             - data:./data
         networks:
