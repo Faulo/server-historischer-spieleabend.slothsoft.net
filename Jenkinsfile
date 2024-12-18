@@ -10,7 +10,7 @@ pipeline {
 						callShell "docker image pull faulo/farah:8.3"
 					}
 					stage('Build custom image') {
-						callShell "docker-compose build"
+						callShell "docker compose build"
 					}
 					stage ('Run tests') {
 						docker.image("faulo/historischer-spieleabend:latest").inside {
@@ -28,7 +28,7 @@ pipeline {
 					}
 					stage ('Deploy container') {
 						// unstash 'lock'
-                        callShell "docker-compose up --detach --no-build"
+                        callShell "docker compose up --detach --no-build"
 					}
 				}
 			}
