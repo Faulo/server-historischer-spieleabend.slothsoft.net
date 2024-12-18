@@ -1,7 +1,8 @@
 services:
     farah:
-        image: tmp/historischer-spieleabend:latest
+        image: faulo/farah:8.3
         volumes:
+            - .:/var/www
             - data:/var/www/data
         networks:
             - vhosts_default
