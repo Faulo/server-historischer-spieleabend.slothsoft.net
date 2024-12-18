@@ -25,12 +25,8 @@ pipeline {
 							}
 						}
 						stage ('Deploy container') {
-							dir("/var/vhosts/${STACK_NAME}") {
-								unstash 'docker'
-
-								callShell "docker stack deploy ${STACK_NAME} --detach=true --prune --resolve-image=never -c=docker-compose-linux.yml"
-								callShell "docker service update --force ${STACK_NAME}_${STACK_NAME}"
-							}
+							callShell "docker stack deploy ${STACK_NAME} --detach=true --prune --resolve-image=never -c=docker-compose-linux.yml"
+							callShell "docker service update --force ${STACK_NAME}_${STACK_NAME}"
 						}
 					}
 				}
