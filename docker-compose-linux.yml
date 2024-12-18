@@ -1,5 +1,5 @@
 services:
-    farah:
+    historischer-spieleabend:
         image: tmp/historischer-spieleabend:latest
         volumes:
             - data:/var/www/data

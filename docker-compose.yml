@@ -1,5 +1,5 @@
 services:
-    farah:
+    historischer-spieleabend:
         build:
             context: .
             args:
