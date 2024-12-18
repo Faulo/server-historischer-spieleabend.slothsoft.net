@@ -3,6 +3,9 @@ services:
         image: tmp/historischer-spieleabend:latest
         volumes:
             - data:C:/www/data
+        ports:
+            - 80:80
+            - 443:443
         deploy:
             mode: global
             restart_policy:
@@ -10,9 +13,6 @@ services:
                 delay: 5s
                 max_attempts: 3
                 window: 120s
-        ports:
-            - 80:80
-            - 443:443
 volumes:
     data:
                 
