@@ -26,15 +26,9 @@ pipeline {
 						}
 						stage ('Deploy container') {
 							dir("/var/vhosts/${STACK_NAME}") {
-								//unstash 'docker'
-
-								checkout scm
-
-								sh "mkdir -p assets src html data log"
-								sh "chmod 777 . assets src html data log"
-
-								callShell "docker stack deploy ${STACK_NAME} --detach=true --prune --resolve-image=never -c=docker-compose-linux.yml"
-								callShell "docker service update --force ${STACK_NAME}_farah"
+								unstash 'docker'
+								//callShell "docker stack deploy ${STACK_NAME} --detach=true --prune --resolve-image=never -c=docker-compose-linux.yml"
+								//callShell "docker service update --force ${STACK_NAME}_farah"
 							}
 						}
 					}
