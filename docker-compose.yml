@@ -6,7 +6,7 @@ services:
                 PHP_VERSION: ${PHP_VERSION}
         image: slothsoft/historischer-spieleabend:latest
         volumes:
-            - data:$WORKDIR_LINUX/data
+            - data:${WORKDIR}/data
         networks:
             - vhosts_default
 volumes:

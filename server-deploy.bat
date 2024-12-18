@@ -8,6 +8,6 @@ call composer update
 if exist "sandbox" (
     cd sandbox
 )
-call docker stack deploy %STACK_NAME% --detach=true --prune --resolve-image=always -c=docker-compose-windows.yml
-call docker service update --force %STACK_NAME%_%STACK_NAME%
+SET WORKDIR=C:/www
+call docker compose up --detach --build
 endlocal
