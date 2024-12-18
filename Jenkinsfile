@@ -2,18 +2,18 @@ pipeline {
 	agent {
 		label 'backend && mörkö'
 	}
+	environment {
+		SERVICE = 'historischer-spieleabend'
+	}
 	stages {
 		stage('Load environment') {
 			steps {
 				script {
-					stage ('Pull base image') {
-						callShell "docker image pull faulo/farah:8.3"
-					}
 					stage('Build custom image') {
-						callShell "docker compose build"
+						callShell "docker compose build --pull"
 					}
 					stage ('Run tests') {
-						docker.image("slothsoft/historischer-spieleabend:latest").inside {
+						docker.image("slothsoft/$SERVICE:latest").inside {
 							callShell 'composer install --no-interaction'
 
 							try {
@@ -27,8 +27,8 @@ pipeline {
 						}
 					}
 					stage ('Deploy container') {
-						// unstash 'lock'
-                        callShell "docker compose up --detach --no-build"
+						callShell "docker stack deploy ${SERVICE} --detach=true --prune --resolve-image=never -c=docker-compose-linux.yml"
+						callShell "docker service update --force ${SERVICE}_farah"
 					}
 				}
 			}

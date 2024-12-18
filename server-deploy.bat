@@ -8,6 +8,5 @@ call composer update
 if exist "sandbox" (
     cd sandbox
 )
-SET WORKDIR=C:/www
-call docker compose up --detach --build
+call docker compose up --detach --build -f docker-compose-windows.yml
 endlocal

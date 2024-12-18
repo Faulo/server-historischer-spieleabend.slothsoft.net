@@ -2,7 +2,9 @@ services:
     farah:
         image: slothsoft/historischer-spieleabend:latest
         volumes:
-            - data:C:/www/data
+            - data:/var/www/data
+        networks:
+            - vhosts_default
         deploy:
             mode: global
             restart_policy:
@@ -10,9 +12,8 @@ services:
                 delay: 5s
                 max_attempts: 3
                 window: 120s
-        ports:
-            - 80:80
-            - 443:443
 volumes:
     data:
-                
+networks:
+    vhosts_default:
+        external: true

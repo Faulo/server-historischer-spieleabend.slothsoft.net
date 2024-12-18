@@ -5,12 +5,3 @@ services:
             args:
                 PHP_VERSION: ${PHP_VERSION}
         image: slothsoft/historischer-spieleabend:latest
-        volumes:
-            - data:${WORKDIR}/data
-        networks:
-            - vhosts_default
-volumes:
-    data:
-networks:
-    vhosts_default:
-        external: true
