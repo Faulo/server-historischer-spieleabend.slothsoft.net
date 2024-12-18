@@ -9,7 +9,7 @@ pipeline {
 					withEnv(readFile('.env').split('\n') as List) {
 						stage('Build image') {
 							callShell "docker compose build --pull"
-							stash name: 'docker', includes: 'docker-compose-linux.yml,.env'
+							stash name: 'docker', includes: '*'
 						}
 						stage ('Run tests') {
 							docker.image("tmp/${STACK_NAME}:latest").inside {
