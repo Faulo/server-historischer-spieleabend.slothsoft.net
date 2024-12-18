@@ -7,6 +7,8 @@ services:
             - data:./data
         networks:
             - vhosts_default
+volumes:
+    data:
 networks:
     vhosts_default:
         external: true
