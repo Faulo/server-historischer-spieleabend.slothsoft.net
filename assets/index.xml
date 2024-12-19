@@ -71,7 +71,7 @@
 		<event xml:id="MIS709" date="Do, 19.12.2024 18:00" theme="Winter Games" type="genre" gfx="ssx.png" moderator="Kadda, Daniel, Gregor">
 			<game name="Ice Climber" from="1985" by="Nintendo R&amp;D1" on="NES" country="JP" wanted="Gregor" />
 			<game name="Winter Games" from="1985" by="Epyx" on="C64" country="US" wanted="Kadda" />
-			<game name="Fire and Ice: The Daring Adventures of Cool Coyote" from="1992" by="Graftgold" on="Amiga" country="US" wanted="Daniel" />
+			<game name="Fire and Ice: The Daring Adventures of Cool Coyote" from="1992" by="Graftgold" on="Amiga" country="GB" wanted="Daniel" />
 			<game name="SSX Tricky" from="2001" by="EA Canada" on="GCN" country="CA" wanted="Daniel" />
 			<game name="The Long Dark" from="2017" by="Hinterland Studio" on="Windows" country="US" wanted="Gregor" />
 			<game name="Hitman: Holiday Hoarders" from="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
