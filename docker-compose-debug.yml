@@ -1,0 +1,10 @@
+services:
+    historischer-spieleabend:
+        image: faulo/farah:8.3
+        volumes:
+            - .:/var/www
+        ports:
+            - 80:80
+            - 443:443
+volumes:
+    data:
