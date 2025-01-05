@@ -68,6 +68,14 @@
 	</tracks>
 
 	<present>
+		<event xml:id="STR108" date="Do, 02.01.2025 18:00" theme="Feudal Strategy Games" type="genre" moderator="Daniel" rerun="STR101" gfx="defender.png">
+			<game name="Defender of the Crown" from="1986" by="Cinemaware" on="Amiga" country="GB" manual="Defender of the Crown (1986, Cinemaware)" />
+			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
+			<game name="Mount &amp; Blade" from="2008" by="TaleWorlds Entertainment" on="Windows" country="TR" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS709" date="Do, 19.12.2024 18:00" theme="Winter Games" type="genre" gfx="ssx.png" moderator="Kadda, Daniel, Gregor">
 			<game name="Ice Climber" from="1985" by="Nintendo R&amp;D1" on="NES" country="JP" wanted="Gregor" />
 			<game name="Winter Games" from="1985" by="Epyx" on="C64" country="US" wanted="Kadda" />
@@ -76,9 +84,6 @@
 			<game name="The Long Dark" from="2017" by="Hinterland Studio" on="Windows" country="US" wanted="Gregor" />
 			<game name="Hitman: Holiday Hoarders" from="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="SPO404" date="Do, 05.12.2024 18:00" theme="Fun Racer" type="genre" gfx="mariokart.gif" rerun="SPO402" moderator="Leo">
 			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" wanted="Daniel" />
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
