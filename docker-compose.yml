@@ -1,7 +1,0 @@
-services:
-    historischer-spieleabend:
-        build:
-            context: .
-            args:
-                PHP_VERSION: ${PHP_VERSION}
-        image: tmp/historischer-spieleabend:latest
