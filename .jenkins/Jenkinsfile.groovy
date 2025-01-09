@@ -7,6 +7,8 @@ pipeline {
 			steps {
 				script {
 					withEnv(readFile('.env').split('\n') as List) {
+						env.DOCKER_IMAGE = "tmp/${STACK_NAME}:latest"
+
 						stage('Setup dependencies') {
 							callShell "docker pull faulo/farah:${PHP_VERSION}"
 
@@ -14,10 +16,10 @@ pipeline {
 							env.DOCKER_WORKDIR = callShellStdout 'docker image inspect faulo/farah:${PHP_VERSION} --format={{.Config.WorkingDir}}'
 						}
 						stage('Build image') {
-							callShell "docker compose -f .jenkins/docker-compose-build.yml build"
+							callShell "docker build -t ${DOCKER_IMAGE} --build-arg PHP_VERSION=${PHP_VERSION} ."
 						}
 						stage ('Run tests') {
-							docker.image("tmp/${STACK_NAME}:latest").inside {
+							docker.image(env.DOCKER_IMAGE).inside {
 								callShell 'composer install --no-interaction'
 
 								try {
@@ -31,7 +33,7 @@ pipeline {
 						}
 						stage ('Deploy container') {
 							callShell "docker stack deploy ${STACK_NAME} --detach=false --prune --resolve-image=never -c=.jenkins/docker-compose-${DOCKER_OS_TYPE}.yml"
-							callShell "docker service update --force ${STACK_NAME}_frontend"
+							callShell "docker service update --image ${DOCKER_IMAGE} --detach=false ${STACK_NAME}_frontend"
 						}
 					}
 				}

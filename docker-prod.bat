@@ -5,6 +5,6 @@ findstr /C:"127.0.0.1 %STACK_NAME%" C:\Windows\System32\drivers\etc\hosts >nul 2
 if %ERRORLEVEL% NEQ 0 (
     echo 127.0.0.1 %STACK_NAME% >> C:\Windows\System32\drivers\etc\hosts
 )
-call composer -d .. update
-call docker compose up --detach --build -f docker-compose-windows.yml
+call docker build -t tmp/%STACK_NAME%:latest --build-arg PHP_VERSION=%PHP_VERSION% .
+start "Production Server" docker compose --file=.jenkins/docker-compose-%DOCKER_OS_TYPE%.yml up
 endlocal

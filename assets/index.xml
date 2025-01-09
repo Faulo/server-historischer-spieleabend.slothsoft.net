@@ -68,14 +68,21 @@
 	</tracks>
 
 	<present>
+		<event xml:id="ACT305" date="Do, 02.01.2025 18:00" theme="Deadly Premonition" type="longplay" moderator="Enrico" gfx="deadly-premonition.jpg">
+			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
+			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
+		</event>
+		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
+			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="STR108" date="Do, 02.01.2025 18:00" theme="Feudal Strategy Games" type="genre" moderator="Daniel" rerun="STR101" gfx="defender.png">
 			<game name="Defender of the Crown" from="1986" by="Cinemaware" on="Amiga" country="GB" manual="Defender of the Crown (1986, Cinemaware)" />
 			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
 			<game name="Mount &amp; Blade" from="2008" by="TaleWorlds Entertainment" on="Windows" country="TR" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS709" date="Do, 19.12.2024 18:00" theme="Winter Games" type="genre" gfx="ssx.png" moderator="Kadda, Daniel, Gregor">
 			<game name="Ice Climber" from="1985" by="Nintendo R&amp;D1" on="NES" country="JP" wanted="Gregor" />
 			<game name="Winter Games" from="1985" by="Epyx" on="C64" country="US" wanted="Kadda" />
@@ -1166,10 +1173,6 @@
 			<game name="Yu-Gi-Oh! 5D's Tag Force 4" from="2009" by="Konami" on="PS2" country="JP" />
 			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
 			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
-		</event>
-		<event xml:id="ACT305" date="" theme="Deadly Premonition" type="longplay" moderator="Ruben" gfx="">
-			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
-			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
 		</event>
 		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
 			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
