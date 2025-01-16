@@ -1201,6 +1201,13 @@
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
 		</event>
+		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" gfx="" moderator="Tom">
+			<game name="Link: The Faces of Evil" from="1993" by="Animation Magic" on="CD-i" country="US" />
+			<game name="Hotel Mario" from="1994" by="Animation Magic" on="CD-i" country="US" />
+			<game name="I. M. Meen" from="1995" by="Animation Magic" on="MS-DOS" country="US" />
+			<game name="Pyramid Adventures Episode 1: Treasures of the Lost Pyramid" from="1996" by="Animation Magic" on="CD-i" country="US" />
+			<game name="Darby the Dragon" from="1996" by="Animation Magic" on="Windows" country="US" />
+		</event>
 	</future>
 	<unfinished>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
