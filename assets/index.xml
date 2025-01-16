@@ -64,6 +64,7 @@
 			<subtrack name="VIPs" />
 			<subtrack name="Countries" />
 			<subtrack name="Miscellaneous" />
+			<subtrack name="IPs" />
 		</track>
 	</tracks>
 
@@ -1215,6 +1216,41 @@
 			<game name="Zelda's Adventure" from="1995" by="Viridis Corporation" on="CD-i" country="US" />
 			<game name="Monty Python’s Invasion from the Planet Skyron" from="1995" by="Daedalus CD-i Productions" on="CD-i" country="GB" />
 			<game name="Nobelia" from="2022" by="TwBurn" on="CD-i" country="NL" />
+		</event>
+		<event xml:id="BIZ501" date="" theme="Sonic Revelation" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
+			<game name="Sonic the Hedgehog 2" from="1992" by="Sega" on="Sega Mega Drive" country="US" />
+			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
+		</event>
+		<event xml:id="BIZ502" date="" theme="Sonic Rejuvenation" type="series" gfx="" moderator="Tom">
+			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
+			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
+			<game name="Sonic Heroes" from="2003" by="Sonic Team USA" on="PS2/Xbox/GCN/PC" country="US" />
+			<game name="Sonic Rush" from="2005" by="Dimps" on="NDS" country="JP" />
+			<game name="Shadow the Hedgehog" from="2005" by="Sega Studio USA" on="PS2/Xbox/GCN" country="US" />
+		</event>
+		<event xml:id="BIZ503" date="" theme="Sonic Resurrection" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog" from="2006" by="Sonic Team" on="PS3/Xbox360" country="JP" />
+			<game name="Sonic Rivals" from="2006" by="Backbone Entertainment" on="PSP" country="US" />
+			<game name="Sonic and the Secret Rings" from="2007" by="Sonic Team" on="Wii" country="JP" />
+			<game name="Sonic Unleashed" from="2008" by="Sonic Team" on="PS3/Xbox360" country="JP" />
+			<game name="Sonic and the Black Knight" from="2009" by="Sonic Team" on="Wii" country="JP" />
+		</event>
+		<event xml:id="BIZ504" date="" theme="Sonic Renaissance" type="series" gfx="" moderator="Tom">
+			<game name="Sonic the Hedgehog 4: Episode I" from="2010" by="Dimps" on="PS3/Xbox360/Wii/PC/iOS/Android" country="JP" />
+			<game name="Sonic Colors" from="2010" by="Sonic Team" on="Wii" country="JP" />
+			<game name="Sonic Generations" from="2011" by="Sonic Team" on="PS3/Xbox360/PC" country="JP" />
+			<game name="Sonic Lost World" from="2013" by="Sonic Team" on="WiiU" country="JP" />
+			<game name="Sonic Boom: Rise of Lyric" from="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
+		</event>
+		<event xml:id="BIZ505" date="" theme="Sonic Reminiscence" type="series" gfx="" moderator="Tom">
+			<game name="Sonic Mania" from="2017" by="Christian Whitehead" on="PS4/XboxOne/Switch/PC/iOS/Android" country="AU" />
+			<game name="Sonic Forces" from="2017" by="Sonic Team" on="PS4/XboxOne/Switch/PC" country="JP" />
+			<game name="Sonic Frontiers" from="2022" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
+			<game name="Sonic Superstars" from="2023" by="Arzest" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
+			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 		</event>
 	</future>
 	<unfinished>
