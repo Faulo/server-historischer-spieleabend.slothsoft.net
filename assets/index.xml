@@ -1204,9 +1204,17 @@
 		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" gfx="" moderator="Tom">
 			<game name="Link: The Faces of Evil" from="1993" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Hotel Mario" from="1994" by="Animation Magic" on="CD-i" country="US" />
+			<game name="Mutant Rampage – Bodyslam" from="1994" by="Animation Magic" on="CD-i" country="US" />
 			<game name="I. M. Meen" from="1995" by="Animation Magic" on="MS-DOS" country="US" />
 			<game name="Pyramid Adventures Episode 1: Treasures of the Lost Pyramid" from="1996" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Darby the Dragon" from="1996" by="Animation Magic" on="Windows" country="US" />
+		</event>
+		<event xml:id="BIZ404" date="" theme="Philips CD-i" type="platform" gfx="" moderator="Tom">
+			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
+			<game name="The Apprentice" from="1994" by="The Vision Factory" on="CD-i" country="NL" />
+			<game name="Zelda's Adventure" from="1995" by="Viridis Corporation" on="CD-i" country="US" />
+			<game name="Monty Python’s Invasion from the Planet Skyron" from="1995" by="Daedalus CD-i Productions" on="CD-i" country="GB" />
+			<game name="Nobelia" from="2022" by="TwBurn" on="CD-i" country="NL" />
 		</event>
 	</future>
 	<unfinished>
