@@ -69,9 +69,13 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ACT305" date="Do, 02.01.2025 18:00" theme="Deadly Premonition" type="longplay" moderator="Enrico" gfx="deadly-premonition.jpg">
-			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
-			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
+		<event xml:id="MIS210" date="Do, 23.01.2025 18:00" theme="Spiritual Successors I" type="special" moderator="Daniel">
+			<game name="SimCity 2000" from="1993" by="Maxis" on="Amiga" country="US" />
+			<game name="Cities: Skylines" from="2015" by="Colossal Order" on="Windows" country="FI" />
+			<game name="Harvest Moon" from="1996" by="Amccus" on="SNES" country="JP" />
+			<game name="Stardew Valley" from="2016" by="ConcernedApe" on="Windows" country="US" />
+			<game name="Wario Land 4" from="2001" by="Nintendo R&amp;D1" on="GBA" country="JP" />
+			<game name="Pizza Tower" from="2023" by="Tour De Pizza" on="Windows" country="US" />
 		</event>
 		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
 			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
@@ -79,6 +83,10 @@
 	</present>
 
 	<past>
+		<event xml:id="ACT305" date="Do, 02.01.2025 18:00" theme="Deadly Premonition" type="longplay" moderator="Enrico" gfx="deadly-premonition.jpg">
+			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
+			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
+		</event>
 		<event xml:id="STR108" date="Do, 02.01.2025 18:00" theme="Feudal Strategy Games" type="genre" moderator="Daniel" rerun="STR101" gfx="defender.png">
 			<game name="Defender of the Crown" from="1986" by="Cinemaware" on="Amiga" country="GB" manual="Defender of the Crown (1986, Cinemaware)" />
 			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
@@ -1127,15 +1135,6 @@
 	</past>
 
 	<future>
-		<event xml:id="MIS210" date="" theme="Spiritual Successors I" type="special" moderator="Daniel">
-			<game name="SimCity 2000" from="1993" by="Maxis" on="Amiga" country="US" />
-			<game name="Cities: Skylines" from="2015" by="Colossal Order" on="Windows" country="FI" />
-			<game name="Harvest Moon" from="1996" by="Amccus" on="SNES" country="JP" />
-			<game name="Stardew Valley" from="2016" by="ConcernedApe" on="Windows" country="US" />
-			<game name="Wario Land 4" from="2001" by="Nintendo R&amp;D1" on="GBA" country="JP" />
-			<game name="Pizza Tower" from="2023" by="Tour De Pizza" on="Windows" country="US" />
-		</event>
-
 		<event xml:id="MIS303" date="" theme="Der Index" type="genre" moderator="Daniel" gfx="index.png">
 			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Wolfenstein 3D" from="1992" by="id Software" on="Windows" country="US" />
@@ -1258,7 +1257,7 @@
 			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
 			<game name="Prominence Poker" from="2016" by="Pipewors Studio" on="PS4/XboxOne/PC" country="US" />
 			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
-			<game name="Balatro" from="2024" by="LocalThunk" on="PS4/PS5/XboxSeriesX/Switch/PC/iOS/Android" country="US" />
+			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
 		</event>
 	</future>
 	<unfinished>
