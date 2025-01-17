@@ -33,7 +33,8 @@ pipeline {
 						}
 						stage ('Deploy container') {
 							callShell "docker stack deploy ${STACK_NAME} --detach=false --prune --resolve-image=never -c=.jenkins/docker-compose-${DOCKER_OS_TYPE}.yml"
-							callShell "docker service update --image ${DOCKER_IMAGE} --detach=false ${STACK_NAME}_frontend"
+							def id = callShellStdout "docker image inspect ${DOCKER_IMAGE} --format '{{ .Id }}'"
+							callShell "docker service update --image ${id} --detach=false ${STACK_NAME}_frontend"
 						}
 					}
 				}
