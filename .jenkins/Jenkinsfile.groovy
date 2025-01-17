@@ -33,8 +33,38 @@ pipeline {
 						}
 						stage ('Deploy container') {
 							callShell "docker stack deploy ${STACK_NAME} --detach=false --prune --resolve-image=never -c=.jenkins/docker-compose-${DOCKER_OS_TYPE}.yml"
-							def id = callShellStdout "docker image inspect ${DOCKER_IMAGE} --format '{{ .Id }}'"
-							callShell "docker service update --image ${id} --detach=false ${STACK_NAME}_frontend"
+
+							def services = callShellStdout("docker stack services ${STACK_NAME} --format '{{ .Name }}'").split("\n")
+
+							services.each { service ->
+								stage("Service: ${service}") {
+									def tasks = callShellStdout("docker service ps ${service} --format '{{ .ID }} {{ .CurrentState }}'")
+											.split("\n")
+											.findAll { it.contains("Running") }
+											.collect { it.split(" ")[0] }
+
+									tasks.each {  task ->
+										echo "  Task: ${task}"
+
+										def imageId = callShellStdout "docker service inspect ${service} --format '{{ .Spec.TaskTemplate.ContainerSpec.Image }}'"
+										echo "    Image: ${imageId}"
+
+										def containerId = callShellStdout "docker inspect ${task} --format '{{ .Status.ContainerStatus.ContainerID }}'"
+										echo "    Container: ${containerId}"
+
+										def currentDigest = callShellStdout "docker inspect ${containerId} --format '{{ .Image }}'"
+										echo "    Aktueller Digest: ${currentDigest}"
+
+										def expectedDigest = callShellStdout "docker image inspect ${imageId} --format '{{ .Id }}'"
+										echo "    Erwarteter Digest: ${expectedDigest}"
+
+										// Überprüfen, ob ein Update nötig ist
+										if (currentDigest != expectedDigest) {
+											callShell "docker service update --force --detach=false ${service}"
+										}
+									}
+								}
+							}
 						}
 					}
 				}
