@@ -69,6 +69,18 @@
 	</tracks>
 
 	<present>
+		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
+			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
+		</event>
+		<event xml:id="RPG212" date="Do, 13.02.2025 18:00" theme="Gotta Catch 'em All" type="genre" gfx="relaxo.jpg" moderator="Daniel">
+			<game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
+			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
+			<game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
+			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS210" date="Do, 23.01.2025 18:00" theme="Spiritual Successors I" type="special" moderator="Daniel" gfx="HarvestMoon.png">
 			<game name="SimCity 2000" from="1993" by="Maxis" on="Amiga" country="US" />
 			<game name="Cities: Skylines" from="2015" by="Colossal Order" on="Windows" country="FI" />
@@ -77,12 +89,6 @@
 			<game name="Wario Land 4" from="2001" by="Nintendo R&amp;D1" on="GBA" country="JP" />
 			<game name="Pizza Tower" from="2023" by="Tour De Pizza" on="Windows" country="US" />
 		</event>
-		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
-			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
-		</event>
-	</present>
-
-	<past>
 		<event xml:id="ACT305" date="Do, 02.01.2025 18:00" theme="Deadly Premonition" type="longplay" moderator="Enrico" gfx="deadly-premonition.jpg">
 			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
 			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
@@ -1186,12 +1192,6 @@
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
-		</event>
-		<event xml:id="RPG212" date="" theme="Gotta Catch 'em All" type="genre" gfx="" moderator="Daniel">
-			<game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
-			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
-			<game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
-			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
 		</event>
 		<event xml:id="ACT112" date="" theme="Cyberpunk through the Ages" type="genre" gfx="" moderator="Kadda">
 			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
