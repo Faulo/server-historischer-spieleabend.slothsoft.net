@@ -69,9 +69,6 @@
 	</tracks>
 
 	<present>
-		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
-			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
-		</event>
 		<event xml:id="RPG212" date="Do, 13.02.2025 18:00" theme="Gotta Catch 'em All" type="genre" gfx="relaxo.jpg" moderator="Daniel">
 			<game name="Pokémon Red/Blue" from="1996" by="Game Freak" on="GB" country="JP" />
 			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
@@ -81,6 +78,9 @@
 	</present>
 
 	<past>
+		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
+			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
+		</event>
 		<event xml:id="MIS210" date="Do, 23.01.2025 18:00" theme="Spiritual Successors I" type="special" moderator="Daniel" gfx="HarvestMoon.png">
 			<game name="SimCity 2000" from="1993" by="Maxis" on="Amiga" country="US" />
 			<game name="Cities: Skylines" from="2015" by="Colossal Order" on="Windows" country="FI" />
