@@ -69,15 +69,22 @@
 	</tracks>
 
 	<present>
+		<event xml:id="BIZ404" date="Do, 27.02.2025 18:00" theme="Philips CD-i" type="platform" gfx="blackknight.png" moderator="Tom">
+			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
+			<game name="The Apprentice" from="1994" by="The Vision Factory" on="CD-i" country="NL" />
+			<game name="Zelda's Adventure" from="1995" by="Viridis Corporation" on="CD-i" country="US" />
+			<game name="Monty Python’s Invasion from the Planet Skyron" from="1995" by="Daedalus CD-i Productions" on="CD-i" country="GB" />
+			<game name="Nobelia" from="2022" by="TwBurn" on="CD-i" country="NL" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="RPG212" date="Do, 13.02.2025 18:00" theme="Gotta Catch 'em All" type="genre" gfx="relaxo.jpg" moderator="Daniel &amp; Enrico">
 			<game name="Pokémon Blaue Edition" from="1996" by="Game Freak" on="GB" country="JP" />
 			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
 			<game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
 			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
 			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
 		</event>
@@ -1208,13 +1215,6 @@
 			<game name="I. M. Meen" from="1995" by="Animation Magic" on="MS-DOS" country="US" />
 			<game name="Pyramid Adventures Episode 1: Treasures of the Lost Pyramid" from="1996" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Darby the Dragon" from="1996" by="Animation Magic" on="Windows" country="US" />
-		</event>
-		<event xml:id="BIZ404" date="" theme="Philips CD-i" type="platform" gfx="" moderator="Tom">
-			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
-			<game name="The Apprentice" from="1994" by="The Vision Factory" on="CD-i" country="NL" />
-			<game name="Zelda's Adventure" from="1995" by="Viridis Corporation" on="CD-i" country="US" />
-			<game name="Monty Python’s Invasion from the Planet Skyron" from="1995" by="Daedalus CD-i Productions" on="CD-i" country="GB" />
-			<game name="Nobelia" from="2022" by="TwBurn" on="CD-i" country="NL" />
 		</event>
 		<event xml:id="BIZ501" date="" theme="Sonic Revelation" type="series" gfx="" moderator="Tom">
 			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
