@@ -69,6 +69,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="ACT112" date="Do, 13.03.2025 18:00" theme="Cyberpunk through the Ages" type="genre" gfx="snatcher.jpg" moderator="Kadda">
+			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
+			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
+			<game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
+			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
+			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ404" date="Do, 27.02.2025 18:00" theme="Philips CD-i" type="platform" gfx="blackknight.png" moderator="Tom">
 			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
 			<game name="The Apprentice" from="1994" by="The Vision Factory" on="CD-i" country="NL" />
@@ -76,9 +86,6 @@
 			<game name="Atlantis - The Last Resort" from="1997" by="Philips ADS" on="CD-i" country="NL" />
 			<game name="Nobelia" from="2022" by="TwBurn" on="CD-i" country="NL" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="RPG212" date="Do, 13.02.2025 18:00" theme="Gotta Catch 'em All" type="genre" gfx="relaxo.jpg" moderator="Daniel &amp; Enrico">
 			<game name="Pokémon Blaue Edition" from="1996" by="Game Freak" on="GB" country="JP" />
 			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
@@ -1200,14 +1207,6 @@
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
 		</event>
-		<event xml:id="ACT112" date="" theme="Cyberpunk through the Ages" type="genre" gfx="" moderator="Kadda">
-			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
-			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
-			<game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
-			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
-			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
-			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
-		</event>
 		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" gfx="" moderator="Tom">
 			<game name="Link: The Faces of Evil" from="1993" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Hotel Mario" from="1994" by="Animation Magic" on="CD-i" country="US" />
@@ -1412,6 +1411,7 @@
 			<game name="King's Quest VI: Heir Today, Gone Tomorrow" from="1992" by="Sierra On-Line" on="MS-DOS" country="US" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 			<game name="Wasteland" from="1988" by="Interplay Productions" on="DOS" country="US" />
+			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
 			<game name="Baten Kaitos: Eternal Wings and the Lost Ocean" from="2003" by="Monolith Soft" on="GCN" country="JP" />
