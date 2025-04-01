@@ -69,6 +69,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="BIZ501" date="Do, 03.04.2025 18:00" theme="Sonic the Hedgehog I: Sonic Revelation" type="series" gfx="sonic.webp" moderator="Tom">
+			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
+			<game name="Sonic the Hedgehog 2" from="1992" by="Sega" on="Sega Mega Drive" country="US" />
+			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="ACT112" date="Do, 13.03.2025 18:00" theme="Cyberpunk through the Ages" type="genre" gfx="snatcher.jpg" moderator="Kadda">
 			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
 			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
@@ -76,9 +86,6 @@
 			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="BIZ404" date="Do, 27.02.2025 18:00" theme="Philips CD-i" type="platform" gfx="blackknight.png" moderator="Tom">
 			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
 			<game name="The Apprentice" from="1994" by="The Vision Factory" on="CD-i" country="NL" />
@@ -1214,13 +1221,6 @@
 			<game name="I. M. Meen" from="1995" by="Animation Magic" on="MS-DOS" country="US" />
 			<game name="Pyramid Adventures Episode 1: Treasures of the Lost Pyramid" from="1996" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Darby the Dragon" from="1996" by="Animation Magic" on="Windows" country="US" />
-		</event>
-		<event xml:id="BIZ501" date="" theme="Sonic Revelation" type="series" gfx="" moderator="Tom">
-			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
-			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
-			<game name="Sonic the Hedgehog 2" from="1992" by="Sega" on="Sega Mega Drive" country="US" />
-			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
-			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
 		</event>
 		<event xml:id="BIZ502" date="" theme="Sonic Rejuvenation" type="series" gfx="" moderator="Tom">
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
