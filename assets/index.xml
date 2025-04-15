@@ -69,6 +69,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS303" date="Do, 17.04.2025 18:00" theme="Der Index" type="genre" moderator="Daniel" gfx="index.png">
+			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
+			<game name="Wolfenstein 3D" from="1992" by="id Software" on="Windows" country="US" />
+			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
+			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
+			<game name="Carmageddon II - Carpocalypse Now" from="1999" by="Stainless Games" on="Windows" country="GB" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ501" date="Do, 03.04.2025 18:00" theme="Sonic the Hedgehog I: Sonic Revelation" type="series" gfx="sonic.webp" moderator="Tom">
 			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
@@ -76,9 +86,6 @@
 			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="ACT112" date="Do, 13.03.2025 18:00" theme="Cyberpunk through the Ages" type="genre" gfx="snatcher.jpg" moderator="Kadda">
 			<game name="Snatcher" from="1988" by="Konami" on="Sega CD" country="JP" />
 			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
@@ -1162,14 +1169,6 @@
 	</past>
 
 	<future>
-		<event xml:id="MIS303" date="" theme="Der Index" type="genre" moderator="Daniel" gfx="index.png">
-			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
-			<game name="Wolfenstein 3D" from="1992" by="id Software" on="Windows" country="US" />
-			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
-			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
-			<game name="Carmageddon II - Carpocalypse Now" from="1999" by="Stainless Games" on="Windows" country="GB" />
-		</event>
-
 		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
