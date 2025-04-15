@@ -69,7 +69,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="MIS303" date="Do, 17.04.2025 18:00" theme="Der Index" type="genre" moderator="Daniel" gfx="index.png">
+		<event xml:id="MIS303" date="Do, 17.04.2025 18:00" theme="Der Index" type="genre" moderator="Daniel" gfx="CannonFodder.png">
 			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Wolfenstein 3D" from="1992" by="id Software" on="Windows" country="US" />
 			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
