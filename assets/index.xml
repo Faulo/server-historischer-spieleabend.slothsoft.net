@@ -73,7 +73,7 @@
 			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
 			<game name="Carmageddon II - Carpocalypse Now" from="1999" by="Stainless Games" on="Windows" country="GB" />
-			<game name="Phantasmagoria" from="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
+			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
 		</event>
 	</present>
 
@@ -1410,7 +1410,7 @@
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 			<game name="Wasteland" from="1988" by="Interplay Productions" on="DOS" country="US" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
-			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
+			<game name="Phantasmagoria" from="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
 			<game name="Baten Kaitos: Eternal Wings and the Lost Ocean" from="2003" by="Monolith Soft" on="GCN" country="JP" />
