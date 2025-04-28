@@ -69,15 +69,20 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS710" date="Do, 02.05.2025 18:00" theme="Resteessen" type="special" moderator="Enrico, Kadda, Gregor" gfx="judy.png">
+			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" wanted="Enrico" />
+			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" wanted="Kadda" />
+			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" wanted="Gregor" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS303" date="Do, 17.04.2025 18:00" theme="Der Index" type="genre" moderator="Daniel" gfx="CannonFodder.png">
 			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
 			<game name="Carmageddon II - Carpocalypse Now" from="1999" by="Stainless Games" on="Windows" country="GB" />
 			<game name="Phantasmagoria: A Puzzle of Flesh" from="1996" by="Sierra On-Line" on="Windows" country="US" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="BIZ501" date="Do, 03.04.2025 18:00" theme="Sonic the Hedgehog I: Sonic Revelation" type="series" gfx="sonic.webp" moderator="Tom">
 			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
@@ -90,7 +95,6 @@
 			<game name="Shadowrun" from="1993" by="Beam Software" on="SNES" country="AU" />
 			<game name="Beneath a Steel Sky" from="1994" by="Revolution Software" on="MS-DOS" country="GB" />
 			<game name="The Nomad Soul" from="1999" by="Quantic Dream" on="Windows" country="FR" />
-			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" />
 		</event>
 		<event xml:id="BIZ404" date="Do, 27.02.2025 18:00" theme="Philips CD-i" type="platform" gfx="blackknight.png" moderator="Tom">
 			<game name="Laser Lords" from="1992" by="Spinnaker Software" on="CD-i" country="US" />
@@ -103,7 +107,6 @@
 			<game name="Pokémon Blaue Edition" from="1996" by="Game Freak" on="GB" country="JP" />
 			<game name="Monster Rancher" from="1997" by="Tecmo" on="PS1" country="JP" />
 			<game name="Dragon Quest Monsters" from="1998" by="Tose" on="GB" country="JP" />
-			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" />
 		</event>
 		<event xml:id="RPG213" date="Do, 30.01.2025 18:00" theme="Final Fantasy VII" type="loredump" moderator="Felix" gfx="ffvii.gif">
 			<game name="Final Fantasy VII" from="1997" by="Square" on="PS1" country="JP" />
@@ -1409,7 +1412,6 @@
 			<game name="King's Quest VI: Heir Today, Gone Tomorrow" from="1992" by="Sierra On-Line" on="MS-DOS" country="US" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 			<game name="Wasteland" from="1988" by="Interplay Productions" on="DOS" country="US" />
-			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" />
 			<game name="Phantasmagoria" from="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
