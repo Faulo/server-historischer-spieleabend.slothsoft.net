@@ -69,7 +69,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="MIS710" date="Do, 02.05.2025 18:00" theme="Resteessen" type="special" moderator="Enrico, Kadda, Gregor" gfx="judy.png">
+		<event xml:id="MIS710" date="Fr, 02.05.2025 18:00" theme="Resteessen" type="special" moderator="Enrico, Kadda, Gregor" gfx="judy.png">
 			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" wanted="Enrico" />
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" wanted="Kadda" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" wanted="Gregor" />
