@@ -69,14 +69,26 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS106" date="Do, 15.05.2025 18:00" theme="Adware Games" type="genre" gfx="bifi.png" moderator="Daniel" rerun="MIS101">
+			<req ref="JNR101" />
+			<req ref="ADV102" />
+			<game name="Das Erbe" from="1991" by="Comad Reutlingen" on="Amiga" country="DE" />
+			<game name="Tony &amp; Friends in Kellogg's Land" from="1992" by="Factor 5" on="Amiga" country="DE" />
+			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" />
+			<game name="Bi-Fi Roll 2: Action in Hollywood" from="1994" by="The Art Department" on="Amiga" country="DE" />
+			<!--<game name="Das Telekommando!" from="1992" by="The Art Department" on="Amiga" country="DE"/> -->
+			<game name="Das Telekommando kehrt zur&#xFC;ck" from="1995" by="The Art Department" on="Amiga" country="DE" />
+			<game name="Pepsiman" from="1999" by="KID" on="PS1" country="JP" />
+			<read href="https://www.kultboy.com/pic/1301/" title="Die Digitale Verf&#xFC;hrung" author="PC Player" year="1994" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="MIS710" date="Fr, 02.05.2025 18:00" theme="Resteessen" type="special" moderator="Enrico, Kadda, Gregor" gfx="judy.png">
 			<game name="Digimon World" from="1999" by="BEC" on="PS1" country="JP" wanted="Enrico" />
 			<game name="Observer" from="2017" by="Bloober Team" on="Windows" country="PL" wanted="Kadda" />
 			<game name="Cyberpunk 2077" from="2020" by="CD Projekt RED" on="Windows" country="PL" wanted="Gregor" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS303" date="Do, 17.04.2025 18:00" theme="Der Index" type="genre" moderator="Daniel" gfx="CannonFodder.png">
 			<game name="River Raid" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Cannon Fodder" from="1993" by="Sensible Software" on="Amiga" country="GB" />
