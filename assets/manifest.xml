@@ -10,7 +10,6 @@
 
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
-		<use-document ref="/api/event" />
 		<use-document ref="/index" />
 	</directory>
 
@@ -33,7 +32,7 @@
 		<fragment name="event-backend">
 			<use-template ref="/xsl/_event-backend" />
 			<import ref="/api/default" />
-			<use-document ref="/index" />
+			<use-document ref="/api/event" />
 		</fragment>
 		<fragment name="backend">
 			<use-template ref="/xsl/_backend" />
