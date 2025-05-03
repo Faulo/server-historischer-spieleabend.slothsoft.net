@@ -16,75 +16,105 @@
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 					crossorigin="anonymous" />
+
+				<xsl:copy-of select="." />
 			</head>
-			<body>
-				<xsl:apply-templates select="$event" />
+			<body onload="Array.from(document.querySelectorAll('select')).forEach(s => s.dispatchEvent(new Event('change')));">
+				<div class="columns">
+					<xsl:apply-templates select="$event" />
+				</div>
 			</body>
 		</html>
 	</xsl:template>
 
 	<xsl:template match="event">
-		<form method="POST" action="." class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}"
-			style="width: 100%; height: 100%; margin: 0; padding: 0.5em; box-sizing: border-box;">
-			<xsl:if test="@todo">
-				<xsl:attribute name="data-todo" />
-			</xsl:if>
-			<xsl:if test="@todo">
-				<xsl:attribute name="data-unavailable" />
-			</xsl:if>
-			<p class="date">
-			    <input type="text" name="event[date]" value="{@date}" placeholder="Datum" />
-			</p>
-			<xsl:if test="@theme">
-				<h2 class="myBody header">
-					<xsl:if test="@xml:id">
-						<span class="course-id" data-course="{lio:format-name(@xml:id)}" style="text-shadow: none !important">
-							<xsl:value-of select="lio:format-name(@xml:id)" />
-							<xsl:text>:</xsl:text>
+		<article class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}">
+			<form method="POST" action=".">
+				<p class="date">
+					<input type="text" name="event[date]" value="{@date}" placeholder="Datum" />
+				</p>
+				<xsl:if test="@theme">
+					<h2 class="myBody header">
+						<xsl:if test="@xml:id">
+							<span class="course-id" data-course="{lio:format-name(@xml:id)}" style="text-shadow: none !important">
+								<xsl:value-of select="lio:format-name(@xml:id)" />
+								<xsl:text>:</xsl:text>
+							</span>
+						</xsl:if>
+						<span class="theme">
+							<input type="text" name="event[theme]" value="{@theme}" placeholder="Thema" />
 						</span>
-					</xsl:if>
-					<span class="theme">
-						<xsl:value-of select="@theme" />
-					</span>
-					<xsl:if test="@rerun">
-						<xsl:text>(RERUN)</xsl:text>
-					</xsl:if>
-				</h2>
-			</xsl:if>
+					</h2>
+					<label>
+						Rerun von:
+						<xsl:variable name="rerun" select="@rerun" />
+						<select name="event[rerun]">
+							<option></option>
+							<xsl:for-each select="//track">
+								<xsl:variable name="track" select="@xml:id" />
+								<xsl:for-each select="subtrack">
+									<xsl:variable name="subtrack" select="concat($track, position())" />
+									<optgroup label="[{$track} {position()}xx] {@name}">
+										<xsl:for-each select="//event[starts-with(@xml:id, $subtrack)]">
+											<xsl:sort select="@xml:id" />
+											<option value="{@xml:id}">
+												<xsl:if test="$rerun = @xml:id">
+													<xsl:attribute name="selected">selected</xsl:attribute>
+												</xsl:if>
+												<xsl:value-of select="concat('[', @xml:id, '] ', @theme)" />
+											</option>
+										</xsl:for-each>
+									</optgroup>
+								</xsl:for-each>
+							</xsl:for-each>
+						</select>
+					</label>
+				</xsl:if>
 
-			<div class="tabled-content">
-				<xsl:if test="@gfx">
+				<div class="tabled-content">
 					<div>
+						<select class="icon" name="event[gfx]" onchange="this.nextElementSibling.src = this.options[this.selectedIndex].dataset.src">
+							<xsl:variable name="gfx" select="@gfx" />
+							<option></option>
+							<xsl:for-each select="//sfm:fragment-info[@name = 'gfx']/*">
+								<option value="{@name}" data-src="{@href}">
+									<xsl:if test="$gfx = @name">
+										<xsl:attribute name="selected">selected</xsl:attribute>
+									</xsl:if>
+									<xsl:value-of select="@name" />
+								</option>
+							</xsl:for-each>
+						</select>
 						<img class="icon" src="/GFX/{@gfx}" />
 					</div>
-				</xsl:if>
-				<div>
-					<p class="moderator">
-						Moderator*in:
-						<input type="text" name="event[moderator]" value="{@moderator}" placeholder="Gilbert"/>
-					</p>
-					<ul class="ludography">
-						<xsl:for-each select="game">
-							<li>
-								<xsl:if test="@wanted">
-									<xsl:attribute name="data-wanted">
+					<div>
+						<p class="moderator">
+							Moderator*in:
+							<input type="text" name="event[moderator]" value="{@moderator}" placeholder="Gilbert" />
+						</p>
+						<ul class="ludography">
+							<xsl:for-each select="game">
+								<li>
+									<xsl:if test="@wanted">
+										<xsl:attribute name="data-wanted">
                                         <xsl:value-of select="@wanted" />
                                     </xsl:attribute>
-								</xsl:if>
-								<xsl:apply-templates select="." />
-							</li>
-						</xsl:for-each>
-					</ul>
-					<xsl:if test="read">
-						<p class="reading">
-							Required reading:
-							<xsl:apply-templates select="read" />
-						</p>
-					</xsl:if>
+									</xsl:if>
+									<xsl:apply-templates select="." />
+								</li>
+							</xsl:for-each>
+						</ul>
+						<xsl:if test="read">
+							<p class="reading">
+								Required reading:
+								<xsl:apply-templates select="read" />
+							</p>
+						</xsl:if>
+					</div>
 				</div>
-			</div>
-			<button type="submit">Speichern</button>
-		</form>
+				<button type="submit">Speichern</button>
+			</form>
+		</article>
 	</xsl:template>
 
 	<xsl:template match="req">

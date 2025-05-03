@@ -330,7 +330,8 @@ article {
 	font-style: italic;
 }
 
-*[data-type="series"] .theme, *[data-type="longplay"] .theme, *[data-type="loredump"] .theme {
+*[data-type="series"] .theme, *[data-type="longplay"] .theme, *[data-type="loredump"] .theme
+	{
 	font-style: italic;
 }
 
@@ -366,12 +367,21 @@ article {
 	font-size: 1.2em;
 }
 
-.icon {
+img.icon {
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
 	display: block;
 	height: 10em;
 	margin: 0 0.5em 0 0;
+}
+
+select.icon {
+	width: 12em;
+}
+
+select.icon+img.icon {
+	width: 12em;
+	height: auto;
 }
 
 .past .icon, .future .icon, .unfinished .icon {

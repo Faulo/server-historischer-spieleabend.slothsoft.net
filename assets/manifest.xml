@@ -33,6 +33,7 @@
 			<use-template ref="/xsl/_event-backend" />
 			<import ref="/api/default" />
 			<use-document ref="/api/event" />
+			<use-document ref="/gfx" />
 		</fragment>
 		<fragment name="backend">
 			<use-template ref="/xsl/_backend" />
