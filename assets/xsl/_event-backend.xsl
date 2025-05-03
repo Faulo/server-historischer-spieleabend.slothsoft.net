@@ -51,10 +51,10 @@
 						<select name="event[rerun]">
 							<option></option>
 							<xsl:for-each select="//track">
-								<xsl:variable name="track" select="@xml:id" />
+								<xsl:variable name="track" select="." />
 								<xsl:for-each select="subtrack">
-									<xsl:variable name="subtrack" select="concat($track, position())" />
-									<optgroup label="[{$track} {position()}xx] {@name}">
+									<xsl:variable name="subtrack" select="concat($track/@xml:id, position())" />
+									<optgroup label="[{$track/@xml:id} {position()}xx] {$track/@name} > {@name}">
 										<xsl:for-each select="//event[starts-with(@xml:id, $subtrack)]">
 											<xsl:sort select="@xml:id" />
 											<option value="{@xml:id}">
