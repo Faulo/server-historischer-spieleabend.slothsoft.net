@@ -28,11 +28,18 @@
 				</xsl:for-each>
 			</page>
 
-			<page name="Backend" ref="/pages/backend" status-active="" />
+			<page name="Backend" ref="/pages/backend" status-active="">
+				<page name="Event" redirect="/" status-active="">
+					<xsl:for-each select="//event[@xml:id != '']">
+						<xsl:sort select="@xml:id" />
+						<page name="{@xml:id}" ref="/pages/event-backend?name={@xml:id}" status-active="" />
+					</xsl:for-each>
+				</page>
+			</page>
 
 			<page name="logo-small.svg" ref="/logos/logo-small.svg" status-active="" />
 			<page name="logo-gil.png" ref="/logos/GIL.png" status-active="" />
-			<page name="downloads" ref="/pages/downloads" status-active=""/>
+			<page name="downloads" ref="/pages/downloads" status-active="" />
 		</domain>
 	</xsl:template>
 </xsl:stylesheet>

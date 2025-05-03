@@ -10,6 +10,7 @@
 
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
+		<use-document ref="/api/event" />
 		<use-document ref="/index" />
 	</directory>
 
@@ -26,6 +27,11 @@
 		</fragment>
 		<fragment name="event">
 			<use-template ref="/xsl/_event" />
+			<import ref="/api/default" />
+			<use-document ref="/index" />
+		</fragment>
+		<fragment name="event-backend">
+			<use-template ref="/xsl/_event-backend" />
 			<import ref="/api/default" />
 			<use-document ref="/index" />
 		</fragment>
@@ -46,5 +52,7 @@
 			<use-document ref="//slothsoft@farah/sites" name="sites" />
 			<link-stylesheet ref="/css/style" />
 		</fragment>
+		<custom-asset name="event" executable-builder="Slothsoft\Server\HistorischerSpieleabend\Assets\EventAPI"
+			parameter-filter="Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AllowAllParameterFilter" />
 	</fragment>
 </assets>
