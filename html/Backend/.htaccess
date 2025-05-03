@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Login"
+AuthType Basic
+AuthUserFile /var/www/data/.htpasswd
+Require valid-user
