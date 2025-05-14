@@ -70,7 +70,7 @@
 
 	<present>
 		<event xml:id="MIS106" date="Do, 15.05.2025 18:00" theme="Adware Games" type="genre" gfx="atlantis.png" moderator="Daniel" rerun="MIS101">
-			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/40425/abenteuer-atlantis/"/>
+			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="DOS" country="DE" href="https://www.mobygames.com/game/40425/abenteuer-atlantis/"/>
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1992" by="Factor 5" on="Amiga" country="DE"  href="https://www.mobygames.com/game/161187/tony-friends-in-kelloggs-land/"/>
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/81791/bi-fi-roll-snack-zone/"/>
 			<game name="Das Telekommando kehrt zur&#xFC;ck" from="1993" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/62853/das-telekommando-kehrt-zuruck/"/>
@@ -1179,7 +1179,7 @@
 	</past>
 
 	<future>
-		<event xml:id="MIS107" date="" theme="Bundesspiele" type="genre" gfx="bifi.png" moderator="Daniel" rerun="MIS101">
+		<event xml:id="MIS107" date="" theme="Bundesspiele" type="genre" gfx="bifi.png" moderator="Daniel">
 			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt"/>
 			<game name="Erbe 2: Das Schmutzige Erbe" from="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt"/>
 			<game name="Energie-Manager" from="1993" by="Rauser Advertainment" on="DOS" country="DE" href="https://www.mobygames.com/game/12353/energie-manager/" wanted="Bundesministerium für Wirtschaft"/>
