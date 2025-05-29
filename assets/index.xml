@@ -1270,7 +1270,7 @@
 			<game name="Sonic Superstars" from="2023" by="Arzest" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 		</event>
-		<event xml:id="STR406" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
+		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
 			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-OS" country="GB" />
 			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
 			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
@@ -1278,7 +1278,7 @@
 			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
 			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
 		</event>
-		<event xml:id="STR407" date="" theme="1000 Simulated Years: Antiquity & Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
+		<event xml:id="STR406" date="" theme="1000 Simulated Years: Antiquity & Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="PC" country="SE" />
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
@@ -1286,7 +1286,7 @@
 			<read href="https://eu4.paradoxwikis.com/Beginner%27s_guide#Total_Beginner_player's_guide" title="Total Beginner player's guide" year="2025" author="Europa Universalis IV Wiki" />
 			<game name="Europa Universalis IV" from="2013" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
-		<event xml:id="STR408" date="" theme="1000 Simulated Years: Modern Times" type="series" gfx="eu4.webp" moderator="Gregor">
+		<event xml:id="STR407" date="" theme="1000 Simulated Years: Modern Times" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="PC" country="SE" />
 			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
