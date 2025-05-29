@@ -1278,10 +1278,8 @@
 			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
 			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
 		</event>
-		<event xml:id="STR406" date="" theme="2000 Years, Simulated: Antiquity" type="series" gfx="eu4.webp" moderator="Gregor">
+		<event xml:id="STR406" date="" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="PC" country="SE" />
-		</event>
-		<event xml:id="STR407" date="" theme="2000 Years, Simulated: Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
 		<event xml:id="LAN301" date="" theme="Europa Universalis IV" type="longplay" gfx="eu4.webp" moderator="Gregor">
