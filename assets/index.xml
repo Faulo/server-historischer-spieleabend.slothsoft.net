@@ -70,15 +70,22 @@
 	</tracks>
 
 	<present>
+		<event xml:id="FPS110" date="Do, 12.06.2025 19:00" theme="Rail Shooter" type="genre" moderator="Enrico" gfx="pokemon-snap.gif">
+			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
+			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" wanted="Daniel" />
+			<game name="Time Crisis" from="1995" by="Namco" on="PS1" country="JP" wanted="" />
+			<game name="Panzer Dragoon" from="1995" by="Sega" on="Windows" country="JP" />
+			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" wanted="Daniel" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="ACT110" date="Do, 29.05.2025 18:00" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
 			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
 			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
 			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
 			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="MIS106" date="Do, 15.05.2025 18:00" theme="Adware Games" type="genre" gfx="atlantis.png" moderator="Daniel" rerun="MIS101">
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" href="https://www.mobygames.com/game/161187/tony-friends-in-kelloggs-land/" />
 			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="DOS" country="DE" href="https://www.myabandonware.com/game/abenteuer-atlantis-3cu/play-3cu" />
@@ -1220,13 +1227,6 @@
 			<game name="Yu-Gi-Oh! 5D's Tag Force 4" from="2009" by="Konami" on="PS2" country="JP" />
 			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
 			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
-		</event>
-		<event xml:id="FPS110" date="" theme="Rail Shooter" type="genre" moderator="" gfx="">
-			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
-			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" />
-			<game name="Time Crisis" from="1995" by="Namco" on="PS1" country="JP" wanted="" />
-			<game name="Panzer Dragoon" from="1995" by="Sega" on="Windows" country="JP" />
-			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" />
 		</event>
 		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
 			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
