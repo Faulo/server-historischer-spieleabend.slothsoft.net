@@ -1222,24 +1222,6 @@
 			<game name="Silent Hill - Homecoming" from="2008" by="Double Helix Games" on="Windows" country="US" />
 			<game name="Wolfenstein" from="2009" by="Raven Software" on="Windows" country="US" />
 		</event>
-
-		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="" gfx="">
-			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
-			<game name="Yu-Gi-Oh! Forbidden Memories" from="1999" by="Konami" on="PS1" country="JP" />
-			<game name="Yu-Gi-Oh! The Eternal Duelist Soul" from="2001" by="Konami" on="GBA" country="JP" />
-			<game name="Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel" from="2003" by="Konami" on="Windows" country="JP" />
-			<game name="Yu-Gi-Oh! Power of Chaos: Joey the Passion" from="2004" by="Konami" on="Windows" country="US" />
-			<game name="Yu-Gi-Oh! World Championship 2007" from="2007" by="Konami" on="NDS" country="JP" />
-			<game name="Yu-Gi-Oh! 5D's Tag Force 4" from="2009" by="Konami" on="PS2" country="JP" />
-			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
-			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
-		</event>
-		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
-			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
-			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
-			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
-			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
-		</event>
 		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" gfx="" moderator="Tom">
 			<game name="Link: The Faces of Evil" from="1993" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Hotel Mario" from="1994" by="Animation Magic" on="CD-i" country="US" />
@@ -1269,14 +1251,6 @@
 			<game name="Sonic Superstars" from="2023" by="Arzest" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 		</event>
-		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
-			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-OS" country="GB" />
-			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
-			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
-			<game name="Prominence Poker" from="2016" by="Pipewors Studio" on="PS4/XboxOne/PC" country="US" />
-			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
-			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
-		</event>
 		<event xml:id="STR406" date="" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="PC" country="SE" />
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="PC" country="SE" />
@@ -1289,8 +1263,40 @@
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="PC" country="SE" />
 			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
+		<event xml:id="MIS711" date="" theme="Grinding" type="genre" gfx="" moderator="Tom">
+			<game name="Jet Set Radio" from="2000" by="Smilebit" on="Dreamcast" country="JP" />
+			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
+			<game name="Tony Hawk: Shred" from="2010" by="Robomodo" on="Wii" country="US" />
+			<game name="Sunset Overdrive" from="2014" by="Insomniac Games" on="XboxOne/PC" country="US" />
+			<game name="Solar Ash" from="2021" by="Heart Machine" on="PS5/XboxSeriesX/Switch/PC" country="US" />
+		</event>
 	</future>
 	<unfinished>
+		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="" gfx="">
+			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
+			<game name="Yu-Gi-Oh! Forbidden Memories" from="1999" by="Konami" on="PS1" country="JP" />
+			<game name="Yu-Gi-Oh! The Eternal Duelist Soul" from="2001" by="Konami" on="GBA" country="JP" />
+			<game name="Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel" from="2003" by="Konami" on="Windows" country="JP" />
+			<game name="Yu-Gi-Oh! Power of Chaos: Joey the Passion" from="2004" by="Konami" on="Windows" country="US" />
+			<game name="Yu-Gi-Oh! World Championship 2007" from="2007" by="Konami" on="NDS" country="JP" />
+			<game name="Yu-Gi-Oh! 5D's Tag Force 4" from="2009" by="Konami" on="PS2" country="JP" />
+			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
+			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
+		</event>
+		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
+			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-OS" country="GB" />
+			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
+			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
+			<game name="Prominence Poker" from="2016" by="Pipewors Studio" on="PS4/XboxOne/PC" country="US" />
+			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
+			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
+		</event>
+		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
+			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
+			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
+			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
+		</event>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
 			<game name="Time Splitters" from="2000" by="Free Radical Design" on="PS2" country="GB" />
 			<game name="Life is Strange" from="2015" by="Dontnod" on="Windows" country="FR" />
