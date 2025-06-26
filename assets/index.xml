@@ -72,9 +72,8 @@
 	<present>
 		<event xml:id="BIZ502" date="Do, 26.06.2025 19:00" theme="Sonic Rejuvenation" type="series" gfx="sonic.webp" moderator="Tom">
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
-			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
+			<game name="Sonic Advance 2" from="2002" by="Dimps" on="GBA" country="JP" />
 			<game name="Sonic Heroes" from="2003" by="Sonic Team USA" on="PS2/Xbox/GCN/PC" country="US" />
-			<game name="Sonic Rush" from="2005" by="Dimps" on="NDS" country="JP" />
 			<game name="Shadow the Hedgehog" from="2005" by="Sega Studio USA" on="PS2/Xbox/GCN" country="US" />
 		</event>
 	</present>
