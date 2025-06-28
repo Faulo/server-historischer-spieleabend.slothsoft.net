@@ -70,6 +70,19 @@
 	</tracks>
 
 	<present>
+		<event xml:id="MIS107" date="Do, 17.07.2025 19:00" theme="Bundesspiele" type="genre" gfx="skyworker.jpg" moderator="Daniel">
+			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt" />
+			<game name="Erbe 2: Das Schmutzige Erbe" from="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt" />
+			<game name="Energie-Manager" from="1993" by="Rauser Advertainment" on="DOS" country="DE" href="https://www.mobygames.com/game/12353/energie-manager/" wanted="Bundesministerium für Wirtschaft" />
+			<game name="Skyworker" from="1994" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/28825/skyworker/" wanted="Bundesministerium für Wirtschaft" />
+			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
+			<game name="Der Rasende Reporter" from="1994" by="Silver Style" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/der-rasende-reporter" wanted="Bundespresseamt" />
+			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
+				wanted="Bundesministerium des Innern" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ502" date="Do, 26.06.2025 19:00" theme="Sonic Rejuvenation" type="series" gfx="sonic.webp" moderator="Tom">
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
 			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
@@ -77,9 +90,6 @@
 			<game name="Sonic Rush" from="2005" by="Dimps" on="NDS" country="JP" />
 			<game name="Shadow the Hedgehog" from="2005" by="Sega Studio USA" on="PS2/Xbox/GCN" country="US" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="FPS110" date="Do, 12.06.2025 19:00" theme="Rail Shooter" type="genre" moderator="Enrico" gfx="pokemon-snap.gif">
 			<game name="After Burner" from="1987" by="Sega AM2" on="Arcade" country="JP" />
 			<game name="Star Fox" from="1993" by="Nintendo EAD" on="SNES" country="JP" wanted="Daniel" />
@@ -1200,16 +1210,6 @@
 	</past>
 
 	<future>
-		<event xml:id="MIS107" date="" theme="Bundesspiele" type="genre" gfx="bifi.png" moderator="Daniel">
-			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt" />
-			<game name="Erbe 2: Das Schmutzige Erbe" from="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt" />
-			<game name="Energie-Manager" from="1993" by="Rauser Advertainment" on="DOS" country="DE" href="https://www.mobygames.com/game/12353/energie-manager/" wanted="Bundesministerium für Wirtschaft" />
-			<game name="Skyworker" from="1994" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/28825/skyworker/" wanted="Bundesministerium für Wirtschaft" />
-			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
-			<game name="Der Rasende Reporter" from="1994" by="Silver Style" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/der-rasende-reporter" wanted="Bundespresseamt" />
-			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
-				wanted="Bundesministerium des Innern" />
-		</event>
 		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
