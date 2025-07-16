@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<events>
+<events xmlns="http://schema.slothsoft.net/schema/historical-games-night">
 	<tracks>
 		<!-- Action -->
 		<track xml:id="FPS" action="5" adventure="3" strategy="1" name="First-Person Shooters" color="fcc592">
@@ -247,9 +247,9 @@
 			<game name="Job Simulator" from="2016" by="Owlchemy Labs" on="Windows" country="US" />
 		</event>
 		<event xml:id="ADV303" date="Do, 13.06.2024 19:00" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
-			<game name="Car Builder" from="Optimum Resource, Inc" by="1982" on="IBN PC" country="US" />
-			<game name="Gizmos &amp; Gadgets!" from="The Learning Company" by="1993" on="MS-DOS" country="US" />
-			<game name="Autos bauen mit Willy Werkel" from="ELD Interaktiv Produktion" by="1998" on="Windows" country="US" />
+			<game name="Car Builder" by="Optimum Resource, Inc" from="1982" on="IBN PC" country="US" />
+			<game name="Gizmos &amp; Gadgets!" by="The Learning Company" from="1993" on="MS-DOS" country="US" />
+			<game name="Autos bauen mit Willy Werkel" by="ELD Interaktiv Produktion" from="1998" on="Windows" country="US" />
 			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
 			<game name="Banjo-Kazooie: Nuts &amp; Bolts" from="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
@@ -371,13 +371,13 @@
 			<game name="Cooking Simulator" from="2019" by="Big Cheese Studio" on="Windows" country="PL" wanted="Kadda" />
 		</event>
 		<event xml:id="BIZ215" date="Fr, 04.08.2023 19:00" theme="Fumito Ueda" type="author" moderator="Kadda" rerun="ACT104" gfx="sotc.gif">
-			<read href="https://www.youtube.com/watch?v=7Nl1oHy3zlw" title="Game Masters: Fumito Ueda Interview" year="2016" author="Australian Centre for the Moving Image" />
-			<read href="https://www.youtube.com/watch?v=NLphTtVZfvw" title="The Architecture of Fumito Ueda" year="2018" author="Jacob Geller" />
-			<read href="https://www.youtube.com/watch?v=jQNeYbBiCKw" title="The Decade-Long Quest For Shadow of the Colossus’ Last Secret" year="2019" author="Jacob Geller" />
-
 			<game name="Ico" from="2001" by="Team Ico" on="PS3" country="JP" wanted="Gil" />
 			<game name="Shadow of the Colossus" from="2005" by="Team Ico" on="PS3" country="JP" wanted="Gil" />
 			<game name="The Last Guardian" from="2016" by="GenDESIGN" on="PS4" country="JP" wanted="Kadda" />
+
+			<read href="https://www.youtube.com/watch?v=7Nl1oHy3zlw" title="Game Masters: Fumito Ueda Interview" year="2016" author="Australian Centre for the Moving Image" />
+			<read href="https://www.youtube.com/watch?v=NLphTtVZfvw" title="The Architecture of Fumito Ueda" year="2018" author="Jacob Geller" />
+			<read href="https://www.youtube.com/watch?v=jQNeYbBiCKw" title="The Decade-Long Quest For Shadow of the Colossus’ Last Secret" year="2019" author="Jacob Geller" />
 		</event>
 		<event xml:id="MIS302" date="Do, 27.07.2023 19:00" theme="Games that Killed a Studio" type="special" gfx="gollum.png" moderator="Ruben">
 			<game name="The Last Express" from="1997" by="Smoking Car Productions" on="Windows" country="US" wanted="Daniel" />
@@ -500,7 +500,7 @@
 		<event xml:id="MIS602" date="Fr, 28.10.2022 19:00" theme="Ersti-Abend 2022" type="special" gfx="link.gif" moderator="Daniel">
 			<game name="Colossal Cave Adventure" from="1976" by="William Crowther" on="PDP-10" country="US" />
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
-			<game name="The Legend of Zelda" from="1986" by="Nintendo EAD" pub="Nintendo" on="NES" country="JP" />
+			<game name="The Legend of Zelda" from="1986" by="Nintendo EAD" on="NES" country="JP" />
 			<game name="Space Station Silicon Valley" from="1998" by="DMA Design" on="N64" country="GB" />
 		</event>
 		<event xml:id="RPG209" date="Do, 13.10.2022 19:00" theme="Kingdom Hearts" type="loredump" gfx="kingdomhearts.png" moderator="Tina">
@@ -658,12 +658,13 @@
 			<game name="Hades" from="2020" by="Supergiant Games" on="Windows" country="US" />
 		</event>
 		<event xml:id="BIZ212" date="So, 28.11.2021 19:00" theme="Jenova Chen &amp; Kellee Santiago" type="author" gfx="journey.png">
-			<read href="https://www.gamesindustry.biz/articles/thatgamecompanys-kellee-santiago-interview" title="thatgamecompany's Kellee Santiago" year="2010" author="Phil Elliott" />
 			<game name="Cloud" from="2005" by="USC Interactive Media Division" on="Windows" country="US" />
 			<game name="flOw" from="2006" by="thatgamecompany" on="PS3" country="US" />
 			<game name="Flower" from="2009" by="thatgamecompany" on="PS3" country="US" />
 			<game name="Journey" from="2012" by="thatgamecompany" on="PS3" country="US" />
 			<game name="Sky: Children of the Light" from="2019" by="thatgamecompany" on="Android" country="US" />
+
+			<read href="https://www.gamesindustry.biz/articles/thatgamecompanys-kellee-santiago-interview" title="thatgamecompany's Kellee Santiago" year="2010" author="Phil Elliott" />
 		</event>
 		<event xml:id="SPO302" date="Do, 11.11.2021 19:00" theme="Let's Drop the Beat" type="genre" gfx="beatsaber.gif">
 			<game name="Dance Dance Revolution: Mario Mix" from="2005" by="Konami" on="GCN" country="JP" />
@@ -684,6 +685,7 @@
 			<game name="Antichamber" from="2013" by="Demruth" on="Windows" country="AU" />
 			<game name="Manifold Garden" from="2019" by="William Chyr" on="Windows" country="US" wanted="Kadda" />
 			<game name="Game inside a game" from="2020" by="Sam Hogan" on="Windows" country="US" href="https://samhogan.itch.io/game-inside-a-game" />
+
 			<read href="https://zenorogue.medium.com/non-euclidean-geometry-and-games-fb46989320d4" title="Non-Euclidean geometry and games" year="2019" author="Zeno Rogue" />
 			<read href="https://twitter.com/ZenoRogue/status/1245367263936512001" title="Could we visualize the geometries themselves?" year="2020" author="Zeno Rogue" />
 			<read href="https://www.youtube.com/watch?v=zd_HGjH7QZo" title="Not Knot" year="2015" author="Danny" />
@@ -702,7 +704,6 @@
 			<game name="FIFA 17" from="2016" by="EA Vancouver" on="Windows" country="CA" wanted="" />
 		</event>
 		<event xml:id="MIS301" date="Do, 02.09.2021 19:00" theme="The Worst Games of All Time" type="special" gfx="superman.gif">
-			<read href="https://en.wikipedia.org/wiki/List_of_video_games_notable_for_negative_reception" title="List of video games notable for negative reception" author="Wikipedia" year="2019" />
 			<game name="E.T. the Extra-Terrestrial" from="1982" by="Atari, Inc." on="Atari2600" country="US" href="https://www.retrogames.cz/play_083-Atari2600.php" />
 			<game name="Zelda's Adventure" from="1995" by="Viridis Corporation" on="CD-i" country="US" href="https://www.vizzed.com/playonlinegames/play.php?id=74599&amp;systemEmulator=MAMEMESS" />
 			<game name="Jurassic Park: Trespasser" from="1998" by="DreamWorks Interactive" on="Windows" country="US" />
@@ -710,6 +711,8 @@
 			<game name="Unlimited Saga" from="2002" by="Square" on="PS2" country="JP" />
 			<game name="Ride to Hell: Retribution" from="2013" by="Eutechnyx" on="Windows" country="US" />
 			<game name="Aliens: Colonial Marines" from="2013" by="Gearbox Software" on="Windows" country="US" />
+
+			<read href="https://en.wikipedia.org/wiki/List_of_video_games_notable_for_negative_reception" title="List of video games notable for negative reception" author="Wikipedia" year="2019" />
 		</event>
 		<event xml:id="RPG202" date="Do, 19.08.2021 19:00" theme="Action-JRPGs" type="genre" gfx="neku.png">
 			<game name="Secret of Mana" from="1993" by="Square" on="SNES" country="JP" />
@@ -759,8 +762,8 @@
 			<game name="Hotline Miami" from="2012" by="Dennaton Games" on="Windows" country="US" />
 			<game name="Far Cry 3: Blood Dragon" from="2013" by="Ubisoft Montreal" on="Windows" country="CA" wanted="Kadda" />
 			<game name="Furi" from="2016" by="The Game Bakers" on="Windows" country="FR" wanted="MICHAEL!" />
-			<game name="Cyber Hook" from="2020" by="Blazing Stick" on="Windows" country="?" wanted="Demo" />
-			<game name="Retrowave" from="2020" by="RewindApp" on="Windows" country="?" wanted="Kadda" />
+			<game name="Cyber Hook" from="2020" by="Blazing Stick" on="Windows" country="CA" wanted="Demo" />
+			<game name="Retrowave" from="2020" by="RewindApp" on="Windows" country="FR" wanted="Kadda" />
 			<read href="https://www.youtube.com/watch?v=bS5P_LAqiVg" title="KUNG FURY" year="2015" author="LaserUnicorns" />
 		</event>
 		<event xml:id="MIS202" date="Do, 29.04.2021 19:00" theme="The Museum of Modern Art II" type="special" gfx="MoMa.jpg">
@@ -834,9 +837,10 @@
 			<game name="King of Crabs" from="2020" by="Robot Squid" on="Windows" country="GB" href="https://store.steampowered.com/app/1273710/King_of_Crabs/" />
 		</event>
 		<event xml:id="LAN202" date="So, 13.12.2020 10:00" theme="Stardew Valley" type="longplay" gfx="HarvestMoon.png">
+			<game name="Stardew Valley" from="2016" by="ConcernedApe" on="Windows" version="1.4" country="US" />
+
 			<read href="https://docs.google.com/spreadsheets/d/1d0mxbU2_uLyvpFSTAxBcbJ3kfmD5p2SjIecoL2DVLf0/edit?usp=sharing" title="Historische LAN-Party: Stardew Valley" year="2020"
 				author="Daniel Schulz" />
-			<game name="Stardew Valley" from="2016" by="ConcernedApe" on="Windows" version="1.4" country="US" />
 		</event>
 		<event xml:id="RPG104" date="03.12.2020 19:00" theme="CRPGs - &quot;Westliche&quot; Rollenspiele" type="genre" gfx="fallout.png">
 			<req ref="RPG103" />
@@ -870,11 +874,12 @@
 		</event>
 		<event xml:id="BIZ206" date="08.10.2020 18:00" theme="Warren Spector" type="author" gfx="deusex.webp">
 			<req ref="RPG102" />
-			<read href="https://www.youtube.com/watch?v=kbyTOAlhRHk" title="The Comeback of the Immersive Sim" author="Game Maker's Toolkit" year="2016" />
 			<game name="Ultima Underworld: The Stygian Abyss" from="1992" by="Blue Sky Productions" on="MS-DOS" country="US" />
 			<game name="System Shock" from="1994" by="Looking Glass Technologies" on="MS-DOS" country="US" />
 			<game name="Deus Ex" from="2000" by="Ion Storm" on="Windows" country="US" />
 			<game name="Epic Mickey" from="2010" by="Junction Point Studios" on="Wii" country="US" />
+
+			<read href="https://www.youtube.com/watch?v=kbyTOAlhRHk" title="The Comeback of the Immersive Sim" author="Game Maker's Toolkit" year="2016" />
 		</event>
 		<event xml:id="STR102" date="Do, 24.09.2020 19:00" theme="Turn-Based 4X Games" type="genre" moderator="Sven" gfx="rotk.gif">
 			<game name="Sid Meier's Civilization" from="1991" by="MicroProse" on="Amiga" country="US" />
@@ -897,7 +902,6 @@
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll 2: Action in Hollywood" from="1994" by="The Art Department" on="Amiga" country="DE" />
-			<!--<game name="Das Telekommando!" from="1992" by="The Art Department" on="Amiga" country="DE"/> -->
 			<game name="Das Telekommando kehrt zurück" from="1993" by="The Art Department" on="Amiga" country="DE" />
 			<game name="Pepsiman" from="1999" by="KID" on="PS1" country="JP" />
 			<read href="https://www.kultboy.com/pic/1301/" title="Die Digitale Verführung" author="PC Player" year="1994" />
@@ -941,9 +945,9 @@
 			<game name="XCOM: Enemy Unknown" from="2012" by="Firaxis Games" on="Windows" country="US" wanted="MICHAEL!" />
 		</event>
 		<event xml:id="LAN102" date="Do, 21.05.2020 19:00" theme="The Lord of the Rings Online" type="longplay" gfx="LOTRO.png">
+			<game name="The Lord of the Rings Online" from="2007" by="Turbine Entertainment Software" on="Windows" country="US" href="https://www.lotro.com/en/game/download" />
 			<read href="https://docs.google.com/spreadsheets/d/1fH0mMZe1jcMr_Kk4OWPBYxhmLwwqC7Uk8BgHE9Gx5LA/edit?usp=sharing" title="Historische LAN-Party: The Lord of the Rings Online" year="2020"
 				author="Daniel Schulz" />
-			<game name="The Lord of the Rings Online" from="2007" by="Turbine Entertainment Software" on="Windows" country="US" href="https://www.lotro.com/en/game/download" />
 		</event>
 		<event xml:id="JNR105" date="Do, 07.05.2020 19:00" theme="Climbing Games" type="genre" gfx="pphammer.png">
 			<game name="Space Panic" from="1980" by="Universal" on="Arcade" country="JP" />
@@ -960,7 +964,6 @@
 			<game name="Globetrotter" from="2000" by="Deadline Games" on="Windows" country="DK" wanted="Kadda" />
 		</event>
 		<event xml:id="MIS204" date="Do, 13.02.2020 19:00" theme="Classic Flash Games" type="genre" gfx="mcdonalds.png">
-			<read href="https://www.youtube.com/watch?v=eWApBAeKqVs" title="Snake in Buffering YouTube Videos" author="hpatel99k" year="2012" />
 			<game name="Grow Cube" from="2005" by="EyezMaze" on="Flash" href="http://www.eyezmaze.com/grow/cube/" />
 			<game name="The Helicopter Game" from="2018" by="seethru.co.uk" on="Flash" href="http://www.seethru.co.uk/the-helicopter-game/" />
 			<game name="N" from="2004" by="Metanet Software Inc" on="Flash" href="http://www.thewayoftheninja.org/nv2.html" />
@@ -977,6 +980,8 @@
 			<game name="Bloons TD5" from="2011" by="Kaiparasoft" on="Flash" href="https://www.kongregate.com/games/Ninjakiwi/bloons-td-5" />
 			<game name="Super Hexagon" from="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" />
 			<game name="My Friend Pedro" from="2014" by="DeadToast Entertainment" on="Flash" href="https://armorgames.com/play/15980/my-friend-pedro" />
+
+			<read href="https://www.youtube.com/watch?v=eWApBAeKqVs" title="Snake in Buffering YouTube Videos" author="hpatel99k" year="2012" />
 		</event>
 		<event xml:id="BIZ205" date="Do, 30.01.2020 19:00" theme="Amy Hennig &amp; Richard Lemarchand" type="author" gfx="uncharted.png">
 			<game name="Legacy of Kain: Soul Reaver" from="1999" by="Crystal Dynamics" on="PS1" country="US" />
@@ -1058,18 +1063,18 @@
 			<game name="Yuppie Psycho" from="2019" by="Baroque Decay" country="ES" on="Windows" />
 		</event>
 		<event xml:id="ACT102" date="Do, 12.09.2019 19:00" theme="Tomb Raider" type="series" moderator="Stefan" gfx="tomb-raider.gif">
-			<read href="https://www.youtube.com/watch?v=VutzIK3DqZE" title="Tomb Raider Analysed on PS1/Saturn/DOS/Win95" year="2016" author="Digital Foundry" />
 			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" manual="Tomb Raider (1996)" />
 			<game name="Tomb Raider III: Adventures of Lara Croft" from="1998" by="Core Design" on="PS1" country="GB" />
 			<game name="Tomb Raider: The Angel of Darkness" from="2003" by="Core Design" on="Windows" country="GB" wanted="Kadda" />
 			<game name="Tomb Raider: Legend" from="2006" by="Crystal Dynamics" on="Windows" country="US" wanted="Christian" />
 			<game name="Tomb Raider: Anniversary" from="2007" by="Crystal Dynamics" on="Windows" country="US" wanted="Christian" />
 			<game name="Tomb Raider" from="2013" by="Crystal Dynamics" on="Windows" country="US" wanted="Christian" />
+			<read href="https://www.youtube.com/watch?v=VutzIK3DqZE" title="Tomb Raider Analysed on PS1/Saturn/DOS/Win95" year="2016" author="Digital Foundry" />
 		</event>
 		<event xml:id="LAN101" date="So, 01.09.2019 14:00" theme="World of Warcraft" type="longplay" gfx="wow.jpg">
+			<game name="World of Warcraft" from="2004" by="Blizzard Entertainment" on="Windows" version="1.12.1" country="US" />
 			<read href="https://docs.google.com/spreadsheets/d/1PPB4FufcwUY8eRiK_MIC1mFsWSt7jU8oACdyz6wYA7Y/edit?usp=sharing" title="Historische LAN-Party: World of Warcraft" year="2019"
 				author="Daniel Schulz" />
-			<game name="World of Warcraft" from="2004" by="Blizzard Entertainment" on="Windows" version="1.12.1" country="US" />
 		</event>
 		<event xml:id="STR103" date="Do, 29.08.2019 19:00" theme="Rock Beats Laser Real-Time Strategy Games" type="genre" gfx="warcraft.gif">
 			<req ref="ADV301" />
@@ -1079,21 +1084,22 @@
 			<game name="Age of Empires II: The Age of Kings" from="1999" by="Ensemble Studios" on="Windows" country="US" />
 		</event>
 		<event xml:id="BIZ204" date="Do, 15.08.2019 19:00" theme="Fumito Ueda" type="author" gfx="sotc.png">
-			<read href="https://www.youtube.com/watch?v=7Nl1oHy3zlw" title="Game Masters: Fumito Ueda Interview" year="2016" author="Australian Centre for the Moving Image" />
-			<read href="https://www.youtube.com/watch?v=NLphTtVZfvw" title="The Architecture of Fumito Ueda" year="2018" author="Jacob Geller" />
-			<read href="https://www.youtube.com/watch?v=jQNeYbBiCKw" title="The Decade-Long Quest For Shadow of the Colossus’ Last Secret" year="2019" author="Jacob Geller" />
-
 			<game name="Ico" from="2001" by="SCE Japan Studio" on="PS2" country="JP" />
 			<game name="Shadow of the Colossus" from="2005" by="SCE Japan Studio" on="PS2" country="JP" />
 			<game name="The Last Guardian" from="2016" by="SIE Japan Studio" on="PS4" country="JP" wanted="Lena" />
+
+			<read href="https://www.youtube.com/watch?v=7Nl1oHy3zlw" title="Game Masters: Fumito Ueda Interview" year="2016" author="Australian Centre for the Moving Image" />
+			<read href="https://www.youtube.com/watch?v=NLphTtVZfvw" title="The Architecture of Fumito Ueda" year="2018" author="Jacob Geller" />
+			<read href="https://www.youtube.com/watch?v=jQNeYbBiCKw" title="The Decade-Long Quest For Shadow of the Colossus’ Last Secret" year="2019" author="Jacob Geller" />
 		</event>
 		<event xml:id="MIS501" date="Do, 01.08.2019 19:00" theme="Player's Choice I" type="special" gfx="playerschoice.png">
-			<read href="https://www.youtube.com/watch?v=GO3tuHqvzVQ" title="How Tony Hawk Turned Gamers into Skaters" year="2015" author="Gamespot" />
 			<game name="Donald in Maui Mallard" from="1995" by="Disney Interactive Studios" on="SNES" country="US" wanted="Kadda" />
 			<game name="Space Station Silicon Valley" from="1998" by="DMA Design" on="N64" country="GB" wanted="Daniel" />
 			<game name="Tony Hawk's Pro Skater 2" from="2000" by="Neversoft" on="Windows" country="US" wanted="MICHAEL!" />
 			<game name="Donkey Kong Country 2: Diddy's Kong Quest" from="1995" by="Rare" on="SNES" country="GB" wanted="Lena" />
 			<game name="Freelancer" from="2003" by="Digital Anvil" on="Windows" country="US" wanted="Sven" />
+
+			<read href="https://www.youtube.com/watch?v=GO3tuHqvzVQ" title="How Tony Hawk Turned Gamers into Skaters" year="2015" author="Gamespot" />
 		</event>
 		<event xml:id="BIZ203" date="So, 21.07.2019 19:00" theme="John Carmack" type="author" gfx="Hitler.gif">
 			<game name="Commander Keen in Invasion of the Vorticons" from="1990" by="id Software" on="MS-DOS" country="US" />
@@ -1105,10 +1111,11 @@
 			<read href="https://www.youtube.com/watch?v=IinYnj5CsPE" title="5 Amazing Facts You Don't Know About John Carmack" year="2016" author="GamingBolt" />
 		</event>
 		<event xml:id="ACT202" date="Do, 04.07.2019 19:00" theme="'98 Stealth Revolution" type="genre" gfx="Snake.gif">
-			<read href="https://www.youtube.com/watch?v=Iz-XTR3pwrE" title="The Year Stealth Games Got Serious" year="2019" author="Game Maker's Toolkit" />
 			<game name="Thief: The Dark Project" from="1998" by="Looking Glass Studios" on="Windows" country="US" />
 			<game name="Tenchu: Stealth Assassins" from="1998" by="Acquire" on="PS1" country="JP" />
 			<game name="Metal Gear Solid" from="1998" by="Konami" on="PS1" country="JP" />
+
+			<read href="https://www.youtube.com/watch?v=Iz-XTR3pwrE" title="The Year Stealth Games Got Serious" year="2019" author="Game Maker's Toolkit" />
 		</event>
 		<event xml:id="RPG102" date="Do, 27.06.2019 19:00" theme="Ultima" type="series" gfx="Ultima.png">
 			<req ref="RPG101" />
@@ -1131,11 +1138,11 @@
 			<game name="Rayman" from="1995" by="Ubi Pictures" on="PS1" country="FR" />
 		</event>
 		<event xml:id="ACT101" date="Do, 16.05.2019 19:00" theme="The Legend of Zelda" type="series" moderator="MICHAEL!">
-			<game name="The Legend of Zelda" from="1986" by="Nintendo EAD" pub="Nintendo" on="NES" country="JP" />
-			<game name="The Legend of Zelda: A Link to the Past" from="1991" by="Nintendo EAD" pub="Nintendo" on="SNES" country="JP" />
-			<game name="The Legend of Zelda: Ocarina of Time" from="1998" by="Nintendo EAD" pub="Nintendo" on="N64" country="JP" />
-			<game name="The Legend of Zelda: The Wind Waker" from="2002" by="Nintendo EAD" pub="Nintendo" on="GCN" country="JP" />
-			<game name="The Legend of Zelda: Breath of the Wild" from="2017" by="Nintendo EPD" pub="Nintendo" on="Switch" country="JP" wanted="Paul" />
+			<game name="The Legend of Zelda" from="1986" by="Nintendo EAD" on="NES" country="JP" />
+			<game name="The Legend of Zelda: A Link to the Past" from="1991" by="Nintendo EAD" on="SNES" country="JP" />
+			<game name="The Legend of Zelda: Ocarina of Time" from="1998" by="Nintendo EAD" on="N64" country="JP" />
+			<game name="The Legend of Zelda: The Wind Waker" from="2002" by="Nintendo EAD" on="GCN" country="JP" />
+			<game name="The Legend of Zelda: Breath of the Wild" from="2017" by="Nintendo EPD" on="Switch" country="JP" wanted="Paul" />
 		</event>
 		<event xml:id="ADV301" date="Do, 02.05.2019 19:00" theme="Real-Time Herd Puzzle Simluations" type="genre">
 			<game name="Lemmings" from="1991" by="DMA Design" on="Amiga" country="GB" />
@@ -1258,8 +1265,8 @@
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="PC" country="SE" />
 		</event>
 		<event xml:id="LAN301" date="" theme="Europa Universalis IV" type="longplay" gfx="eu4.webp" moderator="Gregor">
-			<read href="https://eu4.paradoxwikis.com/Beginner%27s_guide#Total_Beginner_player's_guide" title="Total Beginner player's guide" year="2025" author="Europa Universalis IV Wiki" />
 			<game name="Europa Universalis IV" from="2013" by="Paradox Development Studio" on="PC" country="SE" />
+			<read href="https://eu4.paradoxwikis.com/Beginner%27s_guide#Total_Beginner_player's_guide" title="Total Beginner player's guide" year="2025" author="Europa Universalis IV Wiki" />
 		</event>
 		<event xml:id="STR408" date="" theme="2000 Years, Simulated: Modern Times" type="series" gfx="eu4.webp" moderator="Gregor">
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="PC" country="SE" />
@@ -1305,9 +1312,9 @@
 			<game name="Sands of Time" from="2003" by="Ubisoft Montreal" on="PS2" country="CA" />
 		</event>
 		<event xml:id="BIZ403" date="" theme="The Weird Ones" type="special" moderator="Kadda">
-			<game name="Kuri Kuri Mix" from="FromSoftware" by="2001" on="PS2" country="JP" />
-			<game name="Sonic Chronicles: The Dark Brotherhood" from="BioWare" by="2008" on="NDS" country="CA" />
-			<game name="Space Station Silicon Valley" from="" by="" on="" country="" />
+			<game name="Kuri Kuri Mix" by="FromSoftware" from="2001" on="PS2" country="JP" />
+			<game name="Sonic Chronicles: The Dark Brotherhood" by="BioWare" from="2008" on="NDS" country="CA" />
+			<game name="Space Station Silicon Valley" from="1998" by="DMA Design" on="N64" country="GB" wanted="Daniel" />
 		</event>
 		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!" gfx="">
 			<game name="Persona 4" from="2009" by="Atlus" on="PS2" country="JP" />
@@ -1440,9 +1447,9 @@
 			<game name="BatMUD" from="1990" by="B.A.T. ry" on="Windows" country="FI" />
 			<game name="God Wars II" from="2002" by="Richard Woolcock" on="Windows" country="?" />
 			<game name="Sarah is Missing" from="2017" by="Kaigan Games" on="Android" country="MY" />
-			<game name="Simulacra" from="Kaigan Games" by="2018" on="Android" country="MY" />
+			<game name="Simulacra" from="2018" by="Kaigan Games" on="Android" country="MY" />
 			<game name="New Super Mario Bros. Wii" from="2009" by="Nintendo EAD" on="Wii" country="JP" />
-			<game name="Miegakure" from="TBA" by="MTB Design Works" on="Windows" country="US" wanted="" />
+			<game name="Miegakure" from="TBD" by="MTB Design Works" on="Windows" country="US" wanted="" />
 			<game name="Angry Birds" from="2009" by="Rovio Entertainment" on="Android" country="FI" />
 			<game name="Lifeline" from="2015" by="Three Minute Games" on="Android" country="US" />
 			<game name="Doodle Jump" from="2009" by="Lima Sky" on="Android" country="US" />
