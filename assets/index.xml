@@ -964,22 +964,22 @@
 			<game name="Globetrotter" from="2000" by="Deadline Games" on="Windows" country="DK" wanted="Kadda" />
 		</event>
 		<event xml:id="MIS204" date="Do, 13.02.2020 19:00" theme="Classic Flash Games" type="genre" gfx="mcdonalds.png">
-			<game name="Grow Cube" from="2005" by="EyezMaze" on="Flash" href="http://www.eyezmaze.com/grow/cube/" />
-			<game name="The Helicopter Game" from="2018" by="seethru.co.uk" on="Flash" href="http://www.seethru.co.uk/the-helicopter-game/" />
-			<game name="N" from="2004" by="Metanet Software Inc" on="Flash" href="http://www.thewayoftheninja.org/nv2.html" />
-			<game name="The McDonald's Video Game" from="2006" by="Molleindustria" on="Flash" href="https://www.kongregate.com/de/games/molleindustria/mcdonalds-videogame" />
-			<game name="Line Rider" from="2006" by="Boštjan Čadež" on="Flash" href="https://www.deviantart.com/fsk/art/Line-Rider-beta-40255643" />
-			<game name="Portal - The Flash Version" from="2007" by="Hen Mazolski und Ido Tal" on="Flash" href="https://portal.wecreatestuff.com/" />
-			<game name="Pandemic 2" from="2008" by="Dark Realm Studios" on="Flash" href="http://pandemic2.org/" />
-			<game name="The Worlds Hardest Game" from="2008" by="Snubby" on="Flash" href="https://armorgames.com/play/1043/the-worlds-hardest-game" />
-			<game name="Dino Run" from="2008" by="Pixel JAM Games" on="Flash" href="https://www.pixeljam.com/dinorun/index2.html" />
-			<game name="This is the Only Level" from="2009" by="jmtb02/Armor Games" on="Flash" href="https://armorgames.com/play/4309/this-is-the-only-level" />
-			<game name="Kill the Popups" from="2009" by="Rob Manuel" on="Flash" href="http://www.scuzzstuff.org/realinternetsim/" />
-			<game name="VVVVVV" from="2010" by="Terry Cavanagh" on="Flash" href="https://www.miniclip.com/games/vvvvvv/en/" />
-			<game name="Hundreds" from="2010" by="Greg Wohlwend" on="Flash" href="https://www.kongregate.com/games/aeiowu/hundreds" />
-			<game name="Bloons TD5" from="2011" by="Kaiparasoft" on="Flash" href="https://www.kongregate.com/games/Ninjakiwi/bloons-td-5" />
-			<game name="Super Hexagon" from="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" />
-			<game name="My Friend Pedro" from="2014" by="DeadToast Entertainment" on="Flash" href="https://armorgames.com/play/15980/my-friend-pedro" />
+			<game name="Grow Cube" from="2005" by="EyezMaze" on="Flash" href="http://www.eyezmaze.com/grow/cube/" country="?" />
+			<game name="The Helicopter Game" from="2018" by="seethru.co.uk" on="Flash" href="http://www.seethru.co.uk/the-helicopter-game/" country="?" />
+			<game name="N" from="2004" by="Metanet Software Inc" on="Flash" href="http://www.thewayoftheninja.org/nv2.html" country="?" />
+			<game name="The McDonald's Video Game" from="2006" by="Molleindustria" on="Flash" href="https://www.kongregate.com/de/games/molleindustria/mcdonalds-videogame" country="?" />
+			<game name="Line Rider" from="2006" by="Boštjan Čadež" on="Flash" href="https://www.deviantart.com/fsk/art/Line-Rider-beta-40255643" country="?" />
+			<game name="Portal - The Flash Version" from="2007" by="Hen Mazolski und Ido Tal" on="Flash" href="https://portal.wecreatestuff.com/" country="?" />
+			<game name="Pandemic 2" from="2008" by="Dark Realm Studios" on="Flash" href="http://pandemic2.org/" country="?" />
+			<game name="The Worlds Hardest Game" from="2008" by="Snubby" on="Flash" href="https://armorgames.com/play/1043/the-worlds-hardest-game" country="?" />
+			<game name="Dino Run" from="2008" by="Pixel JAM Games" on="Flash" href="https://www.pixeljam.com/dinorun/index2.html" country="?" />
+			<game name="This is the Only Level" from="2009" by="jmtb02/Armor Games" on="Flash" href="https://armorgames.com/play/4309/this-is-the-only-level" country="?" />
+			<game name="Kill the Popups" from="2009" by="Rob Manuel" on="Flash" href="http://www.scuzzstuff.org/realinternetsim/" country="?" />
+			<game name="VVVVVV" from="2010" by="Terry Cavanagh" on="Flash" href="https://www.miniclip.com/games/vvvvvv/en/" country="?" />
+			<game name="Hundreds" from="2010" by="Greg Wohlwend" on="Flash" href="https://www.kongregate.com/games/aeiowu/hundreds" country="?" />
+			<game name="Bloons TD5" from="2011" by="Kaiparasoft" on="Flash" href="https://www.kongregate.com/games/Ninjakiwi/bloons-td-5" country="?" />
+			<game name="Super Hexagon" from="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="?" />
+			<game name="My Friend Pedro" from="2014" by="DeadToast Entertainment" on="Flash" href="https://armorgames.com/play/15980/my-friend-pedro" country="?" />
 
 			<read href="https://www.youtube.com/watch?v=eWApBAeKqVs" title="Snake in Buffering YouTube Videos" author="hpatel99k" year="2012" />
 		</event>
@@ -1362,8 +1362,8 @@
 			<game name="Nier: Automata" from="2017" by="PlatinumGames" on="PS4" country="JP" />
 		</event>
 		<event xml:id="MIS203" date="" theme="Artsy Flash Games" type="genre" moderator="">
-			<game name="Every Day The Same Dream" from="2009" by="Molleindustria" on="Windows" href="http://www.molleindustria.org/everydaythesamedream/everydaythesamedream.html" />
-			<game name="ImmorTall" from="2010" by="Madpixelante" on="Flash" href="https://armorgames.com/play/5355/immortall" />
+			<game name="Every Day The Same Dream" from="2009" by="Molleindustria" on="Windows" href="http://www.molleindustria.org/everydaythesamedream/everydaythesamedream.html" country="?" />
+			<game name="ImmorTall" from="2010" by="Madpixelante" on="Flash" href="https://armorgames.com/play/5355/immortall" country="?" />
 		</event>
 		<event xml:id="LAN205" date="" theme="Asymmetric Multiplayer (local)" type="genre" moderator="">
 			<game name="Giants: Citizen Kabuto" from="2000" by="Planet Moon Studios" on="Windows" country="US" wanted="" />
