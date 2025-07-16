@@ -36,7 +36,7 @@ Wo? Im Games Innovation Lab im Zapf
 Wer? @<xsl:value-of select="@moderator"/> moderiert!
 Was? <xsl:value-of select="@theme"/>
 Wir spielen:
-<xsl:for-each select="game">
+<xsl:for-each select="ssh:game">
     <xsl:text>- **</xsl:text>
     <xsl:value-of select="@name"/>
     <xsl:text>** (</xsl:text>
