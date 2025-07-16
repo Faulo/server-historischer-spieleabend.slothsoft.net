@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
-	xmlns:func="http://exslt.org/functions" extension-element-prefixes="func">
+	xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
 	<xsl:variable name="LETTERS_LOWERCASE" select="'abcdefghijklmnopqrstuvwxyz'" />
 	<xsl:variable name="LETTERS_UPPERCASE" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
@@ -43,7 +43,7 @@
 		<func:result select="$likert * 48" />
 	</func:function>
 
-	<xsl:template match="event" mode="link">
+	<xsl:template match="ssh:event" mode="link">
 		<xsl:variable name="ref" select="string(@xml:id)" />
 		<a href="#{$ref}" class="id" title="{lio:lookup-name($ref)}">
 			<xsl:value-of select="lio:format-name($ref)" />
@@ -51,17 +51,17 @@
 		</a>
 	</xsl:template>
 
-	<xsl:template match="req" mode="link">
+	<xsl:template match="ssh:req" mode="link">
 		<xsl:variable name="ref" select="string(@ref)" />
 		<a href="#{$ref}" class="id" title="{lio:lookup-name($ref)}" onclick="document.querySelectorAll('h1 ~ details').forEach(d => d.open = true)">
 			<xsl:attribute name="data-prereq">
-                <xsl:if test="id($ref)/parent::future">missing</xsl:if>
+                <xsl:if test="id($ref)/parent::ssh:future">missing</xsl:if>
             </xsl:attribute>
 			<xsl:value-of select="lio:lookup-name($ref)" />
 		</a>
 	</xsl:template>
 
-	<xsl:template match="read" mode="link">
+	<xsl:template match="ssh:read" mode="link">
 		<a href="{@href}" target="_blank" rel="external">
 			<xsl:value-of select="concat(@title, ' (', @author, ', ', @year, ')')" />
 		</a>
@@ -71,7 +71,7 @@
 		<xsl:param name="ref" />
 		<xsl:variable name="id" select="substring($ref, 1, 3)" />
 		<xsl:variable name="no" select="substring($ref, 4, 3)" />
-		<xsl:variable name="name" select="//track[@xml:id=$id]/@name" />
+		<xsl:variable name="name" select="//ssh:track[@xml:id=$id]/@name" />
 
 		<func:result>
 			<xsl:value-of select="$id" />
@@ -84,8 +84,8 @@
 		<xsl:param name="ref" />
 		<xsl:variable name="id" select="substring($ref, 1, 3)" />
 		<xsl:variable name="no" select="substring($ref, 4, 3)" />
-		<xsl:variable name="track" select="//track[@xml:id=$id]" />
-		<xsl:variable name="subtrack" select="$track/subtrack[position() = substring($no, 1, 1)]" />
+		<xsl:variable name="track" select="//ssh:track[@xml:id=$id]" />
+		<xsl:variable name="subtrack" select="$track/ssh:subtrack[position() = substring($no, 1, 1)]" />
 		<func:result>
 			<xsl:value-of select="$track/@name" />
 			<xsl:text>&#160;</xsl:text>

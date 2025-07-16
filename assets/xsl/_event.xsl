@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
 	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl"
-	xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func">
+	xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
 	<xsl:import href="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" />
 
@@ -16,7 +16,7 @@
 		</svg:svg>
 	</xsl:template>
 
-	<xsl:template match="event">
+	<xsl:template match="ssh:event">
 		<main class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}"
 			style="width: 100%; height: 100%; margin: 0; padding: 0.5em; box-sizing: border-box;">
 			<xsl:if test="@todo">
@@ -61,7 +61,7 @@
 						</p>
 					</xsl:if>
 					<ul class="ludography">
-						<xsl:for-each select="game">
+						<xsl:for-each select="ssh:game">
 							<li>
 								<xsl:if test="@wanted">
 									<xsl:attribute name="data-wanted">
@@ -72,10 +72,10 @@
 							</li>
 						</xsl:for-each>
 					</ul>
-					<xsl:if test="read">
+					<xsl:if test="ssh:read">
 						<p class="reading">
 							Required reading:
-							<xsl:apply-templates select="read" />
+							<xsl:apply-templates select="ssh:read" />
 						</p>
 					</xsl:if>
 				</div>
@@ -83,17 +83,17 @@
 		</main>
 	</xsl:template>
 
-	<xsl:template match="req">
+	<xsl:template match="ssh:req">
 		<xsl:text> </xsl:text>
 		<xsl:apply-templates select="." mode="link" />
 	</xsl:template>
 
-	<xsl:template match="read">
+	<xsl:template match="ssh:read">
 		<xsl:text> </xsl:text>
 		<xsl:apply-templates select="." mode="link" />
 	</xsl:template>
 
-	<xsl:template match="game">
+	<xsl:template match="ssh:game">
 		<span class="Z3988-TODO">
 			<xsl:attribute name="title">
                 <xsl:value-of select="lio:param('ctx_ver', 'Z39.88-2004')" />
@@ -157,7 +157,7 @@
 		<xsl:text>. </xsl:text>
 	</xsl:template>
 
-	<xsl:template match="event[disabled]">
+	<xsl:template match="ssh:event[disabled]">
 		<rect x="0" y="0" width="1920" height="1080" fill="#ccc" />
 
 		<text x="50%" y="0" style="fill:red; font-size: 50px;" text-anchor="middle">
@@ -167,10 +167,10 @@
 		<text x="50%" y="50" style="fill:red; font-size: 50px;" text-anchor="middle" dominant-baseline="middle">
 			<xsl:value-of select="lio:format-name(string(@xml:id))" />
 		</text>
-		<xsl:if test="req">
+		<xsl:if test="ssh:req">
 			<p class="prereqs">
 				Prereqs:
-				<xsl:apply-templates select="req" />
+				<xsl:apply-templates select="ssh:req" />
 			</p>
 		</xsl:if>
 	</xsl:template>
