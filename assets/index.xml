@@ -70,6 +70,15 @@
 	</tracks>
 
 	<present>
+		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
+			<game name="Pitfall!" from="1982" by="Activision" on="C64" country="US" />
+			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
+			<game name="Prince of Persia" from="1989" by="Brøderbund" on="Amiga" country="US" manual="Prince of Persia (1989, Broderbund)" />
+			<game name="Mega Man 3" from="1990" by="Capcom" on="NES" country="JP" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ304" date="Do, 17.07.2025 19:00" theme="Bundesspiele" type="genre" gfx="skyworker.jpg" moderator="Daniel">
 			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt" />
 			<game name="Erbe 2: Das Schmutzige Erbe" from="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt" />
@@ -77,15 +86,9 @@
 				wanted="Bundesministerium für Wirtschaft" />
 			<game name="Skyworker" from="1994" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/28825/skyworker/" wanted="Bundesministerium für Wirtschaft" />
 			<game name="Der Rasende Reporter" from="1994" by="Silver Style" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/der-rasende-reporter" wanted="Bundespresseamt" />
-			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
-			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
-				wanted="Bundesministerium des Innern" />
 
 			<read href="https://www.umweltbundesamt.de/1991?parent=81789" title="Das UBA › Unsere Geschichte › 1991" year="2020" author="Umweltbundesamt" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="BIZ502" date="Do, 26.06.2025 19:00" theme="Sonic Rejuvenation" type="series" gfx="sonic.webp" moderator="Tom">
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
 			<game name="Sonic Advance 2" from="2002" by="Dimps" on="GBA" country="JP" />
@@ -1459,6 +1462,9 @@
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
 			<game name="Wasteland" from="1988" by="Interplay Productions" on="DOS" country="US" />
 			<game name="Phantasmagoria" from="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
+			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
+			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
+				wanted="Bundesministerium des Innern" />
 		</event>
 		<event date="" theme="JRPG Sockenkiste" type="special">
 			<game name="Baten Kaitos: Eternal Wings and the Lost Ocean" from="2003" by="Monolith Soft" on="GCN" country="JP" />
