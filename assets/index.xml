@@ -1222,6 +1222,13 @@
 	</past>
 
 	<future>
+		<event xml:id="SPO202" date="" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="">
+			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
+			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
+			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
+			<game name="Dredge" from="2023" by="Black Salt Games" on="Switch" country="NZ" />
+		</event>
+
 		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
