@@ -75,6 +75,8 @@
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
 			<game name="Prince of Persia" from="1989" by="Brøderbund" on="Amiga" country="US" manual="Prince of Persia (1989, Broderbund)" />
 			<game name="Mega Man 3" from="1990" by="Capcom" on="NES" country="JP" />
+			<game name="Super Mario Land" from="1990" by="Nintendo R&amp;D1" on="Game Boy" country="JP" />
+			<game name="DuckTales" from="1991" by="Capcom" on="Game Boy" country="JP" />
 		</event>
 	</present>
 
@@ -1500,8 +1502,6 @@
 			<game name="Second Life" from="2003" by="Linden Lab" on="Windows" country="US" />
 		</event>
 		<event theme="90 Sidescrollers Sockenkiste" type="special">
-			<game name="Super Mario Land" from="1990" by="Nintendo R&amp;D1" on="Game Boy" country="JP" />
-			<game name="DuckTales" from="1991" by="Capcom" on="Game Boy" country="JP" />
 			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Genesis" country="JP" />
 			<game name="Ecco the Dolphin" from="1992" by="Novotrade International" on="Sega Mega Drive" country="HU" />
 			<game name="Commander Keen in Aliens Ate My Baby Sitter!" from="1991" by="id Software" on="DOS" country="US" />
