@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
-	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 	<xsl:template match="/*">
 		<domain name="historischer-spieleabend.slothsoft.net" vendor="slothsoft" module="historischer-spieleabend.slothsoft.net" ref="pages/home" status-active="" status-public=""
 			sfd:languages="de-de" version="1.1">
@@ -22,7 +22,7 @@
 			</page>
 
 			<page name="Event" redirect="/" status-active="">
-				<xsl:for-each select="//event[@xml:id != '']">
+				<xsl:for-each select="//ssh:event[@xml:id != '']">
 					<xsl:sort select="@xml:id" />
 					<page name="{@xml:id}" ref="/pages/event?name={@xml:id}" status-active="" />
 				</xsl:for-each>
@@ -30,7 +30,7 @@
 
 			<page name="Backend" ref="/pages/backend" status-active="">
 				<page name="Event" redirect="/" status-active="">
-					<xsl:for-each select="//event[@xml:id != '']">
+					<xsl:for-each select="//ssh:event[@xml:id != '']">
 						<xsl:sort select="@xml:id" />
 						<page name="{@xml:id}" ref="/pages/event-backend?name={@xml:id}" status-active="" />
 					</xsl:for-each>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
 	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func">
+	xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
 	<xsl:import href="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" />
 
@@ -14,29 +14,29 @@
 				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 					integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
-				<xsl:apply-templates select="//tracks" mode="style" />
+				<xsl:apply-templates select="//ssh:tracks" mode="style" />
 
 				<!-- <xsl:copy-of select="." /> -->
 			</head>
-			<xsl:apply-templates select="//events" mode="body" />
+			<xsl:apply-templates select="//ssh:events" mode="body" />
 		</html>
 	</xsl:template>
 
-	<xsl:template match="events" mode="body">
+	<xsl:template match="ssh:events" mode="body">
 		<body>
-			<xsl:apply-templates select="tracks" mode="attributes" />
-			<xsl:apply-templates select="tracks" mode="form" />
-			<xsl:for-each select="present/event">
+			<xsl:apply-templates select="ssh:tracks" mode="attributes" />
+			<xsl:apply-templates select="ssh:tracks" mode="form" />
+			<xsl:for-each select="ssh:present/ssh:event">
 				<xsl:comment>
 Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
-:joystick:~<xsl:value-of select="position() + count(//past/event)"/>. Historische Spieleabend~:joystick:
+:joystick:~<xsl:value-of select="position() + count(//ssh:past/ssh:event)"/>. Historische Spieleabend~:joystick:
 
 Wann? Am <xsl:value-of select="@date"/>-24:00 (s.t.)
 Wo? Im Games Innovation Lab im Zapf
 Wer? @<xsl:value-of select="@moderator"/> moderiert!
 Was? <xsl:value-of select="@theme"/>
 Wir spielen:
-<xsl:for-each select="game">
+<xsl:for-each select="ssh:game">
     <xsl:text>- **</xsl:text>
     <xsl:value-of select="@name"/>
     <xsl:text>** (</xsl:text>
@@ -53,7 +53,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 </xsl:comment>
 			</xsl:for-each>
 
-			<xsl:for-each select="present/event">
+			<xsl:for-each select="ssh:present/ssh:event">
 				<div class="print poster">
 					<h1>Historischer Spieleabend</h1>
 					<h4>
@@ -69,7 +69,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</div>
 					<div class="event-right">
 						<ul class="ludography">
-							<xsl:for-each select="game">
+							<xsl:for-each select="ssh:game">
 								<li>
 									<span class="title">
 										<xsl:value-of select="@name" />
@@ -103,7 +103,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Nächster Termin
 					</summary>
 					<div class="columns">
-						<xsl:apply-templates select="present/event" />
+						<xsl:apply-templates select="ssh:present/ssh:event" />
 					</div>
 				</details>
 				<hr />
@@ -112,7 +112,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Vergangene Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="past/event" />
+						<xsl:apply-templates select="ssh:past/ssh:event" />
 					</div>
 				</details>
 				<hr />
@@ -121,7 +121,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Potentielle Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="future/event">
+						<xsl:apply-templates select="ssh:future/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
@@ -132,7 +132,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Unfertige Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="unfinished/event">
+						<xsl:apply-templates select="ssh:unfinished/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
@@ -143,7 +143,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Noch nicht einsortierte Spiele
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="unsorted/event">
+						<xsl:apply-templates select="ssh:unsorted/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
@@ -152,9 +152,9 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</body>
 	</xsl:template>
 
-	<xsl:template match="tracks" mode="style">
+	<xsl:template match="ssh:tracks" mode="style">
 		<style type="text/css">
-			<xsl:for-each select="track">
+			<xsl:for-each select="ssh:track">
 				<xsl:value-of select="concat('.event.', @xml:id, ' { background-color: #', @color, '; }
 ')" />
 
@@ -170,17 +170,17 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</style>
 	</xsl:template>
 
-	<xsl:template match="tracks" mode="attributes">
-		<xsl:for-each select="track">
+	<xsl:template match="ssh:tracks" mode="attributes">
+		<xsl:for-each select="ssh:track">
 			<xsl:attribute name="data-{@xml:id}">1</xsl:attribute>
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template match="tracks" mode="form">
+	<xsl:template match="ssh:tracks" mode="form">
 		<details class="tracks noprint">
 			<summary>Verfügbare Kurse</summary>
 			<small>(Doppelklicken um alle zu markieren)</small>
-			<xsl:for-each select="track">
+			<xsl:for-each select="ssh:track">
 				<xsl:sort select="@name" />
 				<div>
 					<label
@@ -197,7 +197,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						<xsl:value-of select="@name" />
 					</label>
 					<ul class="subtracks">
-						<xsl:for-each select="subtrack">
+						<xsl:for-each select="ssh:subtrack">
 							<li>
 								<span class="id">
 									<xsl:value-of select="concat(../@xml:id, position(), 'xx')" />
@@ -212,7 +212,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</details>
 	</xsl:template>
 
-	<xsl:template match="event">
+	<xsl:template match="ssh:event">
 		<article class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}">
 			<xsl:if test="@todo">
 				<xsl:attribute name="data-todo" />
@@ -269,7 +269,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						</p>
 					</xsl:if>
 					<ul class="ludography">
-						<xsl:for-each select="game">
+						<xsl:for-each select="ssh:game">
 							<li>
 								<xsl:if test="@wanted">
 									<xsl:attribute name="data-wanted">
@@ -280,10 +280,10 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 							</li>
 						</xsl:for-each>
 					</ul>
-					<xsl:if test="read">
+					<xsl:if test="ssh:read">
 						<p class="reading">
 							Required reading:
-							<xsl:apply-templates select="read" />
+							<xsl:apply-templates select="ssh:read" />
 						</p>
 					</xsl:if>
 				</div>
@@ -291,17 +291,17 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</article>
 	</xsl:template>
 
-	<xsl:template match="req">
+	<xsl:template match="ssh:req">
 		<xsl:text> </xsl:text>
 		<xsl:apply-templates select="." mode="link" />
 	</xsl:template>
 
-	<xsl:template match="read">
+	<xsl:template match="ssh:read">
 		<xsl:text> </xsl:text>
 		<xsl:apply-templates select="." mode="link" />
 	</xsl:template>
 
-	<xsl:template match="game">
+	<xsl:template match="ssh:game">
 		<span class="Z3988-TODO">
 			<xsl:attribute name="title">
                 <xsl:value-of select="lio:param('ctx_ver', 'Z39.88-2004')" />
