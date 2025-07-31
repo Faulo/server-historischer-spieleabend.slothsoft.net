@@ -73,8 +73,8 @@
 		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
 			<game name="Pitfall!" from="1982" by="Activision" on="C64" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
+			<game name="Mega Man 2" from="1988" by="Capcom" on="NES" country="JP" />
 			<game name="Prince of Persia" from="1989" by="Brøderbund" on="Amiga" country="US" manual="Prince of Persia (1989, Broderbund)" />
-			<game name="Mega Man 3" from="1990" by="Capcom" on="NES" country="JP" />
 			<game name="Super Mario Land" from="1990" by="Nintendo R&amp;D1" on="Game Boy" country="JP" />
 			<game name="DuckTales" from="1991" by="Capcom" on="Game Boy" country="JP" />
 		</event>
