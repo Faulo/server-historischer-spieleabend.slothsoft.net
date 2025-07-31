@@ -1224,6 +1224,29 @@
 	</past>
 
 	<future>
+		<event xml:id="BIZ405" date="" theme="Videogames Considered The Best 1: Die 70er" type="special" moderator="Kadda" gfx="">
+			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
+			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
+			<game name="Combat" from="1977" by="Atari" on="Atari 2600" country="US" />
+			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
+			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
+			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
+		</event>
+		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 2: 1980" type="special" moderator="Kadda" gfx="">
+			<game name="Adventure" from="1980" by="Atari" on="Atari 2600" country="US" />
+			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
+			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
+			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
+		</event>
+		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 3: 1981" type="special" moderator="Kadda" gfx="">
+			<game name="Centipede" from="1981" by="Atari" on="Arcade" country="US" />
+			<game name="Defender" from="1981" by="Williams Electronics" on="Arcade" country="US" />
+			<game name="Donkey Kong" from="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />
+			<game name="Frogger" from="1981" by="Konami" on="Arcade" country="JP" />
+			<game name="Galaga" from="1981" by="Namco" on="Arcade" country="JP" />
+			<game name="Tempest" from="1981" by="Atari" on="Arcade" country="US" />
+			<game name="Wizardry: Proving Grounds of the Mad Overlord" from="1981" by="Sir-Tech" on="Apple II" country="US" />
+		</event>
 		<event xml:id="SPO202" date="" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="">
 			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
