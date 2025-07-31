@@ -1238,7 +1238,7 @@
 			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
 		</event>
-		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 3: 1981" type="special" moderator="Kadda" gfx="">
+		<event xml:id="BIZ407" date="" theme="Videogames Considered The Best 3: 1981" type="special" moderator="Kadda" gfx="">
 			<game name="Centipede" from="1981" by="Atari" on="Arcade" country="US" />
 			<game name="Defender" from="1981" by="Williams Electronics" on="Arcade" country="US" />
 			<game name="Donkey Kong" from="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />
