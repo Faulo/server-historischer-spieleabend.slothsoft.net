@@ -70,7 +70,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="SPO202" date="14.08.2025" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="">
+		<event xml:id="SPO202" date="14.08.2025" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="dredge.png">
 			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
 			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
