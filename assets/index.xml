@@ -70,6 +70,16 @@
 	</tracks>
 
 	<present>
+		<event xml:id="SPO202" date="14.08.2025" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="">
+			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
+			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
+			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
+			<game name="Dredge" from="2023" by="Black Salt Games" on="Switch" country="NZ" />
+			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="" author="Siniša Pintar" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
 			<game name="Pitfall!" from="1982" by="Activision" on="Atari 2600" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
@@ -78,9 +88,6 @@
 			<game name="Super Mario Land" from="1989" by="Nintendo R&amp;D1" on="Game Boy" country="JP" />
 			<game name="DuckTales" from="1989" by="Capcom" on="NES" country="JP" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="BIZ304" date="Do, 17.07.2025 19:00" theme="Bundesspiele" type="genre" gfx="skyworker.jpg" moderator="Daniel">
 			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt" />
 			<game name="Erbe 2: Das Schmutzige Erbe" from="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt" />
@@ -1247,14 +1254,6 @@
 			<game name="Tempest" from="1981" by="Atari" on="Arcade" country="US" />
 			<game name="Wizardry: Proving Grounds of the Mad Overlord" from="1981" by="Sir-Tech" on="Apple II" country="US" />
 		</event>
-		<event xml:id="SPO202" date="" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="">
-			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
-			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
-			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
-			<game name="Dredge" from="2023" by="Black Salt Games" on="Switch" country="NZ" />
-			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="" author="Siniša Pintar" />
-		</event>
-
 		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
