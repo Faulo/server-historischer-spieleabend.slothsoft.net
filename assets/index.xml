@@ -1238,14 +1238,14 @@
 			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
 			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
 			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
-			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="" author="Wikipedia" />
+			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
 		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 2: 1980" type="special" moderator="Kadda" gfx="">
 			<game name="Adventure" from="1980" by="Atari" on="Atari 2600" country="US" />
 			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
-			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="" author="Wikipedia" />
+			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
 		<event xml:id="BIZ407" date="" theme="Videogames Considered The Best 3: 1981" type="special" moderator="Kadda" gfx="">
 			<game name="Centipede" from="1981" by="Atari" on="Arcade" country="US" />
@@ -1255,7 +1255,7 @@
 			<game name="Galaga" from="1981" by="Namco" on="Arcade" country="JP" />
 			<game name="Tempest" from="1981" by="Atari" on="Arcade" country="US" />
 			<game name="Wizardry: Proving Grounds of the Mad Overlord" from="1981" by="Sir-Tech" on="Apple II" country="US" />
-			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="" author="Wikipedia" />
+			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
 		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
