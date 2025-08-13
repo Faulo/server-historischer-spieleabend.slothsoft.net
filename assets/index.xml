@@ -75,7 +75,6 @@
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
 			<game name="Nushi Tsuri 64" from="1998" by="Pack-In-Video" on="N64" country="JP" />
 			<game name="Sega Bass Fishing" from="1999" by="Sims" on="Dreamcast" country="JP" />
-			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
 			<game name="Dredge" from="2023" by="Black Salt Games" on="Switch" country="NZ" />
 			<read href="https://www.atarimania.com/documents/Stimulating-Simulations-(Atari-Version).pdf" title="Stimulating
 			Simulations (Second Edition)" year="1979" author="C.W.Engel" />
@@ -1453,6 +1452,8 @@
 	</unfinished>
 	<unsorted>
 		<event theme="Historische Sockenkiste" type="special">
+			
+			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
 			<game name="J.B. Harold Murder Club" from="1986" by="Riverhillsoft" on="MS-DOS" country="JP" />
 			<game name="428: Shibuya Scramble" from="2008" by="Chunsoft" on="Windows" country="JP" wanted="Ruben" />
 			<game name="Steins;Gate" from="2009" by="5pb." on="Windows" country="JP" wanted="" />
