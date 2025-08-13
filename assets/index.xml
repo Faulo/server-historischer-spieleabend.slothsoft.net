@@ -70,7 +70,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="SPO202" date="14.08.2025" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="dredge.png">
+		<event xml:id="SPO202" date="14.08.2025 19:00" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="dredge.png">
 			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
 			<game name="Nushi Tsuri 64" from="1998" by="Pack-In-Video" on="N64" country="JP" />
