@@ -70,6 +70,18 @@
 	</tracks>
 
 	<present>
+		<event xml:id="BIZ405" date="" theme="Videogames Considered The Best 1: Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
+			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
+			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
+			<game name="Combat" from="1977" by="Atari" on="Atari 2600" country="US" />
+			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
+			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
+			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
+			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="SPO202" date="14.08.2025 19:00" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="dredge.png">
 			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
@@ -82,9 +94,6 @@
 			<read href="https://gamefaqs.gamespot.com/n64/576250-nushi-tsuri-64/faqs/57671#:~:text=F-2%20Preface:%20It%20should,%23%23%23%23%23%23%23" title="Nushi Tsuri 64 – Guide and Walkthrough" year="2014" author="Adam King" />
 			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="2022" author="Siniša Pintar" />
 		</event>
-	</present>
-
-	<past>
 		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
 			<game name="Pitfall!" from="1982" by="Activision" on="Atari 2600" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
@@ -1236,15 +1245,6 @@
 	</past>
 
 	<future>
-		<event xml:id="BIZ405" date="" theme="Videogames Considered The Best 1: Die 70er" type="special" moderator="Kadda" gfx="">
-			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
-			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
-			<game name="Combat" from="1977" by="Atari" on="Atari 2600" country="US" />
-			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
-			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
-			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
-			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
-		</event>
 		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 2: 1980" type="special" moderator="Kadda" gfx="">
 			<game name="Adventure" from="1980" by="Atari" on="Atari 2600" country="US" />
 			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
