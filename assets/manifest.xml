@@ -50,6 +50,12 @@
 			<import ref="/api/default" />
 			<use-document ref="/downloads" />
 		</fragment>
+		<fragment name="games">
+			<use-template ref="/xsl/_games" />
+			<import ref="/api/default" />
+			<use-document ref="/index" />
+			<link-script ref="/js/tableSorter" />
+		</fragment>
 	</fragment>
 
 	<fragment name="api">

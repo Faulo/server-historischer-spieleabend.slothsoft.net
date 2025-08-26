@@ -28,6 +28,8 @@
 				</xsl:for-each>
 			</page>
 
+			<page name="games" ref="/pages/games" status-active="" />
+
 			<page name="Backend" ref="/pages/backend" status-active="">
 				<page name="Event" redirect="/" status-active="">
 					<xsl:for-each select="//ssh:event[@xml:id != '']">

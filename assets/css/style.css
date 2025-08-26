@@ -22,6 +22,42 @@ section details details {
 	margin-left: 2em;
 }
 
+table {
+	margin: auto;
+}
+
+th, td {
+	padding: 0.125em 0.25em;
+}
+
+table ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+th[aria-sort] {
+	cursor: pointer;
+	user-select: none;
+}
+
+th[aria-sort]:focus {
+	outline: 2px solid rgba(0, 0, 0, .25);
+}
+
+th[aria-sort="none"]::after {
+	content: " ⭿";
+	opacity: .5;
+}
+
+th[aria-sort="ascending"]::after {
+	content: " ⭱";
+}
+
+th[aria-sort="descending"]::after {
+	content: " ⭳";
+}
+
 html {
 	overflow-y: scroll;
 }
