@@ -67,8 +67,16 @@
 											<xsl:if test="position() &gt; 1">
 												<br />
 											</xsl:if>
-											<xsl:value-of select="." />
-
+											<xsl:choose>
+												<xsl:when test="../@href">
+													<a href="{../@href}" target="_blank" rel="external">
+														<xsl:value-of select="." />
+													</a>
+												</xsl:when>
+												<xsl:otherwise>
+													<xsl:value-of select="." />
+												</xsl:otherwise>
+											</xsl:choose>
 										</xsl:for-each>
 									</td>
 									<td>
