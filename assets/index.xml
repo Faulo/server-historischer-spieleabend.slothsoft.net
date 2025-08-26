@@ -90,8 +90,9 @@
 			<game name="Dredge" from="2023" by="Black Salt Games" on="Switch" country="NZ" />
 			<read href="https://www.atarimania.com/documents/Stimulating-Simulations-(Atari-Version).pdf" title="Stimulating
 			Simulations (Second Edition)" year="1979" author="C.W.Engel" />
-			<read href="https://gamesdb.launchbox-app.com/games/details/147964-gone-fishing" title="Gone Fishing" year="" author="" />
-			<read href="https://gamefaqs.gamespot.com/n64/576250-nushi-tsuri-64/faqs/57671#:~:text=F-2%20Preface:%20It%20should,%23%23%23%23%23%23%23" title="Nushi Tsuri 64 – Guide and Walkthrough" year="2014" author="Adam King" />
+			<read href="https://gamesdb.launchbox-app.com/games/details/147964-gone-fishing" title="Gone Fishing" year="2025" author="LaunchBox Games" />
+			<read href="https://gamefaqs.gamespot.com/n64/576250-nushi-tsuri-64/faqs/57671#:~:text=F-2%20Preface:%20It%20should,%23%23%23%23%23%23%23" title="Nushi Tsuri 64 – Guide and Walkthrough"
+				year="2014" author="Adam King" />
 			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="2022" author="Siniša Pintar" />
 		</event>
 		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
@@ -1452,7 +1453,7 @@
 	</unfinished>
 	<unsorted>
 		<event theme="Historische Sockenkiste" type="special">
-			
+
 			<game name="Seaman" from="2000" by="Vivarium" on="Dreamcast" country="JP" />
 			<game name="J.B. Harold Murder Club" from="1986" by="Riverhillsoft" on="MS-DOS" country="JP" />
 			<game name="428: Shibuya Scramble" from="2008" by="Chunsoft" on="Windows" country="JP" wanted="Ruben" />
