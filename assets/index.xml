@@ -73,10 +73,10 @@
 
 	<present>
 		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
-			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
+			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" href="https://oregontrail.ws/games/the-oregon-trail/play/" />
 			<game name="Pong" from="1972" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Combat" from="1977" by="Atari, Inc." on="Atari2600" country="US" />
-			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
+			<game name="Zork" from="1977" by="Infocom" on="PDP-10" country="US" href="https://pr-if.org/play/zdungeon/" />
 			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
 			<game name="Asteroids" from="1979" by="Atari, Inc." on="Arcade" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
@@ -550,7 +550,7 @@
 			<game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
 			<game name="S.T.A.L.K.E.R.: Shadow of Chernobyl" from="2007" by="GSC Game World" on="Windows" country="UA" wanted="Kadda" />
 			<game name="Far Cry 2" from="2008" by="Ubisoft Montreal" on="Windows" country="CA" wanted="Kadda" />
-			<game name="Call of Juarez" from="2013" by="Techland" on="Windows" country="PL" wanted="MICHAEL!" />
+			<game name="Call of Juarez: Gunslinger" from="2013" by="Techland" on="Windows" country="PL" wanted="MICHAEL!" />
 		</event>
 		<event xml:id="MIS104" date="Do, 15.09.2022 19:00" theme="The Lord of the Rings" type="series" gfx="lotr.gif" moderator="Gregor">
 			<game name="The Hobbit" from="1982" by="Beam Software" on="MS-DOS" country="AU" />
@@ -1312,16 +1312,16 @@
 			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 		</event>
 		<event xml:id="STR406" date="" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
-			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="PC" country="SE" />
-			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="PC" country="SE" />
+			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="Windows" country="SE" />
+			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
 		<event xml:id="LAN301" date="" theme="Europa Universalis IV" type="longplay" gfx="eu4.webp" moderator="Gregor">
-			<game name="Europa Universalis IV" from="2013" by="Paradox Development Studio" on="PC" country="SE" />
+			<game name="Europa Universalis IV" from="2013" by="Paradox Development Studio" on="Windows" country="SE" />
 			<read href="https://eu4.paradoxwikis.com/Beginner%27s_guide#Total_Beginner_player's_guide" title="Total Beginner player's guide" year="2025" author="Europa Universalis IV Wiki" />
 		</event>
 		<event xml:id="STR408" date="" theme="2000 Years, Simulated: Modern Times" type="series" gfx="eu4.webp" moderator="Gregor">
-			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="PC" country="SE" />
-			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="PC" country="SE" />
+			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="Windows" country="SE" />
+			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
 		<event xml:id="MIS711" date="" theme="Grinding" type="genre" gfx="" moderator="Tom">
 			<game name="Jet Set Radio" from="2000" by="Smilebit" on="Dreamcast" country="JP" />
@@ -1346,7 +1346,7 @@
 		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
 			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-DOS" country="GB" />
 			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
-			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
+			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="Windows" country="US" />
 			<game name="Prominence Poker" from="2016" by="Pipewors Studio" on="PS4/XboxOne/PC" country="US" />
 			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
 			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
