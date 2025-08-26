@@ -8,6 +8,20 @@ h1, h2, h3, .h1, .h2, .h3 {
 	text-align: center;
 }
 
+section {
+	max-width: 120ch;
+	margin: auto;
+}
+
+section h1, section h2, section h3, section .h1, section .h2, section .h3
+	{
+	text-align: left;
+}
+
+section details details {
+	margin-left: 2em;
+}
+
 html {
 	overflow-y: scroll;
 }

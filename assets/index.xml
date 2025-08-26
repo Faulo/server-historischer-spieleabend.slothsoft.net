@@ -66,11 +66,12 @@
 			<subtrack name="Countries" />
 			<subtrack name="Miscellaneous" />
 			<subtrack name="IPs" />
+			<subtrack name="Video Games Considered the Best" />
 		</track>
 	</tracks>
 
 	<present>
-		<event xml:id="BIZ405" date="" theme="Videogames Considered The Best 1: Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
+		<event xml:id="BIZ601" date="" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
 			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
 			<game name="Combat" from="1977" by="Atari" on="Atari 2600" country="US" />
@@ -78,6 +79,10 @@
 			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
 			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
+		</event>
+		<event xml:id="MIS506" date="Do, 11.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
+		</event>
+		<event xml:id="MIS605" date="Do, 25.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
 		</event>
 	</present>
 
@@ -1246,14 +1251,14 @@
 	</past>
 
 	<future>
-		<event xml:id="BIZ406" date="" theme="Videogames Considered The Best 2: 1980" type="special" moderator="Kadda" gfx="">
+		<event xml:id="BIZ602" date="" theme="1980" type="special" moderator="Kadda" gfx="">
 			<game name="Adventure" from="1980" by="Atari" on="Atari 2600" country="US" />
 			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
-		<event xml:id="BIZ407" date="" theme="Videogames Considered The Best 3: 1981" type="special" moderator="Kadda" gfx="">
+		<event xml:id="BIZ603" date="" theme="1981" type="special" moderator="Kadda" gfx="">
 			<game name="Centipede" from="1981" by="Atari" on="Arcade" country="US" />
 			<game name="Defender" from="1981" by="Williams Electronics" on="Arcade" country="US" />
 			<game name="Donkey Kong" from="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />

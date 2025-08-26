@@ -21,7 +21,7 @@
 				</xsl:for-each>
 			</page>
 
-			<page name="Event" redirect="/" status-active="">
+			<page name="events" ref="/pages/events" status-active="">
 				<xsl:for-each select="//ssh:event[@xml:id != '']">
 					<xsl:sort select="@xml:id" />
 					<page name="{@xml:id}" ref="/pages/event?name={@xml:id}" status-active="" />
@@ -37,8 +37,8 @@
 				</page>
 			</page>
 
-			<page name="logo-small.svg" ref="/logos/logo-small.svg" status-active="" />
-			<page name="logo-gil.png" ref="/logos/GIL.png" status-active="" />
+			<file name="logo-small.svg" ref="/logos/logo-small.svg" status-active="" />
+			<file name="logo-gil.png" ref="/logos/GIL.png" status-active="" />
 			<page name="downloads" ref="/pages/downloads" status-active="" />
 		</domain>
 	</xsl:template>

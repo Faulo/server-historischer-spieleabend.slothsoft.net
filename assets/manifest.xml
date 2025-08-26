@@ -24,6 +24,11 @@
 			<import ref="/api/default" />
 			<use-document ref="/index" />
 		</fragment>
+		<fragment name="events">
+			<use-template ref="/xsl/_events" />
+			<import ref="/api/default" />
+			<use-document ref="/index" />
+		</fragment>
 		<fragment name="event">
 			<use-template ref="/xsl/_event" />
 			<import ref="/api/default" />

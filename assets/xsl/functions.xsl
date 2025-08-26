@@ -51,6 +51,14 @@
 		</a>
 	</xsl:template>
 
+    <xsl:template match="ssh:event" mode="global-link">
+        <xsl:variable name="ref" select="string(@xml:id)" />
+        <a href="/events/{$ref}" class="id" title="{lio:lookup-name($ref)}">
+            <xsl:value-of select="concat('[', lio:format-id($ref), '] ')" />
+            <xsl:value-of select="lio:lookup-name($ref)" />
+        </a>
+    </xsl:template>
+
 	<xsl:template match="ssh:req" mode="link">
 		<xsl:variable name="ref" select="string(@ref)" />
 		<a href="#{$ref}" class="id" title="{lio:lookup-name($ref)}" onclick="document.querySelectorAll('h1 ~ details').forEach(d => d.open = true)">

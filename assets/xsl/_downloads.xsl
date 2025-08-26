@@ -9,8 +9,6 @@
 				<title data-dict="">title</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 				<link rel="icon" href="/favicon.ico" />
-
-				<xsl:copy-of select="." />
 			</head>
 			<body>
 				<h1>Downloads</h1>

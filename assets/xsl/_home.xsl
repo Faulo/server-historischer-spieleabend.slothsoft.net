@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
-	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
+	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
+	xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
 	<xsl:import href="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" />
 
@@ -11,8 +11,8 @@
 				<title data-dict="">title</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-					integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+					crossorigin="anonymous" />
 
 				<xsl:apply-templates select="//ssh:tracks" mode="style" />
 
@@ -28,29 +28,38 @@
 			<xsl:apply-templates select="ssh:tracks" mode="form" />
 			<xsl:for-each select="ssh:present/ssh:event">
 				<xsl:comment>
-Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
-:joystick:~<xsl:value-of select="position() + count(//ssh:past/ssh:event)"/>. Historische Spieleabend~:joystick:
+					Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
+					:joystick:~
+					<xsl:value-of select="position() + count(//ssh:past/ssh:event)" />
+					. Historische Spieleabend~:joystick:
 
-Wann? Am <xsl:value-of select="@date"/>-24:00 (s.t.)
-Wo? Im Games Innovation Lab im Zapf
-Wer? @<xsl:value-of select="@moderator"/> moderiert!
-Was? <xsl:value-of select="@theme"/>
-Wir spielen:
-<xsl:for-each select="ssh:game">
-    <xsl:text>- **</xsl:text>
-    <xsl:value-of select="@name"/>
-    <xsl:text>** (</xsl:text>
-    <xsl:value-of select="@by"/>
-    <xsl:text>, </xsl:text>
-    <xsl:value-of select="@from"/>
-    <xsl:text>)
+					Wann? Am
+					<xsl:value-of select="@date" />
+					-24:00 (s.t.)
+					Wo? Im Games Innovation Lab im Zapf
+					Wer? @
+					<xsl:value-of select="@moderator" />
+					moderiert!
+					Was?
+					<xsl:value-of select="@theme" />
+					Wir spielen:
+					<xsl:for-each select="ssh:game">
+						<xsl:text>- **</xsl:text>
+						<xsl:value-of select="@name" />
+						<xsl:text>** (</xsl:text>
+						<xsl:value-of select="@by" />
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="@from" />
+						<xsl:text>)
 </xsl:text>
-</xsl:for-each>
-Ihr seid alle herzlich eingeladen, aber lasst bitte ein :joystick: hier, wenn ihr kommen möchtet! :reblob:
+					</xsl:for-each>
+					Ihr seid alle herzlich eingeladen, aber lasst bitte ein :joystick: hier, wenn ihr kommen möchtet! :reblob:
 
-Zukünftige Themen: <xsl:value-of select="//sfs:domain/@url"/>?d
-Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqYTJmYnZiZHVkcHEyOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
-</xsl:comment>
+					Zukünftige Themen:
+					<xsl:value-of select="//sfs:domain/@url" />
+					?d
+					Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqYTJmYnZiZHVkcHEyOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+				</xsl:comment>
 			</xsl:for-each>
 
 			<xsl:for-each select="ssh:present/ssh:event">
@@ -97,6 +106,11 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 			</xsl:for-each>
 			<div class="noprint">
 				<h1 class="myBody" data-dict="">title</h1>
+				<div class="h3">
+					<a href="/events/">Themenliste</a>
+					<xsl:text> | </xsl:text>
+					<a href="/games/">Spieleliste</a>
+				</div>
 				<hr />
 				<details class="present" open="open">
 					<summary class="h2">
@@ -222,9 +236,9 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 			</xsl:if>
 			<xsl:if test="@xml:id">
 				<span style="float: left;">
-                    <xsl:text>[</xsl:text>
+					<xsl:text>[</xsl:text>
 					<xsl:value-of select="@xml:id" />
-                    <xsl:text>]</xsl:text>
+					<xsl:text>]</xsl:text>
 				</span>
 			</xsl:if>
 			<xsl:if test="@date != ''">
@@ -320,14 +334,28 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
             </xsl:attribute>
 		</span>
 		<xsl:comment>
-@misc{<xsl:value-of select="@by"/>.<xsl:value-of select="@from"/>,
- author = {{<xsl:value-of select="@by"/>}},
- year = {<xsl:value-of select="@from"/>},
- title = {<xsl:value-of select="@name"/>},
- organization = {<xsl:value-of select="@pub"/>},
- howpublished = {<xsl:value-of select="@on"/>}
-}
-</xsl:comment>
+			@misc{
+			<xsl:value-of select="@by" />
+			.
+			<xsl:value-of select="@from" />
+			,
+			author = {{
+			<xsl:value-of select="@by" />
+			}},
+			year = {
+			<xsl:value-of select="@from" />
+			},
+			title = {
+			<xsl:value-of select="@name" />
+			},
+			organization = {
+			<xsl:value-of select="@pub" />
+			},
+			howpublished = {
+			<xsl:value-of select="@on" />
+			}
+			}
+		</xsl:comment>
 		<span class="country">
 			<xsl:choose>
 				<xsl:when test="@country = 'ww'">
