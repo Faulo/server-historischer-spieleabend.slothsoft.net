@@ -45,6 +45,14 @@
 										<xsl:for-each select="//ssh:event[starts-with(@xml:id, $id)]">
 											<xsl:sort select="@xml:id" />
 											<li>
+												<xsl:choose>
+													<xsl:when test="@date != ''">
+														<xsl:attribute name="data-wanted"><xsl:value-of select="@date" /></xsl:attribute>
+													</xsl:when>
+													<xsl:when test="parent::ssh:unfinished">
+														<xsl:attribute name="data-wanted" />
+													</xsl:when>
+												</xsl:choose>
 												<xsl:apply-templates select="." mode="global-link" />
 											</li>
 										</xsl:for-each>
