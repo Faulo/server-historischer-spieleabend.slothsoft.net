@@ -75,7 +75,7 @@
 		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
 			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
-			<game name="Combat" from="1977" by="Atari" on="Atari 2600" country="US" />
+			<game name="Combat" from="1977" by="Atari" on="Atari2600" country="US" />
 			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
 			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
 			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
@@ -102,11 +102,11 @@
 			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="2022" author="Siniša Pintar" />
 		</event>
 		<event xml:id="JNR109" date="Do, 31.07.2025 19:00" theme="8-Bit Platformers" type="genre" moderator="Kadda" rerun="JNR107" gfx="pitfall.png">
-			<game name="Pitfall!" from="1982" by="Activision" on="Atari 2600" country="US" />
+			<game name="Pitfall!" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
 			<game name="Mega Man 2" from="1988" by="Capcom" on="NES" country="JP" />
 			<game name="Prince of Persia" from="1989" by="Brøderbund" on="Amiga" country="US" manual="Prince of Persia (1989, Broderbund)" />
-			<game name="Super Mario Land" from="1989" by="Nintendo R&amp;D1" on="Game Boy" country="JP" />
+			<game name="Super Mario Land" from="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
 			<game name="DuckTales" from="1989" by="Capcom" on="NES" country="JP" />
 		</event>
 		<event xml:id="BIZ304" date="Do, 17.07.2025 19:00" theme="Bundesspiele" type="genre" gfx="skyworker.jpg" moderator="Daniel">
@@ -133,14 +133,14 @@
 			<game name="Pokemón Snap" from="1999" by="HAL Laboratory" on="N64" country="JP" wanted="Daniel" />
 		</event>
 		<event xml:id="ACT110" date="Do, 29.05.2025 18:00" theme="Archäogames" type="genre" moderator="Kadda" gfx="tomb-raider.gif">
-			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="DOS" country="US" />
+			<game name="Indiana Jones and the Fate of Atlantis" from="1992" by="LucasArts" on="MS-DOS" country="US" />
 			<game name="Tomb Raider" from="1996" by="Core Design" on="PS1" country="GB" />
 			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
 			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
 		</event>
 		<event xml:id="MIS106" date="Do, 15.05.2025 18:00" theme="Adware Games" type="genre" gfx="atlantis.png" moderator="Daniel" rerun="MIS101">
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" href="https://www.mobygames.com/game/161187/tony-friends-in-kelloggs-land/" />
-			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="DOS" country="DE" href="https://www.myabandonware.com/game/abenteuer-atlantis-3cu/play-3cu" />
+			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="MS-DOS" country="DE" href="https://www.myabandonware.com/game/abenteuer-atlantis-3cu/play-3cu" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/81791/bi-fi-roll-snack-zone/" />
 			<game name="Das Telekommando kehrt zur&#xFC;ck" from="1993" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/62853/das-telekommando-kehrt-zuruck/" />
 			<game name="Pepsiman" from="1999" by="KID" on="PS1" country="JP" />
@@ -217,7 +217,7 @@
 			<game name="Sonic Riders" from="2006" by="Sonic Team" on="PS2" country="JP" />
 		</event>
 		<event xml:id="STR403" date="Do, 21.11.2024 18:00" theme="Themepark-Spiele" type="genre" moderator="Tom" gfx="rct2.webp">
-			<game name="Theme Park" from="1994" by="Bullfrog Productions" on="Windows" country="US" />
+			<game name="Theme Park" from="1994" by="Bullfrog Productions" on="MS-DOS" country="US" />
 			<game name="RollerCoaster Tycoon" from="1999" by="Chris Sawyer" on="Windows" country="GB" />
 			<game name="Theme Park World" from="1999" by="Bullfrog Productions" on="Windows" country="US" />
 			<game name="RollerCoaster Tycoon 3" from="2004" by="Frontier Developments" on="PS2" country="GB" />
@@ -281,7 +281,7 @@
 			<game name="Job Simulator" from="2016" by="Owlchemy Labs" on="Windows" country="US" />
 		</event>
 		<event xml:id="ADV303" date="Do, 13.06.2024 19:00" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif">
-			<game name="Car Builder" by="Optimum Resource, Inc" from="1982" on="IBN PC" country="US" />
+			<game name="Car Builder" by="Optimum Resource, Inc" from="1982" on="MS-DOS" country="US" />
 			<game name="Gizmos &amp; Gadgets!" by="The Learning Company" from="1993" on="MS-DOS" country="US" />
 			<game name="Autos bauen mit Willy Werkel" by="ELD Interaktiv Produktion" from="1998" on="Windows" country="US" />
 			<game name="Lego Racers" from="1999" by="High Voltage Software" on="N64" country="US" />
@@ -399,7 +399,7 @@
 			<game name="Control" from="2019" by="Remedy Entertainment" on="Windows" country="FI" />
 		</event>
 		<event xml:id="MIS705" date="Do, 31.08.2023 19:00" theme="Cooking" type="genre" moderator="Kadda" gfx="overcooked.gif">
-			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Windows" country="DE" wanted="Kadda" />
+			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="MS-DOS" country="DE" wanted="Kadda" />
 			<game name="Cooking Mama" from="2006" by="Office Create" on="iOS" country="JP" wanted="Kadda" />
 			<game name="Overcooked" from="2016" by="Ghost Town Games" on="Windows" country="GB" wanted="Kadda" />
 			<game name="Cooking Simulator" from="2019" by="Big Cheese Studio" on="Windows" country="PL" wanted="Kadda" />
@@ -1253,7 +1253,7 @@
 
 	<future>
 		<event xml:id="BIZ602" date="" theme="1980" type="special" moderator="Kadda" gfx="">
-			<game name="Adventure" from="1980" by="Atari" on="Atari 2600" country="US" />
+			<game name="Adventure" from="1980" by="Atari" on="Atari2600" country="US" />
 			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
@@ -1344,7 +1344,7 @@
 			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
 		</event>
 		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
-			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-OS" country="GB" />
+			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-DOS" country="GB" />
 			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
 			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="PC" country="US" />
 			<game name="Prominence Poker" from="2016" by="Pipewors Studio" on="PS4/XboxOne/PC" country="US" />
@@ -1355,7 +1355,7 @@
 			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
-			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="Wii U" country="JP" />
+			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="WiiU" country="JP" />
 		</event>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
 			<game name="Time Splitters" from="2000" by="Free Radical Design" on="PS2" country="GB" />
@@ -1508,10 +1508,10 @@
 			<game name="Grand Theft Auto II" from="1999" by="DMA Design" on="Windows" country="GB" />
 			<game name="King's Quest VI: Heir Today, Gone Tomorrow" from="1992" by="Sierra On-Line" on="MS-DOS" country="US" />
 			<game name="Metal Gear Solid V: The Phantom Pain" from="2015" by="Kojima Productions" on="PS4" country="JP" />
-			<game name="Wasteland" from="1988" by="Interplay Productions" on="DOS" country="US" />
+			<game name="Wasteland" from="1988" by="Interplay Productions" on="MS-DOS" country="US" />
 			<game name="Phantasmagoria" from="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
-			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
-			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
+			<game name="Dunkle Schatten" from="1994" by="Freelance Development" on="MS-DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
+			<game name="Dunkle Schatten 2: Im Netzwerk gefangen" from="1996" by="DigiTales" on="MS-DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/"
 				wanted="Bundesministerium des Innern" />
 		</event>
 		<event xml:id="MIS802" theme="JRPGs" type="special">
@@ -1530,15 +1530,15 @@
 			<game name="Fire Emblem: The Blazing Blade" from="2003" by="Intelligent Systems" on="GBA" country="JP" />
 			<game name="Fire Emblem: Path of Radiance" from="2005" by="Intelligent Systems" on="GCN" country="JP" />
 		</event>
-        <event xml:id="MIS803" theme="90 Sidescrollers" type="special">
-            <game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Genesis" country="JP" />
-            <game name="Ecco the Dolphin" from="1992" by="Novotrade International" on="Sega Mega Drive" country="HU" />
-            <game name="Commander Keen in Aliens Ate My Baby Sitter!" from="1991" by="id Software" on="DOS" country="US" />
-            <game name="Earthworm Jim" from="1994" by="Shiny Entertainment" on="Sega Genesis" country="US" />
-            <game name="Donkey Kong Country" from="1994" by="Rare" on="SNES" country="GB" />
-            <game name="Kirby's Dreamland 2" from="1995" by="HAL Laboratory" on="Game Boy" country="JP" />
-            <game name="Donald Duck in Maui Mallard" from="1996" by="Eurocom Entertainment Software" on="SNES" country="GB" />
-        </event>
+		<event xml:id="MIS803" theme="90 Sidescrollers" type="special">
+			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Genesis" country="JP" />
+			<game name="Ecco the Dolphin" from="1992" by="Novotrade International" on="Sega Mega Drive" country="HU" />
+			<game name="Commander Keen in Aliens Ate My Baby Sitter!" from="1991" by="id Software" on="MS-DOS" country="US" />
+			<game name="Earthworm Jim" from="1994" by="Shiny Entertainment" on="Sega Genesis" country="US" />
+			<game name="Donkey Kong Country" from="1994" by="Rare" on="SNES" country="GB" />
+			<game name="Kirby's Dreamland 2" from="1995" by="HAL Laboratory" on="GB" country="JP" />
+			<game name="Donald Duck in Maui Mallard" from="1996" by="Eurocom Entertainment Software" on="SNES" country="GB" />
+		</event>
 		<event xml:id="MIS805" theme="Historische LAN-Party" type="special">
 			<game name="Ultima Online" from="1997" by="Origin Systems" on="Windows" country="US" />
 			<game name="Grand Theft Auto Online" from="2013" by="Rockstar North" on="Windows" country="GB" />

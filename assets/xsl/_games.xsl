@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
 	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl"
-	xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
+	xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" xmlns:set="http://exslt.org/sets" extension-element-prefixes="func set"
+	xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
 	<xsl:import href="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" />
 
@@ -31,7 +32,8 @@
 							<th data-sort-type="text">Spieltitel</th>
 							<th data-sort-type="number">Jahr</th>
 							<th data-sort-type="text">Entwickler</th>
-							<th>Thema</th>
+							<th data-sort-type="text">Plattform</th>
+							<th data-sort-type="text">Themen</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -48,6 +50,16 @@
 									</td>
 									<td>
 										<xsl:value-of select="@by" />
+									</td>
+									<td>
+										<ul>
+											<xsl:for-each select="set:distinct($all/@on)">
+												<xsl:sort select="." />
+												<li>
+													<xsl:value-of select="." />
+												</li>
+											</xsl:for-each>
+										</ul>
 									</td>
 									<td>
 										<ul>
