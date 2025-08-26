@@ -18,15 +18,15 @@
 
 				<!-- <xsl:copy-of select="." /> -->
 			</head>
-			<xsl:apply-templates select="//ssh:events" mode="body" />
+			<xsl:apply-templates select="." mode="body" />
 		</html>
 	</xsl:template>
 
-	<xsl:template match="ssh:events" mode="body">
+	<xsl:template match="*" mode="body">
 		<body>
 			<xsl:apply-templates select="ssh:tracks" mode="attributes" />
 			<xsl:apply-templates select="ssh:tracks" mode="form" />
-			<xsl:for-each select="ssh:present/ssh:event">
+			<xsl:for-each select="//ssh:present/ssh:event">
 				<xsl:comment>
 					Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
 					:joystick:~
@@ -62,7 +62,7 @@
 				</xsl:comment>
 			</xsl:for-each>
 
-			<xsl:for-each select="ssh:present/ssh:event">
+			<xsl:for-each select="//ssh:present/ssh:event">
 				<div class="print poster">
 					<h1>Historischer Spieleabend</h1>
 					<h4>
@@ -117,7 +117,7 @@
 						Nächster Termin
 					</summary>
 					<div class="columns">
-						<xsl:apply-templates select="ssh:present/ssh:event" />
+						<xsl:apply-templates select="//ssh:present/ssh:event" />
 					</div>
 				</details>
 				<hr />
@@ -126,7 +126,7 @@
 						Vergangene Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="ssh:past/ssh:event" />
+						<xsl:apply-templates select="//ssh:past/ssh:event" />
 					</div>
 				</details>
 				<hr />
@@ -135,7 +135,7 @@
 						Potentielle Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="ssh:future/ssh:event">
+						<xsl:apply-templates select="//ssh:future/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
@@ -146,7 +146,7 @@
 						Unfertige Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="ssh:unfinished/ssh:event">
+						<xsl:apply-templates select="//ssh:unfinished/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
@@ -157,7 +157,7 @@
 						Noch nicht einsortierte Spiele
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="ssh:unsorted/ssh:event">
+						<xsl:apply-templates select="//ssh:unsorted/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
