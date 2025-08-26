@@ -43,23 +43,33 @@
 							<xsl:if test="generate-id($game) = generate-id($all[1])">
 								<tr>
 									<td>
-										<xsl:value-of select="@name" />
+										<xsl:for-each select="$game/@name">
+											<xsl:call-template name="wiki" />
+										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:value-of select="@from" />
+										<xsl:for-each select="$game/@from">
+											<xsl:call-template name="wiki" />
+										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:value-of select="@by" />
+										<xsl:for-each select="set:distinct($all/@by)">
+											<xsl:sort select="." />
+											<xsl:if test="position() &gt; 1">
+												<pre>ERROR: INCONSISTENT DATA!</pre>
+											</xsl:if>
+											<xsl:call-template name="wiki" />
+										</xsl:for-each>
 									</td>
 									<td>
-										<ul>
-											<xsl:for-each select="set:distinct($all/@on)">
-												<xsl:sort select="." />
-												<li>
-													<xsl:value-of select="." />
-												</li>
-											</xsl:for-each>
-										</ul>
+										<xsl:for-each select="set:distinct($all/@on)">
+											<xsl:sort select="." />
+											<xsl:if test="position() &gt; 1">
+												<br />
+											</xsl:if>
+											<xsl:value-of select="." />
+
+										</xsl:for-each>
 									</td>
 									<td>
 										<ul>

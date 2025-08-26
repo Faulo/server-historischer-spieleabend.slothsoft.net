@@ -74,11 +74,11 @@
 	<present>
 		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" />
-			<game name="Pong" from="1972" by="Atari" on="Arcade" country="US" />
-			<game name="Combat" from="1977" by="Atari" on="Atari2600" country="US" />
+			<game name="Pong" from="1972" by="Atari, Inc." on="Arcade" country="US" />
+			<game name="Combat" from="1977" by="Atari, Inc." on="Atari2600" country="US" />
 			<game name="Zork" from="1977" by="Infocom" on="PC" country="US" />
 			<game name="Space Invaders" from="1978" by="Taito" on="Arcade" country="JP" />
-			<game name="Asteroids" from="1979" by="Atari" on="Arcade" country="US" />
+			<game name="Asteroids" from="1979" by="Atari, Inc." on="Arcade" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
 		<event xml:id="MIS506" date="Do, 11.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
@@ -471,7 +471,7 @@
 		<event xml:id="ACT506" date="Do, 13.04.2023 19:00" theme="History of Fighting Games" type="genre" gfx="ryu.gif" moderator="Ruben">
 			<game name="Street Fighter II: The World Warrior" from="1991" by="Capcom" on="SNES" country="JP" />
 			<game name="Street Fighter II Turbo: Hyper Fighting" from="1992" by="Capcom" on="SNES" country="JP" />
-			<game name="Virtua Fighter" from="1993" by="Sega" on="Arcade" country="JP" />
+			<game name="Virtua Fighter" from="1993" by="Sega-AM2" on="Arcade" country="JP" />
 			<game name="Street Fighter III: 3rd Strike" from="1999" by="Capcom" on="Arcade" country="JP" />
 			<game name="Marvel vs Capcom 2" from="2000" by="Capcom" on="Dreamcast" country="JP" />
 			<game name="GuiltyGear Strive" from="2021" by="Arc System Works" on="Windows" country="JP" />
@@ -932,7 +932,7 @@
 		<event xml:id="MIS101" date="Sa, 29.08.2020 19:00" theme="Adware Games" type="genre" gfx="bifi.png">
 			<req ref="JNR101" />
 			<req ref="ADV102" />
-			<game name="Das Erbe" from="1991" by="COMAD GmbH" on="Amiga" country="DE" />
+			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" />
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll 2: Action in Hollywood" from="1994" by="The Art Department" on="Amiga" country="DE" />
@@ -1118,9 +1118,9 @@
 			<game name="Age of Empires II: The Age of Kings" from="1999" by="Ensemble Studios" on="Windows" country="US" />
 		</event>
 		<event xml:id="BIZ204" date="Do, 15.08.2019 19:00" theme="Fumito Ueda" type="author" gfx="sotc.png">
-			<game name="Ico" from="2001" by="SCE Japan Studio" on="PS2" country="JP" />
-			<game name="Shadow of the Colossus" from="2005" by="SCE Japan Studio" on="PS2" country="JP" />
-			<game name="The Last Guardian" from="2016" by="SIE Japan Studio" on="PS4" country="JP" wanted="Lena" />
+			<game name="Ico" from="2001" by="Team Ico" on="PS2" country="JP" />
+			<game name="Shadow of the Colossus" from="2005" by="Team Ico" on="PS2" country="JP" />
+			<game name="The Last Guardian" from="2016" by="GenDESIGN" on="PS4" country="JP" wanted="Lena" />
 
 			<read href="https://www.youtube.com/watch?v=7Nl1oHy3zlw" title="Game Masters: Fumito Ueda Interview" year="2016" author="Australian Centre for the Moving Image" />
 			<read href="https://www.youtube.com/watch?v=NLphTtVZfvw" title="The Architecture of Fumito Ueda" year="2018" author="Jacob Geller" />
@@ -1253,19 +1253,19 @@
 
 	<future>
 		<event xml:id="BIZ602" date="" theme="1980" type="special" moderator="Kadda" gfx="">
-			<game name="Adventure" from="1980" by="Atari" on="Atari2600" country="US" />
-			<game name="Battlezone" from="1980" by="Atari" on="Arcade" country="US" />
-			<game name="Missile Command" from="1980" by="Atari" on="Arcade" country="US" />
+			<game name="Adventure" from="1980" by="Atari, Inc." on="Atari2600" country="US" />
+			<game name="Battlezone" from="1980" by="Atari, Inc." on="Arcade" country="US" />
+			<game name="Missile Command" from="1980" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
 		<event xml:id="BIZ603" date="" theme="1981" type="special" moderator="Kadda" gfx="">
-			<game name="Centipede" from="1981" by="Atari" on="Arcade" country="US" />
+			<game name="Centipede" from="1981" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Defender" from="1981" by="Williams Electronics" on="Arcade" country="US" />
 			<game name="Donkey Kong" from="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />
 			<game name="Frogger" from="1981" by="Konami" on="Arcade" country="JP" />
 			<game name="Galaga" from="1981" by="Namco" on="Arcade" country="JP" />
-			<game name="Tempest" from="1981" by="Atari" on="Arcade" country="US" />
+			<game name="Tempest" from="1981" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Wizardry: Proving Grounds of the Mad Overlord" from="1981" by="Sir-Tech" on="Apple II" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
@@ -1328,7 +1328,7 @@
 			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
 			<game name="Tony Hawk: Shred" from="2010" by="Robomodo" on="Wii" country="US" />
 			<game name="Sunset Overdrive" from="2014" by="Insomniac Games" on="XboxOne/PC" country="US" />
-			<game name="Mario Kart World" from="2025" by="Nintendo" on="Switch2" country="JP" />
+			<game name="Mario Kart World" from="2025" by="Nintendo EPD" on="Switch2" country="JP" />
 		</event>
 	</future>
 	<unfinished>
@@ -1359,7 +1359,7 @@
 		</event>
 		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
 			<game name="Time Splitters" from="2000" by="Free Radical Design" on="PS2" country="GB" />
-			<game name="Life is Strange" from="2015" by="Dontnod" on="Windows" country="FR" />
+			<game name="Life is Strange" from="2015" by="Dontnod Entertainment" on="Windows" country="FR" />
 			<game name="Sands of Time" from="2003" by="Ubisoft Montreal" on="PS2" country="CA" />
 		</event>
 		<event xml:id="BIZ403" date="" theme="The Weird Ones" type="special" moderator="Kadda">
