@@ -49,7 +49,7 @@
 									</td>
 									<td>
 										<xsl:for-each select="$game/@from">
-											<xsl:call-template name="wiki" />
+											<xsl:value-of select="." />
 										</xsl:for-each>
 									</td>
 									<td>
