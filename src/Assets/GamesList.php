@@ -16,6 +16,18 @@ use DOMElement;
 
 class GamesList implements ExecutableBuilderStrategyInterface {
 
+    private array $games = [
+        'Dune II' => 'Dune II: The Building of a Dynasty',
+        'Pokémon Gold and Silver' => 'Pokémon Goldene und Silberne Edition',
+        'Pokémon Red and Blue' => 'Pokémon Rote und Blaue Edition',
+        'Civilization' => 'Sid Meier\'s Civilization',
+        'Civilization II' => 'Sid Meier\'s Civilization II',
+        'Civilization III' => 'Sid Meier\'s Civilization III',
+        'Civilization IV' => 'Sid Meier\'s Civilization IV',
+        'Civilization V' => 'Sid Meier\'s Civilization V',
+        'Civilization VI' => 'Sid Meier\'s Civilization VI',
+    ];
+
     private array $platforms = [
         'SuperNES' => 'SNES',
         'PC' => 'Windows',
@@ -24,6 +36,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         'GameCube' => 'GCN',
         'Nintendo64' => 'N64',
         'GameBoy' => 'GB',
+        'GameBoyColor' => 'GBC',
         'Atari8-bit' => 'Atari800',
         'Commodore64' => 'C64',
         'NintendoSwitch' => 'Switch',
@@ -58,8 +71,11 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                         $year = $xpath->evaluate('normalize-space(th[@scope="row"] | td/preceding::th[@scope="rowgroup"][1])', $row);
                         if ($year) {
                             $name = $xpath->evaluate('normalize-space(td[1])', $row);
+                            if (isset($this->games['name'])) {
+                                $name = $this->games['name'];
+                            }
 
-                            $query = sprintf('//*[contains(@name, "%s") and @from = "%s"]', $name, $year);
+                            $query = sprintf('//*[@name = "%s" and @from = "%s"]', $name, $year);
                             $game = $index->evaluate($query)->item(0);
                             if ($game) {
                                 $done->appendChild($target->importNode($game, true));
