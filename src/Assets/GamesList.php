@@ -13,8 +13,11 @@ use Slothsoft\Farah\Module\Executable\ExecutableStrategies;
 use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuilder;
 use DOMDocument;
 use DOMElement;
+use DOMXPath;
 
 class GamesList implements ExecutableBuilderStrategyInterface {
+
+    private const NS = 'http://schema.slothsoft.net/schema/historical-games-night';
 
     private array $games = [
         'Dune II' => 'Dune II: The Building of a Dynasty',
@@ -43,14 +46,20 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         'GameBoyAdvance' => 'GBA'
     ];
 
-    public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
-        $url = $context->createUrl()->withPath('/index');
+    private function getIndex(AssetInterface $context): DOMXPath {
+        $url = $context->createUrl()
+            ->withPath('/index')
+            ->withFragment('xml');
         $writer = Module::resolveToDOMWriter($url);
         $index = DOMHelper::loadXPath($writer->toDocument());
+        return $index;
+    }
+
+    public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
+        $index = $this->getIndex($context);
 
         $delegate = function (DOMDocument $target) use ($index, $args): DOMElement {
-            $ns = 'http://schema.slothsoft.net/schema/historical-games-night';
-            $root = $target->createElementNS($ns, 'dynamic');
+            $root = $target->createElementNS(self::NS, 'dynamic');
 
             if ($url = $args->get('url', '')) {
                 if ($document = Storage::loadExternalDocument($url)) {
@@ -58,18 +67,18 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                     $xpath = DOMHelper::loadXPath($document);
                     $h1 = $xpath->evaluate('normalize-space(//h1)');
 
-                    $read = $target->createElementNS($ns, 'read');
+                    $read = $target->createElementNS(self::NS, 'read');
                     $read->setAttribute('href', $url);
                     $read->setAttribute('title', $h1);
                     $read->setAttribute('year', date('Y'));
                     $read->setAttribute('author', 'Wikipedia');
 
-                    $done = $target->createElementNS($ns, 'event');
+                    $done = $target->createElementNS(self::NS, 'event');
                     $done->setAttribute('theme', "$h1 (Done)");
                     $done->setAttribute('type', 'special');
                     $done->appendChild($read->cloneNode(true));
 
-                    $todo = $target->createElementNS($ns, 'event');
+                    $todo = $target->createElementNS(self::NS, 'event');
                     $todo->setAttribute('theme', "$h1 (TODO)");
                     $todo->setAttribute('type', 'special');
                     $todo->appendChild($read->cloneNode(true));
@@ -105,12 +114,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                                 unset($platform);
                                 $platform = implode('/', $platforms);
 
-                                $game = $target->createElementNS($ns, 'game');
-                                $game->setAttribute('name', $name);
-                                $game->setAttribute('from', $year);
-                                $game->setAttribute('by', $dev);
-                                $game->setAttribute('on', $platform);
-                                $game->setAttribute('country', '');
+                                $game = $this->createGame($target, $name, $year, $dev, $platform);
                                 $todo->appendChild($game);
                             }
                         }
@@ -128,6 +132,16 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         $result = new DOMWriterResultBuilder($writer, 'games.xml');
 
         return new ExecutableStrategies($result);
+    }
+
+    private function createGame(DOMDocument $target, string $name, string $year, string $dev, string $platform): DOMElement {
+        $game = $target->createElementNS(self::NS, 'game');
+        $game->setAttribute('name', $name);
+        $game->setAttribute('from', $year);
+        $game->setAttribute('by', $dev);
+        $game->setAttribute('on', $platform);
+        $game->setAttribute('country', '');
+        return $game;
     }
 }
 
