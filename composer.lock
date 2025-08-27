@@ -1205,23 +1205,23 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.13.2",
+            "version": "1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "b116f36844edb380cce4797d05c9c972225c0f8b"
+                "reference": "db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/b116f36844edb380cce4797d05c9c972225c0f8b",
-                "reference": "b116f36844edb380cce4797d05c9c972225c0f8b",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980",
+                "reference": "db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980",
                 "shasum": ""
             },
             "require": {
                 "ext-xsl": "*",
                 "guzzlehttp/psr7": "^2.7",
                 "php": ">=7.4",
-                "php-ds/php-ds": "^1.2",
+                "php-ds/php-ds": "^1.7",
                 "psr/http-message": "^1.0",
                 "slothsoft/w3c": "^1.1",
                 "symfony/process": "^5.4.45"
@@ -1269,9 +1269,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.2"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.3"
             },
-            "time": "2025-08-15T03:27:08+00:00"
+            "time": "2025-08-27T16:17:19+00:00"
         },
         {
             "name": "slothsoft/farah",
