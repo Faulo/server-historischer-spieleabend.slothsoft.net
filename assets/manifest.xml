@@ -11,6 +11,7 @@
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="/index" />
+		<use-document ref="/games-best" />
 	</directory>
 
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />
@@ -23,7 +24,7 @@
 			<use-template ref="/xsl/_home" />
 			<import ref="/api/default" />
 			<use-document ref="/index" />
-            <use-document ref="/api/games" />
+			<use-document ref="/games-best" />
 		</fragment>
 		<fragment name="events">
 			<use-template ref="/xsl/_events" />
@@ -34,6 +35,7 @@
 			<use-template ref="/xsl/_event" />
 			<import ref="/api/default" />
 			<use-document ref="/index" />
+			<use-document ref="/games-best" />
 		</fragment>
 		<fragment name="event-backend">
 			<use-template ref="/xsl/_event-backend" />
@@ -55,9 +57,13 @@
 			<use-template ref="/xsl/_games" />
 			<import ref="/api/default" />
 			<use-document ref="/index" />
+			<use-document ref="/games-best" />
 			<link-script ref="/js/tableSorter" />
-            <use-document ref="/api/games" />
 		</fragment>
+	</fragment>
+
+	<fragment name="games-best">
+		<use-document ref="/api/games?url=https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" />
 	</fragment>
 
 	<fragment name="api">

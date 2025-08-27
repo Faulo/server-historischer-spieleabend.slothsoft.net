@@ -25,7 +25,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         'Civilization III' => 'Sid Meier\'s Civilization III',
         'Civilization IV' => 'Sid Meier\'s Civilization IV',
         'Civilization V' => 'Sid Meier\'s Civilization V',
-        'Civilization VI' => 'Sid Meier\'s Civilization VI',
+        'Civilization VI' => 'Sid Meier\'s Civilization VI'
     ];
 
     private array $platforms = [
@@ -50,29 +50,42 @@ class GamesList implements ExecutableBuilderStrategyInterface {
 
         $delegate = function (DOMDocument $target) use ($index, $args): DOMElement {
             $ns = 'http://schema.slothsoft.net/schema/historical-games-night';
+            $root = $target->createElementNS($ns, 'dynamic');
 
-            $done = $target->createElementNS($ns, 'event');
-            $done->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS806');
-            $done->setAttribute('theme', 'List of video games considered the best (Done)');
-            $done->setAttribute('type', 'special');
-
-            $todo = $target->createElementNS($ns, 'event');
-            $todo->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS807');
-            $todo->setAttribute('theme', 'List of video games considered the best (TODO)');
-            $todo->setAttribute('type', 'special');
-
-            if ($url = $args->get('url', 'https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best')) {
-
+            if ($url = $args->get('url', '')) {
                 if ($document = Storage::loadExternalDocument($url)) {
 
                     $xpath = DOMHelper::loadXPath($document);
+                    $h1 = $xpath->evaluate('normalize-space(//h1)');
+
+                    $read = $target->createElementNS($ns, 'read');
+                    $read->setAttribute('href', $url);
+                    $read->setAttribute('title', $h1);
+                    $read->setAttribute('year', date('Y'));
+                    $read->setAttribute('author', 'Wikipedia');
+
+                    $done = $target->createElementNS($ns, 'event');
+                    $done->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS811');
+                    $done->setAttribute('theme', "$h1 (Done)");
+                    $done->setAttribute('type', 'special');
+                    $done->appendChild($read->cloneNode(true));
+
+                    $todo = $target->createElementNS($ns, 'event');
+                    $todo->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS812');
+                    $todo->setAttribute('theme', "$h1 (TODO)");
+                    $todo->setAttribute('type', 'special');
+                    $todo->appendChild($read->cloneNode(true));
 
                     foreach ($xpath->evaluate('//table[.//th[normalize-space(.) = "Game"]]//tr') as $row) {
-                        $year = $xpath->evaluate('normalize-space(th[@scope="row"] | td/preceding::th[@scope="rowgroup"][1])', $row);
+                        $year = $xpath->evaluate('normalize-space(th[@scope="row"])', $row);
+                        if (! $year) {
+                            $year = $xpath->evaluate('normalize-space(td/preceding::th[@scope="rowgroup"][1])', $row);
+                        }
+
                         if ($year) {
                             $name = $xpath->evaluate('normalize-space(td[1])', $row);
-                            if (isset($this->games['name'])) {
-                                $name = $this->games['name'];
+                            if (isset($this->games[$name])) {
+                                $name = $this->games[$name];
                             }
 
                             $query = sprintf('//*[@name = "%s" and @from = "%s"]', $name, $year);
@@ -104,13 +117,11 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                             }
                         }
                     }
+
+                    $root->appendChild($done);
+                    $root->appendChild($todo);
                 }
             }
-
-            $root = $target->createElementNS($ns, 'unsorted');
-            $root->appendChild($done);
-            $root->appendChild($todo);
-
             return $root;
         };
 

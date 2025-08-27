@@ -162,6 +162,17 @@
 						</xsl:apply-templates>
 					</div>
 				</details>
+				<hr />
+				<details>
+					<summary class="h2">
+						Dynamische Listen
+					</summary>
+					<div class="flex">
+						<xsl:apply-templates select="//ssh:dynamic/ssh:event">
+							<xsl:sort select="@xml:id" />
+						</xsl:apply-templates>
+					</div>
+				</details>
 			</div>
 		</body>
 	</xsl:template>
