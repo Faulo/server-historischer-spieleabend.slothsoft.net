@@ -72,7 +72,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg_large">
+		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" href="https://oregontrail.ws/games/the-oregon-trail/play/" />
 			<game name="Pong" from="1972" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Combat" from="1977" by="Atari, Inc." on="Atari2600" country="US" />

@@ -65,13 +65,11 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                     $read->setAttribute('author', 'Wikipedia');
 
                     $done = $target->createElementNS($ns, 'event');
-                    $done->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS811');
                     $done->setAttribute('theme', "$h1 (Done)");
                     $done->setAttribute('type', 'special');
                     $done->appendChild($read->cloneNode(true));
 
                     $todo = $target->createElementNS($ns, 'event');
-                    $todo->setAttributeNS(DOMHelper::NS_XML, 'id', 'MIS812');
                     $todo->setAttribute('theme', "$h1 (TODO)");
                     $todo->setAttribute('type', 'special');
                     $todo->appendChild($read->cloneNode(true));

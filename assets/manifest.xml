@@ -11,7 +11,6 @@
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="/index" />
-		<use-document ref="/games-best" />
 	</directory>
 
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />
@@ -29,13 +28,11 @@
 		<fragment name="events">
 			<use-template ref="/xsl/_events" />
 			<import ref="/api/default" />
-			<use-document ref="/index" />
 		</fragment>
 		<fragment name="event">
 			<use-template ref="/xsl/_event" />
 			<import ref="/api/default" />
 			<use-document ref="/index" />
-			<use-document ref="/games-best" />
 		</fragment>
 		<fragment name="event-backend">
 			<use-template ref="/xsl/_event-backend" />
