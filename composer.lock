@@ -1147,25 +1147,25 @@
         },
         {
             "name": "slothsoft/blob",
-            "version": "1.1.8",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-blob.git",
-                "reference": "86b3d2b6ec608bd25d2dd0dc86d7a8ddfd8725fb"
+                "reference": "4396f9fc905448e795c03375e3c8773a6c285120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-blob/zipball/86b3d2b6ec608bd25d2dd0dc86d7a8ddfd8725fb",
-                "reference": "86b3d2b6ec608bd25d2dd0dc86d7a8ddfd8725fb",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-blob/zipball/4396f9fc905448e795c03375e3c8773a6c285120",
+                "reference": "4396f9fc905448e795c03375e3c8773a6c285120",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4",
-                "slothsoft/core": "^1.0",
+                "slothsoft/core": "^1.13.1",
                 "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "8.5.*"
+                "phpunit/phpunit": "~9.6.23"
             },
             "type": "library",
             "extra": {
@@ -1175,7 +1175,7 @@
             },
             "autoload": {
                 "files": [
-                    "scripts/bootstrap.php"
+                    "src/bootstrap.php"
                 ],
                 "psr-4": {
                     "Slothsoft\\Blob\\": "src"
@@ -1199,22 +1199,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-blob/issues",
-                "source": "https://github.com/Faulo/slothsoft-blob/tree/1.1.8"
+                "source": "https://github.com/Faulo/slothsoft-blob/tree/1.1.10"
             },
-            "time": "2025-07-04T16:39:46+00:00"
+            "time": "2025-09-02T23:30:39+00:00"
         },
         {
             "name": "slothsoft/core",
-            "version": "1.13.3",
+            "version": "1.13.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980"
+                "reference": "fbef7945189f33411e6560cdfecf26898deb9c0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980",
-                "reference": "db55c7665bc6feaeff7211fe8f2b3dfbe3ce4980",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/fbef7945189f33411e6560cdfecf26898deb9c0c",
+                "reference": "fbef7945189f33411e6560cdfecf26898deb9c0c",
                 "shasum": ""
             },
             "require": {
@@ -1227,12 +1227,18 @@
                 "symfony/process": "^5.4.45"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.6.23"
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "ext-imagick": "*",
+                "ext-mysqli": "*",
+                "phpunit/phpunit": "~9.6.23"
             },
             "suggest": {
-                "ext-com_dotnet": "*",
-                "ext-curl": "*",
-                "ext-mysqli": "*"
+                "ext-com_dotnet": "Needed for when FileSystem processes files >2GB under Windows",
+                "ext-curl": "Needed for networking",
+                "ext-gd": "Needed for ImageHelper",
+                "ext-imagick": "Needed for ImageHelper",
+                "ext-mysqli": "Needed for databasing"
             },
             "bin": [
                 "scripts/server-clean"
@@ -1269,22 +1275,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.3"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.5"
             },
-            "time": "2025-08-27T16:17:19+00:00"
+            "time": "2025-09-02T20:49:53+00:00"
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.16.2",
+            "version": "1.16.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "58f56251dc99a3be333654b54f53c9dac7f8abd9"
+                "reference": "220b993310c99fb004d0f6ee3640ae2a8a02f8ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/58f56251dc99a3be333654b54f53c9dac7f8abd9",
-                "reference": "58f56251dc99a3be333654b54f53c9dac7f8abd9",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/220b993310c99fb004d0f6ee3640ae2a8a02f8ec",
+                "reference": "220b993310c99fb004d0f6ee3640ae2a8a02f8ec",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1308,7 @@
                 "slothsoft/core": "^1.11.16"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.6.23"
+                "phpunit/phpunit": "~9.6.23"
             },
             "suggest": {
                 "ext-ds": "*",
@@ -1346,9 +1352,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.16.2"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.16.6"
             },
-            "time": "2025-08-15T03:24:32+00:00"
+            "time": "2025-09-04T01:04:19+00:00"
         },
         {
             "name": "slothsoft/schema",
@@ -1411,23 +1417,23 @@
         },
         {
             "name": "slothsoft/w3c",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-w3c.git",
-                "reference": "0efd4b0aa9e91e245f1c2c464ff388b0d4fa7260"
+                "reference": "5859aa497195f2753f2cbbd24a65cb64ee367236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-w3c/zipball/0efd4b0aa9e91e245f1c2c464ff388b0d4fa7260",
-                "reference": "0efd4b0aa9e91e245f1c2c464ff388b0d4fa7260",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-w3c/zipball/5859aa497195f2753f2cbbd24a65cb64ee367236",
+                "reference": "5859aa497195f2753f2cbbd24a65cb64ee367236",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "8.5.*"
+                "phpunit/phpunit": "~9.6.23"
             },
             "type": "library",
             "extra": {
@@ -1458,9 +1464,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-w3c/issues",
-                "source": "https://github.com/Faulo/slothsoft-w3c/tree/1.2.6"
+                "source": "https://github.com/Faulo/slothsoft-w3c/tree/1.2.7"
             },
-            "time": "2025-07-04T16:42:27+00:00"
+            "time": "2025-09-02T20:53:38+00:00"
         },
         {
             "name": "symfony/polyfill-php80",

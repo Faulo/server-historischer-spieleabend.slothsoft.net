@@ -72,6 +72,17 @@
 	</tracks>
 
 	<present>
+		<event xml:id="STR406" date="Do, 11.09.2025 19:00" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
+			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="Windows" country="SE" />
+			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
+		</event>
+		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
+		</event>
+		<event xml:id="MIS605" date="Do, 25.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
+		</event>
+	</present>
+
+	<past>
 		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" href="https://oregontrail.ws/games/the-oregon-trail/play/" />
 			<game name="Pong" from="1972" by="Atari, Inc." on="Arcade" country="US" />
@@ -81,13 +92,6 @@
 			<game name="Asteroids" from="1979" by="Atari, Inc." on="Arcade" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
-		<event xml:id="MIS506" date="Do, 11.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
-		</event>
-		<event xml:id="MIS605" date="Do, 25.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
-		</event>
-	</present>
-
-	<past>
 		<event xml:id="SPO202" date="14.08.2025 19:00" theme="Fishin' Games" type="genre" moderator="Kadda" gfx="dredge.png">
 			<game name="Gone Fishin'" from="1977" by="William Engel" on="Atari800" country="US" />
 			<game name="Fishing Derby" from="1980" by="Activision" on="Atari2600" country="US" />
@@ -1310,10 +1314,6 @@
 			<game name="Sonic Frontiers" from="2022" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 			<game name="Sonic Superstars" from="2023" by="Arzest" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
 			<game name="Shadow Generations" from="2024" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
-		</event>
-		<event xml:id="STR406" date="" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
-			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="Windows" country="SE" />
-			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
 		<event xml:id="LAN301" date="" theme="Europa Universalis IV" type="longplay" gfx="eu4.webp" moderator="Gregor">
 			<game name="Europa Universalis IV" from="2013" by="Paradox Development Studio" on="Windows" country="SE" />
