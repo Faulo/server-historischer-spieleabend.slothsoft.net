@@ -76,9 +76,11 @@
 			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="Windows" country="SE" />
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
+		<event date="Do, 25.10.2025 19:00" theme="?">
+		</event>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
 		</event>
-		<event xml:id="MIS605" date="Do, 25.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
+		<event xml:id="MIS605" date="Do, 23.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
 		</event>
 	</present>
 
