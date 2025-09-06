@@ -72,8 +72,9 @@
 	</tracks>
 
 	<present>
-		<event xml:id="STR406" date="Do, 11.09.2025 19:00" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="eu4.webp" moderator="Gregor">
-			<game name="Imperator: Rome" from="2019" by="Paradox Development Studio" on="Windows" country="SE" />
+		<event xml:id="STR406" date="Do, 11.09.2025 19:00" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="rome.jpg" moderator="Gregor">
+			<game name="Romance of the Three Kingdoms" from="1988" by="Koei" on="NES" country="JP" />
+			<game name="Centurion: Defender of Rome" from="1990" by="Bits of Magic" on="MS-DOS" country="US" />
 			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
 		<event date="Do, 25.10.2025 19:00" theme="?">
