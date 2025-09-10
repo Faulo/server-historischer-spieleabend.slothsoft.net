@@ -59,7 +59,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         $index = $this->getIndex($context);
 
         $delegate = function (DOMDocument $target) use ($index, $args): DOMElement {
-            $root = $target->createElementNS(self::NS, 'dynamic');
+            $root = $target->createElementNS(self::NS, 'events');
 
             if ($url = $args->get('url', '')) {
                 if ($document = Storage::loadExternalDocument($url)) {
