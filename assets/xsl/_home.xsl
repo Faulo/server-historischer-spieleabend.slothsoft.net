@@ -168,7 +168,7 @@
 						Dynamische Listen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="//ssh:dynamic/ssh:event">
+						<xsl:apply-templates select="//ssh:events/ssh:event">
 							<xsl:sort select="@xml:id" />
 						</xsl:apply-templates>
 					</div>
