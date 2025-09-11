@@ -24,8 +24,8 @@
 
 	<xsl:template match="*" mode="body">
 		<body>
-			<xsl:apply-templates select="ssh:tracks" mode="attributes" />
-			<xsl:apply-templates select="ssh:tracks" mode="form" />
+			<xsl:apply-templates select="//ssh:tracks" mode="attributes" />
+			<xsl:apply-templates select="//ssh:tracks" mode="form" />
 			<xsl:for-each select="//ssh:present/ssh:event">
 				<xsl:comment>
 					Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
