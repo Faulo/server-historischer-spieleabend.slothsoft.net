@@ -11,6 +11,8 @@
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="/index" />
+        <use-document ref="/manuals" />
+        <use-document ref="/gfx" />
 	</directory>
 
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />

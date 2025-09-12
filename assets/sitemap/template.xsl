@@ -10,21 +10,21 @@
 			<file name="favicon.ico" ref="/logos/logo-small.png" status-active="" />
 
 			<page name="Manual" redirect="/" status-active="">
-				<xsl:for-each select="//@manual[. != '']">
-					<file name="{.}" ref="/manuals/{.}" status-active="" />
+				<xsl:for-each select="//*[@name = 'manuals']/*">
+					<file name="{@name}" ref="/manuals/{@name}" status-active="" />
 				</xsl:for-each>
 			</page>
 
 			<page name="GFX" redirect="/" status-active="">
-				<xsl:for-each select="//@gfx[. != '']">
-					<file name="{.}" ref="/gfx/{.}" status-active="" />
+				<xsl:for-each select="//*[@name = 'gfx']/*">
+					<file name="{@name}" ref="/gfx/{@name}" status-active="" />
 				</xsl:for-each>
 			</page>
 
 			<page name="events" ref="/pages/events" status-active="">
 				<xsl:for-each select="//ssh:event[@xml:id != '']">
 					<xsl:sort select="@xml:id" />
-					<page name="{@xml:id}" ref="/pages/event?name={@xml:id}" status-active="" />
+					<file name="{@xml:id}" ref="/pages/event?name={@xml:id}" status-active="" />
 				</xsl:for-each>
 			</page>
 
