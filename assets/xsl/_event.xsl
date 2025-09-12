@@ -50,7 +50,7 @@
 			<div class="tabled-content">
 				<xsl:if test="@gfx">
 					<div>
-						<img class="icon" src="/GFX/{@gfx}" />
+						<img class="icon" src="/gfx/{@gfx}" />
 					</div>
 				</xsl:if>
 				<div>

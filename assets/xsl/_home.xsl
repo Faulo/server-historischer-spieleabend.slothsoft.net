@@ -74,7 +74,7 @@
 						im GIL
 					</h2>
 					<div class="event-left">
-						<img class="icon" src="/GFX/{@gfx}" />
+						<img class="icon" src="/gfx/{@gfx}" />
 					</div>
 					<div class="event-right">
 						<ul class="ludography">
@@ -283,7 +283,7 @@
 			<div class="tabled-content">
 				<xsl:if test="@gfx">
 					<div>
-						<img class="icon" src="/GFX/{@gfx}" />
+						<img class="icon" src="/gfx/{@gfx}" />
 					</div>
 				</xsl:if>
 				<div>
@@ -427,7 +427,7 @@
 		</xsl:choose>
 		<xsl:text>. </xsl:text>
 		<xsl:if test="string-length(@manual)">
-			<a class="manual" href="/Manual/{@manual}" target="_blank">📕</a>
+			<a class="manual" href="/manuals/{@manual}" target="_blank">📕</a>
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>

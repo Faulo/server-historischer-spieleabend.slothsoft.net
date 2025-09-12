@@ -85,7 +85,7 @@
 								</option>
 							</xsl:for-each>
 						</select>
-						<img class="icon" src="/GFX/{@gfx}" />
+						<img class="icon" src="/gfx/{@gfx}" />
 					</div>
 					<div>
 						<p class="moderator">
