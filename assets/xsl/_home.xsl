@@ -73,9 +73,11 @@
 						<xsl:value-of select="@date" />
 						im GIL
 					</h2>
-					<div class="event-left">
-						<img class="icon" src="/gfx/{@gfx}" />
-					</div>
+					<xsl:if test="@gfx">
+						<div class="event-left">
+							<img class="icon" src="/gfx/{@gfx}" />
+						</div>
+					</xsl:if>
 					<div class="event-right">
 						<ul class="ludography">
 							<xsl:for-each select="ssh:game">
