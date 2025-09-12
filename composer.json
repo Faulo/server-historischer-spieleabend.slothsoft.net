@@ -19,7 +19,7 @@
 	"require" : {
 		"slothsoft/core" : "^1.13",
 		"slothsoft/farah" : "dev-main",
-		"slothsoft/schema" : "^1.4.2"
+		"slothsoft/schema" : "^1.4.3"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "~9.6.23"

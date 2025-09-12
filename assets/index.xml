@@ -1276,7 +1276,7 @@
 			<game name="Wizardry: Proving Grounds of the Mad Overlord" from="1981" by="Sir-Tech" on="Apple II" country="US" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
-		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="liste_a.png">
+		<event xml:id="MIS304" date="" theme="Liste A" type="genre" moderator="Daniel" gfx="StGB.jpg">
 			<game name="Red Faction" from="2001" by="Volition" on="PS2" country="US" />
 			<game name="BloodRayne" from="2002" by="Terminal Reality" on="PS2" country="US" />
 			<game name="Quake 4" from="2005" by="id Software" on="Windows" country="US" />
