@@ -497,7 +497,7 @@
 			<game name="Wizardry VI: Bane of the Cosmic Forge" from="1990" by="Sir-Tech" on="MS-DOS" country="CA" />
 			<game name="Wizardry 8" from="2001" by="Sir-Tech Canada" on="Windows" country="CA" />
 		</event>
-		<event xml:id="ADV202" date="Do, 16.02.2023 19:00" theme="History of Visual Novels" type="genre" gfx="" moderator="Ruben">
+		<event xml:id="ADV202" date="Do, 16.02.2023 19:00" theme="History of Visual Novels" type="genre" moderator="Ruben">
 			<game name="Lolita: Yakyuken" from="1982" by="PSK" on="PC-88" country="JP" />
 			<game name="The Portopia Serial Murder Case" from="1983" by="Chunsoft" on="NES" country="JP" />
 			<game name="Snatcher" from="1988" by="Konami" country="JP" on="Sega CD" />
@@ -1259,14 +1259,14 @@
 	</past>
 
 	<future>
-		<event xml:id="BIZ602" date="" theme="1980" type="special" moderator="Kadda" gfx="">
+		<event xml:id="BIZ602" date="" theme="1980" type="special" moderator="Kadda">
 			<game name="Adventure" from="1980" by="Atari, Inc." on="Atari2600" country="US" />
 			<game name="Battlezone" from="1980" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Missile Command" from="1980" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Pac-Man" from="1980" by="Namco" on="Arcade" country="JP" />
 			<read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" title="List of video games considered the best" year="2025" author="Wikipedia" />
 		</event>
-		<event xml:id="BIZ603" date="" theme="1981" type="special" moderator="Kadda" gfx="">
+		<event xml:id="BIZ603" date="" theme="1981" type="special" moderator="Kadda">
 			<game name="Centipede" from="1981" by="Atari, Inc." on="Arcade" country="US" />
 			<game name="Defender" from="1981" by="Williams Electronics" on="Arcade" country="US" />
 			<game name="Donkey Kong" from="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />
@@ -1289,7 +1289,7 @@
 			<game name="Silent Hill - Homecoming" from="2008" by="Double Helix Games" on="Windows" country="US" />
 			<game name="Wolfenstein" from="2009" by="Raven Software" on="Windows" country="US" />
 		</event>
-		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" gfx="" moderator="Tom">
+		<event xml:id="BIZ106" date="" theme="Animation Magic" type="author" moderator="Tom">
 			<game name="Link: The Faces of Evil" from="1993" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Hotel Mario" from="1994" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Mutant Rampage – Bodyslam" from="1994" by="Animation Magic" on="CD-i" country="US" />
@@ -1297,21 +1297,21 @@
 			<game name="Pyramid Adventures Episode 1: Treasures of the Lost Pyramid" from="1996" by="Animation Magic" on="CD-i" country="US" />
 			<game name="Darby the Dragon" from="1996" by="Animation Magic" on="Windows" country="US" />
 		</event>
-		<event xml:id="BIZ503" date="" theme="Sonic Resurrection" type="series" gfx="" moderator="Tom">
+		<event xml:id="BIZ503" date="" theme="Sonic Resurrection" type="series" moderator="Tom">
 			<game name="Sonic the Hedgehog" from="2006" by="Sonic Team" on="PS3/Xbox360" country="JP" />
 			<game name="Sonic Rivals" from="2006" by="Backbone Entertainment" on="PSP" country="US" />
 			<game name="Sonic and the Secret Rings" from="2007" by="Sonic Team" on="Wii" country="JP" />
 			<game name="Sonic Unleashed" from="2008" by="Sonic Team" on="PS3/Xbox360" country="JP" />
 			<game name="Sonic and the Black Knight" from="2009" by="Sonic Team" on="Wii" country="JP" />
 		</event>
-		<event xml:id="BIZ504" date="" theme="Sonic Renaissance" type="series" gfx="" moderator="Tom">
+		<event xml:id="BIZ504" date="" theme="Sonic Renaissance" type="series" moderator="Tom">
 			<game name="Sonic the Hedgehog 4: Episode I" from="2010" by="Dimps" on="PS3/Xbox360/Wii/PC/iOS/Android" country="JP" />
 			<game name="Sonic Colors" from="2010" by="Sonic Team" on="Wii" country="JP" />
 			<game name="Sonic Generations" from="2011" by="Sonic Team" on="PS3/Xbox360/PC" country="JP" />
 			<game name="Sonic Lost World" from="2013" by="Sonic Team" on="WiiU" country="JP" />
 			<game name="Sonic Boom: Rise of Lyric" from="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
 		</event>
-		<event xml:id="BIZ505" date="" theme="Sonic Reminiscence" type="series" gfx="" moderator="Tom">
+		<event xml:id="BIZ505" date="" theme="Sonic Reminiscence" type="series" moderator="Tom">
 			<game name="Sonic Mania" from="2017" by="Christian Whitehead" on="PS4/XboxOne/Switch/PC/iOS/Android" country="AU" />
 			<game name="Sonic Forces" from="2017" by="Sonic Team" on="PS4/XboxOne/Switch/PC" country="JP" />
 			<game name="Sonic Frontiers" from="2022" by="Sonic Team" on="PS5/XboxSeriesX/Switch/PC" country="JP" />
@@ -1326,7 +1326,7 @@
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="Windows" country="SE" />
 			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
-		<event xml:id="MIS711" date="" theme="Grinding" type="genre" gfx="" moderator="Tom">
+		<event xml:id="MIS711" date="" theme="Grinding" type="genre" moderator="Tom">
 			<game name="Jet Set Radio" from="2000" by="Smilebit" on="Dreamcast" country="JP" />
 			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
 			<game name="Tony Hawk: Shred" from="2010" by="Robomodo" on="Wii" country="US" />
@@ -1335,7 +1335,7 @@
 		</event>
 	</future>
 	<unfinished>
-		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="" gfx="">
+		<event xml:id="STR107" date="" theme="Yu-Gi-Oh!" type="series" moderator="">
 			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
 			<game name="Yu-Gi-Oh! Forbidden Memories" from="1999" by="Konami" on="PS1" country="JP" />
 			<game name="Yu-Gi-Oh! The Eternal Duelist Soul" from="2001" by="Konami" on="GBA" country="JP" />
@@ -1346,7 +1346,7 @@
 			<game name="Yu-Gi-Oh! Duel Links" from="2017" by="Konami" on="Windows" country="JP" />
 			<game name="Yu-Gi-Oh! Master Duel" from="2022" by="Konami" on="Windows" country="JP" />
 		</event>
-		<event xml:id="STR405" date="" theme="Poker" type="genre" gfx="" moderator="Tom">
+		<event xml:id="STR405" date="" theme="Poker" type="genre" moderator="Tom">
 			<game name="Las Vegas Video Poker" from="1987" by="Mastertronic" on="MS-DOS" country="GB" />
 			<game name="Caesar's World of Gambling" from="1991" by="CD-i Systems" on="CD-i" country="FR" />
 			<game name="Poker Night at the Inventory" from="2010" by="Telltale Games" on="Windows" country="US" />
@@ -1354,13 +1354,13 @@
 			<game name="Red Dead Redemption 2" from="2018" by="Rockstar Games" on="PS4/XboxOne/PC" country="US" />
 			<game name="Balatro" from="2024" by="LocalThunk" on="Windows" country="CA" />
 		</event>
-		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" gfx="" moderator="Tom">
+		<event xml:id="RPG211" date="" theme="Xenoseries" type="series" moderator="Tom">
 			<game name="Xenogears" from="1998" by="Square" on="PS1" country="JP" />
 			<game name="Xenosaga Episode I" from="2002" by="PS2" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles" from="2010" by="Monolith Soft" on="Wii" country="JP" />
 			<game name="Xenoblade Chronicles X" from="2015" by="Monolith Soft" on="WiiU" country="JP" />
 		</event>
-		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="" gfx="">
+		<event xml:id="MIS708" date="" theme="No That's Not What Happened" type="genre" moderator="">
 			<game name="Time Splitters" from="2000" by="Free Radical Design" on="PS2" country="GB" />
 			<game name="Life is Strange" from="2015" by="Dontnod Entertainment" on="Windows" country="FR" />
 			<game name="Prince of Persia: The Sands of Time" from="2003" by="Ubisoft Montreal" on="PS2" country="CA" />
@@ -1370,36 +1370,36 @@
 			<game name="Sonic Chronicles: The Dark Brotherhood" by="BioWare" from="2008" on="NDS" country="CA" />
 			<game name="Space Station Silicon Valley" from="1998" by="DMA Design" on="N64" country="GB" wanted="Daniel" />
 		</event>
-		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!" gfx="">
+		<event xml:id="MIS703" date="" theme="Contemporary Japan" type="genre" moderator="MICHAEL!">
 			<game name="Persona 4" from="2008" by="Atlus" on="PS2" country="JP" />
 			<game name="Yakuza 0" from="2018" by="Ryu Ga Gotoku Studio" on="Windows" country="JP" wanted="MICHAEL!" />
 			<game name="Ghostwire Tokyo" from="2022" by="Tango Gameworks" on="Windows" country="JP" wanted="" />
 		</event>
-		<event xml:id="MIS704" date="" theme="Mecha Games" type="genre" moderator="John" gfx="">
+		<event xml:id="MIS704" date="" theme="Mecha Games" type="genre" moderator="John">
 		</event>
 		<event xml:id="SPO303" date="" theme="YOU are the hero! (Diegese x Hardware)" type="genre" moderator="Kadda">
 			<game name="The Legend of Zelda: Phantom Hourglass" from="2007" by="Nintendo Entertainment Analysis &amp; Development" on="NDS" country="JP" />
 			<game name="Tearaway" from="2013" by="Media Molecule" on="PSVita" country="GB" />
 			<game name="Superhot VR" from="2016" by="Superhot Team" on="Windows" country="PL" />
 		</event>
-		<event xml:id="RPG109" date="" theme="History of Roguelikes" type="genre" gfx="" moderator="Sascha">
+		<event xml:id="RPG109" date="" theme="History of Roguelikes" type="genre" moderator="Sascha">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
 		</event>
-		<event xml:id="MIS702" date="" theme="Casual Games" type="genre" gfx="" moderator="Kadda">
+		<event xml:id="MIS702" date="" theme="Casual Games" type="genre" moderator="Kadda">
 			<game name="Candy Crush Saga" from="2012" by="King" on="Android" country="MT" />
 			<game name="Diner Dash" from="2003" by="Gamelab" on="Windows" country="US" />
 			<game name="Angry Birds" from="2009" by="Rovio Entertainment" on="Android" country="FI" />
 		</event>
-		<event xml:id="ACT507" date="" theme="Musou Games" type="genre" gfx="" moderator="Ruben">
+		<event xml:id="ACT507" date="" theme="Musou Games" type="genre" moderator="Ruben">
 		</event>
-		<event xml:id="BIZ402" date="" theme="Good Games That Killed A Studio Anyway" type="special" gfx="" moderator="Ruben">
+		<event xml:id="BIZ402" date="" theme="Good Games That Killed A Studio Anyway" type="special" moderator="Ruben">
 			<game name="L.A. Noire" from="2011" by="Team Bondi" on="PS3" country="AU" />
 			<game name="Ōkami" from="2006" by="Clover Studio" on="Wii" country="JP" />
 			<game name="Vampire: The Masquerade – Bloodlines" from="2004" by="Troika Games" on="Windows" country="US" />
 		</event>
-		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" gfx="" moderator="Ruben">
+		<event xml:id="ADV108" date="" theme="History of FMV Games" type="genre" moderator="Ruben">
 		</event>
-		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" gfx="" moderator="Leo">
+		<event xml:id="ADV203" date="" theme="History of Dogfighting Games" type="genre" moderator="Leo">
 			<game name="Wing Commander" from="1990" by="Origin Systems" on="MS-DOS" country="US" wanted="" />
 			<game name="Crimson Skies" from="2000" by="Zipper Interactive" on="Windows" country="US" wanted="" />
 			<game name="Wings of War" from="2004" by="Andrea Angiolino" on="Windows" country="IT" wanted="" />
