@@ -72,7 +72,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ADV201" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png">
+		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png">
 			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />
 			<game name="Elsinore" from="2019" by="Golden Glitch" on="Windows" country="US" />
 			<game name="AI Dungeon" from="2020" by="Latitude" on="Browser" country="US" />
