@@ -114,21 +114,23 @@
 					<a href="/games/">Spieleliste</a>
 				</div>
 				<hr />
+				<details class="past">
+					<summary class="h2">
+						Vergangene Themen
+					</summary>
+					<div class="flex">
+						<xsl:apply-templates select="//ssh:past/ssh:event">
+							<xsl:sort select="position()" order="desscending" data-type="number" />
+						</xsl:apply-templates>
+					</div>
+				</details>
+				<hr />
 				<details class="present" open="open">
 					<summary class="h2">
 						Nächster Termin
 					</summary>
 					<div class="columns">
 						<xsl:apply-templates select="//ssh:present/ssh:event" />
-					</div>
-				</details>
-				<hr />
-				<details class="past">
-					<summary class="h2">
-						Vergangene Themen
-					</summary>
-					<div class="flex">
-						<xsl:apply-templates select="//ssh:past/ssh:event" />
 					</div>
 				</details>
 				<hr />
