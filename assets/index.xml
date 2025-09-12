@@ -72,12 +72,13 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png">
+		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" rerun="ADV201">
 			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" />
 			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" />
 			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />
 			<game name="Elsinore" from="2019" by="Golden Glitch" on="Windows" country="US" />
 			<game name="AI Dungeon" from="2020" by="Latitude" on="Browser" country="US" />
+			<read href="https://openlibrary.org/books/OL22112222M/Hamlet_on_the_holodeck" title="Hamlet on the Holodeck: The Future of Narrative in Cyberspace" year="1997" author="Janet Horowitz Murray" />
 		</event>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
 		</event>
