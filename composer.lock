@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d10c590a6a5b52b0ff15e263d770d84",
+    "content-hash": "04b398d982165586714639129e948f8f",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1281,7 +1281,7 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "dev-main",
+            "version": "1.16.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
@@ -1315,7 +1315,6 @@
                 "ext-pthreads": "*",
                 "krakjoe/pthreads-polyfill": "^1.1"
             },
-            "default-branch": true,
             "bin": [
                 "scripts/farah-asset",
                 "scripts/farah-page"
@@ -1353,7 +1352,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/main"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.16.7"
             },
             "time": "2025-09-12T15:15:23+00:00"
         },
@@ -3405,9 +3404,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "slothsoft/farah": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
