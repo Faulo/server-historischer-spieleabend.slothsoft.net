@@ -72,12 +72,10 @@
 	</tracks>
 
 	<present>
-		<event xml:id="STR406" date="Do, 11.09.2025 19:00" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="rome.jpg" moderator="Gregor">
-			<game name="Romance of the Three Kingdoms" from="1988" by="Koei" on="NES" country="JP" />
-			<game name="Centurion: Defender of Rome" from="1990" by="Bits of Magic" on="MS-DOS" country="US" />
-			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
-		</event>
-		<event date="Do, 25.10.2025 19:00" theme="?" type="special">
+		<event xml:id="ADV201" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png">
+			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />
+			<game name="Elsinore" from="2019" by="Golden Glitch" on="Windows" country="US" />
+			<game name="AI Dungeon" from="2020" by="Latitude" on="Browser" country="US" />
 		</event>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
 		</event>
@@ -86,6 +84,11 @@
 	</present>
 
 	<past>
+		<event xml:id="STR406" date="Do, 11.09.2025 19:00" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="rome.jpg" moderator="Gregor">
+			<game name="Romance of the Three Kingdoms" from="1988" by="Koei" on="NES" country="JP" />
+			<game name="Centurion: Defender of Rome" from="1990" by="Bits of Magic" on="MS-DOS" country="US" />
+			<game name="Crusader Kings" from="2004" by="Paradox Development Studio" on="Windows" country="SE" />
+		</event>
 		<event xml:id="BIZ601" date="Do, 28.08.2025 19:00" theme="Die 70er" type="special" moderator="Kadda" gfx="spaceinvaders.jpg">
 			<game name="The Oregon Trail" from="1971" by="Don Rawitsch, Bill Heinemann, and Paul Dillenberger" on="C64" country="US" href="https://oregontrail.ws/games/the-oregon-trail/play/" />
 			<game name="Pong" from="1972" by="Atari, Inc." on="Arcade" country="US" />
