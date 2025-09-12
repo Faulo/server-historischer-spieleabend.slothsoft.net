@@ -9,13 +9,13 @@
 
 			<file name="favicon.ico" ref="/logos/logo-small.png" status-active="" />
 
-			<page name="Manual" redirect="/" status-active="">
+			<page name="manuals" redirect="/" status-active="">
 				<xsl:for-each select="//*[@name = 'manuals']/*">
 					<file name="{@name}" ref="/manuals/{@name}" status-active="" />
 				</xsl:for-each>
 			</page>
 
-			<page name="GFX" redirect="/" status-active="">
+			<page name="gfx" redirect="/" status-active="">
 				<xsl:for-each select="//*[@name = 'gfx']/*">
 					<file name="{@name}" ref="/gfx/{@name}" status-active="" />
 				</xsl:for-each>
@@ -30,7 +30,7 @@
 
 			<page name="games" ref="/pages/games" status-active="" />
 
-			<page name="Backend" ref="/pages/backend" status-active="">
+			<page name="backend" ref="/pages/backend" status-active="">
 				<page name="Event" redirect="/" status-active="">
 					<xsl:for-each select="//ssh:event[@xml:id != '']">
 						<xsl:sort select="@xml:id" />

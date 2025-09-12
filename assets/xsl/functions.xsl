@@ -43,7 +43,9 @@
 		<func:result select="$likert * 48" />
 	</func:function>
 
-	<xsl:template match="ssh:event" mode="link">
+	<xsl:template match="ssh:event" mode="link" />
+
+	<xsl:template match="ssh:event[@xml:id]" mode="link">
 		<xsl:variable name="ref" select="string(@xml:id)" />
 		<a href="#{$ref}" class="id" title="{lio:lookup-name($ref)}">
 			<xsl:value-of select="lio:format-name($ref)" />
@@ -51,13 +53,15 @@
 		</a>
 	</xsl:template>
 
-    <xsl:template match="ssh:event" mode="global-link">
-        <xsl:variable name="ref" select="string(@xml:id)" />
-        <a href="/events/{$ref}" class="id" title="{lio:lookup-name($ref)}">
-            <xsl:value-of select="concat('[', lio:format-id($ref), '] ')" />
-            <xsl:value-of select="lio:lookup-name($ref)" />
-        </a>
-    </xsl:template>
+	<xsl:template match="ssh:event" mode="global-link" />
+
+	<xsl:template match="ssh:event[@xml:id]" mode="global-link">
+		<xsl:variable name="ref" select="string(@xml:id)" />
+		<a href="/events/{$ref}" class="id" title="{lio:lookup-name($ref)}">
+			<xsl:value-of select="concat('[', lio:format-id($ref), '] ')" />
+			<xsl:value-of select="lio:lookup-name($ref)" />
+		</a>
+	</xsl:template>
 
 	<xsl:template match="ssh:req" mode="link">
 		<xsl:variable name="ref" select="string(@ref)" />
