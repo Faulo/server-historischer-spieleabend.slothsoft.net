@@ -120,7 +120,7 @@
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:past/ssh:event">
-							<xsl:sort select="position()" order="desscending" data-type="number" />
+							<xsl:sort select="position()" order="descending" data-type="number" />
 						</xsl:apply-templates>
 					</div>
 				</details>
