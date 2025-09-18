@@ -67,7 +67,7 @@
 
 	<fragment name="api">
 		<fragment name="default">
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
+			<use-document ref="//slothsoft@farah/current-sitemap" name="sites" />
 			<link-stylesheet ref="/css/style" />
 		</fragment>
 		<custom-asset name="event" executable-builder="Slothsoft\Server\HistorischerSpieleabend\Assets\EventAPI"
