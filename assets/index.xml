@@ -72,7 +72,7 @@
 	</tracks>
 
 	<present>
-		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" rerun="ADV201">
+		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" rerun="ADV201" moderator="Daniel">
 			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=j49crlvd62mhwuzu" />
 			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=urxrv27t7qtu52lb" />
 			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />

@@ -28,21 +28,24 @@
 			<xsl:apply-templates select="//ssh:tracks" mode="form" />
 			<xsl:for-each select="//ssh:present/ssh:event">
 				<xsl:comment>
-					Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
-					:joystick:~
+					<xsl:text>
+Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
+:joystick:~</xsl:text>
 					<xsl:value-of select="position() + count(//ssh:past/ssh:event)" />
-					. Historische Spieleabend~:joystick:
+					<xsl:text>. Historische Spieleabend~:joystick:
 
-					Wann? Am
+Wann? Am </xsl:text>
 					<xsl:value-of select="@date" />
-					-24:00 (s.t.)
-					Wo? Im Games Innovation Lab im Zapf
-					Wer? @
+					<xsl:text>-24:00 (s.t.)
+Wo? Im Games Innovation Lab im Zapf
+Wer? @</xsl:text>
 					<xsl:value-of select="@moderator" />
-					moderiert!
-					Was?
+					<xsl:text> moderiert!
+Was? </xsl:text>
 					<xsl:value-of select="@theme" />
-					Wir spielen:
+					<xsl:text>
+Wir spielen:
+</xsl:text>
 					<xsl:for-each select="ssh:game">
 						<xsl:text>- **</xsl:text>
 						<xsl:value-of select="@name" />
@@ -53,12 +56,15 @@
 						<xsl:text>)
 </xsl:text>
 					</xsl:for-each>
-					Ihr seid alle herzlich eingeladen, aber lasst bitte ein :joystick: hier, wenn ihr kommen möchtet! :reblob:
+					<xsl:text>
+Ihr seid alle herzlich eingeladen, aber lasst bitte ein :joystick: hier, wenn ihr kommen möchtet! :reblob:
 
-					Zukünftige Themen:
+Zukünftige Themen: </xsl:text>
 					<xsl:value-of select="//sfs:domain/@url" />
-					?d
-					Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqYTJmYnZiZHVkcHEyOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+					<xsl:text>?d
+Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqYTJmYnZiZHVkcHEyOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+
+</xsl:text>
 				</xsl:comment>
 			</xsl:for-each>
 
