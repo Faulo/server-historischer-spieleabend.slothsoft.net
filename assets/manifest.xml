@@ -11,12 +11,13 @@
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="/index" />
-        <use-document ref="/manuals" />
-        <use-document ref="/gfx" />
+		<use-document ref="/manuals" />
+		<use-document ref="/gfx" />
 	</directory>
 
+	<resource-directory name="downloads" path="../data/downloads" type="*/*" />
+
 	<resource-directory name="manuals" path="manuals" type="application/pdf" />
-	<resource-directory name="downloads" path="downloads" type="*/*" />
 	<resource-directory name="gfx" path="gfx" type="image/*" />
 	<resource-directory name="logos" path="logos" type="image/*" />
 
