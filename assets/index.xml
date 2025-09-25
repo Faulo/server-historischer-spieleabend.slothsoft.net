@@ -73,14 +73,14 @@
 
 	<present>
 		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" rerun="ADV201">
-			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" />
-			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" />
+			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=j49crlvd62mhwuzu" />
+			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=urxrv27t7qtu52lb" />
 			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />
-			<game name="Elsinore" from="2019" by="Golden Glitch" on="Windows" country="US" />
-			<game name="AI Dungeon" from="2020" by="Latitude" on="Browser" country="US" />
+			<game name="AI Dungeon" from="2020" by="Latitude" on="Browser" country="US" href="https://play.aidungeon.com/" />
 			<read href="https://openlibrary.org/books/OL22112222M/Hamlet_on_the_holodeck" title="Hamlet on the Holodeck: The Future of Narrative in Cyberspace" year="1997" author="Janet Horowitz Murray" />
 		</event>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
+			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision, Inc." on="Windows" country="JP" wanted="Daniel" />
 		</event>
 		<event xml:id="MIS605" date="Do, 23.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
 		</event>
