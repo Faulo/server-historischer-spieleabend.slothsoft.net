@@ -83,13 +83,12 @@
 			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision" on="Windows" country="US" wanted="Daniel" />
 			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
 		</event>
-		<event xml:id="MIS605" date="Do, 23.10.2024 18:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
+		<event xml:id="MIS605" date="Do, 23.10.2025 19:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
-			<game name="Double Dragon" from="1987" by="Technōs Japan" on="	
-Arcade" country="JP" />
-			<game name="Worms" from="1995" by="Team17" on="PC" country="JP" />
-			<game name="Monkey Island 2: LeChuck's Revenge" from="1991" by="LucasArts" on="Amiga" country="US" />
-			<game name="Far Cry" from="2004" by="Crytek" on="Windows" country="CA" />
+			<game name="Double Dragon" from="1987" by="Technōs Japan" on="Arcade" country="JP" />
+			<game name="Loom" from="1990" by="Lucasfilm Games" on="Amiga" country="US" manual="Loom (1990, Lucasfilm Games)" />
+			<game name="Worms" from="1995" by="Team17" on="PC" country="GB" />
+			<game name="Grand Theft Auto III" from="2001" by="DMA Design" on="PS2" country="GB" />
 		</event>
 	</present>
 
