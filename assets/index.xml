@@ -83,7 +83,7 @@
 			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision" on="Windows" country="US" wanted="Daniel" />
 			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
 		</event>
-		<event xml:id="MIS605" date="Do, 23.10.2025 19:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="link.gif">
+		<event xml:id="MIS605" date="Do, 23.10.2025 19:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
 			<game name="Double Dragon" from="1987" by="Technōs Japan" on="Arcade" country="JP" />
 			<game name="Loom" from="1990" by="Lucasfilm Games" on="Amiga" country="US" manual="Loom (1990, Lucasfilm Games)" />
