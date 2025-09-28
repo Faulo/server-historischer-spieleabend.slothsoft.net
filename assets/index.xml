@@ -1266,7 +1266,6 @@
 		<event xml:id="STR101" date="Do, 22.11.2018 19:00" theme="Feudal Strategy Games" type="genre">
 			<game name="Defender of the Crown" from="1986" by="Cinemaware" on="Amiga" country="GB" manual="Defender of the Crown (1986, Cinemaware)" />
 			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
-			<game name="Mount &amp; Blade" from="2008" by="TaleWorlds Entertainment" on="Windows" country="TR" />
 		</event>
 	</past>
 
