@@ -75,6 +75,7 @@
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
 			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision" on="Windows" country="US" wanted="Daniel" />
 			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
+			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
 		</event>
 		<event xml:id="MIS605" date="Do, 23.10.2025 19:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
