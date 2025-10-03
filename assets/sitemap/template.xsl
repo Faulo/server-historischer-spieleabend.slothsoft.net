@@ -10,13 +10,13 @@
 			<file name="favicon.ico" ref="/logos/logo-small.png" status-active="" />
 
 			<page name="manuals" redirect="/" status-active="">
-				<xsl:for-each select="//*[@name = 'manuals']/*">
+				<xsl:for-each select="//*[@name = 'manuals']/sfm:manifest-info">
 					<file name="{@name}" ref="/manuals/{@name}" status-active="" />
 				</xsl:for-each>
 			</page>
 
 			<page name="gfx" redirect="/" status-active="">
-				<xsl:for-each select="//*[@name = 'gfx']/*">
+				<xsl:for-each select="//*[@name = 'gfx']/sfm:manifest-info">
 					<file name="{@name}" ref="/gfx/{@name}" status-active="" />
 				</xsl:for-each>
 			</page>
