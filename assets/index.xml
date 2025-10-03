@@ -73,6 +73,7 @@
 
 	<present>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
+			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" wanted="Tom" />
 			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision" on="Windows" country="US" wanted="Daniel" />
 			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
 			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
@@ -181,7 +182,7 @@
 			<game name="Sonic the Hedgehog" from="1991" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic the Hedgehog CD" from="1993" by="Sega" on="Sega CD" country="JP" />
 			<game name="Sonic the Hedgehog 2" from="1992" by="Sega" on="Sega Mega Drive" country="US" />
-			<game name="Sonic the Hedgehog 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
+			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Sonic 3D Blast: Flickies' Island" from="1996" by="Traveller's Tales" on="Sega Saturn" country="GB" />
 		</event>
 		<event xml:id="ACT112" date="Do, 13.03.2025 18:00" theme="Cyberpunk through the Ages" type="genre" gfx="snatcher.jpg" moderator="Kadda">
@@ -1187,7 +1188,7 @@
 		<event xml:id="JNR102" date="Do, 30.05.2019 19:00" theme="90's Sidescrollers" type="genre" gfx="Mario.png">
 			<req ref="JNR101" />
 			<game name="Super Mario World" from="1990" by="Nintendo EAD" on="SNES" country="JP" />
-			<game name="Sonic the Hedgehog 3" from="1994" by="Sega" on="MegaDrive" country="JP" />
+			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" />
 			<game name="Mr. Nutz: Hoppin' Mad" from="1994" by="Neon Studios" on="Amiga" country="DE" />
 			<game name="Rayman" from="1995" by="Ubi Pictures" on="PS1" country="FR" />
 		</event>
