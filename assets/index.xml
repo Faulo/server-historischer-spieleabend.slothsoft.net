@@ -74,6 +74,7 @@
 	<present>
 		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
 			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" wanted="Tom" />
+			<game name="Reise nach Nordland" from="2002" by="Funatics Software" on="Windows" country="DE" wanted="Kadda" />
 			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
 			<game name="Pokémon Mystery Dungeon: Explorers of Sky" from="2009" by="Chunsoft" on="NDS" country="JP" wanted="Enrico" />
 			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
