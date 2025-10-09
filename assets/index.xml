@@ -1340,6 +1340,11 @@
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="Windows" country="SE" />
 			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
+		<event xml:id="STR407" date="" theme="Zoo Tycoon" type="series" gfx="" moderator="Kadda">
+			<game name="Zoo Tycoon" from="2001" by="Blue Fang Games" on="Windows" country="US" />
+			<game name="Zoo Tycoon 2" from="2004" by="Blue Fang Games" on="Windows" country="US" />
+			<game name="Planet Zoo" from="2019" by="Frontier Developments" on="Windows" country="GB" />
+		</event>
 		<event xml:id="MIS711" date="" theme="Grinding" type="genre" moderator="Tom">
 			<game name="Jet Set Radio" from="2000" by="Smilebit" on="Dreamcast" country="JP" />
 			<game name="Sonic Adventure 2" from="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
