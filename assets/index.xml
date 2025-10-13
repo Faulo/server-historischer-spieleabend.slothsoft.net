@@ -24,6 +24,7 @@
 			<subtrack name="Freestyle&#160;Sports" />
 			<subtrack name="Performative&#160;Games" />
 			<subtrack name="Racing&#160;Games" />
+			<subtrack name="Arcade&#160;Games" />
 		</track>
 
 		<!-- Adventure -->
@@ -1340,10 +1341,19 @@
 			<game name="Victoria 3" from="2022" by="Paradox Development Studio" on="Windows" country="SE" />
 			<game name="Hearts of Iron" from="2002" by="Paradox Development Studio" on="Windows" country="SE" />
 		</event>
-		<event xml:id="STR407" date="" theme="Zoo Tycoon" type="series" gfx="" moderator="Kadda">
+		<event xml:id="STR407" date="" theme="Zoo Tycoon" type="series" moderator="Kadda">
 			<game name="Zoo Tycoon" from="2001" by="Blue Fang Games" on="Windows" country="US" />
 			<game name="Zoo Tycoon 2" from="2004" by="Blue Fang Games" on="Windows" country="US" />
 			<game name="Planet Zoo" from="2019" by="Frontier Developments" on="Windows" country="GB" />
+		</event>
+		<event xml:id="SPO501" date="" theme="Tetris" type="series" moderator="Daniel">
+			<game name="Тетрис" from="1985" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
+			<game name="Tetris" from="1989" by="Nintendo" on="GB" country="JP" />
+			<game name="Tritus" from="1994" by="Davin Pearson" on="Amiga" country="JP" />
+			<game name="Tetrisphere" from="1997" by="H2O Entertainment" on="N64" country="JP" />
+			<game name="Wetrix" from="1998" by="Zed Two" on="N64" country="GB" />
+			<game name="Tetris Effect" from="2018" by="Monstars" on="PS4" country="JP" />
+			<game name="Tetris 99" from="2019" by="Arika" on="Switch" country="JP" />
 		</event>
 		<event xml:id="MIS711" date="" theme="Grinding" type="genre" moderator="Tom">
 			<game name="Jet Set Radio" from="2000" by="Smilebit" on="Dreamcast" country="JP" />

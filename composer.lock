@@ -468,30 +468,30 @@
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.20.0",
+            "version": "3.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "8974a1213be42c3e2f70b2c27b17f910291ab2f4"
+                "reference": "b1c81514cfe158aadf724c42b34d3d0a8164c096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/8974a1213be42c3e2f70b2c27b17f910291ab2f4",
-                "reference": "8974a1213be42c3e2f70b2c27b17f910291ab2f4",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/b1c81514cfe158aadf724c42b34d3d0a8164c096",
+                "reference": "b1c81514cfe158aadf724c42b34d3d0a8164c096",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "conflict": {
                 "zendframework/zend-stdlib": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "^3.0",
-                "phpbench/phpbench": "^1.3.1",
-                "phpunit/phpunit": "^10.5.38",
-                "psalm/plugin-phpunit": "^0.19.0",
-                "vimeo/psalm": "^5.26.1"
+                "laminas/laminas-coding-standard": "^3.1.0",
+                "phpbench/phpbench": "^1.4.1",
+                "phpunit/phpunit": "^11.5.42",
+                "psalm/plugin-phpunit": "^0.19.5",
+                "vimeo/psalm": "^6.13.1"
             },
             "type": "library",
             "autoload": {
@@ -523,7 +523,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-10-29T13:46:07+00:00"
+            "time": "2025-10-11T18:13:12+00:00"
         },
         {
             "name": "laminas/laminas-uri",
@@ -1205,16 +1205,16 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.13.12",
+            "version": "1.13.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "2e5ae10dd49cf8205a7c09c9472b63a7dc68c892"
+                "reference": "d446968f6b55d373511a7d52bed35e0a036ba184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/2e5ae10dd49cf8205a7c09c9472b63a7dc68c892",
-                "reference": "2e5ae10dd49cf8205a7c09c9472b63a7dc68c892",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/d446968f6b55d373511a7d52bed35e0a036ba184",
+                "reference": "d446968f6b55d373511a7d52bed35e0a036ba184",
                 "shasum": ""
             },
             "require": {
@@ -1275,22 +1275,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.12"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.13.16"
             },
-            "time": "2025-10-04T21:00:28+00:00"
+            "time": "2025-10-11T15:40:17+00:00"
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.21.24",
+            "version": "1.21.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "8622044f79675afa614d936a7390d8a6854e1ebd"
+                "reference": "9f238804e63ac1e2fd952e02af75f876531f511d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/8622044f79675afa614d936a7390d8a6854e1ebd",
-                "reference": "8622044f79675afa614d936a7390d8a6854e1ebd",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/9f238804e63ac1e2fd952e02af75f876531f511d",
+                "reference": "9f238804e63ac1e2fd952e02af75f876531f511d",
                 "shasum": ""
             },
             "require": {
@@ -1353,9 +1353,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.24"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.28"
             },
-            "time": "2025-10-04T21:48:26+00:00"
+            "time": "2025-10-05T15:48:46+00:00"
         },
         {
             "name": "slothsoft/schema",
