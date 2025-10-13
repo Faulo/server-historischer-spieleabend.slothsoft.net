@@ -1348,7 +1348,7 @@
 		</event>
 		<event xml:id="SPO501" date="" theme="Tetris" type="series" moderator="Daniel">
 			<game name="ТЕТРИС" from="1985" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
-			<game name="Tetris" from="1989" by="Nintendo" on="GB" country="JP" />
+			<game name="Tetris" from="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
 			<game name="Tritus" from="1994" by="Davin Pearson" on="Amiga" country="NZ" />
 			<game name="Tetrisphere" from="1997" by="H2O Entertainment" on="N64" country="JP" />
 			<game name="Wetrix" from="1998" by="Zed Two" on="N64" country="GB" />
