@@ -1348,11 +1348,12 @@
 		</event>
 		<event xml:id="SPO501" date="" theme="Tetris Forever" type="longplay" moderator="Daniel">
 			<game name="ТЕТРИС" from="1985" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
-			<game name="Tetris" from="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
+			<game name="Welltris" from="1989" by="Doka" on="MS-DOS" country="RU" />
 			<game name="Hatris" from="1990" by="ParaGraph" on="NES" country="JP" />
 			<game name="Tetris Time Warp" from="2024" by="Digital Eclipse" on="Windows" country="US" />
 		</event>
 		<event xml:id="SPO502" date="" theme="Tetris II: Spin-Offs" type="series" moderator="Daniel">
+			<game name="Tetris" from="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
 			<game name="Tritus" from="1994" by="Davin Pearson" on="Amiga" country="NZ" />
 			<game name="Tetrisphere" from="1997" by="H2O Entertainment" on="N64" country="JP" />
 			<game name="Wetrix" from="1998" by="Zed Two" on="N64" country="GB" />
