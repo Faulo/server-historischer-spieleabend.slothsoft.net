@@ -35,7 +35,7 @@ Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
 					<xsl:text>. Historische Spieleabend~:joystick:
 
 Wann? Am </xsl:text>
-					<xsl:value-of select="@date" />
+					<xsl:value-of select="lio:event-datetime()" />
 					<xsl:text>-24:00 (s.t.)
 Wo? Im Games Innovation Lab im Zapf
 Wer? @</xsl:text>
@@ -68,50 +68,6 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 				</xsl:comment>
 			</xsl:for-each>
 
-			<xsl:for-each select="//ssh:present/ssh:event">
-				<div class="print poster">
-					<h1>Historischer Spieleabend</h1>
-					<h4>
-						<xsl:value-of select="@theme" />
-					</h4>
-					<img class="logo" src="/logo-small.svg" />
-					<h2>
-						<xsl:value-of select="@date" />
-						im GIL
-					</h2>
-					<xsl:if test="@gfx">
-						<div class="event-left">
-							<img class="icon" src="/gfx/{@gfx}" />
-						</div>
-					</xsl:if>
-					<div class="event-right">
-						<ul class="ludography">
-							<xsl:for-each select="ssh:game">
-								<li>
-									<span class="title">
-										<xsl:value-of select="@name" />
-									</span>
-									<xsl:text> </xsl:text>
-									<span class="year">
-										<xsl:text>(</xsl:text>
-										<xsl:value-of select="@from" />
-										<xsl:text>)</xsl:text>
-									</span>
-								</li>
-							</xsl:for-each>
-						</ul>
-					</div>
-					<img class="gil" src="/logo-gil.png" />
-					<h3>
-						<span class="box">
-							<span>
-								<large>2G</large>
-								<small>(geimpft/genesen)</small>
-							</span>
-						</span>
-					</h3>
-				</div>
-			</xsl:for-each>
 			<div class="noprint">
 				<h1 class="myBody" data-dict="">title</h1>
 				<div class="h3">
@@ -135,7 +91,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:future/ssh:event">
-							<xsl:sort select="@xml:id" />
+							<xsl:sort select="@track" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -146,7 +102,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:unfinished/ssh:event">
-							<xsl:sort select="@xml:id" />
+							<xsl:sort select="@track" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -157,7 +113,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:unsorted/ssh:event">
-							<xsl:sort select="@xml:id" />
+							<xsl:sort select="@track" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -168,7 +124,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:events/ssh:event">
-							<xsl:sort select="@xml:id" />
+							<xsl:sort select="@track" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -178,9 +134,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Vergangene Themen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="//ssh:past/ssh:event">
-							<xsl:sort select="position()" order="ascending" data-type="number" />
-						</xsl:apply-templates>
+						<xsl:apply-templates select="//ssh:past/ssh:event" />
 					</div>
 				</details>
 			</div>
@@ -190,16 +144,16 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 	<xsl:template match="ssh:tracks" mode="style">
 		<style type="text/css">
 			<xsl:for-each select="ssh:track">
-				<xsl:value-of select="concat('.event.', @xml:id, ' { background-color: #', @color, '; }
+				<xsl:value-of select="concat('.event.', @id, ' { background-color: #', @color, '; }
 ')" />
 
 				<xsl:variable name="sum" select="100 div (@action + @adventure + @strategy)" />
 				<xsl:variable name="t1" select="@action * $sum" />
 				<xsl:variable name="t2" select="(@action + @adventure) * $sum" />
 				<xsl:text>body[data-</xsl:text>
-				<xsl:value-of select="@xml:id" />
+				<xsl:value-of select="@id" />
 				<xsl:text>="0"] article[id^="</xsl:text>
-				<xsl:value-of select="@xml:id" />
+				<xsl:value-of select="@id" />
 				<xsl:text>"] { display: none; } </xsl:text>
 			</xsl:for-each>
 		</style>
@@ -207,7 +161,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 
 	<xsl:template match="ssh:tracks" mode="attributes">
 		<xsl:for-each select="ssh:track">
-			<xsl:attribute name="data-{@xml:id}">1</xsl:attribute>
+			<xsl:attribute name="data-{@id}">1</xsl:attribute>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -224,9 +178,9 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
                             document.querySelectorAll('input').forEach(i => i.checked = c);
                             document.querySelectorAll('input').forEach(i => i.onchange());
                         ">
-						<input type="checkbox" name="{@xml:id}" checked="checked" onchange="document.body.setAttribute('data-' + this.name, this.checked ? '1' : '0')" />
+						<input type="checkbox" name="{@id}" checked="checked" onchange="document.body.setAttribute('data-' + this.name, this.checked ? '1' : '0')" />
 						<span class="id">
-							<xsl:value-of select="@xml:id" />
+							<xsl:value-of select="@id" />
 						</span>
 						<xsl:text> </xsl:text>
 						<xsl:value-of select="@name" />
@@ -235,7 +189,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						<xsl:for-each select="ssh:subtrack">
 							<li>
 								<span class="id">
-									<xsl:value-of select="concat(../@xml:id, position(), 'xx')" />
+									<xsl:value-of select="concat(../@id, position(), 'xx')" />
 								</span>
 								<xsl:text> </xsl:text>
 								<xsl:value-of select="@name" />
@@ -248,29 +202,29 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 	</xsl:template>
 
 	<xsl:template match="ssh:event">
-		<article class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}">
+		<article class="event {lio:subtrack(@track)/../@id}" id="{lio:event-id()}" data-type="{@type}">
 			<xsl:if test="@todo">
 				<xsl:attribute name="data-todo" />
 			</xsl:if>
 			<xsl:if test="@todo">
 				<xsl:attribute name="data-unavailable" />
 			</xsl:if>
-			<xsl:if test="@xml:id">
+			<xsl:if test="@track">
 				<span style="float: left;">
 					<xsl:text>[</xsl:text>
-					<xsl:value-of select="@xml:id" />
+					<xsl:value-of select="lio:event-id()" />
 					<xsl:text>]</xsl:text>
 				</span>
 			</xsl:if>
 			<xsl:if test="@date != ''">
-				<p class="date">
-					<xsl:value-of select="@date" />
-				</p>
+				<time class="date" datetime="{@date} {@time}">
+					<xsl:value-of select="lio:event-datetime()" />
+				</time>
 			</xsl:if>
 			<xsl:if test="@theme">
 				<h2 class="myBody header">
-					<xsl:if test="@xml:id">
-						<span class="course-id" data-course="{lio:format-name(@xml:id)}">
+					<xsl:if test="@track">
+						<span class="course-id">
 							<xsl:apply-templates select="." mode="link" />
 						</span>
 					</xsl:if>
@@ -284,7 +238,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</xsl:if>
 					<xsl:if test="@twitter">
 						<a href="https://twitter.com/{@twitter}" target="_blank">
-							🕊️
+							<xsl:text>🕊️</xsl:text>
 						</a>
 					</xsl:if>
 				</h2>
@@ -420,19 +374,19 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		<xsl:choose>
 			<xsl:when test="@href">
 				<a href="{@href}" target="_blank" rel="external">
-					<span class="platform">
+					<abbr class="platform" title="{lio:platform(@on)/@name}">
 						<xsl:text> [</xsl:text>
 						<xsl:value-of select="@on" />
 						<xsl:text>]</xsl:text>
-					</span>
+					</abbr>
 				</a>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="platform">
+				<abbr class="platform" title="{lio:platform(@on)/@name}">
 					<xsl:text> [</xsl:text>
 					<xsl:value-of select="@on" />
 					<xsl:text>]</xsl:text>
-				</span>
+				</abbr>
 			</xsl:otherwise>
 		</xsl:choose>
 		<xsl:text>. </xsl:text>

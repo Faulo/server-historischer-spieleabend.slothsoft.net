@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
 	<p key="title">Historischer Spieleabend im GIL</p>
+	<p key="Monday">Mo</p>
+	<p key="Tuesday">Di</p>
+	<p key="Wednesday">Mi</p>
+	<p key="Thursday">Do</p>
+	<p key="Friday">Fr</p>
+	<p key="Saturday">Sa</p>
+	<p key="Sunday">So</p>
 </html>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
-	xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
+	xmlns:func="http://exslt.org/functions" xmlns:date="http://exslt.org/dates-and-times" extension-element-prefixes="func date" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night"
+	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary">
+
+	<xsl:import href="farah://slothsoft@farah/xsl/dictionary" />
 
 	<xsl:variable name="LETTERS_LOWERCASE" select="'abcdefghijklmnopqrstuvwxyz'" />
 	<xsl:variable name="LETTERS_UPPERCASE" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
@@ -14,6 +17,79 @@
 	<func:function name="lio:toLowerCase">
 		<xsl:param name="region" />
 		<func:result select="translate($region, $LETTERS_UPPERCASE, $LETTERS_LOWERCASE)" />
+	</func:function>
+
+	<func:function name="lio:event-id">
+		<xsl:param name="event" select="." />
+		<xsl:variable name="subtrackId" select="$event/@track" />
+		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
+		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
+		<xsl:variable name="track" select="$subtrack/.." />
+		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
+		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
+
+		<func:result select="concat($track/@id, $subtrackNumber, format-number($eventNumber, '00'))" />
+	</func:function>
+
+	<func:function name="lio:event-track">
+		<xsl:param name="event" select="." />
+		<xsl:variable name="subtrackId" select="$event/@track" />
+		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
+		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
+		<xsl:variable name="track" select="$subtrack/.." />
+		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
+		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
+
+		<func:result select="concat($track/@name, ' ', $subtrackNumber, format-number($eventNumber, '00'), ' (', $subtrack/@name, ')')" />
+	</func:function>
+
+	<func:function name="lio:timestamp">
+		<xsl:param name="date" />
+		<xsl:choose>
+			<xsl:when test="contains($date, '-')">
+				<xsl:variable name="year" select="number(substring($date,1,4))" />
+				<xsl:variable name="month" select="number(substring($date,6,2))" />
+				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<func:result select="365 * $year + 31 * $month + $day" />
+			</xsl:when>
+			<xsl:otherwise>
+				<func:result select="0" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</func:function>
+
+	<func:function name="lio:platform">
+		<xsl:param name="id" select="." />
+		<func:result select="//ssh:platform[@id = $id]" />
+	</func:function>
+
+	<func:function name="lio:subtrack">
+		<xsl:param name="id" select="." />
+		<func:result select="//ssh:subtrack[@id = $id]" />
+	</func:function>
+
+	<func:function name="lio:subtrack-name">
+		<xsl:param name="id" select="." />
+		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $id]" />
+		<func:result select="concat($subtrack/../@name, ' - ', $subtrack/@name)" />
+	</func:function>
+
+	<func:function name="lio:event-datetime">
+		<xsl:param name="event" select="." />
+
+		<xsl:variable name="date" select="string($event/@date)" />
+
+		<xsl:choose>
+			<xsl:when test="contains($date, '-')">
+				<xsl:variable name="year" select="number(substring($date,1,4))" />
+				<xsl:variable name="month" select="number(substring($date,6,2))" />
+				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<func:result select="concat(sfd:lookup-text(date:day-name($date)), ', ', $day, '.', $month, '.', $year, ' ', $event/@time)" />
+			</xsl:when>
+			<xsl:otherwise>
+				<func:result select="''" />
+			</xsl:otherwise>
+		</xsl:choose>
 	</func:function>
 
 	<xsl:variable name="action" select="'#ffa793'" />
@@ -45,10 +121,10 @@
 
 	<xsl:template match="ssh:event" mode="link" />
 
-	<xsl:template match="ssh:event[@xml:id]" mode="link">
-		<xsl:variable name="ref" select="string(@xml:id)" />
-		<a href="#{$ref}" class="id" title="{lio:lookup-name($ref)}">
-			<xsl:value-of select="lio:format-name($ref)" />
+	<xsl:template match="ssh:event[@track]" mode="link">
+		<xsl:variable name="ref" select="lio:event-id()" />
+		<a href="#{$ref}" class="id">
+			<xsl:value-of select="lio:event-track()" />
 			<xsl:text>:</xsl:text>
 		</a>
 	</xsl:template>
