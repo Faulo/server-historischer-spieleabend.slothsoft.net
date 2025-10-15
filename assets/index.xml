@@ -73,13 +73,6 @@
 	</tracks>
 
 	<present>
-		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
-			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" wanted="Tom" />
-			<game name="Reise nach Nordland" from="2002" by="Funatics Software" on="Windows" country="DE" wanted="Kadda" />
-			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
-			<game name="Pokémon Mystery Dungeon: Explorers of Sky" from="2009" by="Chunsoft" on="NDS" country="JP" wanted="Enrico" />
-			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
-		</event>
 		<event xml:id="MIS605" date="Do, 23.10.2025 19:00" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
 			<game name="Double Dragon" from="1987" by="Technōs Japan" on="Arcade" country="JP" />
@@ -90,6 +83,13 @@
 	</present>
 
 	<past>
+		<event xml:id="MIS506" date="Do, 09.10.2025 19:00" theme="Player's Choice VI" type="special" gfx="sloking.webp">
+			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="Sega Mega Drive" country="JP" wanted="Tom" />
+			<game name="Reise nach Nordland" from="2002" by="Funatics Software" on="Windows" country="DE" wanted="Kadda" />
+			<game name="Edna bricht aus" from="2008" by="Daedalic Entertainment" on="Windows" country="DE" wanted="Leo" />
+			<game name="Pokémon Mystery Dungeon: Explorers of Sky" from="2009" by="Chunsoft" on="NDS" country="JP" wanted="Enrico" />
+			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
+		</event>
 		<event xml:id="ADV204" date="Do, 25.09.2025 19:00" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" rerun="ADV201" moderator="Daniel">
 			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=j49crlvd62mhwuzu" />
 			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=urxrv27t7qtu52lb" />
