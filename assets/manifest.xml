@@ -3,6 +3,11 @@
 	<resource name="manifest" type="application/xml" />
 	<resource name="index" type="application/xml" />
 
+	<fragment name="index-2">
+		<use-template ref="//slothsoft@schema/xsl/historical-games-night.1.0-to-2.0" />
+		<use-document ref="/index" />
+	</fragment>
+
 	<resource-directory name="css" type="text/css" />
 	<resource-directory name="js" type="application/javascript" />
 	<resource-directory name="xsl" type="application/xslt+xml" />
