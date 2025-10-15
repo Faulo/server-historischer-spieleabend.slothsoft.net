@@ -1347,6 +1347,7 @@
 			<game name="Planet Zoo" from="2019" by="Frontier Developments" on="Windows" country="GB" />
 		</event>
 		<event xml:id="SPO501" date="" theme="Tetris Forever" type="longplay" moderator="Daniel">
+			<game name="Tetris Forever" from="2024" by="Digital Eclipse" on="Windows" country="US" />
 			<game name="ТЕТРИС" from="1985" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
 			<game name="Welltris" from="1989" by="Doka" on="MS-DOS" country="RU" />
 			<game name="Hatris" from="1990" by="ParaGraph" on="NES" country="JP" />
