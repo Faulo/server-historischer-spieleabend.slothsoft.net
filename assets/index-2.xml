@@ -90,8 +90,8 @@
 		<platform id="N64" name="Nintendo 64" href="" />
 		<platform id="NDS" name="Nintendo DS" href="" />
 		<platform id="NES" name="Nintendo Entertainment System" href="" />
-		<platform id="PC-88" name="PC-88" href="" />
-		<platform id="PDP-10" name="PDP-10" href="" />
+		<platform id="PC-88" name="NEC PC-8800 series" href="" />
+		<platform id="PDP-10" name="DEC PDP-10" href="" />
 		<platform id="PS1" name="Sony PlayStation" href="" />
 		<platform id="PS2" name="Sony PlayStation 2" href="" />
 		<platform id="PS3" name="Sony PlayStation 3" href="" />
@@ -108,7 +108,7 @@
 		<platform id="WiiU" name="Nintendo Wii U" href="" />
 		<platform id="Windows" name="Microsoft Windows" href="" />
 		<platform id="Xbox360" name="Microsoft Xbox 360" href="" />
-		<platform id="ZX81" name="ZX81" href="" />
+		<platform id="ZX81" name="Sinclair ZX81" href="" />
 		<platform id="iOS" name="Apple iOS" href="" />
 	</platforms>
 
