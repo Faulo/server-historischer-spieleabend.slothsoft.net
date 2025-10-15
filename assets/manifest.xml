@@ -2,11 +2,7 @@
 <assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
 	<resource name="manifest" type="application/xml" />
 	<resource name="index" type="application/xml" />
-
-	<fragment name="index-2">
-		<use-template ref="//slothsoft@schema/xsl/historical-games-night.1.0-to-2.0" />
-		<use-document ref="/index" />
-	</fragment>
+	<resource name="index-2" type="application/xml" />
 
 	<resource-directory name="css" type="text/css" />
 	<resource-directory name="js" type="application/javascript" />

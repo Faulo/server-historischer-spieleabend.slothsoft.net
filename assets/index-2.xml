@@ -64,6 +64,7 @@
 			<subtrack id="BIZ-6" name="Video Games Considered the Best" />
 		</track>
 	</tracks>
+
 	<platforms>
 		<platform id="Amiga" name="Amiga" href="" />
 		<platform id="Android" name="Android" href="" />
@@ -110,6 +111,7 @@
 		<platform id="ZX81" name="ZX81" href="" />
 		<platform id="iOS" name="iOS" href="" />
 	</platforms>
+
 	<present>
 		<event track="MIS-6" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif" date="2025-10-23" time="19:00">
 			<game name="Rogue" from="1980" by="A.I. Design" on="Amiga" country="US" />
@@ -119,6 +121,7 @@
 			<game name="Grand Theft Auto III" from="2001" by="DMA Design" on="PS2" country="GB" />
 		</event>
 	</present>
+
 	<past>
 		<event track="MIS-5" theme="Player's Choice VI" type="special" gfx="sloking.webp" date="2025-10-09" time="19:00">
 			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="MegaDrive" country="JP" wanted="Tom" />
@@ -127,7 +130,7 @@
 			<game name="Pokémon Mystery Dungeon: Explorers of Sky" from="2009" by="Chunsoft" on="NDS" country="JP" wanted="Enrico" />
 			<game name="Magicka" from="2011" by="Arrowhead Game Studios" on="Windows" country="SE" wanted="Gregor" />
 		</event>
-		<event track="ADV-2" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" moderator="Daniel" date="2025-09-25" time="19:00" rerun="2020-08-13">
+		<event track="ADV-2" theme="Hamlet on the Holodeck" type="genre" gfx="facade.png" moderator="Daniel" date="2025-09-25" time="19:00">
 			<game name="Aisle" from="1999" by="Sam Barlow" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=j49crlvd62mhwuzu" />
 			<game name="Galatea" from="2004" by="Emily Short" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=urxrv27t7qtu52lb" />
 			<game name="Façade" from="2005" by="Procedural Arts" on="Windows" country="US" />
@@ -159,7 +162,7 @@
 			<read href="https://gamefaqs.gamespot.com/n64/576250-nushi-tsuri-64/faqs/57671" title="Nushi Tsuri 64 – Guide and Walkthrough" year="2014" author="Adam King" />
 			<read href="https://www.slo-fishing.si/games-apps/537-what-is-fishing-game" title="What is a Fishing Game? [Simple Definition and More!]" year="2022" author="Siniša Pintar" />
 		</event>
-		<event track="JNR-1" theme="8-Bit Platformers" type="genre" moderator="Kadda" gfx="pitfall.png" date="2025-07-31" time="19:00" rerun="2022-11-10">
+		<event track="JNR-1" theme="8-Bit Platformers" type="genre" moderator="Kadda" gfx="pitfall.png" date="2025-07-31" time="19:00">
 			<game name="Pitfall!" from="1982" by="Activision" on="Atari2600" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
 			<game name="Mega Man 2" from="1988" by="Capcom" on="NES" country="JP" />
@@ -195,7 +198,7 @@
 			<game name="Heaven's Vault" from="2019" by="Inkle" on="Windows" country="GB" />
 			<game name="No Man's Sky" from="2016" by="Hello Games" on="Windows" country="GB" />
 		</event>
-		<event track="MIS-1" theme="Adware Games" type="genre" gfx="atlantis.png" moderator="Daniel" date="2025-05-15" time="18:00" rerun="2020-08-29">
+		<event track="MIS-1" theme="Adware Games" type="genre" gfx="atlantis.png" moderator="Daniel" date="2025-05-15" time="18:00">
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" href="https://www.mobygames.com/game/161187/tony-friends-in-kelloggs-land/" />
 			<game name="Abenteuer Atlantis" from="1992" by="COMAD" on="MS-DOS" country="DE" href="https://www.myabandonware.com/game/abenteuer-atlantis-3cu/play-3cu" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/81791/bi-fi-roll-snack-zone/" />
@@ -254,7 +257,7 @@
 			<game name="Deadly Premonition" from="2010" by="Access Games" on="Windows" country="JP" />
 			<game name="Deadly Premonition 2: A Blessing in Disguise" from="2020" by="Toybox, White Owls" on="Windows" country="JP" />
 		</event>
-		<event track="STR-1" theme="Feudal Strategy Games" type="genre" moderator="Daniel" gfx="defender.png" date="2025-01-02" time="18:00" rerun="2018-11-22">
+		<event track="STR-1" theme="Feudal Strategy Games" type="genre" moderator="Daniel" gfx="defender.png" date="2025-01-02" time="18:00">
 			<game name="Defender of the Crown" from="1986" by="Cinemaware" on="Amiga" country="GB" manual="Defender of the Crown (1986, Cinemaware)" />
 			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
 			<game name="Mount &amp; Blade" from="2008" by="TaleWorlds Entertainment" on="Windows" country="TR" />
@@ -267,7 +270,7 @@
 			<game name="The Long Dark" from="2017" by="Hinterland Studio" on="Windows" country="US" wanted="Gregor" />
 			<game name="Hitman: Holiday Hoarders" from="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
 		</event>
-		<event track="SPO-4" theme="Fun Racer" type="genre" gfx="mariokart.gif" moderator="Leo" date="2024-12-05" time="18:00" rerun="2020-09-10">
+		<event track="SPO-4" theme="Fun Racer" type="genre" gfx="mariokart.gif" moderator="Leo" date="2024-12-05" time="18:00">
 			<game name="Diddy Kong Racing" from="1997" by="Rare" on="N64" country="GB" wanted="Daniel" />
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="" />
 			<game name="Moorhuhn Kart" from="2002" by=" Phenomedia AG" on="Windows" country="DE" />
@@ -330,7 +333,7 @@
 			<game name="Half Past Fate" from="2020" by="Serenity Forge" on="Windows" country="US" wanted="Gregor" />
 			<game name="Citizen Sleeper" from="2022" by="Jump Over the Age" on="Windows" country="GB" wanted="Kadda" />
 		</event>
-		<event track="STR-4" theme="Berufssimulationen" moderator="Kadda" type="genre" gfx="MadTV.png" date="2024-07-11" time="19:00" rerun="2019-06-13">
+		<event track="STR-4" theme="Berufssimulationen" moderator="Kadda" type="genre" gfx="MadTV.png" date="2024-07-11" time="19:00">
 			<game name="Mad TV" from="1991" by="Rainbow Arts" on="Amiga" country="DE" />
 			<game name="Pizza Connection" from="1994" by="Cybernetic Corporation" on="Amiga" country="DE" />
 			<game name="Klomanager" from="1995" by="Anvil-Soft" on="Windows" country="DE" />
@@ -376,7 +379,7 @@
 			<game name="Prey" from="2017" by="Arkane Studios" on="Windows" country="FR" wanted="Kadda" />
 			<game name="Weird West" from="2023" by="WolfEye Studios" on="Windows" country="US" wanted="" />
 		</event>
-		<event track="ACT-2" theme="2D Stealth Games" type="genre" moderator="Kadda &amp; Daniel" gfx="Snake.gif" date="2024-02-29" time="19:00" rerun="2019-03-21">
+		<event track="ACT-2" theme="2D Stealth Games" type="genre" moderator="Kadda &amp; Daniel" gfx="Snake.gif" date="2024-02-29" time="19:00">
 			<game name="005" from="1981" by="Sega" on="Arcade" country="JP" href="https://www.playretrogames.com/5825-005" />
 			<game name="Saboteur!" from="1985" by="Clive Townsend" on="C64" country="US" href="https://c64online.com/c64-games/saboteur-2/" />
 			<game name="Bonanza Bros." from="1990" by="Sega" on="MegaDrive" country="JP" />
@@ -390,7 +393,7 @@
 			<game name="Phantasy Star Online" from="2000" by="Sonic Team" on="Dreamcast" country="JP" />
 			<read href="https://www.youtube.com/watch?v=6wN5Z3EH3SA" title="Quest 64: One of Nintendo's Most Controversial RPGs" year="2023" author="Treeky" />
 		</event>
-		<event track="BIZ-2" theme="Peter Molyneux" type="author" moderator="Daniel" gfx="molyneux.png" date="2024-02-01" time="19:00" rerun="2019-01-17">
+		<event track="BIZ-2" theme="Peter Molyneux" type="author" moderator="Daniel" gfx="molyneux.png" date="2024-02-01" time="19:00">
 			<game name="Populous" from="1989" by="Bullfrog Productions" on="Amiga" country="GB" manual="Populous" />
 			<game name="Populous II: Trials of the Olympian Gods" from="1991" by="Bullfrog Productions" on="Amiga" country="GB" manual="Populous II (1991, Bullfrog Productions)" />
 			<game name="Syndicate" from="1993" by="Bullfrog Productions" on="MS-DOS" country="GB" />
@@ -420,8 +423,8 @@
 			<game name="Sayonara Wild Hearts" from="2019" by="Simogo" on="Switch" country="SE" />
 			<game name="Hi-Fi Rush" from="2023" by="Tango Gameworks" on="Windows" country="JP" />
 		</event>
-		<event track="JNR-1" theme="Metroidvanias" type="genre" moderator="Kadda" gfx="metroid.png" date="2023-11-09" time="19:00" rerun="2019-02-09">
-			<req ref="2019-01-05" />
+		<event track="JNR-1" theme="Metroidvanias" type="genre" moderator="Kadda" gfx="metroid.png" date="2023-11-09" time="19:00">
+			<req theme="8-Bit Platformers" />
 			<game name="Metroid" from="1986" by="Nintendo R&amp;D1" on="NES" country="JP" />
 			<game name="Wonder Boy III: The Dragon's Trap" from="1989" by="Westone" on="MasterSystem" country="JP" />
 			<game name="Super Metroid" from="1994" by="Nintendo R&amp;D1" on="SNES" country="JP" />
@@ -434,7 +437,7 @@
 			<game name="Final Fantasy" from="1987" by="Square" on="NES" country="JP" />
 			<game name="Tony Hawk's Pro Skater 2" from="2000" by="Neversoft" on="Windows" country="US" />
 		</event>
-		<event track="ACT-3" theme="Survival Horror" type="genre" moderator="Ruben" date="2023-10-12" time="19:00" rerun="2019-04-20">
+		<event track="ACT-3" theme="Survival Horror" type="genre" moderator="Ruben" date="2023-10-12" time="19:00">
 			<game name="Sweet Home" from="1989" by="Capcom" on="NES" country="JP" manual="SweetHome" />
 			<game name="Project Firestart" from="1989" by="Dynamix" on="C64" country="US" />
 			<game name="Resident Evil" from="1996" by="Capcom" on="PS1" country="JP" />
@@ -461,7 +464,7 @@
 			<game name="Overcooked" from="2016" by="Ghost Town Games" on="Windows" country="GB" wanted="Kadda" />
 			<game name="Cooking Simulator" from="2019" by="Big Cheese Studio" on="Windows" country="PL" wanted="Kadda" />
 		</event>
-		<event track="BIZ-2" theme="Fumito Ueda" type="author" moderator="Kadda" gfx="sotc.gif" date="2023-08-04" time="19:00" rerun="2019-08-15">
+		<event track="BIZ-2" theme="Fumito Ueda" type="author" moderator="Kadda" gfx="sotc.gif" date="2023-08-04" time="19:00">
 			<game name="Ico" from="2001" by="Team Ico" on="PS3" country="JP" wanted="Gil" />
 			<game name="Shadow of the Colossus" from="2005" by="Team Ico" on="PS3" country="JP" wanted="Gil" />
 			<game name="The Last Guardian" from="2016" by="GenDESIGN" on="PS4" country="JP" wanted="Kadda" />
@@ -491,7 +494,7 @@
 			<game name="Dirt Rally 2.0" from="2019" by="Codemasters" on="Windows" country="GB" wanted="C-P" />
 			<game name="Assetto Corsa Competizione" from="2019" by="Kunos Simulazioni s.r.l." on="Windows" country="IT" wanted="C-P" />
 		</event>
-		<event track="BIZ-2" theme="Tim Schafer" type="author" gfx="tentacle.gif" moderator="Gregor" date="2023-06-09" time="19:00" rerun="2020-12-30">
+		<event track="BIZ-2" theme="Tim Schafer" type="author" gfx="tentacle.gif" moderator="Gregor" date="2023-06-09" time="19:00">
 			<game name="Day of the Tentacle" from="1993" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Daniel" />
 			<game name="Grim Fandango" from="1998" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Kadda" />
 			<game name="Psychonauts" from="2005" by="Double Fine Productions" on="Windows" country="US" wanted="Kadda" />
@@ -501,8 +504,8 @@
 			<read href="https://www.youtube.com/watch?v=gddBHzy5ByU" title="Cookie Monster chews over a new video game idea" year="2011" author="Warner Bros. Games" />
 			<read href="https://www.youtube.com/watch?v=-8pgNUkjrYA" title="Tim Schafer Breaks Down 20 Years of Double Fine Games" year="2020" author="Noclip" />
 		</event>
-		<event track="RPG-1" theme="Ultima" type="series" gfx="Ultima.png" moderator="Daniel" date="2023-05-18" time="19:00" rerun="2019-06-27">
-			<req ref="2019-03-07" />
+		<event track="RPG-1" theme="Ultima" type="series" gfx="Ultima.png" moderator="Daniel" date="2023-05-18" time="19:00">
+
 			<game name="Ultima I: The First Age of Darkness" from="1981" by="Origin Systems" on="AppleII" country="US" />
 			<game name="Ultima IV: Quest of the Avatar" from="1985" by="Origin Systems" on="Amiga" country="US" />
 			<game name="Ultima VII: The Black Gate" from="1992" by="Origin Systems" on="MS-DOS" country="US" />
@@ -577,7 +580,7 @@
 			<game name="Grand Theft Auto: Chinatown Wars" from="2009" by="Rockstar Leeds" on="PSP" country="GB" />
 			<game name="Grand Theft Auto V" from="2013" by="Rockstar North" on="Windows" country="GB" />
 		</event>
-		<event track="JNR-1" theme="8-Bit Platformers" type="genre" moderator="Kadda" gfx="pitfall.png" date="2022-11-10" time="19:00" rerun="2019-01-05">
+		<event track="JNR-1" theme="8-Bit Platformers" type="genre" moderator="Kadda" gfx="pitfall.png" date="2022-11-10" time="19:00">
 			<game name="Pitfall!" from="1982" by="Activision" on="C64" country="US" />
 			<game name="Super Mario Bros." from="1985" by="Nintendo Creative Department" on="NES" country="JP" />
 			<game name="Prince of Persia" from="1989" by="Brøderbund" on="Amiga" country="US" manual="Prince of Persia (1989, Broderbund)" />
@@ -599,7 +602,7 @@
 			<game name="Kingdom Hearts 3D: Dream Drop Distance" from="2012" by="Square Enix 1st Production Department" on="PS4" country="JP" wanted="Tina" />
 			<game name="Kingdom Hearts III" from="2019" by="Square Enix Business Division 3" on="PS4" country="JP" wanted="Tina" />
 		</event>
-		<event track="FPS-1" theme="Narrative-heavy systems driven FPS" type="genre" gfx="Gordon.png" moderator="MICHAEL!" date="2022-09-29" time="19:00" rerun="2019-10-24">
+		<event track="FPS-1" theme="Narrative-heavy systems driven FPS" type="genre" gfx="Gordon.png" moderator="MICHAEL!" date="2022-09-29" time="19:00">
 			<game name="Black Mesa" from="2020" by="Crowbar Collective" on="Windows" country="US" wanted="Kadda" />
 			<game name="F.E.A.R." from="2005" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
 			<game name="S.T.A.L.K.E.R.: Shadow of Chernobyl" from="2007" by="GSC Game World" on="Windows" country="UA" wanted="Kadda" />
@@ -618,8 +621,8 @@
 			<game name="Conker's Bad Fur Day" from="2001" by="Rare" on="N64" country="GB" />
 			<game name="South Park: The Stick of Truth" from="2014" by="Obsidian Entertainment" on="Windows" country="US" wanted="MICHAEL!" />
 		</event>
-		<event track="RPG-1" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2022-08-17" time="19:00" rerun="2019-10-10">
-			<req ref="2019-10-10" />
+		<event track="RPG-1" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2022-08-17" time="19:00">
+			<req theme="Open-World Dungeon Crawlers" />
 			<game name="Tales of the Unknown, Volume I: The Bard's Tale" from="1985" by="Interplay Productions" on="Amiga" country="US" manual="Bard's Tale" />
 			<game name="Amberstar" from="1992" by="Thalion Software" on="Amiga" country="DE" />
 			<game name="Might and Magic VII: For Blood and Honor" from="1999" by="New World Computing" on="Windows" country="US" />
@@ -677,7 +680,7 @@
 			<game name="Nier Replicant ver.1.22474487139..." from="2021" by="Cavia" on="Windows" country="JP" wanted="Ruben" />
 		</event>
 		<event track="ACT-3" theme="More Horror Stuff" type="genre" moderator="Kadda &amp; Ilona" gfx="residentevilvii.gif" date="2022-04-28" time="19:00">
-			<req ref="2019-09-28" />
+
 			<game name="Alone in the Dark" from="1992" by="Infogrames" on="MS-DOS" country="FR" manual="AloneInTheDark" />
 			<game name="Eternal Darkness: Sanity's Requiem" from="2002" by="Silicon Knights" on="GCN" country="CA" />
 			<game name="Fatal Frame II: Crimson Butterfly" from="2003" by="Tecmo" on="PS2" country="JP" />
@@ -871,7 +874,7 @@
 			<game name="Final Fantasy XV" from="2016" by="Square Enix Business Division 2" on="Windows" country="JP" />
 		</event>
 		<event track="LAN-2" theme="Classic MUDs" type="genre" gfx="MUD2.png" date="2021-03-15" time="19:00">
-			<req ref="2019-03-07" />
+
 			<game name="MUD2" from="1985" by="Multi-User Entertainment" on="Windows" country="US" />
 			<game name="MorgenGrauen" from="1992" by="Förderverein Projekt Morgengrauen e.V." on="Windows" country="DE" />
 		</event>
@@ -899,13 +902,13 @@
 			<game name="Undertale" from="2015" by="Toby Fox" on="Windows" country="US" wanted="Daniel" />
 		</event>
 		<event track="STR-1" theme="Sci-Fi Real-Time Strategy Games" type="genre" gfx="starcraft.webp" date="2021-01-14" time="19:00">
-			<req ref="2019-08-29" />
+
 			<game name="Dune II: The Building of a Dynasty" from="1992" by="Westwood Studios" on="Amiga" country="US" wanted="Daniel" />
 			<game name="StarCraft" from="1998" by="Blizzard Entertainment" on="Windows" country="US" wanted="Peter" />
 			<game name="Command &amp; Conquer: Red Alert 2" from="2000" by="Westwood Pacific" country="US" on="Windows" wanted="MICHAEL!" />
 		</event>
 		<event track="BIZ-2" theme="Tim Schafer" type="author" gfx="tentacle.gif" date="2020-12-30" time="19:00">
-			<req ref="1970-01-01" />
+
 			<game name="Day of the Tentacle" from="1993" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Ilona" />
 			<game name="Grim Fandango" from="1998" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Kadda" />
 			<game name="Psychonauts" from="2005" by="Double Fine Productions" on="Windows" country="US" wanted="MICHAEL!" />
@@ -926,7 +929,7 @@
 				author="Daniel Schulz" />
 		</event>
 		<event track="RPG-1" theme="CRPGs - „Westliche“ Rollenspiele " type="genre" gfx="fallout.png" date="2020-12-03" time="19:00">
-			<req ref="2019-10-10" />
+			<req theme="Open-World Dungeon Crawlers" />
 			<game name="Ambermoon" from="1993" by="Thalion Software" on="Amiga" country="DE" wanted="Daniel" />
 			<game name="Fallout" from="1997" by="Interplay Productions" country="US" on="Windows" wanted="Kadda" />
 			<game name="Baldur's Gate" from="1998" by="BioWare" country="CA" on="Windows" wanted="MICHAEL!" />
@@ -955,7 +958,7 @@
 			<game name="Viewtiful Joe" from="2003" by="Capcom Production Studio 4" on="GCN" country="JP" />
 		</event>
 		<event track="BIZ-2" theme="Warren Spector" type="author" gfx="deusex.webp" date="2020-10-08" time="18:00">
-			<req ref="2019-06-27" />
+			<req theme="Ultima" />
 			<game name="Ultima Underworld: The Stygian Abyss" from="1992" by="Blue Sky Productions" on="MS-DOS" country="US" />
 			<game name="System Shock" from="1994" by="Looking Glass Technologies" on="MS-DOS" country="US" />
 			<game name="Deus Ex" from="2000" by="Ion Storm" on="Windows" country="US" />
@@ -977,8 +980,8 @@
 			<game name="Crash Team Racing" from="1999" by="Naughty Dog" on="PS1" country="US" wanted="Nika" />
 		</event>
 		<event track="MIS-1" theme="Adware Games" type="genre" gfx="bifi.png" date="2020-08-29" time="19:00">
-			<req ref="2019-01-05" />
-			<req ref="1970-01-01" />
+			<req theme="8-Bit Platformers" />
+
 			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" />
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" />
@@ -1019,7 +1022,7 @@
 			<game name="Machinarium" from="2009" by="Amanita Design" on="Windows" country="CZ" />
 		</event>
 		<event track="STR-2" theme="Turn-Based Guns and Stuff" type="genre" gfx="Sami.png" date="2020-06-04" time="19:00">
-			<req ref="2021-03-01" />
+
 			<game name="Panzer General" from="1994" by="Strategic Simulations" on="MS-DOS" country="US" />
 			<game name="Advance Wars" from="2001" by="Intelligent Systems" on="GBA" country="JP" />
 			<game name="UFO: Enemy Unknown" from="1994" by="Mythos Games" on="Amiga" country="GB" />
@@ -1077,14 +1080,14 @@
 			<game name="The Bunker" from="2016" by="Splendy Games" on="Windows" country="GB" wanted="Kadda" />
 		</event>
 		<event track="STR-1" theme="Tower Defense Games" type="genre" gfx="PvsZ.png" date="2020-01-02" time="19:00">
-			<req ref="2019-08-29" />
+
 			<game name="Rampart" from="1990" by="Atari Games" on="Amiga" country="US" />
 			<game name="Element Tower Defense" from="2006" by="Element Studios" on="WarcraftIII" country="US" />
 			<game name="Desktop Tower Defense" from="2007" by="Paul Preece" on="Flash" country="GB" href="https://www.kongregate.com/games/preecep/desktop-tower-defense" />
 			<game name="Plants vs. Zombies" from="2009" by="PopCap Games" on="Windows" country="US" wanted="Elli" />
 		</event>
 		<event track="JNR-1" theme="Trial-and-Error Gameplay" type="genre" gfx="IWannaBeTheGuy.png" date="2019-12-19" time="19:00">
-			<req ref="2019-05-30" />
+
 			<game name="Kaizo Mario World" from="2007" by="T. Takemoto" on="SNES" country="JP" />
 			<game name="I Wanna Be the Guy" from="2007" by="Michael O'Reilly" on="Windows" country="US" />
 			<game name="You Have to Burn the Rope" from="2008" by="Kian Bashiri" on="Flash" country="SE" href="https://www.kongregate.com/games/Mazapan/you-have-to-burn-the-rope" />
@@ -1109,7 +1112,7 @@
 			<game name="Super Smash Bros." from="1999" by="HAL Laboratory" on="N64" country="JP" />
 		</event>
 		<event track="LAN-2" theme="Multiplayer Online Battle Arena" type="genre" moderator="Robin" gfx="dota.jpg" date="2019-11-07" time="19:00">
-			<req ref="2019-08-29" />
+
 			<game name="Defense of the Ancients" from="2003" by="Abdul „IceFrog“ Ismail" on="WarcraftIII" country="?" />
 			<game name="League of Legends" from="2009" by="Riot Games" on="Windows" country="US" />
 			<game name="Dota 2" from="2013" by="Valve Corporation" on="Windows" country="US" />
@@ -1124,7 +1127,7 @@
 			<game name="Metro 2033" from="2010" by="4A Games" on="Windows" country="MT" wanted="Christian" />
 		</event>
 		<event track="RPG-1" theme="Open-World Dungeon Crawlers" type="genre" gfx="MightAndMagic.png" date="2019-10-10" time="19:00">
-			<req ref="2019-06-27" />
+
 			<game name="Tales of the Unknown, Volume I: The Bard's Tale" from="1985" by="Interplay Productions" on="Amiga" country="US" />
 			<game name="Might and Magic VI: The Mandate of Heaven" from="1996" by="New World Computing" on="Windows" country="US" />
 			<game name="The Elder Scrolls II: Daggerfall" from="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
@@ -1134,7 +1137,6 @@
 			<read href="https://en.uesp.net/wiki/Daggerfall:Skills" title="Daggerfall: Skills" year="2019" author="en.uesp.net" />
 		</event>
 		<event track="ACT-3" theme="The Weapons Do Nothing" type="genre" moderator="Christian" gfx="yuppiepsycho.png" date="2019-09-28" time="19:00">
-			<req ref="2019-04-20" />
 			<game name="3D Monster Maze" from="1981" by="Malcolm Evans" on="ZX81" country="GB" />
 			<game name="Clock Tower" from="1995" by="Human Entertainment" on="PS1" country="JP" />
 			<game name="Hellnight" from="1998" by="Atlus" on="PS1" country="JP" />
@@ -1157,7 +1159,7 @@
 				author="Daniel Schulz" />
 		</event>
 		<event track="STR-1" theme="Rock Beats Laser Real-Time Strategy Games" type="genre" gfx="warcraft.gif" date="2019-08-29" time="19:00">
-			<req ref="2019-05-02" />
+
 			<game name="Warcraft: Orcs &amp; Humans" from="1994" by="Blizzard Entertainment" on="MS-DOS" country="US" manual="WarCraft-Orcs-Humans_Manual_DOS_EN" />
 			<game name="Anno 1602: Erschaffung einer neuen Welt" from="1998" by="Max Design" on="Windows" country="AT" />
 			<game name="Die Siedler III" from="1998" by="Blue Byte" on="Windows" country="DE" />
@@ -1195,7 +1197,7 @@
 			<read href="https://www.youtube.com/watch?v=Iz-XTR3pwrE" title="The Year Stealth Games Got Serious" year="2019" author="Game Maker's Toolkit" />
 		</event>
 		<event track="RPG-1" theme="Ultima" type="series" gfx="Ultima.png" date="2019-06-27" time="19:00">
-			<req ref="2019-03-07" />
+
 			<game name="Ultima I: The First Age of Darkness" from="1981" by="Origin Systems" on="AppleII" country="US" />
 			<game name="Ultima III: Exodus" from="1983" by="Origin Systems" on="Amiga" country="US" />
 			<game name="Ultima IV: Quest of the Avatar" from="1985" by="Origin Systems" on="Amiga" country="US" />
@@ -1208,7 +1210,7 @@
 			<game name="Landwirtschafts-Simulator 2013" from="2013" by="Giants Software" on="Windows" country="CH" wanted="Koubek" />
 		</event>
 		<event track="JNR-1" theme="90's Sidescrollers" type="genre" gfx="Mario.png" date="2019-05-30" time="19:00">
-			<req ref="2019-01-05" />
+			<req theme="8-Bit Platformers" />
 			<game name="Super Mario World" from="1990" by="Nintendo EAD" on="SNES" country="JP" />
 			<game name="Sonic 3 &amp; Knuckles" from="1994" by="Sonic Team" on="MegaDrive" country="JP" />
 			<game name="Mr. Nutz: Hoppin' Mad" from="1994" by="Neon Studios" on="Amiga" country="DE" />
@@ -1235,7 +1237,7 @@
 			<game name="Lifeline" from="2003" by="Sony Computer Entertainment Inc" on="PS2" country="JP" />
 		</event>
 		<event track="BIZ-2" theme="Ron Gilbert" type="author" date="2019-04-07" time="19:00">
-			<req ref="2018-12-13" />
+
 			<game name="Maniac Mansion" from="1987" by="Lucasfilm Games" on="Amiga" country="US" manual="ManiacMansion" />
 			<game name="The Secret of Monkey Island" from="1990" by="Lucasfilm Games" on="Amiga" country="US" />
 			<game name="DeathSpank: Orphans of Justice" from="2010" by="Hothead Games" on="Windows" country="US" />
@@ -1254,14 +1256,14 @@
 			<game name="Slaves to Armok: God of Blood Chapter II: Dwarf Fortress" from="2006" by="Tarn Adams" on="Windows" country="US" />
 		</event>
 		<event track="JNR-2" theme="3D Platformers I" type="genre" moderator="Rober" date="2019-02-21" time="19:00">
-			<req ref="2019-05-30" />
+
 			<game name="Crash Bandicoot" from="1996" by="Naughty Dog" on="PS1" country="US" />
 			<game name="Super Mario 64" from="1996" by="Nintendo EAD" on="N64" country="JP" />
 			<game name="Banjo-Kazooie" from="1998" by="Rare" on="N64" country="GB" />
 			<game name="Mirror's Edge" from="2008" by="EA DICE" on="Windows" country="SE" />
 		</event>
 		<event track="JNR-1" theme="Metroidvanias" type="genre" date="2019-02-09" time="19:00">
-			<req ref="2019-01-05" />
+			<req theme="8-Bit Platformers" />
 			<game name="Metroid" from="1986" by="Nintendo R&amp;D1" on="NES" country="JP" />
 			<game name="Wonder Boy III: The Dragon's Trap" from="1989" by="Westone" on="MasterSystem" country="JP" />
 			<game name="Super Metroid" from="1994" by="Nintendo R&amp;D1" on="SNES" country="JP" />
@@ -1292,6 +1294,7 @@
 			<game name="Die Siedler" from="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
 		</event>
 	</past>
+
 	<future>
 		<event track="BIZ-6" theme="1980" type="special" moderator="Kadda" date="" time="">
 			<game name="Adventure" from="1980" by="Atari, Inc." on="Atari2600" country="US" />
@@ -1387,6 +1390,7 @@
 			<game name="Mario Kart World" from="2025" by="Nintendo EPD" on="Switch2" country="JP" />
 		</event>
 	</future>
+
 	<unfinished>
 		<event track="STR-1" theme="Yu-Gi-Oh!" type="series" moderator="" date="" time="">
 			<game name="Yu-Gi-Oh! Duel Monsters" from="1998" by="Konami" on="GB" country="JP" />
@@ -1488,7 +1492,6 @@
 			<game name="The Legend of Zelda: Four Swords Adventures" from="2004" by="Nintendo Entertainment Analysis &amp; Development" on="GCN" country="JP" />
 		</event>
 		<event track="ACT-3" theme="Biofeedback Games" type="genre" moderator="" date="" time="">
-			<req ref="2022-04-28" />
 			<game name="Nevermind" from="2015" by="Flying Mollusk" on="HTCVive" country="JP" />
 		</event>
 		<event track="FPS-1" theme="Don't Shoot" type="genre" moderator="" date="" time="">
@@ -1509,6 +1512,7 @@
 			<game name="Sonic Adventure" from="1998" by="Sonic Team" on="Dreamcast" country="JP" />
 		</event>
 	</unfinished>
+
 	<unsorted>
 		<event track="MIS-8" theme="Historische Sockenkiste" type="special">
 			<game name="You Don't Know Jack Vol. 3" from="1997" by="Jellyvision" on="Windows" country="US" wanted="Daniel" />
