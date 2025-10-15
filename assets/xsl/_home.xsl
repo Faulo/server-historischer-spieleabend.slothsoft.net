@@ -208,10 +208,8 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 				<xsl:attribute name="data-unavailable" />
 			</xsl:if>
 			<xsl:if test="@track">
-				<span style="float: left;">
-					<xsl:text>[</xsl:text>
+				<span class="track-badge">
 					<xsl:value-of select="lio:event-id()" />
-					<xsl:text>]</xsl:text>
 				</span>
 			</xsl:if>
 			<xsl:if test="@date != ''">
@@ -347,7 +345,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</span>
 		<xsl:text>&#160;</xsl:text>
 		<span class="dev">
-			<xsl:value-of select="@by" />
+			<xsl:value-of select="lio:protectSpace(@by)" />
 		</span>
 		<xsl:text>. </xsl:text>
 		<span class="year">
@@ -374,7 +372,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 				<a href="{@href}" target="_blank" rel="external">
 					<abbr class="platform" title="{lio:platform(@on)/@name}">
 						<xsl:text> [</xsl:text>
-						<xsl:value-of select="@on" />
+						<xsl:value-of select="lio:protectSpace(@on)" />
 						<xsl:text>]</xsl:text>
 					</abbr>
 				</a>
@@ -382,7 +380,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 			<xsl:otherwise>
 				<abbr class="platform" title="{lio:platform(@on)/@name}">
 					<xsl:text> [</xsl:text>
-					<xsl:value-of select="@on" />
+					<xsl:value-of select="lio:protectSpace(@on)" />
 					<xsl:text>]</xsl:text>
 				</abbr>
 			</xsl:otherwise>

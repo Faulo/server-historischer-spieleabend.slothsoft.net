@@ -21,7 +21,7 @@
 
 	<func:function name="lio:protectSpace">
 		<xsl:param name="string" />
-		<func:result select="translate($string, ' ', '&#xA0;')" />
+		<func:result select="translate($string, ' -', '&#xA0;&#x2011;')" />
 	</func:function>
 
 	<func:function name="lio:event-id">
