@@ -505,7 +505,6 @@
 			<read href="https://www.youtube.com/watch?v=-8pgNUkjrYA" title="Tim Schafer Breaks Down 20 Years of Double Fine Games" year="2020" author="Noclip" />
 		</event>
 		<event track="RPG-1" theme="Ultima" type="series" gfx="Ultima.png" moderator="Daniel" date="2023-05-18" time="19:00">
-
 			<game name="Ultima I: The First Age of Darkness" from="1981" by="Origin Systems" on="AppleII" country="US" />
 			<game name="Ultima IV: Quest of the Avatar" from="1985" by="Origin Systems" on="Amiga" country="US" />
 			<game name="Ultima VII: The Black Gate" from="1992" by="Origin Systems" on="MS-DOS" country="US" />
@@ -680,7 +679,6 @@
 			<game name="Nier Replicant ver.1.22474487139..." from="2021" by="Cavia" on="Windows" country="JP" wanted="Ruben" />
 		</event>
 		<event track="ACT-3" theme="More Horror Stuff" type="genre" moderator="Kadda &amp; Ilona" gfx="residentevilvii.gif" date="2022-04-28" time="19:00">
-
 			<game name="Alone in the Dark" from="1992" by="Infogrames" on="MS-DOS" country="FR" manual="AloneInTheDark" />
 			<game name="Eternal Darkness: Sanity's Requiem" from="2002" by="Silicon Knights" on="GCN" country="CA" />
 			<game name="Fatal Frame II: Crimson Butterfly" from="2003" by="Tecmo" on="PS2" country="JP" />
@@ -874,7 +872,6 @@
 			<game name="Final Fantasy XV" from="2016" by="Square Enix Business Division 2" on="Windows" country="JP" />
 		</event>
 		<event track="LAN-2" theme="Classic MUDs" type="genre" gfx="MUD2.png" date="2021-03-15" time="19:00">
-
 			<game name="MUD2" from="1985" by="Multi-User Entertainment" on="Windows" country="US" />
 			<game name="MorgenGrauen" from="1992" by="Förderverein Projekt Morgengrauen e.V." on="Windows" country="DE" />
 		</event>
@@ -902,13 +899,11 @@
 			<game name="Undertale" from="2015" by="Toby Fox" on="Windows" country="US" wanted="Daniel" />
 		</event>
 		<event track="STR-1" theme="Sci-Fi Real-Time Strategy Games" type="genre" gfx="starcraft.webp" date="2021-01-14" time="19:00">
-
 			<game name="Dune II: The Building of a Dynasty" from="1992" by="Westwood Studios" on="Amiga" country="US" wanted="Daniel" />
 			<game name="StarCraft" from="1998" by="Blizzard Entertainment" on="Windows" country="US" wanted="Peter" />
 			<game name="Command &amp; Conquer: Red Alert 2" from="2000" by="Westwood Pacific" country="US" on="Windows" wanted="MICHAEL!" />
 		</event>
 		<event track="BIZ-2" theme="Tim Schafer" type="author" gfx="tentacle.gif" date="2020-12-30" time="19:00">
-
 			<game name="Day of the Tentacle" from="1993" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Ilona" />
 			<game name="Grim Fandango" from="1998" by="Lucasfilm Games" on="MS-DOS" country="US" wanted="Kadda" />
 			<game name="Psychonauts" from="2005" by="Double Fine Productions" on="Windows" country="US" wanted="MICHAEL!" />
@@ -981,7 +976,6 @@
 		</event>
 		<event track="MIS-1" theme="Adware Games" type="genre" gfx="bifi.png" date="2020-08-29" time="19:00">
 			<req theme="8-Bit Platformers" />
-
 			<game name="Das Erbe" from="1991" by="COMAD" on="Amiga" country="DE" />
 			<game name="Tony &amp; Friends in Kellogg's Land" from="1994" by="Factor 5" on="Amiga" country="DE" />
 			<game name="Bi-Fi Roll: Snack Zone" from="1993" by="The Art Department" on="Amiga" country="DE" />
@@ -1022,7 +1016,6 @@
 			<game name="Machinarium" from="2009" by="Amanita Design" on="Windows" country="CZ" />
 		</event>
 		<event track="STR-2" theme="Turn-Based Guns and Stuff" type="genre" gfx="Sami.png" date="2020-06-04" time="19:00">
-
 			<game name="Panzer General" from="1994" by="Strategic Simulations" on="MS-DOS" country="US" />
 			<game name="Advance Wars" from="2001" by="Intelligent Systems" on="GBA" country="JP" />
 			<game name="UFO: Enemy Unknown" from="1994" by="Mythos Games" on="Amiga" country="GB" />
@@ -1080,14 +1073,12 @@
 			<game name="The Bunker" from="2016" by="Splendy Games" on="Windows" country="GB" wanted="Kadda" />
 		</event>
 		<event track="STR-1" theme="Tower Defense Games" type="genre" gfx="PvsZ.png" date="2020-01-02" time="19:00">
-
 			<game name="Rampart" from="1990" by="Atari Games" on="Amiga" country="US" />
 			<game name="Element Tower Defense" from="2006" by="Element Studios" on="WarcraftIII" country="US" />
 			<game name="Desktop Tower Defense" from="2007" by="Paul Preece" on="Flash" country="GB" href="https://www.kongregate.com/games/preecep/desktop-tower-defense" />
 			<game name="Plants vs. Zombies" from="2009" by="PopCap Games" on="Windows" country="US" wanted="Elli" />
 		</event>
 		<event track="JNR-1" theme="Trial-and-Error Gameplay" type="genre" gfx="IWannaBeTheGuy.png" date="2019-12-19" time="19:00">
-
 			<game name="Kaizo Mario World" from="2007" by="T. Takemoto" on="SNES" country="JP" />
 			<game name="I Wanna Be the Guy" from="2007" by="Michael O'Reilly" on="Windows" country="US" />
 			<game name="You Have to Burn the Rope" from="2008" by="Kian Bashiri" on="Flash" country="SE" href="https://www.kongregate.com/games/Mazapan/you-have-to-burn-the-rope" />
@@ -1112,7 +1103,6 @@
 			<game name="Super Smash Bros." from="1999" by="HAL Laboratory" on="N64" country="JP" />
 		</event>
 		<event track="LAN-2" theme="Multiplayer Online Battle Arena" type="genre" moderator="Robin" gfx="dota.jpg" date="2019-11-07" time="19:00">
-
 			<game name="Defense of the Ancients" from="2003" by="Abdul „IceFrog“ Ismail" on="WarcraftIII" country="?" />
 			<game name="League of Legends" from="2009" by="Riot Games" on="Windows" country="US" />
 			<game name="Dota 2" from="2013" by="Valve Corporation" on="Windows" country="US" />
@@ -1127,7 +1117,6 @@
 			<game name="Metro 2033" from="2010" by="4A Games" on="Windows" country="MT" wanted="Christian" />
 		</event>
 		<event track="RPG-1" theme="Open-World Dungeon Crawlers" type="genre" gfx="MightAndMagic.png" date="2019-10-10" time="19:00">
-
 			<game name="Tales of the Unknown, Volume I: The Bard's Tale" from="1985" by="Interplay Productions" on="Amiga" country="US" />
 			<game name="Might and Magic VI: The Mandate of Heaven" from="1996" by="New World Computing" on="Windows" country="US" />
 			<game name="The Elder Scrolls II: Daggerfall" from="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
@@ -1159,7 +1148,6 @@
 				author="Daniel Schulz" />
 		</event>
 		<event track="STR-1" theme="Rock Beats Laser Real-Time Strategy Games" type="genre" gfx="warcraft.gif" date="2019-08-29" time="19:00">
-
 			<game name="Warcraft: Orcs &amp; Humans" from="1994" by="Blizzard Entertainment" on="MS-DOS" country="US" manual="WarCraft-Orcs-Humans_Manual_DOS_EN" />
 			<game name="Anno 1602: Erschaffung einer neuen Welt" from="1998" by="Max Design" on="Windows" country="AT" />
 			<game name="Die Siedler III" from="1998" by="Blue Byte" on="Windows" country="DE" />
@@ -1197,7 +1185,6 @@
 			<read href="https://www.youtube.com/watch?v=Iz-XTR3pwrE" title="The Year Stealth Games Got Serious" year="2019" author="Game Maker's Toolkit" />
 		</event>
 		<event track="RPG-1" theme="Ultima" type="series" gfx="Ultima.png" date="2019-06-27" time="19:00">
-
 			<game name="Ultima I: The First Age of Darkness" from="1981" by="Origin Systems" on="AppleII" country="US" />
 			<game name="Ultima III: Exodus" from="1983" by="Origin Systems" on="Amiga" country="US" />
 			<game name="Ultima IV: Quest of the Avatar" from="1985" by="Origin Systems" on="Amiga" country="US" />
@@ -1237,7 +1224,6 @@
 			<game name="Lifeline" from="2003" by="Sony Computer Entertainment Inc" on="PS2" country="JP" />
 		</event>
 		<event track="BIZ-2" theme="Ron Gilbert" type="author" date="2019-04-07" time="19:00">
-
 			<game name="Maniac Mansion" from="1987" by="Lucasfilm Games" on="Amiga" country="US" manual="ManiacMansion" />
 			<game name="The Secret of Monkey Island" from="1990" by="Lucasfilm Games" on="Amiga" country="US" />
 			<game name="DeathSpank: Orphans of Justice" from="2010" by="Hothead Games" on="Windows" country="US" />
@@ -1256,7 +1242,6 @@
 			<game name="Slaves to Armok: God of Blood Chapter II: Dwarf Fortress" from="2006" by="Tarn Adams" on="Windows" country="US" />
 		</event>
 		<event track="JNR-2" theme="3D Platformers I" type="genre" moderator="Rober" date="2019-02-21" time="19:00">
-
 			<game name="Crash Bandicoot" from="1996" by="Naughty Dog" on="PS1" country="US" />
 			<game name="Super Mario 64" from="1996" by="Nintendo EAD" on="N64" country="JP" />
 			<game name="Banjo-Kazooie" from="1998" by="Rare" on="N64" country="GB" />
