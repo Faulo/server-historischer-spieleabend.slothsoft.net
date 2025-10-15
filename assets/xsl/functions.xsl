@@ -19,6 +19,11 @@
 		<func:result select="translate($region, $LETTERS_UPPERCASE, $LETTERS_LOWERCASE)" />
 	</func:function>
 
+	<func:function name="lio:protectSpace">
+		<xsl:param name="string" />
+		<func:result select="translate($string, ' ', '&#xA0;')" />
+	</func:function>
+
 	<func:function name="lio:event-id">
 		<xsl:param name="event" select="." />
 		<xsl:variable name="subtrackId" select="$event/@track" />
@@ -40,7 +45,7 @@
 		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
 		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
 
-		<func:result select="concat($track/@name, ' ', $subtrackNumber, format-number($eventNumber, '00'), ' (', $subtrack/@name, ')')" />
+		<func:result select="concat($track/@name, ' ', $subtrackNumber, format-number($eventNumber, '00'), ' (', lio:protectSpace($subtrack/@name), ')')" />
 	</func:function>
 
 	<func:function name="lio:timestamp">

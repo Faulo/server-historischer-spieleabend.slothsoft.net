@@ -91,7 +91,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:future/ssh:event">
-							<xsl:sort select="@track" />
+							<xsl:sort select="lio:event-id()" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -102,7 +102,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:unfinished/ssh:event">
-							<xsl:sort select="@track" />
+							<xsl:sort select="lio:event-id()" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -113,7 +113,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 					</summary>
 					<div class="flex">
 						<xsl:apply-templates select="//ssh:unsorted/ssh:event">
-							<xsl:sort select="@track" />
+							<xsl:sort select="lio:event-id()" />
 						</xsl:apply-templates>
 					</div>
 				</details>
@@ -123,9 +123,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 						Dynamische Listen
 					</summary>
 					<div class="flex">
-						<xsl:apply-templates select="//ssh:events/ssh:event">
-							<xsl:sort select="@track" />
-						</xsl:apply-templates>
+						<xsl:apply-templates select="//ssh:events/ssh:event" />
 					</div>
 				</details>
 				<hr />
