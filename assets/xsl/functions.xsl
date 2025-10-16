@@ -37,7 +37,7 @@
 					<xsl:value-of select="count(preceding::ssh:event[@track = $subtrackId]) + 1" />
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp]) + 1" />
+					<xsl:value-of select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date, true()) &lt; $timestamp]) + 1" />
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
@@ -167,21 +167,37 @@
 
 	<xsl:template match="ssh:event" mode="global-link">
 		<span class="id">
+			<xsl:choose>
+				<xsl:when test="parent::ssh:past | parent::ssh:present">
+					<xsl:attribute name="data-wanted"><xsl:value-of select="lio:event-date()" /></xsl:attribute>
+				</xsl:when>
+				<xsl:when test="parent::ssh:future">
+					<xsl:attribute name="data-wanted">READY</xsl:attribute>
+				</xsl:when>
+				<xsl:when test="parent::ssh:unfinished">
+					<xsl:attribute name="data-wanted"></xsl:attribute>
+				</xsl:when>
+			</xsl:choose>
 			<xsl:value-of select="@theme" />
-			<xsl:if test="@date != ''">
-				<xsl:value-of select="concat(' (', lio:event-date(), ')')" />
-			</xsl:if>
 		</span>
 	</xsl:template>
 
 	<xsl:template match="ssh:event[@track-disabled]" mode="global-link">
 		<xsl:variable name="ref" select="lio:event-id()" />
 		<span class="id">
+			<xsl:choose>
+				<xsl:when test="parent::ssh:past | parent::ssh:present">
+					<xsl:attribute name="data-wanted"><xsl:value-of select="lio:event-date()" /></xsl:attribute>
+				</xsl:when>
+				<xsl:when test="parent::ssh:future">
+					<xsl:attribute name="data-wanted">READY</xsl:attribute>
+				</xsl:when>
+				<xsl:when test="parent::ssh:unfinished">
+					<xsl:attribute name="data-wanted"></xsl:attribute>
+				</xsl:when>
+			</xsl:choose>
 			<xsl:value-of select="concat('[', $ref, '] ')" />
 			<xsl:value-of select="@theme" />
-			<xsl:if test="@date != ''">
-				<xsl:value-of select="concat(' (', lio:event-date(), ')')" />
-			</xsl:if>
 		</span>
 	</xsl:template>
 

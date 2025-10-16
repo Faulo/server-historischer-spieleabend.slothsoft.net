@@ -25,34 +25,26 @@
 					<a href="/games/">Spieleliste</a>
 				</div>
 				<xsl:for-each select="//ssh:track">
-					<xsl:sort select="@xml:id" />
+					<xsl:sort select="id" />
 					<xsl:variable name="track" select="." />
 					<hr />
 					<section>
 						<details open="open">
 							<summary class="h2">
-								<xsl:value-of select="concat('[', @xml:id, 'xxx] ')" />
+								<xsl:value-of select="concat('[', @id, 'xxx] ')" />
 								<xsl:value-of select="@name" />
 							</summary>
 							<xsl:for-each select="ssh:subtrack">
-								<xsl:variable name="id" select="concat($track/@xml:id, position())" />
+								<xsl:variable name="id" select="concat($track/@id, position())" />
 								<details open="open">
 									<summary class="h3">
 										<xsl:value-of select="concat('[', $id, 'xx] ')" />
 										<xsl:value-of select="@name" />
 									</summary>
 									<ul>
-										<xsl:for-each select="//ssh:event[starts-with(@xml:id, $id)]">
-											<xsl:sort select="@xml:id" />
+										<xsl:for-each select="//ssh:event[@track = current()/@id]">
+											<xsl:sort select="lio:event-id()" />
 											<li>
-												<xsl:choose>
-													<xsl:when test="@date != ''">
-														<xsl:attribute name="data-wanted"><xsl:value-of select="@date" /></xsl:attribute>
-													</xsl:when>
-													<xsl:when test="parent::ssh:unfinished">
-														<xsl:attribute name="data-wanted" />
-													</xsl:when>
-												</xsl:choose>
 												<xsl:apply-templates select="." mode="global-link" />
 											</li>
 										</xsl:for-each>
