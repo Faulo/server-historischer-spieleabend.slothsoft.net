@@ -33,6 +33,7 @@
 							<th data-sort-type="number">Jahr</th>
 							<th data-sort-type="text">Entwickler</th>
 							<th data-sort-type="text">Plattform</th>
+							<th data-sort-type="text">Link</th>
 							<th data-sort-type="text">Themen</th>
 						</tr>
 					</thead>
@@ -68,10 +69,8 @@
 												<br />
 											</xsl:if>
 											<xsl:choose>
-												<xsl:when test="../@href">
-													<a href="{../@href}" target="_blank" rel="external">
-														<xsl:value-of select="." />
-													</a>
+												<xsl:when test="lio:platform()">
+													<xsl:value-of select="lio:platform()/@name" />
 												</xsl:when>
 												<xsl:otherwise>
 													<xsl:value-of select="." />
@@ -80,9 +79,16 @@
 										</xsl:for-each>
 									</td>
 									<td>
+										<xsl:if test="$game/@href">
+											<a href="{$game/@href}" target="_blank" rel="external">
+												<xsl:text>Play Online</xsl:text>
+											</a>
+										</xsl:if>
+									</td>
+									<td>
 										<ul>
 											<xsl:for-each select="$all/..">
-												<xsl:sort select="@xml:id" />
+												<xsl:sort select="lio:event-id()" />
 												<li>
 													<xsl:apply-templates select="." mode="global-link" />
 												</li>

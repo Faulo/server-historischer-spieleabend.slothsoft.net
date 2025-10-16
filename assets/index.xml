@@ -79,7 +79,7 @@
 		<platform id="Elektronika60" name="Elektronika 60" href="" />
 		<platform id="Flash" name="Adobe Flash" href="" />
 		<platform id="GB" name="Nintendo Game Boy" href="" />
-		<platform id="GBA" name="Nintendo Game boy Advance" href="" />
+		<platform id="GBA" name="Nintendo Game Boy Advance" href="" />
 		<platform id="GBC" name="Nintendo Game Boy Color" href="" />
 		<platform id="GCN" name="Nintendo GameCube" href="" />
 		<platform id="HTCVive" name="HTC Vive" href="" />

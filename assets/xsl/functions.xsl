@@ -31,7 +31,16 @@
 		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
 		<xsl:variable name="track" select="$subtrack/.." />
 		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
-		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
+		<xsl:variable name="eventNumber">
+			<xsl:choose>
+				<xsl:when test="$timestamp = 0">
+					<xsl:value-of select="count(preceding::ssh:event[@track = $subtrackId]) + 1" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp]) + 1" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 
 		<func:result select="concat($track/@id, $subtrackNumber, format-number($eventNumber, '00'))" />
 	</func:function>
@@ -50,12 +59,16 @@
 
 	<func:function name="lio:timestamp">
 		<xsl:param name="date" />
+		<xsl:param name="returnInfinite" select="false()" />
 		<xsl:choose>
 			<xsl:when test="contains($date, '-')">
 				<xsl:variable name="year" select="number(substring($date,1,4))" />
 				<xsl:variable name="month" select="number(substring($date,6,2))" />
 				<xsl:variable name="day" select="number(substring($date,9,2))" />
 				<func:result select="365 * $year + 31 * $month + $day" />
+			</xsl:when>
+			<xsl:when test="$returnInfinite">
+				<func:result select="365 * 3000" />
 			</xsl:when>
 			<xsl:otherwise>
 				<func:result select="0" />
@@ -90,6 +103,24 @@
 				<xsl:variable name="month" select="number(substring($date,6,2))" />
 				<xsl:variable name="day" select="number(substring($date,9,2))" />
 				<func:result select="concat(sfd:lookup-text(date:day-name($date)), ', ', $day, '.', $month, '.', $year, ' ', $event/@time)" />
+			</xsl:when>
+			<xsl:otherwise>
+				<func:result select="''" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</func:function>
+
+	<func:function name="lio:event-date">
+		<xsl:param name="event" select="." />
+
+		<xsl:variable name="date" select="string($event/@date)" />
+
+		<xsl:choose>
+			<xsl:when test="contains($date, '-')">
+				<xsl:variable name="year" select="number(substring($date,1,4))" />
+				<xsl:variable name="month" select="number(substring($date,6,2))" />
+				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<func:result select="concat($day, '.', $month, '.', $year)" />
 			</xsl:when>
 			<xsl:otherwise>
 				<func:result select="''" />
@@ -134,14 +165,24 @@
 		</a>
 	</xsl:template>
 
-	<xsl:template match="ssh:event" mode="global-link" />
+	<xsl:template match="ssh:event" mode="global-link">
+		<span class="id">
+			<xsl:value-of select="@theme" />
+			<xsl:if test="@date != ''">
+				<xsl:value-of select="concat(' (', lio:event-date(), ')')" />
+			</xsl:if>
+		</span>
+	</xsl:template>
 
-	<xsl:template match="ssh:event[@xml:id]" mode="global-link">
-		<xsl:variable name="ref" select="string(@xml:id)" />
-		<a href="/events/{$ref}" class="id" title="{lio:lookup-name($ref)}">
-			<xsl:value-of select="concat('[', lio:format-id($ref), '] ')" />
-			<xsl:value-of select="lio:lookup-name($ref)" />
-		</a>
+	<xsl:template match="ssh:event[@track-disabled]" mode="global-link">
+		<xsl:variable name="ref" select="lio:event-id()" />
+		<span class="id">
+			<xsl:value-of select="concat('[', $ref, '] ')" />
+			<xsl:value-of select="@theme" />
+			<xsl:if test="@date != ''">
+				<xsl:value-of select="concat(' (', lio:event-date(), ')')" />
+			</xsl:if>
+		</span>
 	</xsl:template>
 
 	<xsl:template match="ssh:req" mode="link">
