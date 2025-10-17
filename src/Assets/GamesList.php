@@ -7,14 +7,12 @@ use Slothsoft\Core\Storage;
 use Slothsoft\Core\Calendar\Seconds;
 use Slothsoft\Core\IO\Writable\Delegates\DOMWriterFromElementDelegate;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
-use Slothsoft\Farah\Module\Module;
 use Slothsoft\Farah\Module\Asset\AssetInterface;
 use Slothsoft\Farah\Module\Asset\ExecutableBuilderStrategy\ExecutableBuilderStrategyInterface;
 use Slothsoft\Farah\Module\Executable\ExecutableStrategies;
 use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuilder;
 use DOMDocument;
 use DOMElement;
-use DOMXPath;
 
 class GamesList implements ExecutableBuilderStrategyInterface {
     
@@ -47,24 +45,17 @@ class GamesList implements ExecutableBuilderStrategyInterface {
         'GameBoyAdvance' => 'GBA'
     ];
     
-    private function getIndex(AssetInterface $context): DOMXPath {
-        $url = $context->createUrl()
-            ->withPath('/index')
-            ->withFragment('xml');
-        $writer = Module::resolveToDOMWriter($url);
-        $index = DOMHelper::loadXPath($writer->toDocument());
-        return $index;
-    }
-    
     public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
-        $index = $this->getIndex($context);
+        $indexUrl = $context->createUrl()->withPath('/index');
         
-        $delegate = function (DOMDocument $target) use ($index, $args): DOMElement {
+        $delegate = function (DOMDocument $target) use ($indexUrl, $args): DOMElement {
             $root = $target->createElementNS(self::NS, 'events');
             $root->setAttribute('version', '2.0');
             
             if ($url = $args->get('url', '')) {
                 if ($document = Storage::loadExternalDocument($url, Seconds::MONTH)) {
+                    $index = DOMHelper::loadXPath(DOMHelper::loadDocument((string) $indexUrl));
+                    
                     $xpath = DOMHelper::loadXPath($document);
                     $h1 = $xpath->evaluate('normalize-space(//h1)');
                     
@@ -95,7 +86,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                                 $name = $this->games[$name];
                             }
                             
-                            $query = sprintf('//*[@name = "%s" and @from = "%s"]', $name, $year);
+                            $query = sprintf('//*[@name = "%s" and @released = "%s"]', $name, $year);
                             $game = $index->evaluate($query)->item(0);
                             if ($game) {
                                 $done->appendChild($target->importNode($game, true));
