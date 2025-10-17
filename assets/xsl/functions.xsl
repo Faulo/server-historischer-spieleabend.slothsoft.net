@@ -213,7 +213,7 @@
 
 	<xsl:template match="ssh:read" mode="link">
 		<a href="{@href}" target="_blank" rel="external">
-			<xsl:value-of select="concat(@title, ' (', @author, ', ', @year, ')')" />
+			<xsl:value-of select="concat(@name, ' (', @by, ', ', @released, ')')" />
 		</a>
 	</xsl:template>
 

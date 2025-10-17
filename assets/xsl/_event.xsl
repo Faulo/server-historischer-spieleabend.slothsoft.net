@@ -104,7 +104,7 @@
                 <xsl:text>&amp;</xsl:text>
                 <xsl:value-of select="lio:param('rft.pub', @by)" />
                 <xsl:text>&amp;</xsl:text>
-                <xsl:value-of select="lio:param('rft.date', @from)" />
+                <xsl:value-of select="lio:param('rft.date', @released)" />
                 <xsl:text>&amp;</xsl:text>
                 <xsl:value-of select="lio:param('rft.genre', 'misc')" />
                 <xsl:text>&amp;</xsl:text>
@@ -134,7 +134,7 @@
 		<xsl:text>. </xsl:text>
 		<span class="year">
 			<xsl:text>(</xsl:text>
-			<xsl:value-of select="@from" />
+			<xsl:value-of select="@released" />
 			<xsl:text>)</xsl:text>
 		</span>
 		<xsl:text>. </xsl:text>
