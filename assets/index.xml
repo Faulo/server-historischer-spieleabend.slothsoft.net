@@ -67,50 +67,50 @@
 	</tracks>
 
 	<platforms>
-		<platform id="Amiga" name="Commodore Amiga" href="" />
-		<platform id="Android" name="Android" href="" />
-		<platform id="AppleII" name="Apple II" href="" />
-		<platform id="Arcade" name="Arcade" href="" />
-		<platform id="Atari2600" name="Atari 2600" href="" />
-		<platform id="Atari800" name="Atari 800" href="" />
-		<platform id="Browser" name="Browser" href="" />
-		<platform id="C64" name="Commodore 64" href="" />
-		<platform id="CD-i" name="Philips CD-i" href="" />
-		<platform id="Dreamcast" name="Sega Dreamcast" href="" />
-		<platform id="Elektronika60" name="Elektronika 60" href="" />
-		<platform id="Flash" name="Adobe Flash" href="" />
-		<platform id="GB" name="Nintendo Game Boy" href="" />
-		<platform id="GBA" name="Nintendo Game Boy Advance" href="" />
-		<platform id="GBC" name="Nintendo Game Boy Color" href="" />
-		<platform id="GCN" name="Nintendo GameCube" href="" />
-		<platform id="HTCVive" name="HTC Vive" href="" />
-		<platform id="Half-Life2" name="Half-Life 2" href="" />
-		<platform id="MS-DOS" name="Microsoft DOS" href="" />
-		<platform id="MasterSystem" name="Sega Master System" href="" />
-		<platform id="MegaDrive" name="Sega Mega Drive" href="" />
-		<platform id="N64" name="Nintendo 64" href="" />
-		<platform id="NDS" name="Nintendo DS" href="" />
-		<platform id="NES" name="Nintendo Entertainment System" href="" />
-		<platform id="PC-88" name="NEC PC-8800 series" href="" />
-		<platform id="PDP-10" name="DEC PDP-10" href="" />
-		<platform id="PS1" name="Sony PlayStation" href="" />
-		<platform id="PS2" name="Sony PlayStation 2" href="" />
-		<platform id="PS3" name="Sony PlayStation 3" href="" />
-		<platform id="PS4" name="Sony PlayStation 4" href="" />
-		<platform id="PSP" name="Sony PlayStation Portable" href="" />
-		<platform id="PSVita" name="Sony PlayStation Vita" href="" />
-		<platform id="SNES" name="Super Nintendo Entertainment System" href="" />
-		<platform id="Saturn" name="Sega Saturn" href="" />
-		<platform id="SegaCD" name="Sega CD" href="" />
-		<platform id="Switch" name="Nintendo Switch" href="" />
-		<platform id="Switch2" name="Nintendo Switch 2" href="" />
-		<platform id="WarcraftIII" name="Warcraft III" href="" />
-		<platform id="Wii" name="Nintendo Wii" href="" />
-		<platform id="WiiU" name="Nintendo Wii U" href="" />
-		<platform id="Windows" name="Microsoft Windows" href="" />
-		<platform id="Xbox360" name="Microsoft Xbox 360" href="" />
-		<platform id="ZX81" name="Sinclair ZX81" href="" />
-		<platform id="iOS" name="Apple iOS" href="" />
+		<platform id="Amiga" name="Commodore Amiga" />
+		<platform id="Android" name="Android" />
+		<platform id="AppleII" name="Apple II" />
+		<platform id="Arcade" name="Arcade" />
+		<platform id="Atari2600" name="Atari 2600" />
+		<platform id="Atari800" name="Atari 800" />
+		<platform id="Browser" name="Browser" />
+		<platform id="C64" name="Commodore 64" />
+		<platform id="CD-i" name="Philips CD-i" />
+		<platform id="Dreamcast" name="Sega Dreamcast" />
+		<platform id="Elektronika60" name="Elektronika 60" />
+		<platform id="Flash" name="Adobe Flash" />
+		<platform id="GB" name="Nintendo Game Boy" />
+		<platform id="GBA" name="Nintendo Game Boy Advance" />
+		<platform id="GBC" name="Nintendo Game Boy Color" />
+		<platform id="GCN" name="Nintendo GameCube" />
+		<platform id="HTCVive" name="HTC Vive" />
+		<platform id="Half-Life2" name="Half-Life 2" />
+		<platform id="MS-DOS" name="Microsoft DOS" />
+		<platform id="MasterSystem" name="Sega Master System" />
+		<platform id="MegaDrive" name="Sega Mega Drive" />
+		<platform id="N64" name="Nintendo 64" />
+		<platform id="NDS" name="Nintendo DS" />
+		<platform id="NES" name="Nintendo Entertainment System" />
+		<platform id="PC-88" name="NEC PC-8800 series" />
+		<platform id="PDP-10" name="DEC PDP-10" />
+		<platform id="PS1" name="Sony PlayStation" />
+		<platform id="PS2" name="Sony PlayStation 2" />
+		<platform id="PS3" name="Sony PlayStation 3" />
+		<platform id="PS4" name="Sony PlayStation 4" />
+		<platform id="PSP" name="Sony PlayStation Portable" />
+		<platform id="PSVita" name="Sony PlayStation Vita" />
+		<platform id="SNES" name="Super Nintendo Entertainment System" />
+		<platform id="Saturn" name="Sega Saturn" />
+		<platform id="SegaCD" name="Sega CD" />
+		<platform id="Switch" name="Nintendo Switch" />
+		<platform id="Switch2" name="Nintendo Switch 2" />
+		<platform id="WarcraftIII" name="Warcraft III" />
+		<platform id="Wii" name="Nintendo Wii" />
+		<platform id="WiiU" name="Nintendo Wii U" />
+		<platform id="Windows" name="Microsoft Windows" />
+		<platform id="Xbox360" name="Microsoft Xbox 360" />
+		<platform id="ZX81" name="Sinclair ZX81" />
+		<platform id="iOS" name="Apple iOS" />
 	</platforms>
 
 	<present>
