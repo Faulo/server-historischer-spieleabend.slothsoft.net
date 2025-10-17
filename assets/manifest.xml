@@ -65,7 +65,7 @@
 	</fragment>
 
 	<fragment name="games-best">
-		<use-document ref="/api/games?url=https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" />
+		<use-document name="wiki" ref="/api/games?url=https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" />
 	</fragment>
 
 	<fragment name="api">
