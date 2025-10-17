@@ -4,6 +4,7 @@ namespace Slothsoft\Server\HistorischerSpieleabend\Assets;
 
 use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\Storage;
+use Slothsoft\Core\Calendar\Seconds;
 use Slothsoft\Core\IO\Writable\Delegates\DOMWriterFromElementDelegate;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
 use Slothsoft\Farah\Module\Module;
@@ -62,8 +63,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
             $root = $target->createElementNS(self::NS, 'events');
 
             if ($url = $args->get('url', '')) {
-                if ($document = Storage::loadExternalDocument($url)) {
-
+                if ($document = Storage::loadExternalDocument($url, Seconds::MONTH)) {
                     $xpath = DOMHelper::loadXPath($document);
                     $h1 = $xpath->evaluate('normalize-space(//h1)');
 
