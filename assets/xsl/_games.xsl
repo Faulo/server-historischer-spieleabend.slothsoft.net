@@ -44,8 +44,11 @@
 							<xsl:if test="generate-id($game) = generate-id($all[1])">
 								<tr>
 									<td>
-										<xsl:for-each select="$game/@name">
-											<xsl:call-template name="wiki" />
+										<xsl:for-each select="$game">
+											<xsl:call-template name="wiki">
+												<xsl:with-param name="term" select="@name" />
+												<xsl:with-param name="wiki" select="@wiki" />
+											</xsl:call-template>
 										</xsl:for-each>
 									</td>
 									<td>

@@ -1307,9 +1307,9 @@
 		</event>
 		<event track="MIS-Terrible" theme="Beschlagnahmt nach §131 StGB" type="genre" moderator="Daniel" gfx="StGB.jpg" date="" time="">
 			<game name="Condemned: Criminal Origins" released="2005" by="Monolith Productions" on="Windows" country="US" />
-			<game name="Scarface - The World Is Yours" released="2006" by="Radical Entertainment" on="PS2" country="CA" />
-			<game name="Silent Hill - Homecoming" released="2008" by="Double Helix Games" on="Windows" country="US" />
-			<game name="Wolfenstein" released="2009" by="Raven Software" on="Windows" country="US" />
+			<game name="Scarface: The World Is Yours" released="2006" by="Radical Entertainment" on="PS2" country="CA" />
+			<game name="Silent Hill: Homecoming" released="2008" by="Double Helix Games" on="Windows" country="US" />
+			<game name="Wolfenstein" released="2009" by="Raven Software" on="Windows" country="US" wiki="https://en.wikipedia.org/wiki/Wolfenstein_(2009_video_game)" />
 		</event>
 		<event track="BIZ-Studio" theme="Animation Magic" type="author" moderator="Tom" date="" time="">
 			<game name="Link: The Faces of Evil" released="1993" by="Animation Magic" on="CD-i" country="US" />

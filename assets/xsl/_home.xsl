@@ -357,6 +357,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		<span class="title">
 			<xsl:call-template name="wiki">
 				<xsl:with-param name="term" select="@name" />
+				<xsl:with-param name="wiki" select="@wiki" />
 			</xsl:call-template>
 		</span>
 		<xsl:text>. </xsl:text>

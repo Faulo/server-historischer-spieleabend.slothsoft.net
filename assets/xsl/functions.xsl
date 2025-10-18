@@ -276,8 +276,18 @@
 
 	<xsl:template name="wiki">
 		<xsl:param name="term" select="." />
-		<a href="{lio:wiki($term)}" target="_blank" rel="external">
-			<xsl:value-of select="$term" />
-		</a>
+		<xsl:param name="wiki" select="''" />
+		<xsl:choose>
+			<xsl:when test="$wiki = ''">
+				<a href="{lio:wiki($term)}" target="_blank" rel="external">
+					<xsl:value-of select="$term" />
+				</a>
+			</xsl:when>
+			<xsl:otherwise>
+				<a href="{$wiki}" target="_blank" rel="external">
+					<xsl:value-of select="$term" />
+				</a>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 </xsl:stylesheet>
