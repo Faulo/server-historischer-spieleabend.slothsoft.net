@@ -278,7 +278,7 @@
 		<xsl:param name="term" select="." />
 		<xsl:param name="wiki" select="''" />
 		<xsl:choose>
-			<xsl:when test="$wiki = ''">
+			<xsl:when test="string($wiki) = ''">
 				<a href="{lio:wiki($term)}" target="_blank" rel="external">
 					<xsl:value-of select="$term" />
 				</a>
