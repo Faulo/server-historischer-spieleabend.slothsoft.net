@@ -18,10 +18,14 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
     
     public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
         $indexUrl = $context->createUrl()->withPath('/index');
-        $delegate = function (DOMDocument $target) use ($indexUrl): DOMElement {
+        $dynamicUrl = $context->createUrl()->withPath('/index-dynamic');
+        
+        $delegate = function (DOMDocument $target) use ($indexUrl, $dynamicUrl): DOMElement {
             $root = $target->createElement('ids');
             
             $indexDocument = DOMHelper::loadDocument((string) $indexUrl);
+            $indexDocument->documentElement->appendChild($indexDocument->importNode(DOMHelper::loadDocument((string) $dynamicUrl)->documentElement, true));
+            
             $subtracks = [];
             foreach ($indexDocument->getElementsByTagNameNS(self::NS, 'track') as $trackNode) {
                 $trackId = $trackNode->getAttribute('id');
@@ -46,7 +50,7 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
                 if ($date = $eventNode->getAttribute('date')) {
                     $timestamp = strtotime($date);
                 } else {
-                    $timestamp = 365 * 3000 + $i;
+                    $timestamp = strtotime("3000-01-01") + $i;
                 }
                 
                 $events[$track][$name] = isset($events[$track][$name]) ? min($events[$track][$name], $timestamp) : $timestamp;
@@ -57,14 +61,15 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
             ksort($events);
             
             foreach ($events as $subtrackId => $subtrack) {
-                asort($subtrack);
+                asort($subtrack, SORT_NUMERIC);
                 
                 $i = 1;
                 foreach (array_keys($subtrack) as $name) {
-                    $eventId = sprintf(sprintf('%s%02d', $subtrackId, $i));
                     $idNode = $target->createElement('id');
+                    $idNode->setAttribute('track', substr($subtrackId, 0, 3));
+                    $idNode->setAttribute('subtrack-index', substr($subtrackId, 3, 1));
+                    $idNode->setAttribute('event-index', (string) $i);
                     $idNode->setAttribute('name', (string) $name);
-                    $idNode->setAttributeNS(DOMHelper::NS_XML, 'xml:id', $eventId);
                     $root->appendChild($idNode);
                     $i ++;
                 }

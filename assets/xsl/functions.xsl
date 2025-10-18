@@ -24,37 +24,22 @@
 		<func:result select="translate($string, ' -', '&#xA0;&#x2011;')" />
 	</func:function>
 
+	<xsl:variable name="ids" select="//ids/id" />
+
 	<func:function name="lio:event-id">
 		<xsl:param name="event" select="." />
-		<xsl:variable name="subtrackId" select="$event/@track" />
-		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
-		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
-		<xsl:variable name="track" select="$subtrack/.." />
-		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
-		<xsl:variable name="eventNumber">
-			<xsl:choose>
-				<xsl:when test="$timestamp = 0">
-					<xsl:value-of select="count(preceding::ssh:event[@track = $subtrackId]) + 1" />
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:value-of select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date, true()) &lt; $timestamp]) + 1" />
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
-
-		<func:result select="concat($track/@id, $subtrackNumber, format-number($eventNumber, '00'))" />
+		<xsl:variable name="id" select="$ids[@name = $event/@theme]" />
+		<func:result select="concat($id/@track, $id/@subtrack-index, format-number($id/@event-index, '00'))" />
 	</func:function>
 
 	<func:function name="lio:event-track">
 		<xsl:param name="event" select="." />
-		<xsl:variable name="subtrackId" select="$event/@track" />
-		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
-		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
-		<xsl:variable name="track" select="$subtrack/.." />
-		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
-		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
 
-		<func:result select="concat($track/@name, ' ', $subtrackNumber, format-number($eventNumber, '00'), ' (', lio:protectSpace($subtrack/@name), ')')" />
+		<xsl:variable name="id" select="$ids[@name = $event/@theme]" />
+		<xsl:variable name="track" select="//ssh:track[@id = $id/@track]" />
+		<xsl:variable name="subtrack" select="$track/ssh:subtrack[position() = $id/@subtrack-index]" />
+
+		<func:result select="concat($track/@name, ' ', $id/@subtrack-index, format-number($id/@event-index, '00'), ' (', lio:protectSpace($subtrack/@name), ')')" />
 	</func:function>
 
 	<func:function name="lio:timestamp">
