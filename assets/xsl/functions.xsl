@@ -28,8 +28,7 @@
 
 	<func:function name="lio:event-id">
 		<xsl:param name="event" select="." />
-		<xsl:variable name="id" select="$ids[@name = $event/@theme]" />
-		<func:result select="concat($id/@track, $id/@subtrack-index, format-number($id/@event-index, '00'))" />
+		<func:result select="$ids[@name = $event/@theme]" />
 	</func:function>
 
 	<func:function name="lio:event-track">
@@ -84,9 +83,9 @@
 
 		<xsl:choose>
 			<xsl:when test="contains($date, '-')">
-				<xsl:variable name="year" select="number(substring($date,1,4))" />
-				<xsl:variable name="month" select="number(substring($date,6,2))" />
-				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<xsl:variable name="year" select="substring($date,1,4)" />
+				<xsl:variable name="month" select="substring($date,6,2)" />
+				<xsl:variable name="day" select="substring($date,9,2)" />
 				<func:result select="concat(sfd:lookup-text(date:day-name($date)), ', ', $day, '.', $month, '.', $year, ' ', $event/@time)" />
 			</xsl:when>
 			<xsl:otherwise>
@@ -102,9 +101,9 @@
 
 		<xsl:choose>
 			<xsl:when test="contains($date, '-')">
-				<xsl:variable name="year" select="number(substring($date,1,4))" />
-				<xsl:variable name="month" select="number(substring($date,6,2))" />
-				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<xsl:variable name="year" select="substring($date,1,4)" />
+				<xsl:variable name="month" select="substring($date,6,2)" />
+				<xsl:variable name="day" select="substring($date,9,2)" />
 				<func:result select="concat($day, '.', $month, '.', $year)" />
 			</xsl:when>
 			<xsl:otherwise>

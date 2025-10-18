@@ -5,19 +5,22 @@
 
 	<xsl:import href="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" />
 
-	<xsl:variable name="eventId" select="//sfs:page[@current]/@name" />
-	<xsl:variable name="event" select="id($eventId)" />
+	<xsl:variable name="eventId" select="string(//sfs:file[@current]/@name)" />
+	<xsl:variable name="id" select="//id[. = $eventId]" />
+	<xsl:variable name="event" select="//ssh:event[@theme = $id/@name]" />
 
 	<xsl:template match="/*">
-		<svg:svg width="800" height="450">
-			<svg:foreignObject x="0" y="0" width="800" height="450">
-				<xsl:apply-templates select="$event" />
-			</svg:foreignObject>
+		<svg:svg width="800" height="{500 * count($event)}">
+			<xsl:for-each select="$event">
+				<svg:foreignObject x="0" y="{(position() -1) * 500}" width="800" height="450">
+					<xsl:apply-templates select="." />
+				</svg:foreignObject>
+			</xsl:for-each>
 		</svg:svg>
 	</xsl:template>
 
 	<xsl:template match="ssh:event">
-		<main class="event {substring(@xml:id, 1, 3)}" id="{@xml:id}" data-genre="{substring(@xml:id, 1, 3)}" data-type="{@type}"
+		<main class="event {substring(@track, 1, 3)}" id="{lio:event-id()}" data-genre="{substring(@track, 1, 3)}" data-type="{@type}"
 			style="width: 100%; height: 100%; margin: 0; padding: 0.5em; box-sizing: border-box;">
 			<xsl:if test="@todo">
 				<xsl:attribute name="data-todo" />
@@ -27,14 +30,14 @@
 			</xsl:if>
 			<xsl:if test="@date != ''">
 				<p class="date">
-					<xsl:value-of select="@date" />
+					<xsl:value-of select="lio:event-datetime()" />
 				</p>
 			</xsl:if>
 			<xsl:if test="@theme">
 				<h2 class="myBody header">
-					<xsl:if test="@xml:id">
+					<xsl:if test="@track">
 						<span class="course-id" data-course="{lio:format-name(@xml:id)}" style="text-shadow: none !important">
-							<xsl:value-of select="lio:format-name(@xml:id)" />
+							<xsl:value-of select="lio:event-track()" />
 							<xsl:text>:</xsl:text>
 						</span>
 					</xsl:if>

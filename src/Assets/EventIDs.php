@@ -70,6 +70,7 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
                     $idNode->setAttribute('subtrack-index', substr($subtrackId, 3, 1));
                     $idNode->setAttribute('event-index', (string) $i);
                     $idNode->setAttribute('name', (string) $name);
+                    $idNode->textContent = sprintf('%s%02d', $subtrackId, $i);
                     $root->appendChild($idNode);
                     $i ++;
                 }
