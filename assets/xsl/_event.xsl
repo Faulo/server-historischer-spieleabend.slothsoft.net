@@ -120,7 +120,7 @@
 					<small>❓</small>
 				</xsl:when>
 				<xsl:when test="string-length(@country)">
-					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/{lio:toLowerCase(@country)}.svg" alt="{lio:toRegionCode(@country)}" />
+					<img src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/{lio:toLowerCase(@country)}.svg" alt="{lio:toRegionCode(@country)}" />
 				</xsl:when>
 				<xsl:otherwise>
 					<small>❔</small>
