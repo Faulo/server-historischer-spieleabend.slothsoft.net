@@ -22,9 +22,8 @@
 			</page>
 
 			<page name="events" ref="/pages/events" status-active="">
-				<xsl:for-each select="//ssh:event[@xml:id != '']">
-					<xsl:sort select="@xml:id" />
-					<file name="{@xml:id}" ref="/pages/event?name={@xml:id}" status-active="" />
+				<xsl:for-each select="*/ids/id">
+					<file name="{.}" ref="/pages/event?name={.}" status-active="" />
 				</xsl:for-each>
 			</page>
 

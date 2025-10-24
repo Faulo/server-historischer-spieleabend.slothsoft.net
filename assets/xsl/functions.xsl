@@ -24,37 +24,21 @@
 		<func:result select="translate($string, ' -', '&#xA0;&#x2011;')" />
 	</func:function>
 
+	<xsl:variable name="ids" select="//ids/id" />
+
 	<func:function name="lio:event-id">
 		<xsl:param name="event" select="." />
-		<xsl:variable name="subtrackId" select="$event/@track" />
-		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
-		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
-		<xsl:variable name="track" select="$subtrack/.." />
-		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
-		<xsl:variable name="eventNumber">
-			<xsl:choose>
-				<xsl:when test="$timestamp = 0">
-					<xsl:value-of select="count(preceding::ssh:event[@track = $subtrackId]) + 1" />
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:value-of select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date, true()) &lt; $timestamp]) + 1" />
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
-
-		<func:result select="concat($track/@id, $subtrackNumber, format-number($eventNumber, '00'))" />
+		<func:result select="$ids[@name = $event/@theme]" />
 	</func:function>
 
 	<func:function name="lio:event-track">
 		<xsl:param name="event" select="." />
-		<xsl:variable name="subtrackId" select="$event/@track" />
-		<xsl:variable name="timestamp" select="lio:timestamp($event/@date)" />
-		<xsl:variable name="subtrack" select="//ssh:subtrack[@id = $subtrackId]" />
-		<xsl:variable name="track" select="$subtrack/.." />
-		<xsl:variable name="subtrackNumber" select="count($subtrack/preceding-sibling::ssh:subtrack) + 1" />
-		<xsl:variable name="eventNumber" select="count(//ssh:event[@track = $subtrackId][lio:timestamp(@date) &lt; $timestamp] | preceding::ssh:event[@track = $subtrackId]) + 1" />
 
-		<func:result select="concat($track/@name, ' ', $subtrackNumber, format-number($eventNumber, '00'), ' (', lio:protectSpace($subtrack/@name), ')')" />
+		<xsl:variable name="id" select="$ids[@name = $event/@theme]" />
+		<xsl:variable name="track" select="//ssh:track[@id = $id/@track]" />
+		<xsl:variable name="subtrack" select="$track/ssh:subtrack[position() = $id/@subtrack-index]" />
+
+		<func:result select="concat($track/@name, ' ', $id/@subtrack-index, format-number($id/@event-index, '00'), ' (', lio:protectSpace($subtrack/@name), ')')" />
 	</func:function>
 
 	<func:function name="lio:timestamp">
@@ -99,9 +83,9 @@
 
 		<xsl:choose>
 			<xsl:when test="contains($date, '-')">
-				<xsl:variable name="year" select="number(substring($date,1,4))" />
-				<xsl:variable name="month" select="number(substring($date,6,2))" />
-				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<xsl:variable name="year" select="substring($date,1,4)" />
+				<xsl:variable name="month" select="substring($date,6,2)" />
+				<xsl:variable name="day" select="substring($date,9,2)" />
 				<func:result select="concat(sfd:lookup-text(date:day-name($date)), ', ', $day, '.', $month, '.', $year, ' ', $event/@time)" />
 			</xsl:when>
 			<xsl:otherwise>
@@ -117,9 +101,9 @@
 
 		<xsl:choose>
 			<xsl:when test="contains($date, '-')">
-				<xsl:variable name="year" select="number(substring($date,1,4))" />
-				<xsl:variable name="month" select="number(substring($date,6,2))" />
-				<xsl:variable name="day" select="number(substring($date,9,2))" />
+				<xsl:variable name="year" select="substring($date,1,4)" />
+				<xsl:variable name="month" select="substring($date,6,2)" />
+				<xsl:variable name="day" select="substring($date,9,2)" />
 				<func:result select="concat($day, '.', $month, '.', $year)" />
 			</xsl:when>
 			<xsl:otherwise>
@@ -213,7 +197,7 @@
 
 	<xsl:template match="ssh:read" mode="link">
 		<a href="{@href}" target="_blank" rel="external">
-			<xsl:value-of select="concat(@title, ' (', @author, ', ', @year, ')')" />
+			<xsl:value-of select="concat(@name, ' (', @by, ', ', @released, ')')" />
 		</a>
 	</xsl:template>
 
@@ -276,8 +260,18 @@
 
 	<xsl:template name="wiki">
 		<xsl:param name="term" select="." />
-		<a href="{lio:wiki($term)}" target="_blank" rel="external">
-			<xsl:value-of select="$term" />
-		</a>
+		<xsl:param name="wiki" select="''" />
+		<xsl:choose>
+			<xsl:when test="string($wiki) = ''">
+				<a href="{lio:wiki($term)}" target="_blank" rel="external">
+					<xsl:value-of select="$term" />
+				</a>
+			</xsl:when>
+			<xsl:otherwise>
+				<a href="{$wiki}" target="_blank" rel="external">
+					<xsl:value-of select="$term" />
+				</a>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 </xsl:stylesheet>

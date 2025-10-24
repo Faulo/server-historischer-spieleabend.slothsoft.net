@@ -40,16 +40,19 @@
 					<tbody>
 						<xsl:for-each select="//ssh:game">
 							<xsl:variable name="game" select="." />
-							<xsl:variable name="all" select="//ssh:game[@name = $game/@name and @from = $game/@from]" />
+							<xsl:variable name="all" select="//ssh:game[@name = $game/@name and @released = $game/@released]" />
 							<xsl:if test="generate-id($game) = generate-id($all[1])">
 								<tr>
 									<td>
-										<xsl:for-each select="$game/@name">
-											<xsl:call-template name="wiki" />
+										<xsl:for-each select="$game">
+											<xsl:call-template name="wiki">
+												<xsl:with-param name="term" select="@name" />
+												<xsl:with-param name="wiki" select="@wiki" />
+											</xsl:call-template>
 										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:for-each select="$game/@from">
+										<xsl:for-each select="$game/@released">
 											<xsl:value-of select="." />
 										</xsl:for-each>
 									</td>
