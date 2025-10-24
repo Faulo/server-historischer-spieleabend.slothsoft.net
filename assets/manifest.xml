@@ -69,7 +69,7 @@
 			<use-document ref="/index" />
 			<use-document ref="/api/ids" />
 			<use-document ref="/index-dynamic" />
-			<link-script ref="/js/tableSorter" />
+			<link-module ref="/js/tableSorter" />
 		</fragment>
 	</fragment>
 
