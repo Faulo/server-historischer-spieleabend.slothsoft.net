@@ -60,7 +60,7 @@
 			<import ref="/api/default" />
 			<use-document ref="/index" />
 			<use-document ref="/games-best" />
-			<link-script ref="/js/tableSorter" />
+			<link-module ref="/js/tableSorter" />
 		</fragment>
 	</fragment>
 
