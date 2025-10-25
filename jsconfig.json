@@ -4,6 +4,9 @@
       "/slothsoft@farah/*": [
         "../slothsoft-farah/assets/*"
       ],
+      "/slothsoft@historischer-spieleabend.slothsoft.net/*": [
+        "./assets/*"
+      ],
       "/slothsoft@schema/*": [
         "../slothsoft-schema/assets/*"
       ]
