@@ -2,13 +2,13 @@
   "compilerOptions": {
     "paths": {
       "/slothsoft@farah/*": [
-        "../slothsoft-farah/assets/*"
+        "vendor/slothsoft/farah/assets/*"
       ],
       "/slothsoft@historischer-spieleabend.slothsoft.net/*": [
-        "./assets/*"
+        "assets/*"
       ],
       "/slothsoft@schema/*": [
-        "../slothsoft-schema/assets/*"
+        "vendor/slothsoft/schema/assets/*"
       ]
     }
   }
