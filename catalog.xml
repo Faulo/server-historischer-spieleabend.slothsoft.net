@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/sitemap/template" uri="assets/sitemap/template.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_backend" uri="assets/xsl/_backend.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_downloads" uri="assets/xsl/_downloads.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_event" uri="assets/xsl/_event.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_event-backend" uri="assets/xsl/_event-backend.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_events" uri="assets/xsl/_events.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_games" uri="assets/xsl/_games.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_home" uri="assets/xsl/_home.xsl"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/functions" uri="assets/xsl/functions.xsl"/>
+</catalog>
