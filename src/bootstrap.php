@@ -17,7 +17,7 @@ ServerEnvironment::setDataDirectory($root . DIRECTORY_SEPARATOR . 'data');
 
 Kernel::setCurrentSitemap('farah://slothsoft@historischer-spieleabend.slothsoft.net/sitemap');
 Kernel::setTrackingEnabled(false);
-Dictionary::setSupportedLanguages('de-de');
+Dictionary::setSupportedLanguages('en-us');
 
 Module::registerWithXmlManifestAndDefaultAssets('slothsoft@historischer-spieleabend.slothsoft.net', $root . DIRECTORY_SEPARATOR . 'assets');
 
