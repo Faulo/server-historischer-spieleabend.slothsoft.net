@@ -117,7 +117,7 @@
 		<event track="ACT-Horror" theme="Japanese Horror" type="genre" moderator="Kadda" gfx="dino-crisis.gif" date="2025-11-06" time="18:00">
 			<game name="Parasite Eve" released="1998" by="Square" on="PS1" country="JP" />
 			<game name="Dino Crisis" released="1999" by="Capcom Production Studio 4" on="Windows" country="JP" />
-			<game name="Fatal Frame II: Crimson Butterfly" released="2003" by="Tecmo" on="PS2" country="JP" />
+			<game name="Fatal Frame" released="2001" by="Tecmo" on="PS2" country="JP" />
 			<game name="Kuon" released="2004" by="FromSoftware" on="PS2" country="JP" />
 			<game name="Rule of Rose" released="2006" by="Punchline" on="PS2" country="JP" />
 		</event>
