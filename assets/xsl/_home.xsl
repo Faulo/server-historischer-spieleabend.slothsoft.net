@@ -389,11 +389,11 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		<xsl:text>.</xsl:text>
 		<xsl:if test="string-length(@href)">
 			<xsl:text> </xsl:text>
-			<a href="{@href}" target="_blank" rel="external" title="Play online">🕹️</a>
+			<a href="{@href}" target="_blank" rel="external" title="Online spielen">🕹️</a>
 		</xsl:if>
 		<xsl:if test="string-length(@manual)">
 			<xsl:text> </xsl:text>
-			<a class="manual" href="/manuals/{@manual}" target="_blank" title="Read manual">📕</a>
+			<a class="manual" href="/manuals/{@manual}" target="_blank" title="Handbuch lesen">📕</a>
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
