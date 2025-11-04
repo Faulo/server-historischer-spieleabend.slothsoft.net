@@ -286,7 +286,10 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		<xsl:apply-templates select="." mode="link" />
 	</xsl:template>
 
+	<xsl:variable name="separator" select="', '" />
+
 	<xsl:template match="ssh:game">
+		<xsl:variable name="isPort" select="@ported and @ported != @released" />
 		<span class="Z3988-TODO">
 			<xsl:attribute name="title">
                 <xsl:value-of select="lio:param('ctx_ver', 'Z39.88-2004')" />
@@ -344,50 +347,52 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 			</xsl:choose>
 		</span>
 		<xsl:text>&#160;</xsl:text>
-		<span class="dev">
-			<xsl:value-of select="lio:protectSpace(@by)" />
-		</span>
-		<xsl:text>. </xsl:text>
-		<span class="year">
-			<xsl:text>(</xsl:text>
-			<xsl:value-of select="@released" />
-			<xsl:text>)</xsl:text>
-		</span>
-		<xsl:text>. </xsl:text>
 		<span class="title">
 			<xsl:call-template name="wiki">
 				<xsl:with-param name="term" select="@name" />
 				<xsl:with-param name="wiki" select="@wiki" />
 			</xsl:call-template>
 		</span>
-		<xsl:text>. </xsl:text>
+		<xsl:value-of select="$separator" />
+		<span class="dev">
+			<xsl:value-of select="lio:protectSpace(@by)" />
+		</span>
+		<xsl:value-of select="$separator" />
+		<span class="year">
+			<abbr title="{lio:platform(@on)/@name}">
+				<xsl:value-of select="lio:protectSpace(@on)" />
+			</abbr>
+			<xsl:text> </xsl:text>
+			<xsl:choose>
+				<xsl:when test="$isPort">
+					<xsl:value-of select="@ported" />
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="@released" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</span>
+		<xsl:if test="$isPort">
+			<abbr class="year" title="Erstveröffentlichung">
+				<xsl:text> [</xsl:text>
+				<xsl:value-of select="@released" />
+				<xsl:text>]</xsl:text>
+			</abbr>
+		</xsl:if>
 		<xsl:if test="@version">
+			<xsl:value-of select="$separator" />
 			<span class="version">
-				<xsl:text> V. </xsl:text>
+				<xsl:text> v</xsl:text>
 				<xsl:value-of select="@version" />
 			</span>
-			<xsl:text>. </xsl:text>
 		</xsl:if>
-		<xsl:choose>
-			<xsl:when test="@href">
-				<a href="{@href}" target="_blank" rel="external">
-					<abbr class="platform" title="{lio:platform(@on)/@name}">
-						<xsl:text> [</xsl:text>
-						<xsl:value-of select="lio:protectSpace(@on)" />
-						<xsl:text>]</xsl:text>
-					</abbr>
-				</a>
-			</xsl:when>
-			<xsl:otherwise>
-				<abbr class="platform" title="{lio:platform(@on)/@name}">
-					<xsl:text> [</xsl:text>
-					<xsl:value-of select="lio:protectSpace(@on)" />
-					<xsl:text>]</xsl:text>
-				</abbr>
-			</xsl:otherwise>
-		</xsl:choose>
-		<xsl:text>. </xsl:text>
+		<xsl:text>.</xsl:text>
+		<xsl:if test="string-length(@href)">
+			<xsl:text> </xsl:text>
+			<a href="{@href}" target="_blank" rel="external">🕹️</a>
+		</xsl:if>
 		<xsl:if test="string-length(@manual)">
+			<xsl:text> </xsl:text>
 			<a class="manual" href="/manuals/{@manual}" target="_blank">📕</a>
 		</xsl:if>
 	</xsl:template>

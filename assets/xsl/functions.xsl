@@ -19,6 +19,11 @@
 		<func:result select="translate($region, $LETTERS_UPPERCASE, $LETTERS_LOWERCASE)" />
 	</func:function>
 
+	<func:function name="lio:toUpperCase">
+		<xsl:param name="region" />
+		<func:result select="translate($region, $LETTERS_LOWERCASE, $LETTERS_UPPERCASE)" />
+	</func:function>
+
 	<func:function name="lio:protectSpace">
 		<xsl:param name="string" />
 		<func:result select="translate($string, ' -', '&#xA0;&#x2011;')" />
