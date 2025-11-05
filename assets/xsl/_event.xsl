@@ -53,7 +53,7 @@
 			<div class="tabled-content">
 				<xsl:if test="@gfx">
 					<div>
-						<img class="icon" src="/gfx/{@gfx}" />
+						<img class="icon" src="{lio:gfx-url(@gfx)}" />
 					</div>
 				</xsl:if>
 				<div>

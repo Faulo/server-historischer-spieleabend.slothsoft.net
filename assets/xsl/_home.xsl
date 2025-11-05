@@ -243,7 +243,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 			<div class="tabled-content">
 				<xsl:if test="@gfx">
 					<div>
-						<img class="icon" src="/gfx/{@gfx}" />
+						<img class="icon" src="{lio:gfx-url(@gfx)}" />
 					</div>
 				</xsl:if>
 				<div>
@@ -393,7 +393,7 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
 		</xsl:if>
 		<xsl:if test="string-length(@manual)">
 			<xsl:text> </xsl:text>
-			<a class="manual" href="/manuals/{@manual}" target="_blank" title="Handbuch lesen">📕</a>
+			<a class="manual" href="{lio:manual-url(@manual)}" target="_blank" title="Handbuch lesen">📕</a>
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>

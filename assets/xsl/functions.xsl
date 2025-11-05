@@ -5,6 +5,20 @@
 
 	<xsl:import href="farah://slothsoft@farah/xsl/dictionary" />
 
+	<xsl:variable name="GFX_BASE" select="'/slothsoft@historischer-spieleabend.slothsoft.net/gfx/'" />
+
+	<func:function name="lio:gfx-url">
+		<xsl:param name="gfx" />
+		<func:result select="concat($GFX_BASE, $gfx)" />
+	</func:function>
+
+	<xsl:variable name="MANUAL_BASE" select="'/slothsoft@historischer-spieleabend.slothsoft.net/manuals/'" />
+
+	<func:function name="lio:manual-url">
+		<xsl:param name="manual" />
+		<func:result select="concat($MANUAL_BASE, $manual)" />
+	</func:function>
+
 	<xsl:variable name="LETTERS_LOWERCASE" select="'abcdefghijklmnopqrstuvwxyz'" />
 	<xsl:variable name="LETTERS_UPPERCASE" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
 	<xsl:variable name="LETTERS_REGION" select="'🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿'" />

@@ -16,8 +16,6 @@
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="/api/ids" />
-		<use-document ref="/manuals" />
-		<use-document ref="/gfx" />
 	</directory>
 
 	<resource-directory name="downloads" path="../data/downloads" type="*/*" />

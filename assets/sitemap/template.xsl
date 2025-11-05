@@ -9,17 +9,21 @@
 
 			<file name="favicon.ico" ref="/logos/logo-small.png" status-active="" />
 
-			<page name="manuals" redirect="/" status-active="">
-				<xsl:for-each select="//*[@name = 'manuals']/sfm:manifest-info">
-					<file name="{@name}" ref="/manuals/{@name}" status-active="" />
-				</xsl:for-each>
-			</page>
+			<xsl:for-each select="//*[@name = 'manuals']">
+				<page name="manuals" redirect="/" status-active="">
+					<xsl:for-each select="sfm:manifest-info">
+						<file name="{@name}" ref="/manuals/{@name}" status-active="" />
+					</xsl:for-each>
+				</page>
+			</xsl:for-each>
 
-			<page name="gfx" redirect="/" status-active="">
-				<xsl:for-each select="//*[@name = 'gfx']/sfm:manifest-info">
-					<file name="{@name}" ref="/gfx/{@name}" status-active="" />
-				</xsl:for-each>
-			</page>
+			<xsl:for-each select="//*[@name = 'gfx']">
+				<page name="gfx" redirect="/" status-active="">
+					<xsl:for-each select="sfm:manifest-info">
+						<file name="{@name}" ref="/gfx/{@name}" status-active="" />
+					</xsl:for-each>
+				</page>
+			</xsl:for-each>
 
 			<page name="events" ref="/pages/events" status-active="">
 				<xsl:for-each select="*/ids/id">

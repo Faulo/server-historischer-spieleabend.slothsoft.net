@@ -85,7 +85,7 @@
 								</option>
 							</xsl:for-each>
 						</select>
-						<img class="icon" src="/gfx/{@gfx}" />
+						<img class="icon" src="{lio:gfx-url(@gfx)}" />
 					</div>
 					<div>
 						<p class="moderator">
