@@ -351,7 +351,7 @@
 		<event track="ADV-Puzzles" theme="Autobauspiele" type="genre" moderator="Gregor" gfx="car-drive.gif" date="2024-06-13" time="19:00">
 			<game name="Car Builder" by="Optimum Resource, Inc" released="1982" on="MS-DOS" country="US" />
 			<game name="Gizmos &amp; Gadgets!" by="The Learning Company" released="1993" on="MS-DOS" country="US" />
-			<game name="Autos bauen mit Willy Werkel" by="ELD Interaktiv Produktion" released="1998" on="Windows" country="US" />
+			<game name="Autos bauen mit Willy Werkel" by="ELD Interaktiv Produktion" released="1998" on="Windows" country="SE" />
 			<game name="Lego Racers" released="1999" by="High Voltage Software" on="N64" country="US" />
 			<game name="Banjo-Kazooie: Nuts &amp; Bolts" released="2008" by="Rare" on="Xbox360" country="GB" />
 		</event>
