@@ -114,6 +114,16 @@
 	</platforms>
 
 	<present>
+		<event track="MIS-Special" theme="Grinding" type="genre" moderator="Tom" date="2025-11-20" time="18:00">
+			<game name="Jet Set Radio" released="2000" by="Smilebit" on="Dreamcast" country="JP" />
+			<game name="Sonic Adventure 2" released="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
+			<game name="Tony Hawk: Shred" released="2010" by="Robomodo" on="Wii" country="US" />
+			<game name="Sunset Overdrive" released="2014" by="Insomniac Games" on="Windows" country="US" />
+			<game name="Mario Kart World" released="2025" by="Nintendo EPD" on="Switch2" country="JP" />
+		</event>
+	</present>
+
+	<past>
 		<event track="ACT-Horror" theme="Japanese Horror" type="genre" moderator="Kadda" gfx="dino-crisis.gif" date="2025-11-06" time="18:00">
 			<game name="Parasite Eve" released="1998" by="Square" on="PS1" country="JP" />
 			<game name="Dino Crisis" released="1999" by="Capcom Production Studio 4" on="PS1" country="JP" />
@@ -121,9 +131,6 @@
 			<game name="Kuon" released="2004" by="FromSoftware" on="PS2" country="JP" />
 			<game name="Rule of Rose" released="2006" by="Punchline" on="PS2" country="JP" />
 		</event>
-	</present>
-
-	<past>
 		<event track="MIS-Erstis" theme="Ersti-Abend 2025" type="special" moderator="Leo" gfx="worms.gif" date="2025-10-23" time="19:00">
 			<game name="Rogue" released="1980" by="A.I. Design" on="Amiga" country="US" />
 			<game name="Double Dragon" released="1987" by="Technōs Japan" on="Arcade" country="JP" />
@@ -1374,13 +1381,6 @@
 			<game name="Wetrix" released="1998" by="Zed Two" on="N64" country="GB" />
 			<game name="Tetris Effect" released="2018" by="Monstars" on="PS4" country="JP" />
 			<game name="Tetris 99" released="2019" by="Arika" on="Switch" country="JP" />
-		</event>
-		<event track="MIS-Special" theme="Grinding" type="genre" moderator="Tom" date="" time="">
-			<game name="Jet Set Radio" released="2000" by="Smilebit" on="Dreamcast" country="JP" />
-			<game name="Sonic Adventure 2" released="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
-			<game name="Tony Hawk: Shred" released="2010" by="Robomodo" on="Wii" country="US" />
-			<game name="Sunset Overdrive" released="2014" by="Insomniac Games" on="Windows" country="US" />
-			<game name="Mario Kart World" released="2025" by="Nintendo EPD" on="Switch2" country="JP" />
 		</event>
 	</future>
 
