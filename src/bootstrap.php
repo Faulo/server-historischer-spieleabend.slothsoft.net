@@ -24,3 +24,5 @@ Module::registerWithXmlManifestAndDefaultAssets('slothsoft@historischer-spieleab
 if ($file = getenv('MYSQL_ROOT_PASSWORD_FILE') and $password = file_get_contents($file)) {
     Client::setDefaultAuthority(new Authority('mysql', 'root', $password));
 }
+
+date_default_timezone_set('Europe/Berlin');

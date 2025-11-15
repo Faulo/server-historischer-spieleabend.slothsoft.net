@@ -34,9 +34,9 @@ Liebe Computerspielwissenschaftler\*innen! <![CDATA[<@&1039888687762243584>]]>
 					<xsl:value-of select="position() + count(//ssh:past/ssh:event)" />
 					<xsl:text>. Historische Spieleabend~:joystick:
 
-Wann? Am </xsl:text>
-					<xsl:value-of select="lio:event-datetime()" />
-					<xsl:text>-24:00 (s.t.)
+Wann? </xsl:text>
+					<xsl:value-of select="lio:event-datetime-discord()" />
+					<xsl:text> (s.t.)
 Wo? Im Games Innovation Lab im Zapf
 Wer? @</xsl:text>
 					<xsl:value-of select="@moderator" />

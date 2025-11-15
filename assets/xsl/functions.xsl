@@ -113,6 +113,22 @@
 		</xsl:choose>
 	</func:function>
 
+	<func:function name="lio:event-datetime-discord">
+		<xsl:param name="event" select="." />
+
+		<xsl:variable name="datetime" select="concat($event/@date, ' ', $event/@time)" />
+
+		<xsl:choose>
+			<xsl:when test="contains($datetime, '-')">
+				<xsl:variable name="timestamp" select="php:functionString('strtotime', $datetime)" />
+				<func:result select="concat('&lt;t:', $timestamp, ':F&gt;')" />
+			</xsl:when>
+			<xsl:otherwise>
+				<func:result select="''" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</func:function>
+
 	<func:function name="lio:event-date">
 		<xsl:param name="event" select="." />
 
