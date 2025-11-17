@@ -1369,9 +1369,9 @@
 		</event>
 		<event track="SPO-Arcade" theme="Tetris Forever" type="longplay" moderator="Daniel" date="" time="">
 			<game name="Tetris Forever" released="2024" by="Digital Eclipse" on="Windows" country="US" />
-			<game name="ТЕТРИС" released="1985" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
-			<game name="Welltris" released="1989" by="Doka" on="MS-DOS" country="RU" />
-			<game name="Hatris" released="1990" by="ParaGraph" on="NES" country="JP" />
+			<game name="ТЕТРИС" released="1985" ported="2024" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
+			<game name="Welltris" released="1989" ported="2024" by="Doka" on="MS-DOS" country="RU" />
+			<game name="Hatris" released="1990" ported="2024" by="ParaGraph" on="NES" country="JP" />
 			<game name="Tetris Time Warp" released="2024" by="Digital Eclipse" on="Windows" country="US" />
 		</event>
 		<event track="SPO-Arcade" theme="Tetris II: Spin-Offs" type="series" moderator="Daniel" date="" time="">
@@ -1381,6 +1381,12 @@
 			<game name="Wetrix" released="1998" by="Zed Two" on="N64" country="GB" />
 			<game name="Tetris Effect" released="2018" by="Monstars" on="PS4" country="JP" />
 			<game name="Tetris 99" released="2019" by="Arika" on="Switch" country="JP" />
+		</event>
+		<event track="RPG-West" theme="Might and Magic" type="series" moderator="Daniel" date="" time="">
+			<game name="Might and Magic Book One: The Secret of the Inner Sanctum" released="1986" ported="1987" by="New World Computing" on="MS-DOS" country="US" />
+			<game name="Might and Magic IV+V: World of Xeen" released="1993" ported="1994" by="New World Computing" on="MS-DOS" country="US" />
+			<game name="Might and Magic VIII: Day of the Destroyer" released="2000" by="New World Computing" on="Windows" country="US" />
+			<game name="Might &amp; Magic X: Legacy" released="2014" by="Limbic Entertainment" on="Windows" country="DE" />
 		</event>
 	</future>
 
