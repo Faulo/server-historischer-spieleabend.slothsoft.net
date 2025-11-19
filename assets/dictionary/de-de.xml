@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
-	<p key="title">Historischer Spieleabend im GIL</p>
-	<p key="Monday">Mo</p>
-	<p key="Tuesday">Di</p>
-	<p key="Wednesday">Mi</p>
-	<p key="Thursday">Do</p>
-	<p key="Friday">Fr</p>
-	<p key="Saturday">Sa</p>
-	<p key="Sunday">So</p>
-</html>
+<sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
+    <sfd:text xml:id="title">Historischer Spieleabend im GIL</sfd:text>
+
+    <sfd:text xml:id="Monday">Mo</sfd:text>
+    <sfd:text xml:id="Tuesday">Di</sfd:text>
+    <sfd:text xml:id="Wednesday">Mi</sfd:text>
+    <sfd:text xml:id="Thursday">Do</sfd:text>
+    <sfd:text xml:id="Friday">Fr</sfd:text>
+    <sfd:text xml:id="Saturday">Sa</sfd:text>
+    <sfd:text xml:id="Sunday">So</sfd:text>
+</sfd:dictionary>

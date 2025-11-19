@@ -8,6 +8,7 @@ use Slothsoft\Core\DBMS\Client;
 use Slothsoft\Farah\Dictionary;
 use Slothsoft\Farah\Kernel;
 use Slothsoft\Farah\Module\Module;
+use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\TransformationResultBuilder;
 $root = dirname(__DIR__);
 
 ServerEnvironment::setRootDirectory($root);
@@ -26,3 +27,5 @@ if ($file = getenv('MYSQL_ROOT_PASSWORD_FILE') and $password = file_get_contents
 }
 
 date_default_timezone_set('Europe/Berlin');
+
+TransformationResultBuilder::$translateDictionaryAlpha = false;
