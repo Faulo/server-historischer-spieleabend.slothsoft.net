@@ -956,16 +956,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.26.2",
+            "version": "1.26.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "40d66757325ecd80b33f68478e262fa45e582c9b"
+                "reference": "de11adf220e8a322190f8a7399422bb5cfb82bc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/40d66757325ecd80b33f68478e262fa45e582c9b",
-                "reference": "40d66757325ecd80b33f68478e262fa45e582c9b",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/de11adf220e8a322190f8a7399422bb5cfb82bc0",
+                "reference": "de11adf220e8a322190f8a7399422bb5cfb82bc0",
                 "shasum": ""
             },
             "require": {
@@ -1029,9 +1029,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.26.2"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.26.5"
             },
-            "time": "2025-11-19T20:39:25+00:00"
+            "time": "2025-11-23T20:53:19+00:00"
         },
         {
             "name": "slothsoft/schema",
