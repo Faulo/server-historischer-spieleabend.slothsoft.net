@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/dictionary/de-de" uri="assets/dictionary/de-de.xml"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/index" uri="assets/index.xml"/>
+  <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/manifest" uri="assets/manifest.xml"/>
   <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/sitemap/template" uri="assets/sitemap/template.xsl"/>
   <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_backend" uri="assets/xsl/_backend.xsl"/>
   <uri name="farah://slothsoft@historischer-spieleabend.slothsoft.net/xsl/_downloads" uri="assets/xsl/_downloads.xsl"/>
