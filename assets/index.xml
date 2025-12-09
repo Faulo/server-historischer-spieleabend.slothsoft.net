@@ -114,6 +114,13 @@
     </platforms>
 
     <present>
+        <event track="MIS-Special" theme="Players' Choice: Winter Edition" type="genre" gfx="ssx.png" moderator="Kadda, Gregor, Leo, Tom" date="2024-12-19" time="18:00">
+            <game name="Light Up The Town" released="2025" by="Meadow Studios" on="Windows" country="" wanted="Gregor" />
+            <game name="Hitman: Holiday Hoarders" released="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
+        </event>
+    </present>
+
+    <past>
         <event track="SPO-Arcade" theme="Tetris Forever" type="longplay" moderator="Daniel" date="2025-12-04" time="18:00" gfx="tetris.png">
             <game name="Tetris Forever" released="2024" by="Digital Eclipse" on="Windows" country="US" />
             <game name="ТЕТРИС" released="1985" ported="2024" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
@@ -121,9 +128,6 @@
             <game name="Hatris" released="1990" ported="2024" by="ParaGraph" on="NES" country="JP" />
             <game name="Tetris Time Warp" released="2024" by="Digital Eclipse" on="Windows" country="US" />
         </event>
-    </present>
-
-    <past>
         <event track="MIS-Special" theme="Grinding" type="genre" moderator="Tom" date="2025-11-20" time="18:00" gfx="jetsetradio.webp">
             <game name="Jet Set Radio" released="2000" by="Smilebit" on="Dreamcast" country="JP" />
             <game name="Sonic Adventure 2" released="2001" by="Sonic Team USA" on="Dreamcast" country="US" />
