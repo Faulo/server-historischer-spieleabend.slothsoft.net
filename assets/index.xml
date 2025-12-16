@@ -114,9 +114,10 @@
     </platforms>
 
     <present>
-        <event track="MIS-PC" theme="Player's Choice: Winter Edition" type="genre" gfx="ssx.png" moderator="Kadda, Gregor, Leo, Tom" date="2024-12-16" time="18:00">
+        <event track="MIS-PC" theme="Player's Choice: Winter Edition" type="genre" gfx="ssx.png" moderator="Kadda, Gregor, Leo, Tom" date="2025-12-16" time="18:00">
             <game name="Snowboard Kids 2" released="1999" by="Racdym" on="N64" country="JP" wanted="Daniel" />
-			<game name="Borderlands 2: Mercenary Day" released="2013" by="Gearbox Software" on="Windows" country="US" wanted="Leo" />
+            <game name="Mario &amp; Sonic at the Olympic Winter Games" released="2010" by="Sega" on="Wii" country="JP" wanted="Tom" />
+            <game name="Borderlands 2: Mercenary Day" released="2013" by="Gearbox Software" on="Windows" country="US" wanted="Leo" />
             <game name="Hitman: Holiday Hoarders" released="2016" by="Io-Interactive" on="Windows" country="DK" wanted="Kadda" />
             <game name="Light Up The Town" released="2025" by="Meadow Studios" on="Windows" country="GB" wanted="Gregor" />
         </event>
