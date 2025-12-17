@@ -114,6 +114,17 @@
     </platforms>
 
     <present>
+        <event track="BIZ-GOAT" theme="1980" type="special" gfx="pac-man.gif" moderator="Kadda" date="2026-01-08" time="18:00">
+            <game name="Adventure" released="1980" by="Atari, Inc." on="Atari2600" country="US" />
+            <game name="Battlezone" released="1980" by="Atari, Inc." on="Arcade" country="US" />
+            <game name="Missile Command" released="1980" by="Atari, Inc." on="Arcade" country="US" />
+            <game name="Pac-Man" released="1980" by="Namco" on="Arcade" country="JP" />
+            <game name="Mystery House" released="1980" by="On-Line Systems" on="AppleII" country="US" />
+            <read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" name="List of video games considered the best" released="2025" by="Wikipedia" />
+        </event>
+    </present>
+
+    <past>
         <event track="MIS-PC" theme="Player's Choice: Winter Edition" type="genre" gfx="ssx.png" moderator="Kadda, Gregor, Leo, Tom" date="2025-12-16" time="18:00">
             <game name="Snowboard Kids 2" released="1999" by="Racdym" on="N64" country="JP" wanted="Daniel" />
             <game name="Mario &amp; Sonic at the Olympic Winter Games" released="2010" by="Sega" on="Wii" country="JP" wanted="Tom" />
@@ -121,9 +132,6 @@
             <game name="Lonely Mountains: Snow Riders" released="2025" by="Megagon Industries" on="Windows" country="DE" wanted="Kadda" />
             <game name="Light Up The Town" released="2025" by="Meadow Studios" on="Windows" country="GB" wanted="Gregor" />
         </event>
-    </present>
-
-    <past>
         <event track="SPO-Arcade" theme="Tetris Forever" type="longplay" moderator="Daniel" date="2025-12-04" time="18:00" gfx="tetris.png">
             <game name="Tetris Forever" released="2024" by="Digital Eclipse" on="Windows" country="US" />
             <game name="ТЕТРИС" released="1985" ported="2024" by="Alexey Pajitnov" on="Elektronika60" country="RU" href="https://pixelprophecy.itch.io/tetris-e60" />
@@ -1304,13 +1312,6 @@
     </past>
 
     <future>
-        <event track="BIZ-GOAT" theme="1980" type="special" moderator="Kadda" date="" time="">
-            <game name="Adventure" released="1980" by="Atari, Inc." on="Atari2600" country="US" />
-            <game name="Battlezone" released="1980" by="Atari, Inc." on="Arcade" country="US" />
-            <game name="Missile Command" released="1980" by="Atari, Inc." on="Arcade" country="US" />
-            <game name="Pac-Man" released="1980" by="Namco" on="Arcade" country="JP" />
-            <read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" name="List of video games considered the best" released="2025" by="Wikipedia" />
-        </event>
         <event track="BIZ-GOAT" theme="1981" type="special" moderator="Kadda" date="" time="">
             <game name="Centipede" released="1981" by="Atari, Inc." on="Arcade" country="US" />
             <game name="Defender" released="1981" by="Williams Electronics" on="Arcade" country="US" />
