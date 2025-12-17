@@ -119,7 +119,7 @@
             <game name="Battlezone" released="1980" by="Atari, Inc." on="Arcade" country="US" />
             <game name="Missile Command" released="1980" by="Atari, Inc." on="Arcade" country="US" />
             <game name="Pac-Man" released="1980" by="Namco" on="Arcade" country="JP" />
-            <game name="Mystery House" released="1980" by="On-Line Systems" on="AppleII" country="US" />
+            <game name="Mystery House" released="1980" by="On-Line Systems" on="AppleII" country="US" href="https://archive.org/details/Hi-Res_Adventure_1_Mystery_House_1980_On-Line_Systems#" />
             <read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" name="List of video games considered the best" released="2025" by="Wikipedia" />
         </event>
     </present>
