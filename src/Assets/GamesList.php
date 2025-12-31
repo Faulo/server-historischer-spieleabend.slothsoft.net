@@ -14,7 +14,7 @@ use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuild
 use DOMDocument;
 use DOMElement;
 
-class GamesList implements ExecutableBuilderStrategyInterface {
+final class GamesList implements ExecutableBuilderStrategyInterface {
     
     private const NS = 'http://schema.slothsoft.net/schema/historical-games-night';
     
@@ -74,6 +74,7 @@ class GamesList implements ExecutableBuilderStrategyInterface {
                     $todo->setAttribute('theme', "$h1 (TODO)");
                     $todo->setAttribute('type', 'special');
                     $todo->setAttribute('track', 'MIS-Wiki');
+                    
                     foreach ($xpath->evaluate('//table[.//th[normalize-space(.) = "Game"]]//tr') as $row) {
                         $year = $xpath->evaluate('normalize-space(th[@scope="row"])', $row);
                         if (! $year) {
