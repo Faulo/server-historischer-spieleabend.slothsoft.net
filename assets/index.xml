@@ -114,6 +114,19 @@
     </platforms>
 
     <present>
+        <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2026-01-23" time="19:00">
+            <game name="Tales of the Unknown, Volume I: The Bard's Tale" released="1985" by="Interplay Productions" on="Amiga" country="US" manual="Bard's Tale" />
+            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" />
+            <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
+            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" />
+            <read href="https://www.oldgames.sk/docs/bards-tale/1/spells.php" name="The Bard's Tale: Spells" released="2019" by="oldgames.sk" />
+            <read href="https://bardstaleonline.com/bt1/maps/skara-brae" name="The Bard's Tale: Map of Skara Brae" released="2019" by="bardstaleonline.com" />
+            <read href="https://amber.slothsoft.net/Ambermoon/" name="Slothsoft's Amber Webshrine" released="2017" by="Daniel Schulz" />
+            <read href="https://en.uesp.net/wiki/Daggerfall:Skills" name="Daggerfall: Skills" released="2019" by="en.uesp.net" />
+        </event>
+    </present>
+
+    <past>
         <event track="BIZ-GOAT" theme="1980" type="special" gfx="pac-man.gif" moderator="Kadda" date="2026-01-08" time="18:00">
             <game name="Adventure" released="1980" by="Atari, Inc." on="Atari2600" country="US" />
             <game name="Battlezone" released="1980" by="Atari, Inc." on="Arcade" country="US" />
@@ -122,9 +135,6 @@
             <game name="Mystery House" released="1980" by="On-Line Systems" on="AppleII" country="US" href="https://archive.org/details/Hi-Res_Adventure_1_Mystery_House_1980_On-Line_Systems#" />
             <read href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" name="List of video games considered the best" released="2025" by="Wikipedia" />
         </event>
-    </present>
-
-    <past>
         <event track="MIS-PC" theme="Player's Choice: Winter Edition" type="genre" gfx="ssx.png" moderator="Kadda, Gregor, Leo, Tom" date="2025-12-16" time="18:00">
             <game name="Snowboard Kids 2" released="1999" by="Racdym" on="N64" country="JP" wanted="Daniel" />
             <game name="Mario &amp; Sonic at the Olympic Winter Games" released="2010" by="Sega" on="Wii" country="JP" wanted="Tom" />
@@ -964,7 +974,7 @@
             <game name="Fallout" released="1997" by="Interplay Productions" country="US" on="Windows" wanted="Kadda" />
             <game name="Baldur's Gate" released="1998" by="BioWare" country="CA" on="Windows" wanted="MICHAEL!" />
             <game name="Gothic II" released="2002" by="Piranha Bytes" country="DE" on="Windows" wanted="MICHAEL!" />
-            <read href="http://slothsoft.net/Ambermoon/" name="Ambermoon Savegame Editor" released="2017" by="Daniel Schulz" />
+            <read href="https://amber.slothsoft.net/Ambermoon/" name="Slothsoft's Amber Webshrine" released="2017" by="Daniel Schulz" />
             <read href="https://www.youtube.com/watch?v=9UAKIZoepXk" name="Gamestar Bug-Video Gothic 3" released="2010" by="Invader Zim" />
         </event>
         <event track="BIZ-VIP" theme="Jan „Poki“ Müller-Michaelis" type="author" gfx="poki.png" date="2020-11-19" time="19:00">
