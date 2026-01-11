@@ -116,9 +116,9 @@
     <present>
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2026-01-23" time="19:00">
             <game name="Tales of the Unknown, Volume I: The Bard's Tale" released="1985" by="Interplay Productions" on="Amiga" country="US" manual="Bard's Tale" />
-            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" />
+            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" manual="Ambermoon" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
-            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" />
+            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" manual="Might and Magic VI" />
             <read href="https://www.oldgames.sk/docs/bards-tale/1/spells.php" name="The Bard's Tale: Spells" released="2019" by="oldgames.sk" />
             <read href="https://bardstaleonline.com/bt1/maps/skara-brae" name="The Bard's Tale: Map of Skara Brae" released="2019" by="bardstaleonline.com" />
             <read href="https://amber.slothsoft.net/Ambermoon/" name="Slothsoft's Amber Webshrine" released="2017" by="Daniel Schulz" />
@@ -669,7 +669,7 @@
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2022-08-17" time="19:00">
             <req theme="Open-World Dungeon Crawlers" />
             <game name="Tales of the Unknown, Volume I: The Bard's Tale" released="1985" by="Interplay Productions" on="Amiga" country="US" manual="Bard's Tale" />
-            <game name="Amberstar" released="1992" by="Thalion Software" on="Amiga" country="DE" />
+            <game name="Amberstar" released="1992" by="Thalion Software" on="Amiga" country="DE" manual="Amberstar" />
             <game name="Might and Magic VII: For Blood and Honor" released="1999" by="New World Computing" on="Windows" country="US" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
             <read href="https://www.oldgames.sk/docs/bards-tale/1/spells.php" name="The Bard's Tale: Spells" released="2019" by="oldgames.sk" />
@@ -970,7 +970,7 @@
         </event>
         <event track="RPG-West" theme="CRPGs - „Westliche“ Rollenspiele " type="genre" gfx="fallout.png" date="2020-12-03" time="19:00">
             <req theme="Open-World Dungeon Crawlers" />
-            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" wanted="Daniel" />
+            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" wanted="Daniel" manual="Ambermoon" />
             <game name="Fallout" released="1997" by="Interplay Productions" country="US" on="Windows" wanted="Kadda" />
             <game name="Baldur's Gate" released="1998" by="BioWare" country="CA" on="Windows" wanted="MICHAEL!" />
             <game name="Gothic II" released="2002" by="Piranha Bytes" country="DE" on="Windows" wanted="MICHAEL!" />
@@ -1160,7 +1160,7 @@
         </event>
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="MightAndMagic.png" date="2019-10-10" time="19:00">
             <game name="Tales of the Unknown, Volume I: The Bard's Tale" released="1985" by="Interplay Productions" on="Amiga" country="US" />
-            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" />
+            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" manual="Might and Magic VI" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
             <game name="Wizardry 8" released="2001" by="Sir-Tech Canada" on="Windows" country="CA" />
             <read href="https://www.oldgames.sk/docs/bards-tale/1/spells.php" name="The Bard's Tale: Spells" released="2019" by="oldgames.sk" />
