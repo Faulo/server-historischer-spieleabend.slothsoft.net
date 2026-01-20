@@ -115,12 +115,11 @@
 
     <present>
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2026-01-23" time="19:00">
-            <game name="Tales of the Unknown, Volume I: The Bard's Tale" released="1985" by="Interplay Productions" on="Amiga" country="US" manual="Bard's Tale" />
             <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" manual="Ambermoon" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
             <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" manual="Might and Magic VI" />
-            <read href="https://www.oldgames.sk/docs/bards-tale/1/spells.php" name="The Bard's Tale: Spells" released="2019" by="oldgames.sk" />
-            <read href="https://bardstaleonline.com/bt1/maps/skara-brae" name="The Bard's Tale: Map of Skara Brae" released="2019" by="bardstaleonline.com" />
+
+            <read href="https://ambermoon-net.pyrdacor.net/download/AmbermoonRuneTable.png" name="Runenalphabet" released="1993" by="Thalion Software" />
             <read href="https://amber.slothsoft.net/Ambermoon/" name="Slothsoft's Amber Webshrine" released="2017" by="Daniel Schulz" />
             <read href="https://en.uesp.net/wiki/Daggerfall:Skills" name="Daggerfall: Skills" released="2019" by="en.uesp.net" />
         </event>
