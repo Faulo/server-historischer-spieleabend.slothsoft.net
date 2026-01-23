@@ -1343,6 +1343,13 @@
             <game name="Silent Hill: Homecoming" released="2008" by="Double Helix Games" on="Windows" country="US" />
             <game name="Wolfenstein" released="2009" by="Raven Software" on="Windows" country="US" wiki="https://en.wikipedia.org/wiki/Wolfenstein_(2009_video_game)" />
         </event>
+        <event track="STR-Sim" theme="Poker" type="genre" moderator="Tom" date="" time="">
+            <game name="Vegas Stakes" released="1993" by="HAL Laboratory" on="SNES" country="JP" />
+            <game name="Hoyle Casino" released="1996" by="Sierra On-Line" on="PC" country="US" />
+            <game name="Poker Night at the Inventory" released="2010" by="Telltale Games" on="Windows" country="US" />
+            <game name="Red Dead Redemption 2" released="2018" by="Rockstar Games" on="Windows" country="US" />
+            <game name="Balatro" released="2024" by="LocalThunk" on="Windows" country="CA" />
+        </event>
         <event track="BIZ-Studio" theme="Animation Magic" type="author" moderator="Tom" date="" time="">
             <game name="Link: The Faces of Evil" released="1993" by="Animation Magic" on="CD-i" country="US" />
             <game name="Hotel Mario" released="1994" by="Animation Magic" on="CD-i" country="US" />
@@ -1404,14 +1411,6 @@
             <game name="Yu-Gi-Oh! 5D's Tag Force 4" released="2009" by="Konami" on="PS2" country="JP" />
             <game name="Yu-Gi-Oh! Duel Links" released="2017" by="Konami" on="Windows" country="JP" />
             <game name="Yu-Gi-Oh! Master Duel" released="2022" by="Konami" on="Windows" country="JP" />
-        </event>
-        <event track="STR-Sim" theme="Poker" type="genre" moderator="Tom" date="" time="">
-            <game name="Las Vegas Video Poker" released="1987" by="Mastertronic" on="MS-DOS" country="GB" />
-            <game name="Caesar's World of Gambling" released="1991" by="CD-i Systems" on="CD-i" country="FR" />
-            <game name="Poker Night at the Inventory" released="2010" by="Telltale Games" on="Windows" country="US" />
-            <game name="Prominence Poker" released="2016" by="Pipewors Studio" on="Windows" country="US" />
-            <game name="Red Dead Redemption 2" released="2018" by="Rockstar Games" on="Windows" country="US" />
-            <game name="Balatro" released="2024" by="LocalThunk" on="Windows" country="CA" />
         </event>
         <event track="RPG-East" theme="Xenoseries" type="series" moderator="Tom" date="" time="">
             <game name="Xenogears" released="1998" by="Square" on="PS1" country="JP" />
