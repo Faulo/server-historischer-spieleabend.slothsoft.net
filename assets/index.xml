@@ -1353,24 +1353,16 @@
         </event>
         <event track="BIZ-IP" theme="Sonic Resurrection" type="series" moderator="Tom" date="" time="">
             <game name="Sonic the Hedgehog" released="2006" by="Sonic Team" on="PS3" country="JP" />
-            <game name="Sonic Rivals" released="2006" by="Backbone Entertainment" on="PSP" country="US" />
             <game name="Sonic and the Secret Rings" released="2007" by="Sonic Team" on="Wii" country="JP" />
-            <game name="Sonic Unleashed" released="2008" by="Sonic Team" on="PS3" country="JP" />
-            <game name="Sonic and the Black Knight" released="2009" by="Sonic Team" on="Wii" country="JP" />
-        </event>
-        <event track="BIZ-IP" theme="Sonic Renaissance" type="series" moderator="Tom" date="" time="">
             <game name="Sonic the Hedgehog 4: Episode I" released="2010" by="Dimps" on="Windows" country="JP" />
             <game name="Sonic Colors" released="2010" by="Sonic Team" on="Wii" country="JP" />
-            <game name="Sonic Generations" released="2011" by="Sonic Team" on="Windows" country="JP" />
             <game name="Sonic Lost World" released="2013" by="Sonic Team" on="WiiU" country="JP" />
-            <game name="Sonic Boom: Rise of Lyric" released="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
         </event>
-        <event track="BIZ-IP" theme="Sonic Reminiscence" type="series" moderator="Tom" date="" time="">
+        <event track="BIZ-IP" theme="Sonic Renaissance" type="series" moderator="Tom" date="" time="">
+            <game name="Sonic Boom: Rise of Lyric" released="2014" by="Big Red Button Entertainment" on="WiiU" country="US" />
             <game name="Sonic Mania" released="2017" by="Christian Whitehead" on="Windows" country="AU" />
             <game name="Sonic Forces" released="2017" by="Sonic Team" on="Windows" country="JP" />
             <game name="Sonic Frontiers" released="2022" by="Sonic Team" on="Windows" country="JP" />
-            <game name="Sonic Superstars" released="2023" by="Arzest" on="Windows" country="JP" />
-            <game name="Shadow Generations" released="2024" by="Sonic Team" on="Windows" country="JP" />
         </event>
         <event track="LAN-Strat" theme="Europa Universalis IV" type="longplay" gfx="eu4.webp" moderator="Gregor" date="" time="">
             <game name="Europa Universalis IV" released="2013" by="Paradox Development Studio" on="Windows" country="SE" />
