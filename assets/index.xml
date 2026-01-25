@@ -1345,7 +1345,7 @@
         </event>
         <event track="STR-Sim" theme="Poker" type="genre" moderator="Tom" date="" time="">
             <game name="Vegas Stakes" released="1993" by="HAL Laboratory" on="SNES" country="JP" />
-            <game name="Hoyle Casino" released="1996" by="Sierra On-Line" on="PC" country="US" />
+            <game name="Hoyle Casino" released="1996" by="Sierra On-Line" on="Windows" country="US" />
             <game name="Poker Night at the Inventory" released="2010" by="Telltale Games" on="Windows" country="US" />
             <game name="Red Dead Redemption 2" released="2018" by="Rockstar Games" on="Windows" country="US" />
             <game name="Balatro" released="2024" by="LocalThunk" on="Windows" country="CA" />
