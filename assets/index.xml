@@ -114,6 +114,14 @@
     </platforms>
 
     <present>
+        <event track="STR-Sim" theme="Zoo Tycoon" type="series" moderator="Kadda" gfx="zoo.jpg" date="2026-02-05" time="19:00">
+            <game name="Zoo Tycoon" released="2001" by="Blue Fang Games" on="Windows" country="US" />
+            <game name="Zoo Tycoon 2" released="2004" by="Blue Fang Games" on="Windows" country="US" />
+            <game name="Planet Zoo" released="2019" by="Frontier Developments" on="Windows" country="GB" />
+        </event>
+    </present>
+
+    <past>
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2026-01-23" time="19:00">
             <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" manual="Ambermoon" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
@@ -123,9 +131,6 @@
             <read href="https://amber.slothsoft.net/Ambermoon/" name="Slothsoft's Amber Webshrine" released="2017" by="Daniel Schulz" />
             <read href="https://en.uesp.net/wiki/Daggerfall:Skills" name="Daggerfall: Skills" released="2019" by="en.uesp.net" />
         </event>
-    </present>
-
-    <past>
         <event track="BIZ-GOAT" theme="1980" type="special" gfx="pac-man.gif" moderator="Kadda" date="2026-01-08" time="18:00">
             <game name="Adventure" released="1980" by="Atari, Inc." on="Atari2600" country="US" />
             <game name="Battlezone" released="1980" by="Atari, Inc." on="Arcade" country="US" />
@@ -1378,11 +1383,6 @@
         <event track="STR-Sim" theme="2000 Years, Simulated: Modern Times" type="series" gfx="eu4.webp" moderator="Gregor" date="" time="">
             <game name="Victoria 3" released="2022" by="Paradox Development Studio" on="Windows" country="SE" />
             <game name="Hearts of Iron" released="2002" by="Paradox Development Studio" on="Windows" country="SE" />
-        </event>
-        <event track="STR-Sim" theme="Zoo Tycoon" type="series" moderator="Kadda" date="" time="">
-            <game name="Zoo Tycoon" released="2001" by="Blue Fang Games" on="Windows" country="US" />
-            <game name="Zoo Tycoon 2" released="2004" by="Blue Fang Games" on="Windows" country="US" />
-            <game name="Planet Zoo" released="2019" by="Frontier Developments" on="Windows" country="GB" />
         </event>
         <event track="SPO-Arcade" theme="Tetris II: Spin-Offs" type="series" moderator="Daniel" date="" time="">
             <game name="Tetris" released="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
