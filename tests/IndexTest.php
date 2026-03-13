@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend\Tests;
+namespace Slothsoft\Server\HistorischerSpieleabend;
 
-use Slothsoft\FarahTesting\Module\AbstractTestCase;
 use Slothsoft\Farah\Http\MessageFactory;
+use Slothsoft\FarahTesting\Module\AbstractTestCase;
 use Slothsoft\Farah\RequestStrategy\LookupPageStrategy;
 use DOMDocument;
 
